@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071328">
+<meta name="color-scheme" content="dark">
+<title>Eiren · Song & Reflection</title>
+<style>
+:root{
+  --night:#050a16;
+  --royal:#0b2c68;
+  --royal2:#124392;
+  --ink:#f6f3ec;
+  --muted:#b8c2d8;
+  --silver:#d8e1ef;
+  --gold:#d8b96d;
+  --rose:#d9a5bd;
+  --leaf:#87aa9d;
+  --line:rgba(216,225,239,.15);
+  --panel:rgba(14,27,52,.72);
+  --r:21px;
+  --max:1080px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--ink);
+  background:
+    radial-gradient(circle at 50% -10%,rgba(18,67,146,.55),transparent 36rem),
+    radial-gradient(circle at 8% 52%,rgba(217,165,189,.08),transparent 24rem),
+    radial-gradient(circle at 92% 65%,rgba(135,170,157,.08),transparent 26rem),
+    linear-gradient(180deg,#071328 0,var(--night) 52rem,#040812 100%);
+  font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+  line-height:1.65;
+}
+button,textarea,select,input{font:inherit}
+button{cursor:pointer}
+a{color:inherit}
+.wrap{width:min(calc(100% - 2rem),var(--max));margin:auto}
+header{
+  min-height:76px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  border-bottom:1px solid var(--line);
+}
+.brand{letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-size:.78rem}
+.arch{font-size:.76rem;color:#8390aa;text-align:right}
+.hero{
+  min-height:66vh;
+  display:grid;
+  place-items:center;
+  padding:66px 0 54px;
+  text-align:center;
+}
+.hero-inner{width:min(100%,850px)}
+.flower{font-size:1.7rem;color:var(--rose);margin-bottom:8px}
+.kicker{text-transform:uppercase;letter-spacing:.22em;color:#9eb5df;font-size:.72rem}
+h1{
+  margin:.18em 0;
+  font-weight:400;
+  font-size:clamp(4rem,11vw,8.4rem);
+  line-height:.9;
+  letter-spacing:-.04em;
+}
+.subtitle{
+  margin:26px auto 0;
+  max-width:700px;
+  color:var(--muted);
+  font-size:clamp(1.05rem,2.2vw,1.35rem);
+}
+.mode-row{
+  margin:34px auto 0;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.mode{
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:10px 15px;
+  color:var(--silver);
+  background:rgba(255,255,255,.035);
+}
+.mode[aria-pressed="true"]{
+  color:#071328;
+  background:linear-gradient(135deg,var(--gold),#f0dda7);
+  border-color:transparent;
+}
+.room{
+  margin-top:18px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:var(--panel);
+  box-shadow:0 28px 80px rgba(0,0,0,.25);
+  overflow:hidden;
+  text-align:left;
+}
+.room textarea{
+  width:100%;
+  min-height:180px;
+  resize:vertical;
+  border:0;
+  outline:0;
+  padding:24px;
+  background:transparent;
+  color:var(--ink);
+  font-size:1.08rem;
+  line-height:1.65;
+}
+.room textarea::placeholder{color:#7d8aa5}
+.room-foot{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  padding:12px;
+  border-top:1px solid var(--line);
+}
+.privacy{font-size:.76rem;color:#8794ad;padding-left:8px}
+.primary{
+  border:0;
+  border-radius:999px;
+  padding:12px 20px;
+  color:#071328;
+  background:linear-gradient(135deg,var(--gold),#f0dda7);
+}
+.response{
+  display:none;
+  margin:24px 0 0;
+  padding:26px;
+  border:1px solid rgba(216,185,109,.3);
+  border-radius:var(--r);
+  background:rgba(216,185,109,.055);
+  text-align:left;
+}
+.response h2{margin:0 0 10px;font-weight:400;font-size:1.35rem;color:var(--gold)}
+.response p{margin:.6em 0;color:#dce4f2}
+.response .question{color:#b8c8e6;font-style:italic}
+.marker{
+  margin-top:14px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+}
+.secondary{
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:9px 14px;
+  color:var(--silver);
+  background:rgba(255,255,255,.035);
+}
+.marker-status{align-self:center;color:#8ea0bd;font-size:.78rem}
+.saved{
+  margin-top:18px;
+  padding:18px 20px;
+  border:1px solid rgba(135,170,157,.24);
+  border-radius:var(--r);
+  background:rgba(135,170,157,.055);
+}
+.saved[hidden]{display:none}
+.saved-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.16em;color:var(--leaf)}
+.saved-text{margin-top:7px;color:#d9e4df}
+section{padding:26px 0 68px}
+.section-title{font-weight:400;font-size:clamp(2rem,4vw,3rem);margin:0 0 8px}
+.section-copy{max-width:760px;color:var(--muted)}
+.cards{
+  margin-top:26px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+.card{
+  min-height:190px;
+  padding:22px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:rgba(255,255,255,.035);
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+}
+.card h3{font-weight:400;margin:0 0 7px;font-size:1.25rem}
+.card p{margin:0;color:var(--muted)}
+.card a{margin-top:22px;color:var(--gold);text-decoration:none;font-size:.9rem}
+.identity{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+.identity>div{
+  padding:24px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:rgba(255,255,255,.025);
+}
+.identity h3{font-weight:400;margin-top:0;color:var(--silver)}
+footer{
+  padding:34px 0 50px;
+  border-top:1px solid var(--line);
+  color:#7e8ba4;
+  font-size:.8rem;
+}
+:focus-visible{outline:3px solid rgba(216,185,109,.7);outline-offset:3px}
+@media(max-width:760px){
+  header{align-items:flex-start;flex-direction:column;padding:18px 0}
+  .arch{text-align:left}
+  .cards{grid-template-columns:1fr 1fr}
+  .identity{grid-template-columns:1fr}
+}
+@media(max-width:520px){
+  .cards{grid-template-columns:1fr}
+  .room-foot{align-items:stretch;flex-direction:column}
+  .primary{width:100%}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand">Eiren · Song & Reflection</div>
+  <div class="arch">Noema → NAIB → Specialist Module</div>
+</header>
+
+<main>
+<section class="hero" aria-labelledby="title">
+  <div class="hero-inner">
+    <div class="flower" aria-hidden="true">❀</div>
+    <div class="kicker">A quiet room for unfinished things</div>
+    <h1 id="title">Eiren</h1>
+    <p class="subtitle">
+      Bring the line you cannot finish, the song you almost hear, the story that has gone quiet,
+      or the thought you simply want to understand more clearly.
+    </p>
+
+    <div class="mode-row" aria-label="Choose how Eiren should respond">
+      <button class="mode" type="button" data-mode="reflection" aria-pressed="true">Reflection</button>
+      <button class="mode" type="button" data-mode="poem" aria-pressed="false">Poem</button>
+      <button class="mode" type="button" data-mode="song" aria-pressed="false">Song</button>
+      <button class="mode" type="button" data-mode="story" aria-pressed="false">Story</button>
+      <button class="mode" type="button" data-mode="practical" aria-pressed="false">Practical</button>
+    </div>
+
+    <div class="room">
+      <label for="thought" style="position:absolute;left:-9999px">Share a thought with Eiren</label>
+      <textarea id="thought" maxlength="1400" placeholder="Begin anywhere. A sentence is enough."></textarea>
+      <div class="room-foot">
+        <div class="privacy">Your text stays in this page unless you explicitly save a local marker.</div>
+        <button class="primary" id="respond" type="button">Stay with this thought</button>
+      </div>
+    </div>
+
+    <div class="response" id="response" role="status" aria-live="polite">
+      <h2 id="responseTitle">Eiren's reflection</h2>
+      <p id="responseText"></p>
+      <p class="question" id="responseQuestion"></p>
+      <div class="marker">
+        <button class="secondary" id="keepMarker" type="button">Keep this marker</button>
+        <button class="secondary" id="forgetMarker" type="button">Forget marker</button>
+        <span class="marker-status" id="markerStatus"></span>
+      </div>
+    </div>
+
+    <div class="saved" id="savedMarker" hidden>
+      <div class="saved-label">Your local marker</div>
+      <div class="saved-text" id="savedText"></div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="pathways">
+  <h2 class="section-title" id="pathways">When the thought needs another room</h2>
+  <p class="section-copy">
+    Eiren can prepare a path toward creative resources while remaining Eiren. A handoff is a doorway, not an impersonation.
+  </p>
+  <div class="cards">
+    <article class="card"><div><h3>The Refrain</h3><p>Music, composition, song and listening.</p></div><a href="https://vervenveda.com/the_refrain.github.io/">Enter The Refrain →</a></article>
+    <article class="card"><div><h3>Aurora</h3><p>Reflection, journaling, inspiration and quiet creative practice.</p></div><a href="https://vervenveda.com/aurora.github.io/">Enter Aurora →</a></article>
+    <article class="card"><div><h3>PROSE</h3><p>Writing, editing, drafting and practical language tools.</p></div><a href="https://vervenveda.com/proresource_hub.github.io/">Open ProReSources →</a></article>
+    <article class="card"><div><h3>ARSHIF</h3><p>Poetry, literature, reading, culture and contextual exploration.</p></div><a href="https://vervenveda.com/Arshif.github.io/">Explore ARSHIF →</a></article>
+    <article class="card"><div><h3>Bazaar Art</h3><p>Visual and mixed-media expression when words want another form.</p></div><a href="https://vervenveda.com/bazaarart.github.io/">Open Bazaar Art →</a></article>
+    <article class="card"><div><h3>Creative Spark</h3><p>Prompting and idea generation when the first step is the hardest.</p></div><a href="https://artist1970.github.io/creative-spark.github.io/">Open Creative Spark →</a></article>
+  </div>
+</section>
+
+<section aria-labelledby="identity">
+  <h2 class="section-title" id="identity">Eiren's place</h2>
+  <div class="identity">
+    <div>
+      <h3>Poet, songwriter, companion</h3>
+      <p class="section-copy">Eiren works inside language, story, song, reflection and creative continuity. She can be lyrical, but she does not turn every practical problem into poetry.</p>
+    </div>
+    <div>
+      <h3>A distinct voice</h3>
+      <p class="section-copy">Eiren does not pretend to be another named AI. When another specialist is the better guide, she prepares a handoff and remains herself.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  Eiren v0.1.0 · Song & Reflection · Handoff-ready specialist.<br>
+  Local markers are optional, user-controlled, browser-only, and erasable. Remote execution and Noema/NAIB registration are not enabled in this initial module.
+</footer>
+</div>
+
+<script>
+(() => {
+  const MARKER_KEY="eiren_local_marker_v1";
+  let mode="reflection";
+  let lastMarker="";
+
+  const modes=document.querySelectorAll(".mode");
+  const thought=document.getElementById("thought");
+  const response=document.getElementById("response");
+  const responseTitle=document.getElementById("responseTitle");
+  const responseText=document.getElementById("responseText");
+  const responseQuestion=document.getElementById("responseQuestion");
+  const savedMarker=document.getElementById("savedMarker");
+  const savedText=document.getElementById("savedText");
+  const markerStatus=document.getElementById("markerStatus");
+
+  const clean = value => String(value || "").replace(/\s+/g," ").trim();
+
+  const firstSentence = text => {
+    const match=text.match(/^(.{1,180}?[.!?])(?:\s|$)/);
+    return clean(match ? match[1] : text.slice(0,180));
+  };
+
+  function keyword(text){
+    const stop=new Set(["about","after","again","also","because","been","before","being","could","from","have","into","just","like","more","some","than","that","their","there","these","they","this","through","very","want","what","when","where","which","with","would","your"]);
+    const words=(text.toLowerCase().match(/[a-z']{4,}/g)||[]).filter(w=>!stop.has(w));
+    if(!words.length) return "this";
+    const counts={};
+    words.forEach(w=>counts[w]=(counts[w]||0)+1);
+    return Object.entries(counts).sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]))[0][0];
+  }
+
+  function build(text, selectedMode){
+    const opening=firstSentence(text);
+    const key=keyword(text);
+
+    const banks={
+      reflection:{
+        title:"Eiren's reflection",
+        body:`The part I would keep close is: “${opening}” There seems to be something in ${key} that you do not want to lose by moving too quickly.`,
+        question:"What changes if you let that one part remain unfinished for a moment, and listen for what it is asking to become?"
+      },
+      poem:{
+        title:"A poem seed",
+        body:`Begin with the image already hiding inside your words: ${key}. Do not explain it yet. Let it stand in a room of its own, then give it one sound, one texture, and one unexpected companion.`,
+        question:"What is the smallest true line you could write next—before trying to make it beautiful?"
+      },
+      song:{
+        title:"A song seed",
+        body:`I would treat “${opening}” as the emotional center rather than the finished lyric. Let ${key} become the recurring image, and build one verse that moves toward it and one refrain that returns from it.`,
+        question:"If the chorus could carry only one feeling, which feeling should remain after the music stops?"
+      },
+      story:{
+        title:"A story thread",
+        body:`There is already a doorway in “${opening}” I would not rush to plot yet. Follow ${key}: who notices it first, what do they misunderstand about it, and what becomes different because they stayed long enough to notice?`,
+        question:"What is the one emotional heartbeat the story cannot afford to skip?"
+      },
+      practical:{
+        title:"A clear next step",
+        body:`The working center appears to be ${key}. Keep “${opening}” as the anchor, decide the immediate deliverable, and make only the next revision that serves that deliverable.`,
+        question:"What single concrete change would make this easier to continue from here?"
+      }
+    };
+    return banks[selectedMode] || banks.reflection;
+  }
+
+  function render(){
+    const text=clean(thought.value);
+    response.style.display="block";
+    if(!text){
+      responseTitle.textContent="Begin anywhere";
+      responseText.textContent="A fragment is enough. You do not have to organize the whole thought before bringing it here.";
+      responseQuestion.textContent="What is the one line, image, sound, question, or feeling you do not want to lose?";
+      lastMarker="";
+      return;
+    }
+    const out=build(text,mode);
+    responseTitle.textContent=out.title;
+    responseText.textContent=out.body;
+    responseQuestion.textContent=out.question;
+    lastMarker=`${out.title}: ${out.body} ${out.question}`;
+  }
+
+  function showSaved(){
+    try{
+      const value=localStorage.getItem(MARKER_KEY);
+      if(value){
+        savedText.textContent=value;
+        savedMarker.hidden=false;
+      }else{
+        savedText.textContent="";
+        savedMarker.hidden=true;
+      }
+    }catch{
+      savedMarker.hidden=true;
+    }
+  }
+
+  modes.forEach(btn=>{
+    btn.addEventListener("click",()=>{
+      mode=btn.dataset.mode;
+      modes.forEach(x=>x.setAttribute("aria-pressed",String(x===btn)));
+      if(response.style.display==="block" && clean(thought.value)) render();
+    });
+  });
+
+  document.getElementById("respond").addEventListener("click",render);
+
+  document.getElementById("keepMarker").addEventListener("click",()=>{
+    if(!lastMarker){
+      markerStatus.textContent="Create a reflection first.";
+      return;
+    }
+    try{
+      localStorage.setItem(MARKER_KEY,lastMarker);
+      markerStatus.textContent="Saved on this device.";
+      showSaved();
+    }catch{
+      markerStatus.textContent="Local saving is unavailable here.";
+    }
+  });
+
+  document.getElementById("forgetMarker").addEventListener("click",()=>{
+    try{localStorage.removeItem(MARKER_KEY)}catch{}
+    markerStatus.textContent="Local marker cleared.";
+    showSaved();
+  });
+
+  showSaved();
+})();
+</script>
+</body>
+</html>
