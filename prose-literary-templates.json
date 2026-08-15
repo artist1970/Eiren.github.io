@@ -1,0 +1,1410 @@
+{
+  "schema": "eiren-prose-template-intelligence",
+  "schemaVersion": 1,
+  "generated": "2026-08-15",
+  "consumer": {
+    "id": "eiren",
+    "title": "Poet & Literary Gem",
+    "department": "Literature & Literary Arts"
+  },
+  "source": {
+    "id": "verve.prose",
+    "name": "PROSE™ Sovereign Editorial Suite",
+    "repository": "vervenveda/proresource_hub.github.io",
+    "canonicalManifest": "templates/manifest.json",
+    "miniCloudManifest": "templates/mini-cloud.json",
+    "audit": "PROSE_template_repository_audit.md",
+    "verifiedDate": "2026-08-15",
+    "auditRefreshed": "2026-08-13",
+    "fullLibraryCount": 105,
+    "canonicalTemplateCount": 82,
+    "academicCoreCount": 12,
+    "mathematicsCoreCount": 10,
+    "otherMiniCloudExtensionCount": 1,
+    "canonicalFilesMissing": 0,
+    "hardTemplateLimit": null,
+    "ownershipRule": "PROSE remains owner and source authority for all template files and the editing workspace. Eiren stores routing metadata only.",
+    "syncRule": "Refresh this snapshot if the PROSE template audit, canonical manifest, or Mini-Cloud manifest changes."
+  },
+  "boundaries": {
+    "proseOwns": [
+      "template-html",
+      "template-library",
+      "template-loading",
+      "editing-workspace",
+      "template-sanitization",
+      "template-source-files"
+    ],
+    "eirenOwns": [
+      "writing-intent-recognition",
+      "literary-form-guidance",
+      "voice-and-style-guidance",
+      "developmental-editing-guidance",
+      "rhetoric-guidance",
+      "literary-writing-mentorship"
+    ],
+    "principle": "PROSE supplies the working document and template; Eiren helps the writer understand what they are trying to say and which literary or writing form fits the work."
+  },
+  "selectionPolicy": {
+    "fullLibraryCount": 105,
+    "eirenCuratedTemplateCount": 55,
+    "unmappedTemplateBehavior": "Open the full PROSE library rather than inventing or guessing a template.",
+    "noTemplateDuplication": true,
+    "liveOnly": true
+  },
+  "families": [
+    "academic-writing",
+    "application-writing",
+    "creative-professional",
+    "editing-feedback",
+    "education-planning",
+    "journal-reflection",
+    "literary-analysis",
+    "literary-learning",
+    "memoir-life-writing",
+    "personal-ceremonial",
+    "personal-correspondence",
+    "practical-correspondence",
+    "professional-writing",
+    "publishing",
+    "research-citation",
+    "rhetoric-civic",
+    "rhetoric-speech",
+    "script-audio",
+    "script-visual",
+    "story-book"
+  ],
+  "templates": [
+    {
+      "id": "memoir-chapter",
+      "title": "Memoir Chapter",
+      "resourceType": "prose-template",
+      "family": "memoir-life-writing",
+      "keywords": [
+        "memoir",
+        "life story",
+        "memory",
+        "chapter",
+        "personal narrative",
+        "autobiography"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Memoir Chapter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "childrens-story",
+      "title": "Children’s Story",
+      "resourceType": "prose-template",
+      "family": "story-book",
+      "keywords": [
+        "children's story",
+        "childrens story",
+        "kids book",
+        "picture book",
+        "read aloud",
+        "bedtime story"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "zelle",
+        "archaemenes"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Children’s Story” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "book-proposal",
+      "title": "Book Proposal",
+      "resourceType": "prose-template",
+      "family": "publishing",
+      "keywords": [
+        "book proposal",
+        "publisher",
+        "publishing proposal",
+        "market",
+        "chapter outline",
+        "author platform"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Book Proposal” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "book-synopsis",
+      "title": "Book Synopsis",
+      "resourceType": "prose-template",
+      "family": "story-book",
+      "keywords": [
+        "synopsis",
+        "plot summary",
+        "book summary",
+        "novel synopsis",
+        "character arc",
+        "resolution"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Book Synopsis” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "query-letter",
+      "title": "Query Letter",
+      "resourceType": "prose-template",
+      "family": "publishing",
+      "keywords": [
+        "query letter",
+        "literary agent",
+        "agent",
+        "publisher query",
+        "submission"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Query Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "newsletter",
+      "title": "Newsletter Issue",
+      "resourceType": "prose-template",
+      "family": "publishing",
+      "keywords": [
+        "newsletter",
+        "editor's note",
+        "editors note",
+        "publication update",
+        "community update"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Newsletter Issue” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "editorial-calendar",
+      "title": "Editorial Calendar",
+      "resourceType": "prose-template",
+      "family": "publishing",
+      "keywords": [
+        "editorial calendar",
+        "content calendar",
+        "publication schedule",
+        "publishing schedule"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Editorial Calendar” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "podcast-script",
+      "title": "Podcast Episode Script",
+      "resourceType": "prose-template",
+      "family": "script-audio",
+      "keywords": [
+        "podcast",
+        "podcast script",
+        "episode script",
+        "interview script",
+        "show notes"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "moirai"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Podcast Episode Script” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "video-script",
+      "title": "Video Script",
+      "resourceType": "prose-template",
+      "family": "script-visual",
+      "keywords": [
+        "video script",
+        "narration",
+        "youtube script",
+        "film script",
+        "visual direction"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "zelle",
+        "moirai"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Video Script” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "portfolio-narrative",
+      "title": "Portfolio Narrative",
+      "resourceType": "prose-template",
+      "family": "creative-professional",
+      "keywords": [
+        "portfolio narrative",
+        "artist portfolio",
+        "creative portfolio",
+        "selected work",
+        "creative process"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "zelle"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Portfolio Narrative” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "artist-statement",
+      "title": "Artist Statement",
+      "resourceType": "prose-template",
+      "family": "creative-professional",
+      "keywords": [
+        "artist statement",
+        "art statement",
+        "creative practice",
+        "materials",
+        "exhibition statement"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "zelle"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Artist Statement” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "exhibition-proposal",
+      "title": "Exhibition Proposal",
+      "resourceType": "prose-template",
+      "family": "creative-professional",
+      "keywords": [
+        "exhibition proposal",
+        "gallery proposal",
+        "curation",
+        "installation",
+        "exhibit"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "zelle"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Exhibition Proposal” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "research-paper",
+      "title": "Research Paper",
+      "resourceType": "prose-template",
+      "family": "academic-writing",
+      "keywords": [
+        "research paper",
+        "thesis paper",
+        "academic paper",
+        "source based paper",
+        "source-based paper"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes",
+        "arshif"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Research Paper” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "annotated-bibliography",
+      "title": "Annotated Bibliography",
+      "resourceType": "prose-template",
+      "family": "research-citation",
+      "keywords": [
+        "annotated bibliography",
+        "bibliography",
+        "source annotations",
+        "source credibility"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes",
+        "arshif"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Annotated Bibliography” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "literature-review",
+      "title": "Literature Review",
+      "resourceType": "prose-template",
+      "family": "research-citation",
+      "keywords": [
+        "literature review",
+        "research gap",
+        "scholarship review",
+        "thematic review",
+        "sources"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes",
+        "arshif"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Literature Review” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "book-review",
+      "title": "Book Review",
+      "resourceType": "prose-template",
+      "family": "literary-analysis",
+      "keywords": [
+        "book review",
+        "review a book",
+        "literary review",
+        "book criticism"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Book Review” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "comparative-analysis",
+      "title": "Comparative Analysis",
+      "resourceType": "prose-template",
+      "family": "literary-analysis",
+      "keywords": [
+        "compare texts",
+        "comparative analysis",
+        "comparison essay",
+        "compare two works",
+        "compare works"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Comparative Analysis” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "thesis-proposal",
+      "title": "Thesis or Dissertation Proposal",
+      "resourceType": "prose-template",
+      "family": "academic-writing",
+      "keywords": [
+        "thesis proposal",
+        "dissertation proposal",
+        "research question",
+        "methodology"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes",
+        "arshif"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Thesis or Dissertation Proposal” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "personal-statement",
+      "title": "Personal Statement",
+      "resourceType": "prose-template",
+      "family": "application-writing",
+      "keywords": [
+        "personal statement",
+        "college essay",
+        "application essay",
+        "fellowship statement",
+        "admissions"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Personal Statement” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "scholarship-essay",
+      "title": "Scholarship Essay",
+      "resourceType": "prose-template",
+      "family": "application-writing",
+      "keywords": [
+        "scholarship essay",
+        "scholarship",
+        "financial need essay",
+        "education goals"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Scholarship Essay” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "lesson-plan",
+      "title": "Lesson Plan",
+      "resourceType": "prose-template",
+      "family": "education-planning",
+      "keywords": [
+        "lesson plan",
+        "teach a lesson",
+        "learning objectives",
+        "instruction plan"
+      ],
+      "primarySpecialists": [
+        "archaemenes"
+      ],
+      "collaborators": [
+        "eiren"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Lesson Plan” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "course-syllabus",
+      "title": "Course Syllabus",
+      "resourceType": "prose-template",
+      "family": "education-planning",
+      "keywords": [
+        "syllabus",
+        "course plan",
+        "grading policy",
+        "course schedule"
+      ],
+      "primarySpecialists": [
+        "archaemenes"
+      ],
+      "collaborators": [
+        "eiren"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Course Syllabus” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "assignment-brief",
+      "title": "Assignment Brief",
+      "resourceType": "prose-template",
+      "family": "education-planning",
+      "keywords": [
+        "assignment brief",
+        "student directions",
+        "learning targets",
+        "success criteria"
+      ],
+      "primarySpecialists": [
+        "archaemenes"
+      ],
+      "collaborators": [
+        "eiren"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Assignment Brief” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "learning-goals-plan",
+      "title": "Learning Goals Plan",
+      "resourceType": "prose-template",
+      "family": "education-planning",
+      "keywords": [
+        "learning goals",
+        "student goals",
+        "learning plan",
+        "progress plan"
+      ],
+      "primarySpecialists": [
+        "archaemenes"
+      ],
+      "collaborators": [
+        "eiren"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Learning Goals Plan” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "reading-response",
+      "title": "Reading Response",
+      "resourceType": "prose-template",
+      "family": "literary-learning",
+      "keywords": [
+        "reading response",
+        "respond to reading",
+        "reading journal",
+        "text response"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Reading Response” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "study-guide",
+      "title": "Study Guide",
+      "resourceType": "prose-template",
+      "family": "literary-learning",
+      "keywords": [
+        "study guide",
+        "study notes",
+        "exam study",
+        "review guide"
+      ],
+      "primarySpecialists": [
+        "archaemenes"
+      ],
+      "collaborators": [
+        "eiren"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Study Guide” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "academic-notes",
+      "title": "Academic Notes",
+      "resourceType": "prose-template",
+      "family": "literary-learning",
+      "keywords": [
+        "academic notes",
+        "reading notes",
+        "class notes",
+        "cornell notes",
+        "essential question"
+      ],
+      "primarySpecialists": [
+        "archaemenes"
+      ],
+      "collaborators": [
+        "eiren"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Academic Notes” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "seminar-discussion",
+      "title": "Seminar Discussion Guide",
+      "resourceType": "prose-template",
+      "family": "literary-learning",
+      "keywords": [
+        "seminar",
+        "socratic seminar",
+        "discussion guide",
+        "class discussion",
+        "discussion questions"
+      ],
+      "primarySpecialists": [
+        "archaemenes"
+      ],
+      "collaborators": [
+        "eiren"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Seminar Discussion Guide” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "peer-review",
+      "title": "Peer Review",
+      "resourceType": "prose-template",
+      "family": "editing-feedback",
+      "keywords": [
+        "peer review",
+        "review my classmate",
+        "feedback on writing",
+        "peer feedback"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "archaemenes"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Peer Review” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "student-reflection",
+      "title": "Student Learning Reflection",
+      "resourceType": "prose-template",
+      "family": "journal-reflection",
+      "keywords": [
+        "student reflection",
+        "learning reflection",
+        "reflect on learning",
+        "school reflection"
+      ],
+      "primarySpecialists": [
+        "archaemenes"
+      ],
+      "collaborators": [
+        "eiren",
+        "aurora"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Student Learning Reflection” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "speech-address",
+      "title": "Speech or Public Address",
+      "resourceType": "prose-template",
+      "family": "rhetoric-speech",
+      "keywords": [
+        "speech",
+        "public address",
+        "keynote",
+        "remarks",
+        "rhetoric",
+        "call to action"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Speech or Public Address” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "public-comment",
+      "title": "Public Comment",
+      "resourceType": "prose-template",
+      "family": "rhetoric-civic",
+      "keywords": [
+        "public comment",
+        "city council statement",
+        "public meeting comment",
+        "timed comment"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Public Comment” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "testimony",
+      "title": "Written or Oral Testimony",
+      "resourceType": "prose-template",
+      "family": "rhetoric-civic",
+      "keywords": [
+        "testimony",
+        "hearing testimony",
+        "written testimony",
+        "oral testimony"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "arshif"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Written or Oral Testimony” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "representative-letter",
+      "title": "Letter to an Elected Representative",
+      "resourceType": "prose-template",
+      "family": "rhetoric-civic",
+      "keywords": [
+        "letter to representative",
+        "letter to senator",
+        "letter to congress",
+        "constituent letter"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Letter to an Elected Representative” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "petition",
+      "title": "Petition",
+      "resourceType": "prose-template",
+      "family": "rhetoric-civic",
+      "keywords": [
+        "petition",
+        "signature petition",
+        "public action",
+        "requested remedy"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Petition” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "complaint-letter",
+      "title": "Formal Complaint Letter",
+      "resourceType": "prose-template",
+      "family": "practical-correspondence",
+      "keywords": [
+        "complaint letter",
+        "formal complaint",
+        "document a complaint",
+        "request resolution"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "hope"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Formal Complaint Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "appeal-letter",
+      "title": "Appeal Letter",
+      "resourceType": "prose-template",
+      "family": "practical-correspondence",
+      "keywords": [
+        "appeal letter",
+        "appeal a decision",
+        "reconsideration",
+        "decision appeal"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "hope"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Appeal Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "personal-journal-entry",
+      "title": "Personal Journal Entry",
+      "resourceType": "prose-template",
+      "family": "journal-reflection",
+      "keywords": [
+        "journal",
+        "journal entry",
+        "diary",
+        "reflection",
+        "write my feelings",
+        "personal reflection"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "aurora"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Personal Journal Entry” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "legacy-letter",
+      "title": "Legacy Letter",
+      "resourceType": "prose-template",
+      "family": "memoir-life-writing",
+      "keywords": [
+        "legacy letter",
+        "future generations",
+        "family letter",
+        "life lessons",
+        "memories"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "arshif"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Legacy Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "family-history",
+      "title": "Family History",
+      "resourceType": "prose-template",
+      "family": "memoir-life-writing",
+      "keywords": [
+        "family history",
+        "genealogy",
+        "oral history",
+        "family story",
+        "ancestors"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "arshif"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Family History” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "ethical-will",
+      "title": "Ethical Will",
+      "resourceType": "prose-template",
+      "family": "personal-ceremonial",
+      "keywords": [
+        "ethical will",
+        "values letter",
+        "legacy values",
+        "blessing",
+        "life guidance"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "hope"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Ethical Will” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "eulogy",
+      "title": "Eulogy",
+      "resourceType": "prose-template",
+      "family": "personal-ceremonial",
+      "keywords": [
+        "eulogy",
+        "memorial speech",
+        "funeral speech",
+        "remembrance"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "hope"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Eulogy” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "obituary",
+      "title": "Obituary",
+      "resourceType": "prose-template",
+      "family": "personal-ceremonial",
+      "keywords": [
+        "obituary",
+        "life history",
+        "memorial notice"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "hope",
+        "arshif"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Obituary” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "wedding-vows",
+      "title": "Wedding Vows",
+      "resourceType": "prose-template",
+      "family": "personal-ceremonial",
+      "keywords": [
+        "wedding vows",
+        "vows",
+        "marriage vows",
+        "ceremony vows"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Wedding Vows” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "thank-you-letter",
+      "title": "Thank-You Letter",
+      "resourceType": "prose-template",
+      "family": "personal-correspondence",
+      "keywords": [
+        "thank you letter",
+        "gratitude letter",
+        "appreciation note",
+        "thank-you note"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Thank-You Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "apology-letter",
+      "title": "Apology Letter",
+      "resourceType": "prose-template",
+      "family": "personal-correspondence",
+      "keywords": [
+        "apology letter",
+        "say sorry",
+        "make amends",
+        "repair letter"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "hope"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Apology Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "condolence-letter",
+      "title": "Condolence Letter",
+      "resourceType": "prose-template",
+      "family": "personal-correspondence",
+      "keywords": [
+        "condolence letter",
+        "sympathy letter",
+        "loss",
+        "bereavement",
+        "grief letter"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "hope"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Condolence Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "professional-bio",
+      "title": "Professional Biography",
+      "resourceType": "prose-template",
+      "family": "professional-writing",
+      "keywords": [
+        "professional bio",
+        "biography",
+        "speaker bio",
+        "website bio",
+        "about me"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Professional Biography” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "cover-letter",
+      "title": "Cover Letter",
+      "resourceType": "prose-template",
+      "family": "professional-writing",
+      "keywords": [
+        "cover letter",
+        "job application letter",
+        "employment letter"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Cover Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "recommendation-letter",
+      "title": "Letter of Recommendation",
+      "resourceType": "prose-template",
+      "family": "professional-writing",
+      "keywords": [
+        "recommendation letter",
+        "reference letter",
+        "endorsement letter"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Letter of Recommendation” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "professional-letter",
+      "title": "Professional Letter",
+      "resourceType": "prose-template",
+      "family": "professional-writing",
+      "keywords": [
+        "professional letter",
+        "business letter",
+        "formal letter",
+        "request letter"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Professional Letter” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "curriculum-vitae",
+      "title": "Curriculum Vitae",
+      "resourceType": "prose-template",
+      "family": "professional-writing",
+      "keywords": [
+        "curriculum vitae",
+        "cv",
+        "academic cv",
+        "artist cv"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Curriculum Vitae” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "resume",
+      "title": "Professional Résumé",
+      "resourceType": "prose-template",
+      "family": "professional-writing",
+      "keywords": [
+        "resume",
+        "résumé",
+        "job resume",
+        "career resume"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Professional Résumé” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "press-release",
+      "title": "Press Release",
+      "resourceType": "prose-template",
+      "family": "publishing",
+      "keywords": [
+        "press release",
+        "media announcement",
+        "news release"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Press Release” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    },
+    {
+      "id": "media-kit",
+      "title": "Media Kit",
+      "resourceType": "prose-template",
+      "family": "publishing",
+      "keywords": [
+        "media kit",
+        "press kit",
+        "talking points",
+        "media biography"
+      ],
+      "primarySpecialists": [
+        "eiren"
+      ],
+      "collaborators": [
+        "zelle"
+      ],
+      "owner": "PROSE / ProReSources",
+      "status": "live",
+      "openUrl": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+      "openBehavior": "Open PROSE and choose the “Media Kit” template.",
+      "sourceAuthority": "PROSE / ProReSources",
+      "routable": true
+    }
+  ],
+  "fallback": {
+    "title": "PROSE Template Library",
+    "url": "https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html",
+    "owner": "PROSE / ProReSources",
+    "use": "Open the full library when no curated Eiren template match is confident."
+  },
+  "excludedFromEirenCuration": {
+    "mathematicsCore": {
+      "count": 10,
+      "reason": "Mathematics templates remain available in PROSE but are outside Eiren's literary-specialist routing scope."
+    },
+    "nonLiteraryOperationalTemplates": {
+      "reason": "Operational/business templates not represented in Eiren's curated 55 remain discoverable through the full PROSE library."
+    }
+  }
+}
