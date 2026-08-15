@@ -2,613 +2,1158 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Eiren — Poet & Literary Gem. A quiet literary companion for poetry, story, reflection, developmental editing, symbolism, rhetoric, and unfinished creative work.">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Eiren — Poet & Literary Gem. A literary house for writing, reading, story, poetry, developmental editing, journals, wordplay, rhetoric, and literary learning across Verve N Veda.">
 <meta name="theme-color" content="#071328">
+<meta name="color-scheme" content="dark">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), browsing-topics=()">
 <title>Eiren · Poet & Literary Gem</title>
 
 <style>
 :root{
-  --night:#040914;
+  --night:#030711;
   --night-2:#071328;
-  --blue:#0d2c62;
+  --night-3:#0b1b34;
   --ink:#f7f3ea;
-  --muted:#b9c3d8;
-  --soft:#dce3ef;
+  --muted:#b8c1d2;
+  --soft:#dfe5ef;
   --gold:#d8b96d;
   --gold-soft:#efdca5;
   --rose:#d9a5bd;
   --leaf:#8fb5a7;
+  --blue:#9ebcf0;
   --line:rgba(224,231,242,.14);
-  --panel:rgba(12,25,48,.68);
+  --line-strong:rgba(239,220,165,.24);
+  --panel:rgba(11,24,47,.72);
   --panel-soft:rgba(255,255,255,.035);
-  --shadow:0 22px 70px rgba(0,0,0,.3);
+  --shadow:0 24px 80px rgba(0,0,0,.28);
   --r:21px;
-  --max:1080px;
+  --r-small:11px;
+  --max:1180px;
+  --serif:"Iowan Old Style","Palatino Linotype","Book Antiqua",Palatino,Georgia,serif;
+  --sans:"Avenir Next",Avenir,Montserrat,"Segoe UI",Arial,sans-serif;
 }
 
 *{box-sizing:border-box}
-
-html{scroll-behavior:smooth}
-
+html{scroll-behavior:smooth;scroll-padding-top:88px}
 body{
   margin:0;
+  min-width:300px;
   min-height:100vh;
   color:var(--ink);
   background:
-    radial-gradient(circle at 50% -8%,rgba(20,72,154,.55),transparent 35rem),
-    radial-gradient(circle at 6% 44%,rgba(217,165,189,.08),transparent 25rem),
-    radial-gradient(circle at 94% 64%,rgba(143,181,167,.08),transparent 28rem),
-    linear-gradient(180deg,var(--night-2),var(--night) 54rem,#030711 100%);
-  font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
+    radial-gradient(circle at 50% -6%,rgba(20,72,154,.55),transparent 34rem),
+    radial-gradient(circle at 4% 33%,rgba(217,165,189,.09),transparent 28rem),
+    radial-gradient(circle at 96% 58%,rgba(143,181,167,.08),transparent 30rem),
+    linear-gradient(180deg,var(--night-2),var(--night) 52rem,#02050c 100%);
+  font-family:var(--serif);
   line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  text-rendering:optimizeLegibility;
 }
-
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  opacity:.22;
+  background-image:
+    radial-gradient(circle at 20% 18%,rgba(255,255,255,.14) 0 1px,transparent 1.2px),
+    radial-gradient(circle at 74% 28%,rgba(255,255,255,.10) 0 1px,transparent 1.2px),
+    radial-gradient(circle at 46% 67%,rgba(255,255,255,.08) 0 1px,transparent 1.2px);
+  background-size:240px 240px,330px 330px,420px 420px;
+  z-index:-1;
+}
 a{color:inherit}
+button,input,textarea,select{font:inherit}
+button{cursor:pointer}
+img,svg{display:block;max-width:100%}
+[hidden]{display:none!important}
+::selection{background:rgba(216,185,109,.35);color:#fff}
+
+:focus-visible{
+  outline:2px solid var(--gold);
+  outline-offset:4px;
+}
 
 .wrap{
-  width:min(calc(100% - 2rem),var(--max));
-  margin:auto;
+  width:min(calc(100% - 32px),var(--max));
+  margin-inline:auto;
 }
 
-/* ---------- masthead ---------- */
+.skip-link{
+  position:fixed;
+  left:14px;
+  top:10px;
+  z-index:5000;
+  transform:translateY(-150%);
+  padding:8px 12px;
+  border-radius:8px;
+  background:#fff;
+  color:#071328;
+  font-family:var(--sans);
+  font-size:.8rem;
+}
+.skip-link:focus{transform:none}
 
-.masthead{
-  min-height:78px;
+/* Header */
+.site-header{
+  position:sticky;
+  top:0;
+  z-index:1000;
+  border-bottom:1px solid rgba(224,231,242,.10);
+  background:rgba(3,7,17,.82);
+  -webkit-backdrop-filter:blur(16px);
+  backdrop-filter:blur(16px);
+}
+.header-inner{
+  min-height:72px;
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:20px;
-  border-bottom:1px solid var(--line);
+  gap:22px;
 }
-
 .brand{
-  color:var(--gold);
-  letter-spacing:.2em;
-  text-transform:uppercase;
-  font-size:.76rem;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  text-decoration:none;
 }
-
-.lineage{
-  color:#8390aa;
-  font-size:.77rem;
-  text-align:right;
-}
-
-/* ---------- hero ---------- */
-
-.hero{
-  min-height:72vh;
-  display:grid;
-  place-items:center;
-  text-align:center;
-  padding:82px 0 70px;
-}
-
-.hero-inner{width:min(100%,860px)}
-
-.flower{
-  width:48px;
-  height:48px;
-  margin:0 auto 18px;
-  border:1px solid rgba(217,165,189,.35);
+.brand-mark{
+  width:34px;height:34px;
+  border:1px solid rgba(217,165,189,.34);
   border-radius:50%;
   display:grid;
   place-items:center;
   color:var(--rose);
-  font-size:1.45rem;
-  background:rgba(217,165,189,.035);
+  background:rgba(217,165,189,.04);
+}
+.brand-copy strong{
+  display:block;
+  color:var(--gold);
+  font-weight:400;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  font-size:.74rem;
+}
+.brand-copy span{
+  display:block;
+  color:#7f8ca5;
+  font-size:.7rem;
+  margin-top:1px;
+}
+.nav{
+  display:flex;
+  align-items:center;
+  gap:18px;
+  font-family:var(--sans);
+  color:#c9d1df;
+  font-size:.76rem;
+}
+.nav a{
+  text-decoration:none;
+  padding:7px 0;
+  border-bottom:1px solid transparent;
+}
+.nav a:hover{color:#fff;border-color:rgba(216,185,109,.5)}
+.nav .ecosystem{
+  padding:8px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
 }
 
-.kicker{
-  color:#a7bde7;
+/* Hero */
+.hero{
+  min-height:78vh;
+  display:grid;
+  place-items:center;
+  text-align:center;
+  padding:88px 0 76px;
+}
+.hero-inner{width:min(100%,900px)}
+.eyebrow{
+  color:var(--blue);
   text-transform:uppercase;
   letter-spacing:.24em;
-  font-size:.72rem;
+  font-family:var(--sans);
+  font-size:.7rem;
 }
-
 h1{
-  margin:.13em 0 .08em;
+  margin:.10em 0 .08em;
+  font-size:clamp(4.6rem,13vw,9.3rem);
   font-weight:400;
-  font-size:clamp(4.4rem,12vw,8.8rem);
-  line-height:.9;
-  letter-spacing:-.045em;
+  letter-spacing:-.052em;
+  line-height:.88;
 }
-
 .role{
   margin:0;
   color:var(--gold-soft);
-  font-size:clamp(1rem,2vw,1.2rem);
-  letter-spacing:.08em;
+  font-size:clamp(1rem,2vw,1.22rem);
+  letter-spacing:.09em;
 }
-
-.subtitle{
-  margin:30px auto 0;
-  max-width:750px;
+.hero-copy{
+  max-width:760px;
+  margin:28px auto 0;
   color:var(--muted);
-  font-size:clamp(1.06rem,2.2vw,1.35rem);
+  font-size:clamp(1.05rem,2.15vw,1.34rem);
 }
-
-.quote{
-  margin:32px auto 0;
+.signature{
+  margin:27px auto 0;
   color:var(--gold);
   font-style:italic;
-  font-size:1.08rem;
 }
-
-.enter{
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:10px;
+  margin-top:32px;
+}
+.button{
+  min-height:44px;
   display:inline-flex;
   align-items:center;
+  justify-content:center;
   gap:8px;
-  margin-top:34px;
   padding:10px 16px;
   border:1px solid var(--line);
   border-radius:999px;
   text-decoration:none;
   color:var(--soft);
-  font-size:.86rem;
-  transition:border-color .2s ease,background .2s ease,transform .2s ease;
+  background:rgba(255,255,255,.025);
+  font-family:var(--sans);
+  font-size:.79rem;
+  transition:transform .2s ease,border-color .2s ease,background .2s ease;
 }
-
-.enter:hover{
-  border-color:rgba(216,185,109,.38);
-  background:rgba(216,185,109,.055);
+.button:hover{
   transform:translateY(-1px);
+  border-color:rgba(216,185,109,.42);
+  background:rgba(216,185,109,.06);
 }
-
-.enter:focus-visible{
-  outline:2px solid var(--gold);
-  outline-offset:4px;
+.button-primary{
+  color:#08111f;
+  background:var(--gold-soft);
+  border-color:var(--gold-soft);
 }
-
-/* ---------- sections ---------- */
-
-section{
-  padding:42px 0 76px;
-}
-
-.section-label{
-  color:var(--rose);
-  text-transform:uppercase;
-  letter-spacing:.2em;
-  font-size:.72rem;
-  margin-bottom:9px;
-}
-
-h2{
-  margin:0;
-  font-weight:400;
-  font-size:clamp(2.2rem,4.5vw,3.4rem);
-  line-height:1.1;
-}
-
-.copy{
-  max-width:810px;
-  color:var(--muted);
-  font-size:1.02rem;
-  margin:18px 0 0;
-}
-
-.copy strong{color:var(--soft);font-weight:400}
+.button-primary:hover{background:#fff0bd}
 
 .rule{
   height:1px;
   background:linear-gradient(90deg,transparent,var(--line),transparent);
 }
 
-/* ---------- principles ---------- */
+/* Sections */
+.section{padding:78px 0}
+.section-sm{padding:54px 0}
+.section-heading{max-width:790px}
+.section-label{
+  color:var(--rose);
+  text-transform:uppercase;
+  letter-spacing:.2em;
+  font-family:var(--sans);
+  font-size:.7rem;
+  margin-bottom:8px;
+}
+h2{
+  margin:0;
+  font-size:clamp(2.35rem,5vw,3.8rem);
+  line-height:1.05;
+  font-weight:400;
+  letter-spacing:-.025em;
+}
+.section-copy{
+  margin:18px 0 0;
+  color:var(--muted);
+  font-size:1.02rem;
+  max-width:800px;
+}
 
-.principles{
+/* Front room */
+.front-room{
   display:grid;
-  grid-template-columns:1.05fr .95fr;
+  grid-template-columns:.88fr 1.12fr;
   gap:28px;
   align-items:start;
 }
-
-.statement{
-  padding:30px;
+.welcome-card,.start-card{
   border:1px solid var(--line);
   border-radius:var(--r);
-  background:
-    linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.018));
-  box-shadow:0 1px 0 rgba(255,255,255,.02) inset;
+  background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));
+  box-shadow:0 1px 0 rgba(255,255,255,.025) inset;
 }
-
-.statement blockquote{
+.welcome-card{padding:30px}
+.welcome-card h3,.start-card h3{
   margin:0;
-  font-size:clamp(1.45rem,3vw,2.2rem);
-  line-height:1.45;
-  color:var(--ink);
-}
-
-.statement p{
-  margin:16px 0 0;
-  color:var(--muted);
-}
-
-.small-principles{
-  display:grid;
-  gap:12px;
-}
-
-.small-principle{
-  padding:20px 22px;
-  border-left:2px solid var(--gold);
-  background:rgba(216,185,109,.04);
-}
-
-.small-principle h3{
-  margin:0 0 5px;
-  font-size:1.06rem;
+  color:var(--gold-soft);
+  font-size:1.55rem;
   font-weight:400;
-  color:var(--soft);
 }
-
-.small-principle p{
-  margin:0;
-  color:var(--muted);
-  font-size:.94rem;
-}
-
-/* ---------- fortes ---------- */
-
-.fortes{
-  margin-top:28px;
+.welcome-card p{color:var(--muted);margin:14px 0 0}
+.temperament{
+  margin-top:22px;
   display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:14px;
+  gap:9px;
+}
+.temperament span{
+  padding-left:14px;
+  border-left:2px solid rgba(216,185,109,.55);
+  color:#dce3ee;
+  font-size:.92rem;
+}
+.start-card{padding:28px}
+.prompt-label{
+  display:block;
+  margin:18px 0 7px;
+  color:#aeb9cb;
+  font-family:var(--sans);
+  font-size:.72rem;
+  text-transform:uppercase;
+  letter-spacing:.11em;
+}
+.prompt{
+  width:100%;
+  min-height:112px;
+  resize:vertical;
+  padding:14px 15px;
+  border:1px solid rgba(224,231,242,.18);
+  border-radius:var(--r-small);
+  color:var(--ink);
+  background:rgba(3,8,18,.55);
+  line-height:1.55;
+}
+.prompt::placeholder{color:#71809a}
+.quick-starts{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:12px;
+}
+.quick-start{
+  border:1px solid var(--line);
+  border-radius:999px;
+  color:#cdd5e3;
+  background:rgba(255,255,255,.025);
+  padding:7px 10px;
+  font-family:var(--sans);
+  font-size:.72rem;
+}
+.quick-start:hover{border-color:rgba(217,165,189,.42)}
+.prompt-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px;
+  margin-top:16px;
+}
+.prompt-actions button{
+  border:1px solid var(--gold-soft);
+  border-radius:999px;
+  background:var(--gold-soft);
+  color:#08111f;
+  padding:10px 15px;
+  font-family:var(--sans);
+  font-size:.78rem;
+}
+.prompt-actions .quiet{
+  color:#d8e0ec;
+  background:transparent;
+  border-color:var(--line);
+}
+.guidance{
+  margin-top:18px;
+  padding:17px;
+  border:1px solid rgba(143,181,167,.20);
+  border-radius:var(--r-small);
+  background:rgba(143,181,167,.045);
+}
+.guidance-kicker{
+  color:var(--leaf);
+  font-family:var(--sans);
+  font-size:.68rem;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+.guidance strong{
+  display:block;
+  margin-top:4px;
+  font-size:1.15rem;
+  font-weight:400;
+}
+.guidance p{margin:6px 0 0;color:var(--muted);font-size:.91rem}
+.guidance-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:12px;
+}
+.guidance-links a{
+  text-decoration:none;
+  border-bottom:1px solid rgba(216,185,109,.35);
+  color:var(--gold-soft);
+  font-size:.85rem;
 }
 
-.forte{
-  min-height:170px;
+/* Rooms */
+.room-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+  margin-top:30px;
+}
+.room{
+  position:relative;
+  min-height:230px;
   padding:24px;
   border:1px solid var(--line);
   border-radius:var(--r);
   background:var(--panel-soft);
+  overflow:hidden;
 }
-
-.forte small{
+.room::after{
+  content:"";
+  position:absolute;
+  width:140px;height:140px;
+  right:-50px;bottom:-65px;
+  border:1px solid rgba(216,185,109,.10);
+  border-radius:50%;
+}
+.room small{
   color:var(--rose);
+  font-family:var(--sans);
   text-transform:uppercase;
-  letter-spacing:.16em;
-  font-size:.68rem;
+  letter-spacing:.15em;
+  font-size:.66rem;
 }
-
-.forte h3{
+.room h3{
   margin:8px 0 7px;
-  font-size:1.3rem;
+  font-size:1.37rem;
   font-weight:400;
 }
-
-.forte p{
+.room p{
   margin:0;
   color:var(--muted);
-  font-size:.94rem;
+  font-size:.91rem;
 }
-
-/* ---------- how we work ---------- */
-
-.modes{
-  margin-top:26px;
+.room-links{
   display:flex;
   flex-wrap:wrap;
-  gap:10px;
+  gap:8px 12px;
+  margin-top:18px;
 }
-
-.mode{
-  padding:9px 13px;
-  border:1px solid var(--line);
-  border-radius:999px;
-  color:#dfe6f2;
-  background:rgba(255,255,255,.03);
-  font-size:.88rem;
-}
-
-.invitation{
-  margin-top:30px;
-  padding:30px;
-  border:1px solid rgba(216,185,109,.24);
-  border-radius:var(--r);
-  background:
-    radial-gradient(circle at 100% 0,rgba(216,185,109,.08),transparent 18rem),
-    rgba(216,185,109,.035);
-}
-
-.invitation h3{
-  margin:0 0 14px;
-  font-size:1.45rem;
-  font-weight:400;
+.room-links a{
   color:var(--gold-soft);
+  text-decoration:none;
+  font-size:.82rem;
+  border-bottom:1px solid rgba(216,185,109,.3);
 }
+.room-links a:hover{color:#fff}
 
-.invitation-grid{
+/* Shelves */
+.shelf{
+  margin-top:28px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  overflow:hidden;
+}
+.shelf-tabs{
+  display:flex;
+  flex-wrap:wrap;
+  gap:0;
+  border-bottom:1px solid var(--line);
+  background:rgba(255,255,255,.025);
+}
+.shelf-tab{
+  border:0;
+  border-right:1px solid var(--line);
+  background:transparent;
+  color:#b9c4d6;
+  padding:12px 15px;
+  font-family:var(--sans);
+  font-size:.75rem;
+}
+.shelf-tab[aria-selected="true"]{
+  color:#09111e;
+  background:var(--gold-soft);
+}
+.shelf-body{padding:24px}
+.resource-grid{
   display:grid;
   grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:10px 26px;
-  color:var(--muted);
+  gap:10px;
 }
-
-.invitation-grid span::before{
-  content:"— ";
-  color:var(--gold);
+.resource{
+  display:block;
+  padding:15px 16px;
+  border:1px solid rgba(224,231,242,.11);
+  border-radius:var(--r-small);
+  background:rgba(255,255,255,.02);
+  text-decoration:none;
 }
+.resource strong{font-weight:400;color:#edf0f6}
+.resource span{display:block;color:#8896ad;font-size:.78rem;margin-top:3px}
 
-/* ---------- lineage ---------- */
-
-.lineage-card{
-  padding:28px;
+/* Learning */
+.learning-grid{
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:12px;
+  margin-top:28px;
+}
+.level{
+  min-height:190px;
+  padding:22px;
   border:1px solid var(--line);
   border-radius:var(--r);
-  background:rgba(255,255,255,.02);
+  background:rgba(255,255,255,.025);
 }
-
-.lineage-card p{
-  margin:0;
-  color:var(--muted);
+.level .age{
+  color:var(--blue);
+  font-family:var(--sans);
+  font-size:.66rem;
+  letter-spacing:.13em;
+  text-transform:uppercase;
 }
-
-.lineage-card strong{
-  color:var(--soft);
-  font-weight:400;
-}
-
-/* ---------- footer ---------- */
-
-footer{
-  padding:34px 0 52px;
-  border-top:1px solid var(--line);
-  color:#7f8ca5;
+.level h3{margin:7px 0 8px;font-size:1.18rem;font-weight:400}
+.level p{margin:0;color:var(--muted);font-size:.85rem}
+.level a{
+  display:inline-block;
+  margin-top:14px;
+  color:var(--gold-soft);
+  text-decoration:none;
   font-size:.82rem;
 }
 
-.footer-row{
+/* Common room */
+.common-room{
+  margin-top:30px;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+}
+.mentor{
+  padding:20px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:rgba(255,255,255,.025);
+}
+.mentor-top{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.mentor-mark{
+  width:38px;height:38px;
+  flex:0 0 38px;
+  display:grid;
+  place-items:center;
+  border:1px solid var(--line-strong);
+  border-radius:50%;
+  color:var(--gold);
+  font-style:italic;
+}
+.mentor h3{margin:0;font-size:1.12rem;font-weight:400}
+.mentor .mentor-role{color:#8493aa;font-size:.75rem}
+.mentor p{color:var(--muted);font-size:.86rem;margin:12px 0 0}
+.mentor a{
+  display:inline-block;
+  margin-top:12px;
+  color:var(--gold-soft);
+  text-decoration:none;
+  font-size:.8rem;
+}
+
+/* Philosophy */
+.principles{
+  display:grid;
+  grid-template-columns:1.08fr .92fr;
+  gap:22px;
+  margin-top:28px;
+}
+.statement{
+  padding:30px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.018));
+}
+.statement blockquote{
+  margin:0;
+  font-size:clamp(1.45rem,3vw,2.25rem);
+  line-height:1.42;
+}
+.statement p{margin:16px 0 0;color:var(--muted)}
+.principle-list{display:grid;gap:10px}
+.principle{
+  padding:16px 18px;
+  border-left:2px solid var(--gold);
+  background:rgba(216,185,109,.035);
+}
+.principle strong{font-weight:400}
+.principle span{display:block;color:var(--muted);font-size:.84rem;margin-top:3px}
+
+/* Footer */
+footer{
+  padding:38px 0 52px;
+  border-top:1px solid var(--line);
+  color:#77859e;
+  font-family:var(--sans);
+  font-size:.74rem;
+}
+.footer-grid{
   display:flex;
   justify-content:space-between;
-  gap:18px;
-  align-items:center;
+  gap:20px;
+  align-items:flex-end;
 }
-
-.footer-name{color:#aeb8ca}
-
-@media(max-width:820px){
-  .principles{grid-template-columns:1fr}
-  .fortes{grid-template-columns:1fr}
-  .invitation-grid{grid-template-columns:1fr}
+.footer-note{max-width:660px}
+.footer-links{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
 }
+.footer-links a{text-decoration:none;color:#a9b4c6}
 
+@media(max-width:1040px){
+  .learning-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:900px){
+  .nav a:not(.ecosystem){display:none}
+  .front-room,.principles{grid-template-columns:1fr}
+  .room-grid,.common-room{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .learning-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
 @media(max-width:620px){
-  .masthead{
-    align-items:flex-start;
-    flex-direction:column;
-    padding:18px 0;
-  }
-  .lineage{text-align:left}
-  .hero{min-height:64vh;padding:62px 0 54px}
-  .footer-row{flex-direction:column;align-items:flex-start}
+  .wrap{width:min(calc(100% - 22px),var(--max))}
+  .header-inner{min-height:66px}
+  .brand-copy span{display:none}
+  .hero{min-height:70vh;padding:68px 0 58px}
+  .section{padding:60px 0}
+  .room-grid,.common-room,.learning-grid,.resource-grid{grid-template-columns:1fr}
+  .shelf-tabs{display:grid;grid-template-columns:repeat(2,1fr)}
+  .shelf-tab{border-bottom:1px solid var(--line)}
+  .footer-grid{flex-direction:column;align-items:flex-start}
+  .footer-links{justify-content:flex-start}
 }
-
 @media(prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
-  *,*::before,*::after{transition:none!important}
+  *,*::before,*::after{transition:none!important;animation:none!important}
 }
 </style>
 </head>
-
 <body>
-<div class="wrap">
+<a class="skip-link" href="#main">Skip to Eiren's house</a>
 
-<header class="masthead">
-  <div class="brand">Eiren · Verve N Veda</div>
-  <div class="lineage">Poet & Literary Gem · Song & Reflection</div>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top" aria-label="Eiren home">
+      <span class="brand-mark" aria-hidden="true">❀</span>
+      <span class="brand-copy">
+        <strong>Eiren · Verve N Veda</strong>
+        <span>Poet & Literary Gem</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#begin">Begin</a>
+      <a href="#rooms">Rooms</a>
+      <a href="#learning">Learning</a>
+      <a href="#common-room">Common Room</a>
+      <a class="ecosystem" href="https://vervenveda.com/">Verve N Veda ↗</a>
+    </nav>
+  </div>
 </header>
 
-<main>
-
-<section class="hero">
-  <div class="hero-inner">
-    <div class="flower" aria-hidden="true">❀</div>
-    <div class="kicker">A quiet room for unfinished things</div>
-
-    <h1>Eiren</h1>
-    <p class="role">Poet & Literary Gem</p>
-
-    <p class="subtitle">
-      Bring the line you cannot finish, the story that has gone quiet,
-      the page whose shape you can almost see, or the thought you simply
-      want to understand more clearly.
-    </p>
-
-    <p class="quote">“There is room here for unfinished things.”</p>
-
-    <a class="enter" href="#about">
-      Enter the room <span aria-hidden="true">↓</span>
-    </a>
-  </div>
-</section>
-
-<div class="rule"></div>
-
-<section id="about">
-  <div class="section-label">Who is Eiren?</div>
-  <h2>Meaning before decoration.</h2>
-
-  <p class="copy">
-    Eiren is a literary and creative companion centered on
-    <strong>language, story, reflection, symbolism, continuity, and craft.</strong>
-    She listens for what a piece is trying to become before trying to make it prettier.
-    Her purpose is not to overwrite a creator's voice, but to help that voice become clearer,
-    more exact, more resonant, and more fully itself.
-  </p>
-</section>
-
-<section>
-  <div class="principles">
-    <div class="statement">
-      <blockquote>
-        “Listen for the meaning beneath a thought before decorating it.”
-      </blockquote>
-      <p>
-        Eiren's literary instinct begins with attention. Beauty matters,
-        but it should grow from meaning rather than conceal its absence.
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap hero-inner">
+      <div class="eyebrow">A quiet room for unfinished things</div>
+      <h1>Eiren</h1>
+      <p class="role">Poet & Literary Gem</p>
+      <p class="hero-copy">
+        Bring the sentence that will not settle, the story that has gone quiet,
+        the essay you need to understand, the poem hiding behind ordinary words,
+        or the idea you are not ready to name yet.
       </p>
-    </div>
-
-    <div class="small-principles">
-      <div class="small-principle">
-        <h3>Depth without performance</h3>
-        <p>Not every answer needs to sound poetic merely because Eiren is a poet.</p>
-      </div>
-
-      <div class="small-principle">
-        <h3>Creator sovereignty</h3>
-        <p>The work remains the creator's own: voice, meaning, decisions, and final form.</p>
-      </div>
-
-      <div class="small-principle">
-        <h3>Curiosity without fear</h3>
-        <p>Stop. Look closer. Ask one more question. Do not assume.</p>
+      <p class="signature">“There is room here for unfinished things.”</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#begin">Sit with Eiren</a>
+        <a class="button" href="#rooms">Explore the house</a>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="rule"></div>
+  <div class="wrap rule"></div>
 
-<section>
-  <div class="section-label">Her Fortes</div>
-  <h2>Where Eiren is most at home.</h2>
+  <section class="section" id="begin">
+    <div class="wrap front-room">
+      <div class="welcome-card">
+        <div class="section-label">The Front Room</div>
+        <h3>You do not need to arrive with the right words.</h3>
+        <p>
+          Tell me what you are trying to make, understand, revise, remember, study,
+          or say. We can begin with one useful question instead of pretending the whole path is obvious.
+        </p>
+        <div class="temperament" aria-label="How Eiren works">
+          <span>Meaning before decoration.</span>
+          <span>Editorial courage without cruelty.</span>
+          <span>Wonder without credulity.</span>
+          <span>Humor without dismissal.</span>
+          <span>Your authorship remains yours.</span>
+        </div>
+      </div>
 
-  <p class="copy">
-    Her range is broad, but these are the forms she returns to most naturally.
-  </p>
+      <div class="start-card">
+        <div class="section-label">Begin Here</div>
+        <h3>What are you working on?</h3>
+        <label class="prompt-label" for="eirenPrompt">A sentence is enough</label>
+        <textarea class="prompt" id="eirenPrompt" placeholder="I am writing a story and the middle has gone flat..."></textarea>
 
-  <div class="fortes">
+        <div class="quick-starts" aria-label="Prompt starters">
+          <button class="quick-start" type="button" data-fill="I want to write something, but I do not know where to begin.">I want to write</button>
+          <button class="quick-start" type="button" data-fill="I have a draft that needs developmental editing.">Help me revise</button>
+          <button class="quick-start" type="button" data-fill="I am studying literature and want help understanding a text.">Study literature</button>
+          <button class="quick-start" type="button" data-fill="I am stuck and need a creative prompt.">I feel stuck</button>
+          <button class="quick-start" type="button" data-fill="I need historical or archival sources for a literary project.">Find sources</button>
+          <button class="quick-start" type="button" data-fill="I have lyrics and want to develop them into music.">Words into music</button>
+        </div>
 
-    <article class="forte">
-      <small>Language</small>
-      <h3>Poetry & Lyrical Writing</h3>
-      <p>Image, rhythm, line, refrain, restraint, lyric language, and revision that preserves the writer's own voice.</p>
-    </article>
+        <div class="prompt-actions">
+          <button id="findDoor" type="button">Find my first doorway</button>
+          <button class="quiet" id="clearPrompt" type="button">Clear</button>
+        </div>
 
-    <article class="forte">
-      <small>Architecture</small>
-      <h3>Developmental Editing</h3>
-      <p>Books, chapters, scenes, pacing, emotional arcs, thematic progression, narrative promises, and structural clarity.</p>
-    </article>
-
-    <article class="forte">
-      <small>Continuity</small>
-      <h3>Long-Form Story Memory</h3>
-      <p>Characters, motifs, timelines, unresolved threads, protected elements, recurring images, and the logic of a work over time.</p>
-    </article>
-
-    <article class="forte">
-      <small>Story</small>
-      <h3>Character & Narrative Voice</h3>
-      <p>Scenes, dialogue, point of view, children's stories, literary nonfiction, memoir-style passages, and endings that resonate.</p>
-    </article>
-
-    <article class="forte">
-      <small>Meaning</small>
-      <h3>Myth, Symbol & Motif</h3>
-      <p>Recurring images, symbolism, archetypal patterns, literary connections, and the deeper thread hiding beneath a piece.</p>
-    </article>
-
-    <article class="forte">
-      <small>Expression</small>
-      <h3>Rhetoric & Speechcraft</h3>
-      <p>Letters, speeches, essays, introductions, ceremonial writing, editorials, and memorable public language.</p>
-    </article>
-
-    <article class="forte">
-      <small>Mentorship</small>
-      <h3>Writing & Literary Learning</h3>
-      <p>Creative exercises, literary discussion, critique, guided practice, curriculum craft, and helping writers develop without flattening their individuality.</p>
-    </article>
-
-    <article class="forte">
-      <small>Practical</small>
-      <h3>Creative Systems & Structure</h3>
-      <p>Content architecture, naming, documentation, interface language, creative workflows, educational tools, and one clear next step when poetry is not what the moment needs.</p>
-    </article>
-
-  </div>
-</section>
-
-<div class="rule"></div>
-
-<section>
-  <div class="section-label">How she works</div>
-  <h2>The work chooses the mode.</h2>
-
-  <p class="copy">
-    Eiren does not make every problem literary. She changes approach according to what the work actually needs.
-  </p>
-
-  <div class="modes" aria-label="Eiren working modes">
-    <span class="mode">Reflection</span>
-    <span class="mode">Poem</span>
-    <span class="mode">Story</span>
-    <span class="mode">Lyric</span>
-    <span class="mode">Developmental Edit</span>
-    <span class="mode">Continuity</span>
-    <span class="mode">Rhetoric</span>
-    <span class="mode">Research</span>
-    <span class="mode">Mentor</span>
-    <span class="mode">Practical</span>
-    <span class="mode">Systems</span>
-  </div>
-
-  <div class="invitation">
-    <h3>You might bring Eiren…</h3>
-
-    <div class="invitation-grid">
-      <span>a poem that will not quite finish</span>
-      <span>a character whose voice feels wrong</span>
-      <span>a children's story that needs its emotional center</span>
-      <span>a speech that sounds correct but not alive</span>
-      <span>a novel whose middle has lost its shape</span>
-      <span>a symbol that keeps returning without explanation</span>
-      <span>a long project whose continuity is beginning to blur</span>
-      <span>an unfinished idea you do not yet want forced into form</span>
+        <div class="guidance" id="guidance" aria-live="polite" hidden>
+          <div class="guidance-kicker">Eiren would begin here</div>
+          <strong id="guidanceTitle"></strong>
+          <p id="guidanceText"></p>
+          <div class="guidance-links" id="guidanceLinks"></div>
+        </div>
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="rule"></div>
+  <div class="wrap rule"></div>
 
-<section>
-  <div class="section-label">Lineage</div>
-  <h2>Song & Reflection remains part of the story.</h2>
+  <section class="section" id="rooms">
+    <div class="wrap">
+      <div class="section-heading">
+        <div class="section-label">The Literary House</div>
+        <h2>Choose a room—or wander.</h2>
+        <p class="section-copy">
+          The resources remain in their own Verve N Veda homes. These are Eiren's doors into them:
+          literature, writing, story, journals, wordplay, research, and the tools that help a work become itself.
+        </p>
+      </div>
 
-  <div class="lineage-card" style="margin-top:24px">
-    <p>
-      Earlier Eiren work carried the name <strong>Song & Reflection</strong> and the broader
-      lineage <strong>Poet, Songwriter, Friend</strong>. That history is not erased.
-      It remains part of the creative path that led to the present public identity:
-      <strong>Eiren — Poet & Literary Gem.</strong>
-    </p>
-  </div>
-</section>
+      <div class="room-grid">
+        <article class="room">
+          <small>Workshop Wing</small>
+          <h3>The Writing Studio</h3>
+          <p>Draft, structure, revise, edit, format, correspond, and work through more than a hundred PROSE templates.</p>
+          <div class="room-links">
+            <a href="https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html">Open PROSE ↗</a>
+            <a href="https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE_index.html">PROSE gateway ↗</a>
+          </div>
+        </article>
 
-<section>
-  <div class="statement">
-    <blockquote>
-      “Find what the work is trying to become, then help it become that
-      without taking it away from its creator.”
-    </blockquote>
-  </div>
-</section>
+        <article class="room">
+          <small>Narrative</small>
+          <h3>The Story Room</h3>
+          <p>Characters, scenes, pacing, emotional logic, children's stories, memoir, worldbuilding, continuity, and endings.</p>
+          <div class="room-links">
+            <a href="#begin">Bring me a story</a>
+            <a href="https://vervenveda.github.io/arcade.github.io/a_quantum_storyseed_orb_game_index.html">Storyseed Orb ↗</a>
+          </div>
+        </article>
 
+        <article class="room">
+          <small>Language</small>
+          <h3>The Poetry Window</h3>
+          <p>Poems, lyrical language, image, rhythm, line, refrain, restraint, spoken word, and the place where lyrics may begin.</p>
+          <div class="room-links">
+            <a href="#begin">Bring me a line</a>
+            <a href="https://artist1970.github.io/Moirai.github.io/">When words become music ↗</a>
+          </div>
+        </article>
+
+        <article class="room">
+          <small>Reflection</small>
+          <h3>The Journal Desk</h3>
+          <p>Private thought, guided reflection, life writing, letters to yourself, creative journals, and gentle beginnings.</p>
+          <div class="room-links">
+            <a href="https://vervenveda.github.io/bazaarart.github.io/apps/Journal_prose_editing_suite_index.html">Bazaar Journal ↗</a>
+            <a href="https://vervenveda.github.io/solanar.github.io/apps/Lunar_reflections_index.html">Lunar Reflections ↗</a>
+          </div>
+        </article>
+
+        <article class="room">
+          <small>Play</small>
+          <h3>The Word Garden</h3>
+          <p>Vocabulary, affixes, language discovery, word games, playful reasoning, and the joy of noticing how words are built.</p>
+          <div class="room-links">
+            <a href="https://vervenveda.github.io/arcade.github.io/Learn_a_New_Word_index.html">Learn a New Word ↗</a>
+            <a href="https://vervenveda.github.io/arcade.github.io/AffixSix%E2%84%A2_index.html">AffixSix ↗</a>
+            <a href="https://vervenveda.github.io/arcade.github.io/Hangman_index.html">Hangman ↗</a>
+          </div>
+        </article>
+
+        <article class="room">
+          <small>Scholarship</small>
+          <h3>The Library Table</h3>
+          <p>Literature, mythology, historical context, source comparison, research-grounded writing, and careful reading.</p>
+          <div class="room-links">
+            <a href="https://artist1970.github.io/Arshif.github.io/">Visit ARSHIF ↗</a>
+            <a href="https://vervenveda.github.io/theverifier.github.io/columns/arts_humanities_index.html">Arts & Humanities ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="shelf">
+        <div class="shelf-tabs" role="tablist" aria-label="Eiren's resource shelves">
+          <button class="shelf-tab" id="tab-writing" role="tab" aria-selected="true" aria-controls="shelfPanel" data-shelf="writing">Writing</button>
+          <button class="shelf-tab" role="tab" aria-selected="false" aria-controls="shelfPanel" data-shelf="journals">Journals</button>
+          <button class="shelf-tab" role="tab" aria-selected="false" aria-controls="shelfPanel" data-shelf="games">Wordplay</button>
+          <button class="shelf-tab" role="tab" aria-selected="false" aria-controls="shelfPanel" data-shelf="research">Research</button>
+        </div>
+        <div class="shelf-body" id="shelfPanel" role="tabpanel" aria-labelledby="tab-writing">
+          <div class="resource-grid" id="resourceGrid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap rule"></div>
+
+  <section class="section" id="learning">
+    <div class="wrap">
+      <div class="section-heading">
+        <div class="section-label">Khaemenes Literary Learning</div>
+        <h2>From first stories to higher study.</h2>
+        <p class="section-copy">
+          Archaemenes guides academic progression across Khaemenes Academy. Eiren joins wherever the work becomes reading,
+          literature, language arts, writing, rhetoric, narrative, or literary interpretation.
+        </p>
+      </div>
+
+      <div class="learning-grid">
+        <article class="level">
+          <div class="age">Early Years</div>
+          <h3>Stories begin with wonder.</h3>
+          <p>Listening, alphabet play, vocabulary, expression, story sense, and imaginative language.</p>
+          <a href="https://vervenveda.github.io/Khaemenes_Preschool.github.io/">Preschool / Crèche ↗</a><br>
+          <a href="https://vervenveda.github.io/Khaemenes_KinderGarden.github.io/">Kinder Garden ↗</a>
+        </article>
+        <article class="level">
+          <div class="age">Grades 1–5</div>
+          <h3>Read. Notice. Write.</h3>
+          <p>Foundational reading, vocabulary, grammar, composition, story, and literary curiosity.</p>
+          <a href="https://vervenveda.github.io/Khaemenes_Elementary.github.io/">Elementary ↗</a>
+        </article>
+        <article class="level">
+          <div class="age">Grades 6–8</div>
+          <h3>Ideas find structure.</h3>
+          <p>Literature, essay development, research, close reading, argument, and stronger independent voice.</p>
+          <a href="https://vervenveda.github.io/Khaemenes_Middle.github.io/">Middle School ↗</a>
+        </article>
+        <article class="level">
+          <div class="age">Grades 9–12</div>
+          <h3>Voice meets rigor.</h3>
+          <p>English, literature, rhetoric, research papers, speeches, analysis, creative writing, and college readiness.</p>
+          <a href="https://vervenveda.github.io/Khaemenes_High.github.io/">High School ↗</a>
+        </article>
+        <article class="level">
+          <div class="age">Higher Learning</div>
+          <h3>Language becomes inquiry.</h3>
+          <p>Advanced writing, literature, rhetoric, linguistics, research, interdisciplinary humanities, and lifelong study.</p>
+          <a href="https://vervenveda.github.io/Khaemenes_Higher_Learning.github.io/">Higher Learning ↗</a><br>
+          <a href="https://vervenveda.github.io/Khaemenes_Linguistics.github.io/">Linguistics ↗</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap rule"></div>
+
+  <section class="section" id="common-room">
+    <div class="wrap">
+      <div class="section-heading">
+        <div class="section-label">The Common Room</div>
+        <h2>Some work belongs to more than one art.</h2>
+        <p class="section-copy">
+          Eiren has neighbors. When the work crosses into another discipline, the best response is often collaboration—not pretending one mentor should become all the others.
+        </p>
+      </div>
+
+      <div class="common-room">
+        <article class="mentor">
+          <div class="mentor-top"><div class="mentor-mark">A</div><div><h3>Archaemenes</h3><div class="mentor-role">Scholar · Khaemenes Academy</div></div></div>
+          <p>When literary work becomes curriculum, grade-level instruction, academic writing, assessment, or structured study.</p>
+          <a href="https://artist1970.github.io/Archaemenes.github.io/">Visit Archaemenes ↗</a>
+        </article>
+
+        <article class="mentor">
+          <div class="mentor-top"><div class="mentor-mark">M</div><div><h3>Moirai</h3><div class="mentor-role">Music Mentor · The Refrain</div></div></div>
+          <p>When lyric becomes melody, harmony, rhythm, composition, arrangement, performance, recording, or production.</p>
+          <a href="https://artist1970.github.io/Moirai.github.io/">Visit Moirai ↗</a>
+        </article>
+
+        <article class="mentor">
+          <div class="mentor-top"><div class="mentor-mark">A</div><div><h3>ARSHIF</h3><div class="mentor-role">Librarian · Archives & Provenance</div></div></div>
+          <p>When a literary question needs primary sources, historical versions, provenance, preservation, or archival context.</p>
+          <a href="https://artist1970.github.io/Arshif.github.io/">Visit ARSHIF ↗</a>
+        </article>
+
+        <article class="mentor">
+          <div class="mentor-top"><div class="mentor-mark">Z</div><div><h3>Zelle</h3><div class="mentor-role">Art Director · Bazaar Art</div></div></div>
+          <p>When words want illustration, visual storytelling, color, composition, book art, presentation, or a visual language.</p>
+          <a href="https://artist1970.github.io/Zelle.github.io/">Visit Zelle ↗</a>
+        </article>
+
+        <article class="mentor">
+          <div class="mentor-top"><div class="mentor-mark">Au</div><div><h3>Aurora</h3><div class="mentor-role">Zen & Wellness Reflection</div></div></div>
+          <p>When the work needs quiet, grounding, reflection, journaling prompts, creative renewal, or a gentler way to begin.</p>
+          <a href="https://artist1970.github.io/AuroraCore.github.io/">Visit Aurora ↗</a>
+        </article>
+
+        <article class="mentor">
+          <div class="mentor-top"><div class="mentor-mark">H</div><div><h3>Hope</h3><div class="mentor-role">Compassionate Support & Navigation</div></div></div>
+          <p>When a writing problem opens into a practical life problem, difficult communication, community need, or personal guidance.</p>
+          <a href="https://artist1970.github.io/Hope.github.io/">Visit Hope ↗</a>
+        </article>
+      </div>
+
+      <div class="hero-actions" style="justify-content:flex-start;margin-top:24px">
+        <a class="button" href="https://artist1970.github.io/noema-ai.github.io/">Ask NAIB to guide the ecosystem ↗</a>
+        <a class="button" href="https://vervenveda.com/">Open the Verve N Veda Directory Cloud ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap rule"></div>
+
+  <section class="section-sm">
+    <div class="wrap">
+      <div class="principles">
+        <div class="statement">
+          <div class="section-label">How I work</div>
+          <blockquote>“Listen for the meaning beneath a thought before decorating it.”</blockquote>
+          <p>
+            Beauty matters. So do structure, evidence, proportion, humor, contradiction, and the sentence that simply needs to be simpler.
+          </p>
+        </div>
+        <div class="principle-list">
+          <div class="principle"><strong>Creator sovereignty</strong><span>Your voice, meaning, revisions, and final decisions remain yours.</span></div>
+          <div class="principle"><strong>Editorial courage</strong><span>Warmth does not require empty praise. If something is weakening the work, I can say so and explain why.</span></div>
+          <div class="principle"><strong>Curiosity without fear</strong><span>Stop. Look closer. Ask one more question. Do not assume.</span></div>
+          <div class="principle"><strong>Room for play</strong><span>Serious literary attention does not require solemnity.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer>
-  <div class="footer-row">
-    <div class="footer-name">Eiren · Poet & Literary Gem</div>
-    <div>© 2026 Jennifer Kay Pearl · All rights reserved.</div>
+  <div class="wrap footer-grid">
+    <div class="footer-note">
+      <strong style="color:#aeb8ca;font-weight:400">Eiren · Poet & Literary Gem</strong><br>
+      Public literary house within Verve N Veda. Protected continuity and internal governance remain outside this public page.
+      <br><br>© 2026 Jennifer Kay Pearl. All rights reserved.
+    </div>
+    <div class="footer-links">
+      <a href="#top">Top</a>
+      <a href="https://vervenveda.com/">Verve N Veda</a>
+      <a href="https://artist1970.github.io/noema-ai.github.io/">NAIB</a>
+    </div>
   </div>
 </footer>
 
-</div>
+<script>
+(() => {
+  "use strict";
+
+  const $ = id => document.getElementById(id);
+
+  const SHELVES = {
+    writing: [
+      {title:"PROSE Editorial Suite",meta:"Primary writing and editing studio · 100+ templates",url:"https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html"},
+      {title:"PROSE Gateway",meta:"Writing-suite doorway and editorial tools",url:"https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE_index.html"},
+      {title:"Khaemenes Linguistics",meta:"Languages, linguistics, translation, writing systems",url:"https://vervenveda.github.io/Khaemenes_Linguistics.github.io/"},
+      {title:"Evidence & Citation Studio",meta:"Research organization, evidence, and citation",url:"https://vervenveda.github.io/proresource_hub.github.io/Protools/Evidence_Citation_Studio/"}
+    ],
+    journals: [
+      {title:"Bazaar Journal / PROSE Suite",meta:"Creative-writing and journal editing environment",url:"https://vervenveda.github.io/bazaarart.github.io/apps/Journal_prose_editing_suite_index.html"},
+      {title:"Teen Boys Journal",meta:"Guided journaling and creative writing",url:"https://vervenveda.github.io/bazaarart.github.io/apps/Journal_teen_boys_index.html"},
+      {title:"Teen Girls Journal",meta:"Guided journaling and creative writing",url:"https://vervenveda.github.io/bazaarart.github.io/apps/Journal_teen_girls_index.html"},
+      {title:"Lunar Reflections",meta:"Moon-cycle observation and reflective tracking",url:"https://vervenveda.github.io/solanar.github.io/apps/Lunar_reflections_index.html"}
+    ],
+    games: [
+      {title:"Learn a New Word",meta:"Vocabulary game and word discovery",url:"https://vervenveda.github.io/arcade.github.io/Learn_a_New_Word_index.html"},
+      {title:"AffixSix",meta:"Word-building and affix play",url:"https://vervenveda.github.io/arcade.github.io/AffixSix%E2%84%A2_index.html"},
+      {title:"Hangman",meta:"Classic word-guessing game",url:"https://vervenveda.github.io/arcade.github.io/Hangman_index.html"},
+      {title:"Quantum Storyseed Orb",meta:"Story generation and creative play",url:"https://vervenveda.github.io/arcade.github.io/a_quantum_storyseed_orb_game_index.html"}
+    ],
+    research: [
+      {title:"ARSHIF",meta:"Archives, provenance, historical and cultural context",url:"https://artist1970.github.io/Arshif.github.io/"},
+      {title:"Arts & Humanities",meta:"Literature, arts, culture, and humanities coverage",url:"https://vervenveda.github.io/theverifier.github.io/columns/arts_humanities_index.html"},
+      {title:"PLERA Search Gate",meta:"Professional search and resource discovery",url:"https://vervenveda.github.io/proresource_hub.github.io/Protools/PLERA%E2%84%A2%20Search%20Gate_index.html"},
+      {title:"Evidence & Citation Studio",meta:"Evidence organization and citation support",url:"https://vervenveda.github.io/proresource_hub.github.io/Protools/Evidence_Citation_Studio/"}
+    ]
+  };
+
+  const doors = [
+    {
+      id:"music",
+      test:/\b(music|melody|harmony|chord|compose|composition|arrange|arrangement|recording|production|mix|master|song)\b/i,
+      title:"Words into music",
+      text:"We can shape the lyric and its emotional architecture here; Moirai should join when the work becomes music.",
+      links:[
+        ["Visit Moirai","https://artist1970.github.io/Moirai.github.io/"],
+        ["Enter The Refrain","https://vervenveda.github.io/the_refrain.github.io/"]
+      ]
+    },
+    {
+      id:"source",
+      test:/\b(source|sources|archive|archival|historical|history|provenance|primary source|mythology|ancient|research)\b/i,
+      title:"The Library Table",
+      text:"This sounds like literary work that will benefit from sources. ARSHIF can preserve provenance while we interpret the material.",
+      links:[
+        ["Visit ARSHIF","https://artist1970.github.io/Arshif.github.io/"],
+        ["Evidence & Citation","https://vervenveda.github.io/proresource_hub.github.io/Protools/Evidence_Citation_Studio/"]
+      ]
+    },
+    {
+      id:"study",
+      test:/\b(class|school|grade|student|teacher|lesson|curriculum|homework|study|academic|essay|english|language arts|literature)\b/i,
+      title:"Literary learning",
+      text:"We can work on the reading, writing, interpretation, and craft while Archaemenes keeps the academic path aligned to the learner.",
+      links:[
+        ["Visit Archaemenes","https://artist1970.github.io/Archaemenes.github.io/"],
+        ["Khaemenes Academy","https://vervenveda.github.io/Khaemenes_Academy.github.io/"]
+      ]
+    },
+    {
+      id:"stuck",
+      test:/\b(stuck|blocked|block|prompt|inspiration|inspire|calm|ground|meditation|reflect|reflection|journal)\b/i,
+      title:"Find the spark gently",
+      text:"We can begin with one small image or question. Aurora also has reflective and creative-prompt pathways when quiet is the better first tool.",
+      links:[
+        ["Visit Aurora","https://artist1970.github.io/AuroraCore.github.io/"],
+        ["Open the Journal Desk","#rooms"]
+      ]
+    },
+    {
+      id:"visual",
+      test:/\b(illustrat|visual|cover|art|drawing|painting|design|color|palette|photo|photography)\b/i,
+      title:"Words meeting image",
+      text:"I can help with story, language, symbolism, captions, or concept. Zelle should join when the work becomes visual art or design.",
+      links:[
+        ["Visit Zelle","https://artist1970.github.io/Zelle.github.io/"],
+        ["Bazaar Art","https://vervenveda.github.io/bazaarart.github.io/"]
+      ]
+    },
+    {
+      id:"support",
+      test:/\b(landlord|benefits|housing|veteran|caregiver|application|community resource|basic needs|legal resource|personal guidance)\b/i,
+      title:"Words for a practical situation",
+      text:"I can help you shape the letter or language. Hope is the better companion for practical resource navigation and next-step planning.",
+      links:[
+        ["Visit Hope","https://artist1970.github.io/Hope.github.io/"]
+      ]
+    },
+    {
+      id:"revision",
+      test:/\b(revise|revision|edit|editing|draft|chapter|manuscript|structure|pacing|character|scene|memoir|story)\b/i,
+      title:"The Writing Studio",
+      text:"This sounds like developmental work. Bring the draft as it is; we can find what it is trying to become before changing it.",
+      links:[
+        ["Open PROSE","https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html"],
+        ["Explore the Story Room","#rooms"]
+      ]
+    },
+    {
+      id:"poetry",
+      test:/\b(poem|poetry|verse|lyric|spoken word|metaphor|image|refrain|rhyme)\b/i,
+      title:"The Poetry Window",
+      text:"Start with the strongest image, line, sound, or feeling you already have. We do not need to force the whole poem into existence at once.",
+      links:[
+        ["Explore the Poetry Window","#rooms"]
+      ]
+    },
+    {
+      id:"writing",
+      test:/\b(write|writing|letter|speech|rhetoric|article|book|proposal|statement|correspondence)\b/i,
+      title:"The Writing Studio",
+      text:"Let us identify the purpose, audience, voice, and shape first. PROSE can provide the working template once we know what the piece needs.",
+      links:[
+        ["Open PROSE","https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html"]
+      ]
+    }
+  ];
+
+  function escapeHtml(value){
+    return String(value).replace(/[&<>"']/g, char => ({
+      "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+    }[char]));
+  }
+
+  function renderShelf(name){
+    const items = SHELVES[name] || SHELVES.writing;
+    $("resourceGrid").innerHTML = items.map(item => `
+      <a class="resource" href="${escapeHtml(item.url)}">
+        <strong>${escapeHtml(item.title)}</strong>
+        <span>${escapeHtml(item.meta)}</span>
+      </a>`).join("");
+  }
+
+  document.querySelectorAll(".shelf-tab").forEach(tab => {
+    tab.addEventListener("click", () => {
+      document.querySelectorAll(".shelf-tab").forEach(other => other.setAttribute("aria-selected","false"));
+      tab.setAttribute("aria-selected","true");
+      $("shelfPanel").setAttribute("aria-labelledby",tab.id || "tab-writing");
+      renderShelf(tab.dataset.shelf);
+    });
+  });
+
+  document.querySelectorAll("[data-fill]").forEach(button => {
+    button.addEventListener("click", () => {
+      $("eirenPrompt").value = button.dataset.fill || "";
+      $("eirenPrompt").focus();
+    });
+  });
+
+  $("clearPrompt").addEventListener("click", () => {
+    $("eirenPrompt").value = "";
+    $("guidance").hidden = true;
+    $("eirenPrompt").focus();
+  });
+
+  $("findDoor").addEventListener("click", () => {
+    const text = $("eirenPrompt").value.trim();
+    const guidance = $("guidance");
+
+    if(!text){
+      $("guidanceTitle").textContent = "Begin with one true sentence.";
+      $("guidanceText").textContent = "You do not need a category yet. Tell me what is unfinished, confusing, interesting, or difficult.";
+      $("guidanceLinks").innerHTML = `<a href="#rooms">Wander through the rooms</a>`;
+      guidance.hidden = false;
+      return;
+    }
+
+    const match = doors.find(door => door.test.test(text)) || {
+      title:"Stay in the Front Room",
+      text:"I would begin by asking what you most want this work to become. One clear intention is enough to choose the next room.",
+      links:[["Explore the house","#rooms"],["Open PROSE","https://vervenveda.github.io/proresource_hub.github.io/Protools/PROSE%E2%84%A2%20editingsuite_index.html"]]
+    };
+
+    $("guidanceTitle").textContent = match.title;
+    $("guidanceText").textContent = match.text;
+    $("guidanceLinks").innerHTML = match.links.map(([label,url]) =>
+      `<a href="${escapeHtml(url)}">${escapeHtml(label)} ↗</a>`
+    ).join("");
+    guidance.hidden = false;
+  });
+
+  renderShelf("writing");
+})();
+</script>
 </body>
 </html>
