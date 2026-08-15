@@ -247,3 +247,15 @@
     }
   });
 })();
+
+/* Issue 8 bridge: load Eiren's independent PROSE router after ARSHIF. */
+(() => {
+  "use strict";
+  if(document.querySelector('script[data-eiren-prose-router]')) return;
+
+  const script = document.createElement("script");
+  script.src = "./prose-literary-router.js";
+  script.async = false;
+  script.dataset.eirenProseRouter = "true";
+  document.head.appendChild(script);
+})();
