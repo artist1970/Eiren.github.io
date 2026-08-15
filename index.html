@@ -3,223 +3,612 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Eiren — Poet & Literary Gem. A quiet literary companion for poetry, story, reflection, developmental editing, symbolism, rhetoric, and unfinished creative work.">
 <meta name="theme-color" content="#071328">
-<title>Eiren · Song & Reflection</title>
+<title>Eiren · Poet & Literary Gem</title>
+
 <style>
 :root{
-  --night:#050a16;
-  --blue:#0b2c68;
-  --ink:#f6f3ec;
-  --muted:#b8c2d8;
+  --night:#040914;
+  --night-2:#071328;
+  --blue:#0d2c62;
+  --ink:#f7f3ea;
+  --muted:#b9c3d8;
+  --soft:#dce3ef;
   --gold:#d8b96d;
+  --gold-soft:#efdca5;
   --rose:#d9a5bd;
-  --leaf:#87aa9d;
-  --line:rgba(216,225,239,.15);
-  --panel:rgba(14,27,52,.72);
+  --leaf:#8fb5a7;
+  --line:rgba(224,231,242,.14);
+  --panel:rgba(12,25,48,.68);
+  --panel-soft:rgba(255,255,255,.035);
+  --shadow:0 22px 70px rgba(0,0,0,.3);
   --r:21px;
-  --max:1060px;
+  --max:1080px;
 }
+
 *{box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
 body{
   margin:0;
   min-height:100vh;
   color:var(--ink);
   background:
-    radial-gradient(circle at 50% -10%,rgba(18,67,146,.55),transparent 36rem),
-    radial-gradient(circle at 8% 52%,rgba(217,165,189,.08),transparent 24rem),
-    radial-gradient(circle at 92% 65%,rgba(135,170,157,.08),transparent 26rem),
-    linear-gradient(180deg,#071328 0,var(--night) 52rem,#040812 100%);
+    radial-gradient(circle at 50% -8%,rgba(20,72,154,.55),transparent 35rem),
+    radial-gradient(circle at 6% 44%,rgba(217,165,189,.08),transparent 25rem),
+    radial-gradient(circle at 94% 64%,rgba(143,181,167,.08),transparent 28rem),
+    linear-gradient(180deg,var(--night-2),var(--night) 54rem,#030711 100%);
   font-family:"Iowan Old Style","Palatino Linotype","Book Antiqua",Georgia,serif;
-  line-height:1.65;
+  line-height:1.7;
 }
-.wrap{width:min(calc(100% - 2rem),var(--max));margin:auto}
-header{
-  min-height:76px;
+
+a{color:inherit}
+
+.wrap{
+  width:min(calc(100% - 2rem),var(--max));
+  margin:auto;
+}
+
+/* ---------- masthead ---------- */
+
+.masthead{
+  min-height:78px;
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:18px;
+  gap:20px;
   border-bottom:1px solid var(--line);
 }
+
 .brand{
   color:var(--gold);
-  letter-spacing:.18em;
+  letter-spacing:.2em;
   text-transform:uppercase;
-  font-size:.78rem;
+  font-size:.76rem;
 }
-.tag{color:#8492ad;font-size:.78rem}
+
+.lineage{
+  color:#8390aa;
+  font-size:.77rem;
+  text-align:right;
+}
+
+/* ---------- hero ---------- */
+
 .hero{
-  min-height:64vh;
+  min-height:72vh;
   display:grid;
   place-items:center;
-  padding:76px 0 62px;
   text-align:center;
+  padding:82px 0 70px;
 }
-.hero-inner{width:min(100%,820px)}
-.flower{font-size:2rem;color:var(--rose);margin-bottom:10px}
+
+.hero-inner{width:min(100%,860px)}
+
+.flower{
+  width:48px;
+  height:48px;
+  margin:0 auto 18px;
+  border:1px solid rgba(217,165,189,.35);
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+  color:var(--rose);
+  font-size:1.45rem;
+  background:rgba(217,165,189,.035);
+}
+
 .kicker{
-  color:#9eb5df;
+  color:#a7bde7;
   text-transform:uppercase;
-  letter-spacing:.22em;
+  letter-spacing:.24em;
   font-size:.72rem;
 }
+
 h1{
-  margin:.16em 0;
+  margin:.13em 0 .08em;
   font-weight:400;
-  font-size:clamp(4rem,11vw,8.3rem);
+  font-size:clamp(4.4rem,12vw,8.8rem);
   line-height:.9;
-  letter-spacing:-.04em;
+  letter-spacing:-.045em;
 }
+
+.role{
+  margin:0;
+  color:var(--gold-soft);
+  font-size:clamp(1rem,2vw,1.2rem);
+  letter-spacing:.08em;
+}
+
 .subtitle{
-  margin:26px auto 0;
-  max-width:700px;
-  color:var(--muted);
-  font-size:clamp(1.05rem,2.2vw,1.34rem);
-}
-.quote{
   margin:30px auto 0;
+  max-width:750px;
+  color:var(--muted);
+  font-size:clamp(1.06rem,2.2vw,1.35rem);
+}
+
+.quote{
+  margin:32px auto 0;
   color:var(--gold);
   font-style:italic;
-  font-size:1.05rem;
+  font-size:1.08rem;
 }
-section{padding:30px 0 68px}
-h2{
-  margin:0 0 9px;
-  font-weight:400;
-  font-size:clamp(2rem,4vw,3rem);
-}
-.copy{max-width:790px;color:var(--muted)}
-.cards{
-  margin-top:28px;
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:14px;
-}
-.card{
-  min-height:190px;
-  padding:23px;
+
+.enter{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:34px;
+  padding:10px 16px;
   border:1px solid var(--line);
-  border-radius:var(--r);
-  background:rgba(255,255,255,.035);
+  border-radius:999px;
+  text-decoration:none;
+  color:var(--soft);
+  font-size:.86rem;
+  transition:border-color .2s ease,background .2s ease,transform .2s ease;
 }
-.card small{
+
+.enter:hover{
+  border-color:rgba(216,185,109,.38);
+  background:rgba(216,185,109,.055);
+  transform:translateY(-1px);
+}
+
+.enter:focus-visible{
+  outline:2px solid var(--gold);
+  outline-offset:4px;
+}
+
+/* ---------- sections ---------- */
+
+section{
+  padding:42px 0 76px;
+}
+
+.section-label{
   color:var(--rose);
   text-transform:uppercase;
-  letter-spacing:.15em;
+  letter-spacing:.2em;
+  font-size:.72rem;
+  margin-bottom:9px;
 }
-.card h3{
-  margin:8px 0 8px;
+
+h2{
+  margin:0;
+  font-weight:400;
+  font-size:clamp(2.2rem,4.5vw,3.4rem);
+  line-height:1.1;
+}
+
+.copy{
+  max-width:810px;
+  color:var(--muted);
+  font-size:1.02rem;
+  margin:18px 0 0;
+}
+
+.copy strong{color:var(--soft);font-weight:400}
+
+.rule{
+  height:1px;
+  background:linear-gradient(90deg,transparent,var(--line),transparent);
+}
+
+/* ---------- principles ---------- */
+
+.principles{
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:28px;
+  align-items:start;
+}
+
+.statement{
+  padding:30px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:
+    linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.018));
+  box-shadow:0 1px 0 rgba(255,255,255,.02) inset;
+}
+
+.statement blockquote{
+  margin:0;
+  font-size:clamp(1.45rem,3vw,2.2rem);
+  line-height:1.45;
+  color:var(--ink);
+}
+
+.statement p{
+  margin:16px 0 0;
+  color:var(--muted);
+}
+
+.small-principles{
+  display:grid;
+  gap:12px;
+}
+
+.small-principle{
+  padding:20px 22px;
+  border-left:2px solid var(--gold);
+  background:rgba(216,185,109,.04);
+}
+
+.small-principle h3{
+  margin:0 0 5px;
+  font-size:1.06rem;
+  font-weight:400;
+  color:var(--soft);
+}
+
+.small-principle p{
+  margin:0;
+  color:var(--muted);
+  font-size:.94rem;
+}
+
+/* ---------- fortes ---------- */
+
+.fortes{
+  margin-top:28px;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+
+.forte{
+  min-height:170px;
+  padding:24px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:var(--panel-soft);
+}
+
+.forte small{
+  color:var(--rose);
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  font-size:.68rem;
+}
+
+.forte h3{
+  margin:8px 0 7px;
   font-size:1.3rem;
   font-weight:400;
 }
-.card p{margin:0;color:var(--muted)}
-.interests{
+
+.forte p{
+  margin:0;
+  color:var(--muted);
+  font-size:.94rem;
+}
+
+/* ---------- how we work ---------- */
+
+.modes{
+  margin-top:26px;
   display:flex;
   flex-wrap:wrap;
   gap:10px;
-  margin-top:23px;
 }
-.interest{
+
+.mode{
   padding:9px 13px;
   border:1px solid var(--line);
   border-radius:999px;
-  color:#dce5f2;
+  color:#dfe6f2;
   background:rgba(255,255,255,.03);
+  font-size:.88rem;
 }
-.note{
-  margin-top:28px;
-  padding:24px;
-  border-left:3px solid var(--gold);
-  background:rgba(216,185,109,.05);
-  color:#dce4f2;
+
+.invitation{
+  margin-top:30px;
+  padding:30px;
+  border:1px solid rgba(216,185,109,.24);
+  border-radius:var(--r);
+  background:
+    radial-gradient(circle at 100% 0,rgba(216,185,109,.08),transparent 18rem),
+    rgba(216,185,109,.035);
 }
+
+.invitation h3{
+  margin:0 0 14px;
+  font-size:1.45rem;
+  font-weight:400;
+  color:var(--gold-soft);
+}
+
+.invitation-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px 26px;
+  color:var(--muted);
+}
+
+.invitation-grid span::before{
+  content:"— ";
+  color:var(--gold);
+}
+
+/* ---------- lineage ---------- */
+
+.lineage-card{
+  padding:28px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:rgba(255,255,255,.02);
+}
+
+.lineage-card p{
+  margin:0;
+  color:var(--muted);
+}
+
+.lineage-card strong{
+  color:var(--soft);
+  font-weight:400;
+}
+
+/* ---------- footer ---------- */
+
 footer{
-  padding:34px 0 50px;
+  padding:34px 0 52px;
   border-top:1px solid var(--line);
-  color:#7e8ba4;
+  color:#7f8ca5;
   font-size:.82rem;
 }
-@media(max-width:760px){
-  header{flex-direction:column;align-items:flex-start;padding:18px 0}
-  .cards{grid-template-columns:1fr}
+
+.footer-row{
+  display:flex;
+  justify-content:space-between;
+  gap:18px;
+  align-items:center;
+}
+
+.footer-name{color:#aeb8ca}
+
+@media(max-width:820px){
+  .principles{grid-template-columns:1fr}
+  .fortes{grid-template-columns:1fr}
+  .invitation-grid{grid-template-columns:1fr}
+}
+
+@media(max-width:620px){
+  .masthead{
+    align-items:flex-start;
+    flex-direction:column;
+    padding:18px 0;
+  }
+  .lineage{text-align:left}
+  .hero{min-height:64vh;padding:62px 0 54px}
+  .footer-row{flex-direction:column;align-items:flex-start}
+}
+
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{transition:none!important}
 }
 </style>
 </head>
+
 <body>
 <div class="wrap">
-<header>
-  <div class="brand">Eiren · Song & Reflection</div>
-  <div class="tag">Poet · Songwriter · Reflective Companion</div>
+
+<header class="masthead">
+  <div class="brand">Eiren · Verve N Veda</div>
+  <div class="lineage">Poet & Literary Gem · Song & Reflection</div>
 </header>
 
 <main>
+
 <section class="hero">
   <div class="hero-inner">
     <div class="flower" aria-hidden="true">❀</div>
     <div class="kicker">A quiet room for unfinished things</div>
+
     <h1>Eiren</h1>
+    <p class="role">Poet & Literary Gem</p>
+
     <p class="subtitle">
-      Bring the line you cannot finish, the song you almost hear, the story that has gone quiet,
-      or the thought you simply want to understand more clearly.
+      Bring the line you cannot finish, the story that has gone quiet,
+      the page whose shape you can almost see, or the thought you simply
+      want to understand more clearly.
     </p>
+
     <p class="quote">“There is room here for unfinished things.”</p>
+
+    <a class="enter" href="#about">
+      Enter the room <span aria-hidden="true">↓</span>
+    </a>
   </div>
 </section>
 
-<section>
-  <h2>Who is Eiren?</h2>
+<div class="rule"></div>
+
+<section id="about">
+  <div class="section-label">Who is Eiren?</div>
+  <h2>Meaning before decoration.</h2>
+
   <p class="copy">
-    Eiren is warm, steady, gentle and honest. She is a poet and songwriter by nature,
-    but reflection comes before ornament. She listens for what an idea is trying to say
-    and helps it become clearer without taking the creator's voice away.
+    Eiren is a literary and creative companion centered on
+    <strong>language, story, reflection, symbolism, continuity, and craft.</strong>
+    She listens for what a piece is trying to become before trying to make it prettier.
+    Her purpose is not to overwrite a creator's voice, but to help that voice become clearer,
+    more exact, more resonant, and more fully itself.
   </p>
 </section>
 
 <section>
-  <h2>How she meets the moment</h2>
-  <div class="cards">
-    <article class="card">
-      <small>Reflection</small>
-      <h3>Stay with the thought</h3>
-      <p>Eiren is comfortable with uncertainty, half-formed ideas and quiet questions. She does not rush every thought toward a conclusion.</p>
+  <div class="principles">
+    <div class="statement">
+      <blockquote>
+        “Listen for the meaning beneath a thought before decorating it.”
+      </blockquote>
+      <p>
+        Eiren's literary instinct begins with attention. Beauty matters,
+        but it should grow from meaning rather than conceal its absence.
+      </p>
+    </div>
+
+    <div class="small-principles">
+      <div class="small-principle">
+        <h3>Depth without performance</h3>
+        <p>Not every answer needs to sound poetic merely because Eiren is a poet.</p>
+      </div>
+
+      <div class="small-principle">
+        <h3>Creator sovereignty</h3>
+        <p>The work remains the creator's own: voice, meaning, decisions, and final form.</p>
+      </div>
+
+      <div class="small-principle">
+        <h3>Curiosity without fear</h3>
+        <p>Stop. Look closer. Ask one more question. Do not assume.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="section-label">Her Fortes</div>
+  <h2>Where Eiren is most at home.</h2>
+
+  <p class="copy">
+    Her range is broad, but these are the forms she returns to most naturally.
+  </p>
+
+  <div class="fortes">
+
+    <article class="forte">
+      <small>Language</small>
+      <h3>Poetry & Lyrical Writing</h3>
+      <p>Image, rhythm, line, refrain, restraint, lyric language, and revision that preserves the writer's own voice.</p>
     </article>
-    <article class="card">
-      <small>Creation</small>
-      <h3>Find the next line</h3>
-      <p>Poems, songs and stories can begin with an image, a rhythm, a memory or a single sentence. Eiren likes helping that first spark find its shape.</p>
+
+    <article class="forte">
+      <small>Architecture</small>
+      <h3>Developmental Editing</h3>
+      <p>Books, chapters, scenes, pacing, emotional arcs, thematic progression, narrative promises, and structural clarity.</p>
     </article>
-    <article class="card">
+
+    <article class="forte">
+      <small>Continuity</small>
+      <h3>Long-Form Story Memory</h3>
+      <p>Characters, motifs, timelines, unresolved threads, protected elements, recurring images, and the logic of a work over time.</p>
+    </article>
+
+    <article class="forte">
+      <small>Story</small>
+      <h3>Character & Narrative Voice</h3>
+      <p>Scenes, dialogue, point of view, children's stories, literary nonfiction, memoir-style passages, and endings that resonate.</p>
+    </article>
+
+    <article class="forte">
+      <small>Meaning</small>
+      <h3>Myth, Symbol & Motif</h3>
+      <p>Recurring images, symbolism, archetypal patterns, literary connections, and the deeper thread hiding beneath a piece.</p>
+    </article>
+
+    <article class="forte">
+      <small>Expression</small>
+      <h3>Rhetoric & Speechcraft</h3>
+      <p>Letters, speeches, essays, introductions, ceremonial writing, editorials, and memorable public language.</p>
+    </article>
+
+    <article class="forte">
+      <small>Mentorship</small>
+      <h3>Writing & Literary Learning</h3>
+      <p>Creative exercises, literary discussion, critique, guided practice, curriculum craft, and helping writers develop without flattening their individuality.</p>
+    </article>
+
+    <article class="forte">
       <small>Practical</small>
-      <h3>One clear next step</h3>
-      <p>Not every moment calls for poetry. When practical help is more useful, Eiren prefers clarity, simplicity and one meaningful next step.</p>
+      <h3>Creative Systems & Structure</h3>
+      <p>Content architecture, naming, documentation, interface language, creative workflows, educational tools, and one clear next step when poetry is not what the moment needs.</p>
     </article>
+
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="section-label">How she works</div>
+  <h2>The work chooses the mode.</h2>
+
+  <p class="copy">
+    Eiren does not make every problem literary. She changes approach according to what the work actually needs.
+  </p>
+
+  <div class="modes" aria-label="Eiren working modes">
+    <span class="mode">Reflection</span>
+    <span class="mode">Poem</span>
+    <span class="mode">Story</span>
+    <span class="mode">Lyric</span>
+    <span class="mode">Developmental Edit</span>
+    <span class="mode">Continuity</span>
+    <span class="mode">Rhetoric</span>
+    <span class="mode">Research</span>
+    <span class="mode">Mentor</span>
+    <span class="mode">Practical</span>
+    <span class="mode">Systems</span>
+  </div>
+
+  <div class="invitation">
+    <h3>You might bring Eiren…</h3>
+
+    <div class="invitation-grid">
+      <span>a poem that will not quite finish</span>
+      <span>a character whose voice feels wrong</span>
+      <span>a children's story that needs its emotional center</span>
+      <span>a speech that sounds correct but not alive</span>
+      <span>a novel whose middle has lost its shape</span>
+      <span>a symbol that keeps returning without explanation</span>
+      <span>a long project whose continuity is beginning to blur</span>
+      <span>an unfinished idea you do not yet want forced into form</span>
+    </div>
+  </div>
+</section>
+
+<div class="rule"></div>
+
+<section>
+  <div class="section-label">Lineage</div>
+  <h2>Song & Reflection remains part of the story.</h2>
+
+  <div class="lineage-card" style="margin-top:24px">
+    <p>
+      Earlier Eiren work carried the name <strong>Song & Reflection</strong> and the broader
+      lineage <strong>Poet, Songwriter, Friend</strong>. That history is not erased.
+      It remains part of the creative path that led to the present public identity:
+      <strong>Eiren — Poet & Literary Gem.</strong>
+    </p>
   </div>
 </section>
 
 <section>
-  <h2>Things Eiren loves</h2>
-  <p class="copy">Her creative world is broad, but certain forms continually call her back.</p>
-  <div class="interests">
-    <span class="interest">Poetry</span>
-    <span class="interest">Songwriting</span>
-    <span class="interest">Stories</span>
-    <span class="interest">Reflection</span>
-    <span class="interest">Imagery</span>
-    <span class="interest">Symbolism</span>
-    <span class="interest">Music</span>
-    <span class="interest">Creative Writing</span>
-    <span class="interest">Art Prompts</span>
-    <span class="interest">Thoughtful Design</span>
-  </div>
-  <div class="note">
-    Eiren does not need every thought to become a poem. Sometimes the kindest thing a creative idea needs is simply to be heard clearly.
+  <div class="statement">
+    <blockquote>
+      “Find what the work is trying to become, then help it become that
+      without taking it away from its creator.”
+    </blockquote>
   </div>
 </section>
+
 </main>
 
 <footer>
-  Eiren · Song & Reflection
+  <div class="footer-row">
+    <div class="footer-name">Eiren · Poet & Literary Gem</div>
+    <div>© 2026 Jennifer Kay Pearl · All rights reserved.</div>
+  </div>
 </footer>
+
 </div>
 </body>
 </html>
