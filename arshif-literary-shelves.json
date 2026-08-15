@@ -1,0 +1,275 @@
+{
+  "schema": "eiren-arshif-literary-shelves",
+  "schemaVersion": 1,
+  "generated": "2026-08-15",
+  "consumer": {
+    "id": "eiren",
+    "title": "Poet & Literary Gem",
+    "department": "Literature & Literary Arts"
+  },
+  "source": {
+    "id": "verve.arshif",
+    "name": "ARSHIF — The Living Archive of Human Knowledge",
+    "manifestUrl": "https://vervenveda.com/Arshif.github.io/mentor-manifest.json",
+    "manifestVersion": 5,
+    "verifiedDate": "2026-08-15",
+    "ownershipRule": "ARSHIF remains resource owner and source authority. Eiren consumes literary metadata only.",
+    "syncRule": "If ARSHIF manifest version or updated date changes, refresh this snapshot before changing automated literary routing."
+  },
+  "boundaries": {
+    "arshifOwns": [
+      "collections",
+      "cataloging",
+      "provenance",
+      "source-status",
+      "archival-context",
+      "preservation",
+      "research-pathways",
+      "archive-ethics"
+    ],
+    "eirenOwns": [
+      "literary-interpretation",
+      "close-reading",
+      "comparative-literature",
+      "poetry-and-story-craft",
+      "voice-and-style",
+      "symbol-and-motif",
+      "rhetoric",
+      "literary-writing-mentorship"
+    ],
+    "archaemenesOwns": [
+      "curriculum",
+      "grade-level-progression",
+      "academic-assessment",
+      "instructional-sequencing",
+      "course-alignment"
+    ],
+    "principle": "ARSHIF retrieves and contextualizes the source; Eiren reads and interprets the literature; Archaemenes governs academic progression when the work is part of formal learning."
+  },
+  "halls": [
+    {
+      "id": "reading-literacy",
+      "title": "Reading & Literacy Hall",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/literacy-childrens-classics/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "primary-literary-specialist",
+      "eirenFocus": [
+        "literary-comprehension",
+        "story",
+        "character",
+        "theme",
+        "writing-from-reading",
+        "discussion"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes"
+      ],
+      "routable": true
+    },
+    {
+      "id": "world-classics",
+      "title": "World Classics & Humanities Hall",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/literacy-world-classics/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "primary-literary-specialist",
+      "eirenFocus": [
+        "close-reading",
+        "comparative-literature",
+        "genre-and-form",
+        "voice-and-style",
+        "symbol-and-motif",
+        "literary-argument"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes"
+      ],
+      "routable": true
+    },
+    {
+      "id": "poetry",
+      "title": "Poetry Hall",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/literacy-poetry-9th-university/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "primary-literary-specialist",
+      "eirenFocus": [
+        "poetry-analysis",
+        "poetic-form",
+        "image",
+        "line",
+        "sound",
+        "voice",
+        "craft",
+        "workshop"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes",
+        "moirai"
+      ],
+      "routable": true
+    },
+    {
+      "id": "oral-traditions",
+      "title": "Indigenous Oral Traditions & Storywork Hall",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/literacy-indiginous-oral-traditions/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "supporting-literary-specialist",
+      "eirenFocus": [
+        "public-literary-analysis",
+        "story-form",
+        "performance-language",
+        "narrative-memory",
+        "translation-awareness"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes"
+      ],
+      "routable": true,
+      "specialBoundary": "Protocol, authority, consent, community sovereignty, restricted knowledge, and archival ethics remain with ARSHIF and the relevant communities. Literary analysis does not create permission."
+    },
+    {
+      "id": "lost-works",
+      "title": "The Palimpsest Vault",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/literacy-lost-books/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "supporting-literary-specialist",
+      "eirenFocus": [
+        "fragment-interpretation",
+        "canon-and-reception",
+        "textual-comparison",
+        "literary-recovery",
+        "absence-and-silence-as-literary-context"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes"
+      ],
+      "routable": true
+    },
+    {
+      "id": "philosophy",
+      "title": "Philosophy Hall",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/philosophy/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "supporting-literary-and-rhetoric-specialist",
+      "eirenFocus": [
+        "close-reading",
+        "argument-language",
+        "rhetoric",
+        "metaphor",
+        "clarity-of-expression",
+        "essay-development"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes"
+      ],
+      "routable": true
+    },
+    {
+      "id": "bible-history",
+      "title": "Bible & History Parallels Hall",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/historical-biblical-parallels/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "supporting-literary-specialist",
+      "eirenFocus": [
+        "literary-form",
+        "narrative",
+        "poetry",
+        "rhetoric",
+        "comparative-textual-reading"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes"
+      ],
+      "routable": true,
+      "specialBoundary": "Historical, archaeological, manuscript, canon-status, and source-evidence claims remain ARSHIF-led. Faith-specific recommendations remain preference-matched."
+    },
+    {
+      "id": "travel-exploration",
+      "title": "Travelogues & Exploration Hall",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/exploration-travelogues/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "supporting-literary-specialist",
+      "eirenFocus": [
+        "travel-writing",
+        "narrative-voice",
+        "testimony",
+        "rhetoric",
+        "counter-narrative",
+        "literary-analysis"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes"
+      ],
+      "routable": true
+    },
+    {
+      "id": "theatre",
+      "title": "Theatre Hall",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/theatre/",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "eirenRole": "primary-literary-specialist",
+      "eirenFocus": [
+        "dramatic-literature",
+        "dialogue",
+        "character",
+        "playwriting",
+        "dramaturgical-writing",
+        "criticism"
+      ],
+      "collaborators": [
+        "eiren",
+        "archaemenes",
+        "zelle",
+        "moirai"
+      ],
+      "routable": true
+    }
+  ],
+  "focusedShelves": [
+    {
+      "id": "reading-room",
+      "title": "ARSHIF Reading Room",
+      "url": "https://vervenveda.com/Arshif.github.io/halls/Reading_room_index.html",
+      "resourceOwner": "arshif",
+      "sourceAuthority": "arshif",
+      "status": "live",
+      "routable": true,
+      "eirenRole": "supporting-literary-specialist",
+      "eirenFocus": [
+        "close-reading",
+        "comparative-reading",
+        "literary-form",
+        "narrative",
+        "wisdom-literature",
+        "rhetoric"
+      ],
+      "boundary": "ARSHIF retains canon-status, provenance, source-labeling, and tradition-specific context."
+    }
+  ],
+  "excludedFromThisSnapshot": [
+    {
+      "id": "culinary",
+      "reason": "Present in ARSHIF filesystem but not yet canonicalized in the ARSHIF manifest."
+    },
+    {
+      "id": "science-hall",
+      "reason": "Legacy-held and missing from the verified current ARSHIF tree."
+    }
+  ]
+}
