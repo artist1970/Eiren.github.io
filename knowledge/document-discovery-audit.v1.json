@@ -1,0 +1,52 @@
+{
+  "schema": "eiren-document-discovery-v1",
+  "scope": "Discovery snapshot only, not complete ecosystem inventory",
+  "repositories": [
+    {
+      "name": "artist1970/CORE",
+      "matches": 18
+    },
+    {
+      "name": "artist1970/AIPCore",
+      "matches": 7
+    },
+    {
+      "name": "artist1970/Eiren.github.io",
+      "matches": 1
+    },
+    {
+      "name": "artist1970/Arshif.github.io",
+      "matches": 3
+    },
+    {
+      "name": "artist1970/creative-spark.github.io",
+      "matches": 3
+    },
+    {
+      "name": "vervenveda/Khaemenes_Linguistics.github.io",
+      "matches": 12
+    },
+    {
+      "name": "vervenveda/Khaemenes_Academy.github.io",
+      "matches": 8
+    },
+    {
+      "name": "vervenveda/Khaemenes_Higher_Learning.github.io",
+      "matches": 148
+    }
+  ],
+  "totalDiscovered": 200,
+  "publicIndexEntries": 11,
+  "securityPolicy": "SECURITY.md excluded from public index pending content-by-content classification",
+  "riskFlags": [
+    "Higher Learning includes instructor-key paths; do not publish without review",
+    "CORE contains keys-and-secrets-related paths; exclude from public indexing",
+    "Discovery metadata does not establish authorization or safe publication"
+  ],
+  "nextActions": [
+    "Review and classify relevant public documents",
+    "Validate index coverage and source revisions",
+    "Test deployed chat with source questions and literary fallback",
+    "Keep private and sensitive documentation server-side only"
+  ]
+}
