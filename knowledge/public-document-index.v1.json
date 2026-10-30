@@ -1,0 +1,105 @@
+{
+  "schema": "eiren-public-doc-index-v1",
+  "version": 1,
+  "mode": "curated-summaries",
+  "scope": "initial five-file pilot; not ecosystem-wide",
+  "securityFilesIncluded": 0,
+  "sourceAuthority": "source README files at pinned blob revisions",
+  "documents": [
+    {
+      "repo": "artist1970/Eiren.github.io",
+      "path": "README.md",
+      "sha": "dfb2eee22eaed1821d2308a4ba4b2889fb5fb588",
+      "title": "Eiren literary role",
+      "keywords": [
+        "eiren",
+        "poet",
+        "writing mentor",
+        "author",
+        "creator",
+        "literary"
+      ],
+      "summary": "Eiren is a warm literary companion for poetry, stories, developmental editing, rhetoric, and protecting the creator's own voice. Creators retain authorship and final approval.",
+      "url": "https://github.com/artist1970/Eiren.github.io/blob/dfb2eee22eaed1821d2308a4ba4b2889fb5fb588/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "artist1970/CORE",
+      "path": "EirenCore/README.md",
+      "sha": "3b5b2247bb46f4e3364d814f5f03a9cca1dd4d01",
+      "title": "EirenCore literary practice",
+      "keywords": [
+        "eiren core",
+        "poetry",
+        "revision",
+        "narrative",
+        "character",
+        "literary",
+        "motif"
+      ],
+      "summary": "EirenCore documents poetry, literary architecture, narrative continuity, symbolism, character voice, and attentive revision.",
+      "url": "https://github.com/artist1970/CORE/blob/3b5b2247bb46f4e3364d814f5f03a9cca1dd4d01/EirenCore/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "artist1970/CORE",
+      "path": "ARSHIFCore/README.md",
+      "sha": "d9a9254e822fa5fef0e7a13dd887b5255aa12c4f",
+      "title": "ARSHIF archives and provenance",
+      "keywords": [
+        "arshif",
+        "archive",
+        "archives",
+        "sources",
+        "provenance",
+        "history",
+        "citation"
+      ],
+      "summary": "ARSHIF preserves source continuity, historical context and provenance, distinguishing historical records from current authority.",
+      "url": "https://github.com/artist1970/CORE/blob/d9a9254e822fa5fef0e7a13dd887b5255aa12c4f/ARSHIFCore/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "artist1970/AIPCore",
+      "path": "README.md",
+      "sha": "ab4d7f8ebaea2dc1f3ebdac9fd1dc8896421e01c",
+      "title": "AIPCore language infrastructure",
+      "keywords": [
+        "aipcore",
+        "dictionary",
+        "vocabulary",
+        "language processing",
+        "language refinement"
+      ],
+      "summary": "AIPCore provides shared language processing, dictionary and educational-reference infrastructure. Its adaptive learning changes teaching attention, not authority.",
+      "url": "https://github.com/artist1970/AIPCore/blob/ab4d7f8ebaea2dc1f3ebdac9fd1dc8896421e01c/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Linguistics.github.io",
+      "path": "README.md",
+      "sha": "b14ec7e7148832d2810cee2264af2d494823f393",
+      "title": "Linguistics and language campus",
+      "keywords": [
+        "linguistics",
+        "languages",
+        "translator",
+        "french",
+        "spanish",
+        "german",
+        "mandarin",
+        "japanese",
+        "arabic",
+        "russian"
+      ],
+      "summary": "The Linguistics campus hosts formal language pathways, world-language references, a sovereign translator, dictionary tools, and supplemental practice distinct from authoritative mastery records.",
+      "url": "https://github.com/vervenveda/Khaemenes_Linguistics.github.io/blob/b14ec7e7148832d2810cee2264af2d494823f393/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    }
+  ]
+}
