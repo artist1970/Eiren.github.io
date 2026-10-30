@@ -1,8 +1,8 @@
 {
   "schema": "eiren-public-doc-index-v1",
-  "version": 1,
+  "version": 2,
   "mode": "curated-summaries",
-  "scope": "initial five-file pilot; not ecosystem-wide",
+  "scope": "11 reviewed public README summaries across Eiren, CORE, AIPCore, ARSHIF, Creative Spark, and Academy repositories; not ecosystem-wide",
   "securityFilesIncluded": 0,
   "sourceAuthority": "source README files at pinned blob revisions",
   "documents": [
@@ -98,6 +98,102 @@
       ],
       "summary": "The Linguistics campus hosts formal language pathways, world-language references, a sovereign translator, dictionary tools, and supplemental practice distinct from authoritative mastery records.",
       "url": "https://github.com/vervenveda/Khaemenes_Linguistics.github.io/blob/b14ec7e7148832d2810cee2264af2d494823f393/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "artist1970/Arshif.github.io",
+      "path": "readme.md",
+      "sha": "8fe518341dbb4e1b6564a02f5fedfe429053b74a",
+      "title": "ARSHIF public library overview",
+      "keywords": [
+        "arshif",
+        "library",
+        "archive",
+        "reading resources"
+      ],
+      "summary": "ARSHIF describes a sovereign digital library with age-appropriate youth access, student research resources, educator materials, and preservation aims.",
+      "url": "https://github.com/artist1970/Arshif.github.io/blob/8fe518341dbb4e1b6564a02f5fedfe429053b74a/readme.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "artist1970/creative-spark.github.io",
+      "path": "README.md",
+      "sha": "c80a8aeaef2ec40dab9219e519a8869e17c8e157",
+      "title": "Creative Spark writing and idea tools",
+      "keywords": [
+        "creative spark",
+        "prompt",
+        "writing ideas",
+        "creative"
+      ],
+      "summary": "Creative Spark is a browser-based creative prompt and idea tool with poetic and descriptive modes, a local dictionary resource, and no required account.",
+      "url": "https://github.com/artist1970/creative-spark.github.io/blob/c80a8aeaef2ec40dab9219e519a8869e17c8e157/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "artist1970/AIPCore",
+      "path": "dictionary/README.md",
+      "sha": "a8f7e9d8378990d895afbca6bf49cfd9c791b3a1",
+      "title": "AIPCore dictionary reference",
+      "keywords": [
+        "dictionary",
+        "word definition",
+        "lexical",
+        "vocabulary"
+      ],
+      "summary": "AIPCore's A–Z English dictionary supports definitions, vocabulary, educational indexing, and writing reference. Canonical entries live in dictionary/letters/.",
+      "url": "https://github.com/artist1970/AIPCore/blob/a8f7e9d8378990d895afbca6bf49cfd9c791b3a1/dictionary/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "artist1970/AIPCore",
+      "path": "adaptive-memory/README.md",
+      "sha": "891ede66d6f8856c8a12005297e34598ea62a45f",
+      "title": "Mentor adaptive learning boundaries",
+      "keywords": [
+        "adaptive memory",
+        "mentor learning",
+        "personalization"
+      ],
+      "summary": "AIPCore's adaptive pattern memory changes teaching attention and strategy, not authority, and excludes credentials, sensitive-trait learning, and authority mutation.",
+      "url": "https://github.com/artist1970/AIPCore/blob/891ede66d6f8856c8a12005297e34598ea62a45f/adaptive-memory/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Academy.github.io",
+      "path": "README.md",
+      "sha": "e2b2002005d305cd0dfb9b7a2bf999f13c4d060f",
+      "title": "Academy mission and access",
+      "keywords": [
+        "academy mission",
+        "free education",
+        "lifelong learning",
+        "khaemenes academy"
+      ],
+      "summary": "Khaemenes Academy describes free, comprehensive lifelong learning that encourages curiosity, critical thinking, creativity, and access across ages.",
+      "url": "https://github.com/vervenveda/Khaemenes_Academy.github.io/blob/e2b2002005d305cd0dfb9b7a2bf999f13c4d060f/README.md",
+      "visibility": "public",
+      "review": "approved-public-summary"
+    },
+    {
+      "repo": "vervenveda/Khaemenes_Linguistics.github.io",
+      "path": "Halls/README.md",
+      "sha": "df99f5690e698c43fd0106d4d95980f753a32cf9",
+      "title": "Formal language Hall and academic authority",
+      "keywords": [
+        "formal hall",
+        "french 101",
+        "language courses",
+        "five languages",
+        "linguistics hall"
+      ],
+      "summary": "The Linguistics Hall governs five formal language programs and their academic completion semantics; learner-facing language experiences must not create a second completion authority.",
+      "url": "https://github.com/vervenveda/Khaemenes_Linguistics.github.io/blob/df99f5690e698c43fd0106d4d95980f753a32cf9/Halls/README.md",
       "visibility": "public",
       "review": "approved-public-summary"
     }
