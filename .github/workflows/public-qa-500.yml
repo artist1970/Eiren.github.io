@@ -1,0 +1,28 @@
+name: Mentor Public 500 Q&A Review
+
+on:
+  pull_request:
+    paths:
+      - "eiren-conversation-v1.js"
+      - "knowledge/mentor-approved-500.v1.json"
+      - "tests/public-qa-500.test.mjs"
+      - ".github/workflows/public-qa-500.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  qa-integrity:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: |
+          node --check eiren-conversation-v1.js
+          node --test tests/public-qa-500.test.mjs

@@ -9,6 +9,10 @@ const norm=s=>clean(s).toLowerCase().replace(/[’]/g,"'");
 function key(scope){return ROOT+":"+encodeURIComponent(String(scope||"visitor"))}
 function read(k){try{return JSON.parse(localStorage.getItem(k)||"null")}catch{return null}}
 function write(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
+let approved500=[],public500Status="loading";
+const normalize500=s=>String(s||"").normalize("NFKC").toLowerCase().replace(/[^a-z0-9 ]/g," ").replace(/\s+/g," ").trim();
+const approved500Ready=fetch("./knowledge/mentor-approved-500.v1.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw Error("unavailable");return r.json()}).then(d=>{if(d.schema!=="vnv-public-mentor-qa-v1"||d.mentorId!=="eiren"||d.records?.length!==500)throw Error("schema");const unique=new Set();approved500=d.records.filter(r=>{const q=normalize500(r.question);if(!q||unique.has(q)||!r.answer?.trim()||!(/^(approved|founder-approved-editorial)/.test(r.status)))return false;unique.add(q);return true;});if(approved500.length!==500)throw Error("invalid");public500Status="ready";return 500;}).catch(()=>{public500Status="unavailable";return 0;});
+function publicAnswer(q){if(public500Status!=="ready")return null;const key=normalize500(q);return approved500.find(r=>normalize500(r.question)===key)?.answer||null;}
 const STRATEGIES=Object.freeze({question:"one thoughtful question",example:"a small example",prompt:"a writing prompt",vocabulary:"a word clue",structure:"a structural observation",readalong:"read-aloud guidance"});
 function freshState(){return {version:1,topic:"",mode:"listen",turns:0,used:[],helped:{question:0,example:0,prompt:0,vocabulary:0,structure:0,readalong:0},remember:true}}
 function createSession({scope="visitor",storage=true}={}){
@@ -24,6 +28,7 @@ function createSession({scope="visitor",storage=true}={}){
   if(/^(?:hi|hello|hey|good morning|good afternoon|good evening)[!?.\s]*$/i.test(q))return state.topic?"Hello again. We were sitting with "+state.topic+". Shall we continue?":"Hello. I’m Eiren. You do not need the perfect words. What are you reading, writing, wondering about, or trying to say?";
   if(/^(?:thanks|thank you)[!.\s]*$/.test(q))return "You’re welcome. We can leave the thought here, or follow it one step farther.";
   if(/(?:that helped|helpful|i get it|makes sense|that worked)/.test(q)){const id=state.used.at(-1);if(id)markHelpful(id);return "I’m glad that approach helped. Tell me the idea back in your own words, or we can try one more small step."}
+  const reviewed=publicAnswer(raw);if(reviewed)return reviewed;
   if(/\b(read aloud|read-along|read along|read this|story time)\b/.test(q)){state.topic="this reading";state.mode="readalong";state.used.push("readalong");save();return "We can read slowly together. Start with one short part. After it, tell me one thing you noticed—a word, picture, feeling, sound, or event. I can help with a word without taking the story away from you."}
   if(/\b(word|vocabulary|means|meaning|define|definition)\b/.test(q)){state.topic="vocabulary";state.mode="vocabulary";state.used.push("vocabulary");save();return "Let’s use the sentence around the word first. What seems to be happening there? Then we can test a meaning that fits the context."}
   if(/\b(poem|poetry|rhyme|rhyming|verse|stanza)\b/.test(q)){state.topic="poetry";state.mode="poetry";save();return "Read it once for meaning and once for sound. Which word, image, rhythm, or line keeps asking for your attention?"}
@@ -44,5 +49,5 @@ function createSession({scope="visitor",storage=true}={}){
 function forScope(scope){const id=key(scope);if(!sessions.has(id))sessions.set(id,createSession({scope}));return sessions.get(id)}
 function speak(text,voice){if(!("speechSynthesis" in global)||typeof global.SpeechSynthesisUtterance==="undefined")return false;global.speechSynthesis.cancel();const u=new global.SpeechSynthesisUtterance(clean(text).slice(0,1600));if(voice)u.voice=voice;u.lang=voice?.lang||"en-GB";u.rate=.88;u.pitch=1.04;global.speechSynthesis.speak(u);return true}
 function stop(){try{global.speechSynthesis?.cancel()}catch{}}
-global.EirenConversation=Object.freeze({version:"1.0.0",createSession,forScope,speak,stop,strategies:STRATEGIES});
+global.EirenConversation=Object.freeze({version:"1.0.0",createSession,forScope,speak,stop,strategies:STRATEGIES,approved500Ready,public500Status:()=>public500Status,approved500Count:()=>approved500.length});
 })(window);
