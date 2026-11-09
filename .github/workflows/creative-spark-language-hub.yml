@@ -1,0 +1,23 @@
+name: Creative Spark mentor language hub link validation
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'tests/creative-spark-language-hub-link.test.mjs'
+      - '.github/workflows/creative-spark-language-hub.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'tests/creative-spark-language-hub-link.test.mjs'
+permissions:
+  contents: read
+jobs:
+  public-mentor-library:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/creative-spark-language-hub-link.test.mjs
