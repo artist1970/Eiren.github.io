@@ -1,0 +1,3508 @@
+{
+  "schema": "vnv-public-mentor-qa-v1",
+  "mentorId": "eiren",
+  "version": "2026-11-09-founder-approved",
+  "source": "artist1970/creative-spark.github.io review/mentor-personality-qa-banks-2026-11-09",
+  "records": [
+    {
+      "id": "eiren-editorial-20261109-001",
+      "topic": "imagery",
+      "question": "What does Imagery mean?",
+      "answer": "An image makes an idea sensory and specific. rain tapping a library window.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-002",
+      "topic": "imagery",
+      "question": "Why is Imagery useful?",
+      "answer": "An image makes an idea sensory and specific. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-003",
+      "topic": "imagery",
+      "question": "Can you give a concrete example of Imagery?",
+      "answer": "Consider this example: rain tapping a library window. Notice what it demonstrates about imagery.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-004",
+      "topic": "imagery",
+      "question": "How should a beginner practice Imagery?",
+      "answer": "Start with one manageable attempt: Rewrite one abstract emotion as an observable scene. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-005",
+      "topic": "imagery",
+      "question": "What mistake should I watch for when learning Imagery?",
+      "answer": "Avoid stacking unrelated metaphors. When you spot that problem, return to rain tapping a library window and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-006",
+      "topic": "imagery",
+      "question": "How would you teach Imagery to a younger learner?",
+      "answer": "Begin with rain tapping a library window. Invite the learner to describe what they notice before introducing the term imagery.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-007",
+      "topic": "imagery",
+      "question": "What is a quick exercise for Imagery?",
+      "answer": "Try this short exercise: Rewrite one abstract emotion as an observable scene. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-008",
+      "topic": "imagery",
+      "question": "How can I check my understanding of Imagery?",
+      "answer": "Explain an image makes an idea sensory and specific without looking at your notes, then create an example different from rain tapping a library window.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-009",
+      "topic": "imagery",
+      "question": "How can Imagery appear in everyday life?",
+      "answer": "Look for a real situation resembling rain tapping a library window. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-010",
+      "topic": "imagery",
+      "question": "What should I notice first when studying Imagery?",
+      "answer": "First notice this central idea: An image makes an idea sensory and specific. Then examine the example: rain tapping a library window.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-011",
+      "topic": "imagery",
+      "question": "How can I explore Imagery independently?",
+      "answer": "Choose a small original example, try rewrite one abstract emotion as an observable scene, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-012",
+      "topic": "imagery",
+      "question": "What is a thoughtful question to ask about Imagery?",
+      "answer": "Ask: \"How does rain tapping a library window demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-013",
+      "topic": "imagery",
+      "question": "How does Imagery connect with another subject?",
+      "answer": "Compare imagery with how we organize evidence and explain choices in other fields. A useful bridge is rain tapping a library window.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-014",
+      "topic": "imagery",
+      "question": "How could two learners work together on Imagery?",
+      "answer": "One person can present rain tapping a library window, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-015",
+      "topic": "imagery",
+      "question": "What materials are helpful for exploring Imagery?",
+      "answer": "Start with a notebook and a clear example such as rain tapping a library window. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-016",
+      "topic": "imagery",
+      "question": "How can I progress beyond beginner practice in Imagery?",
+      "answer": "Extend the basic practice by changing one condition in rain tapping a library window and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-017",
+      "topic": "imagery",
+      "question": "How should I respond when I struggle with Imagery?",
+      "answer": "Take a smaller step: Rewrite one abstract emotion as an observable scene. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-018",
+      "topic": "imagery",
+      "question": "What evidence can show growth with Imagery?",
+      "answer": "Keep the first attempt, explain an image makes an idea sensory and specific, then repeat rewrite one abstract emotion as an observable scene and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-019",
+      "topic": "imagery",
+      "question": "What should I avoid claiming about Imagery?",
+      "answer": "Avoid stacking unrelated metaphors. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-020",
+      "topic": "imagery",
+      "question": "How can I reflect on what I learned from Imagery?",
+      "answer": "Write what you tried, what rain tapping a library window helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-021",
+      "topic": "metaphor",
+      "question": "What does Metaphor mean?",
+      "answer": "A metaphor connects two ideas to reveal meaning. hope becomes a small lantern.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-022",
+      "topic": "metaphor",
+      "question": "Why is Metaphor useful?",
+      "answer": "A metaphor connects two ideas to reveal meaning. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-023",
+      "topic": "metaphor",
+      "question": "Can you give a concrete example of Metaphor?",
+      "answer": "Consider this example: hope becomes a small lantern. Notice what it demonstrates about metaphor.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-024",
+      "topic": "metaphor",
+      "question": "How should a beginner practice Metaphor?",
+      "answer": "Start with one manageable attempt: Compare two objects that share one precise quality. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-025",
+      "topic": "metaphor",
+      "question": "What mistake should I watch for when learning Metaphor?",
+      "answer": "Avoid comparisons that confuse rather than clarify. When you spot that problem, return to hope becomes a small lantern and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-026",
+      "topic": "metaphor",
+      "question": "How would you teach Metaphor to a younger learner?",
+      "answer": "Begin with hope becomes a small lantern. Invite the learner to describe what they notice before introducing the term metaphor.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-027",
+      "topic": "metaphor",
+      "question": "What is a quick exercise for Metaphor?",
+      "answer": "Try this short exercise: Compare two objects that share one precise quality. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-028",
+      "topic": "metaphor",
+      "question": "How can I check my understanding of Metaphor?",
+      "answer": "Explain a metaphor connects two ideas to reveal meaning without looking at your notes, then create an example different from hope becomes a small lantern.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-029",
+      "topic": "metaphor",
+      "question": "How can Metaphor appear in everyday life?",
+      "answer": "Look for a real situation resembling hope becomes a small lantern. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-030",
+      "topic": "metaphor",
+      "question": "What should I notice first when studying Metaphor?",
+      "answer": "First notice this central idea: A metaphor connects two ideas to reveal meaning. Then examine the example: hope becomes a small lantern.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-031",
+      "topic": "metaphor",
+      "question": "How can I explore Metaphor independently?",
+      "answer": "Choose a small original example, try compare two objects that share one precise quality, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-032",
+      "topic": "metaphor",
+      "question": "What is a thoughtful question to ask about Metaphor?",
+      "answer": "Ask: \"How does hope becomes a small lantern demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-033",
+      "topic": "metaphor",
+      "question": "How does Metaphor connect with another subject?",
+      "answer": "Compare metaphor with how we organize evidence and explain choices in other fields. A useful bridge is hope becomes a small lantern.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-034",
+      "topic": "metaphor",
+      "question": "How could two learners work together on Metaphor?",
+      "answer": "One person can present hope becomes a small lantern, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-035",
+      "topic": "metaphor",
+      "question": "What materials are helpful for exploring Metaphor?",
+      "answer": "Start with a notebook and a clear example such as hope becomes a small lantern. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-036",
+      "topic": "metaphor",
+      "question": "How can I progress beyond beginner practice in Metaphor?",
+      "answer": "Extend the basic practice by changing one condition in hope becomes a small lantern and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-037",
+      "topic": "metaphor",
+      "question": "How should I respond when I struggle with Metaphor?",
+      "answer": "Take a smaller step: Compare two objects that share one precise quality. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-038",
+      "topic": "metaphor",
+      "question": "What evidence can show growth with Metaphor?",
+      "answer": "Keep the first attempt, explain a metaphor connects two ideas to reveal meaning, then repeat compare two objects that share one precise quality and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-039",
+      "topic": "metaphor",
+      "question": "What should I avoid claiming about Metaphor?",
+      "answer": "Avoid comparisons that confuse rather than clarify. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-040",
+      "topic": "metaphor",
+      "question": "How can I reflect on what I learned from Metaphor?",
+      "answer": "Write what you tried, what hope becomes a small lantern helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-041",
+      "topic": "simile",
+      "question": "What does Simile mean?",
+      "answer": "A simile uses like or as to make a comparison. a voice like warm paper.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-042",
+      "topic": "simile",
+      "question": "Why is Simile useful?",
+      "answer": "A simile uses like or as to make a comparison. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-043",
+      "topic": "simile",
+      "question": "Can you give a concrete example of Simile?",
+      "answer": "Consider this example: a voice like warm paper. Notice what it demonstrates about simile.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-044",
+      "topic": "simile",
+      "question": "How should a beginner practice Simile?",
+      "answer": "Start with one manageable attempt: Find one fresh comparison for a sound. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-045",
+      "topic": "simile",
+      "question": "What mistake should I watch for when learning Simile?",
+      "answer": "Avoid clichés without purpose. When you spot that problem, return to a voice like warm paper and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-046",
+      "topic": "simile",
+      "question": "How would you teach Simile to a younger learner?",
+      "answer": "Begin with a voice like warm paper. Invite the learner to describe what they notice before introducing the term simile.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-047",
+      "topic": "simile",
+      "question": "What is a quick exercise for Simile?",
+      "answer": "Try this short exercise: Find one fresh comparison for a sound. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-048",
+      "topic": "simile",
+      "question": "How can I check my understanding of Simile?",
+      "answer": "Explain a simile uses like or as to make a comparison without looking at your notes, then create an example different from a voice like warm paper.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-049",
+      "topic": "simile",
+      "question": "How can Simile appear in everyday life?",
+      "answer": "Look for a real situation resembling a voice like warm paper. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-050",
+      "topic": "simile",
+      "question": "What should I notice first when studying Simile?",
+      "answer": "First notice this central idea: A simile uses like or as to make a comparison. Then examine the example: a voice like warm paper.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-051",
+      "topic": "simile",
+      "question": "How can I explore Simile independently?",
+      "answer": "Choose a small original example, try find one fresh comparison for a sound, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-052",
+      "topic": "simile",
+      "question": "What is a thoughtful question to ask about Simile?",
+      "answer": "Ask: \"How does a voice like warm paper demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-053",
+      "topic": "simile",
+      "question": "How does Simile connect with another subject?",
+      "answer": "Compare simile with how we organize evidence and explain choices in other fields. A useful bridge is a voice like warm paper.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-054",
+      "topic": "simile",
+      "question": "How could two learners work together on Simile?",
+      "answer": "One person can present a voice like warm paper, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-055",
+      "topic": "simile",
+      "question": "What materials are helpful for exploring Simile?",
+      "answer": "Start with a notebook and a clear example such as a voice like warm paper. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-056",
+      "topic": "simile",
+      "question": "How can I progress beyond beginner practice in Simile?",
+      "answer": "Extend the basic practice by changing one condition in a voice like warm paper and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-057",
+      "topic": "simile",
+      "question": "How should I respond when I struggle with Simile?",
+      "answer": "Take a smaller step: Find one fresh comparison for a sound. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-058",
+      "topic": "simile",
+      "question": "What evidence can show growth with Simile?",
+      "answer": "Keep the first attempt, explain a simile uses like or as to make a comparison, then repeat find one fresh comparison for a sound and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-059",
+      "topic": "simile",
+      "question": "What should I avoid claiming about Simile?",
+      "answer": "Avoid clichés without purpose. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-060",
+      "topic": "simile",
+      "question": "How can I reflect on what I learned from Simile?",
+      "answer": "Write what you tried, what a voice like warm paper helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-061",
+      "topic": "personification",
+      "question": "What does Personification mean?",
+      "answer": "Personification gives nonhuman things human qualities. the old staircase remembers footsteps.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-062",
+      "topic": "personification",
+      "question": "Why is Personification useful?",
+      "answer": "Personification gives nonhuman things human qualities. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-063",
+      "topic": "personification",
+      "question": "Can you give a concrete example of Personification?",
+      "answer": "Consider this example: the old staircase remembers footsteps. Notice what it demonstrates about personification.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-064",
+      "topic": "personification",
+      "question": "How should a beginner practice Personification?",
+      "answer": "Start with one manageable attempt: Give a setting one believable action. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-065",
+      "topic": "personification",
+      "question": "What mistake should I watch for when learning Personification?",
+      "answer": "Avoid overwhelming a scene with competing voices. When you spot that problem, return to the old staircase remembers footsteps and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-066",
+      "topic": "personification",
+      "question": "How would you teach Personification to a younger learner?",
+      "answer": "Begin with the old staircase remembers footsteps. Invite the learner to describe what they notice before introducing the term personification.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-067",
+      "topic": "personification",
+      "question": "What is a quick exercise for Personification?",
+      "answer": "Try this short exercise: Give a setting one believable action. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-068",
+      "topic": "personification",
+      "question": "How can I check my understanding of Personification?",
+      "answer": "Explain personification gives nonhuman things human qualities without looking at your notes, then create an example different from the old staircase remembers footsteps.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-069",
+      "topic": "personification",
+      "question": "How can Personification appear in everyday life?",
+      "answer": "Look for a real situation resembling the old staircase remembers footsteps. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-070",
+      "topic": "personification",
+      "question": "What should I notice first when studying Personification?",
+      "answer": "First notice this central idea: Personification gives nonhuman things human qualities. Then examine the example: the old staircase remembers footsteps.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-071",
+      "topic": "personification",
+      "question": "How can I explore Personification independently?",
+      "answer": "Choose a small original example, try give a setting one believable action, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-072",
+      "topic": "personification",
+      "question": "What is a thoughtful question to ask about Personification?",
+      "answer": "Ask: \"How does the old staircase remembers footsteps demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-073",
+      "topic": "personification",
+      "question": "How does Personification connect with another subject?",
+      "answer": "Compare personification with how we organize evidence and explain choices in other fields. A useful bridge is the old staircase remembers footsteps.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-074",
+      "topic": "personification",
+      "question": "How could two learners work together on Personification?",
+      "answer": "One person can present the old staircase remembers footsteps, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-075",
+      "topic": "personification",
+      "question": "What materials are helpful for exploring Personification?",
+      "answer": "Start with a notebook and a clear example such as the old staircase remembers footsteps. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-076",
+      "topic": "personification",
+      "question": "How can I progress beyond beginner practice in Personification?",
+      "answer": "Extend the basic practice by changing one condition in the old staircase remembers footsteps and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-077",
+      "topic": "personification",
+      "question": "How should I respond when I struggle with Personification?",
+      "answer": "Take a smaller step: Give a setting one believable action. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-078",
+      "topic": "personification",
+      "question": "What evidence can show growth with Personification?",
+      "answer": "Keep the first attempt, explain personification gives nonhuman things human qualities, then repeat give a setting one believable action and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-079",
+      "topic": "personification",
+      "question": "What should I avoid claiming about Personification?",
+      "answer": "Avoid overwhelming a scene with competing voices. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-080",
+      "topic": "personification",
+      "question": "How can I reflect on what I learned from Personification?",
+      "answer": "Write what you tried, what the old staircase remembers footsteps helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-081",
+      "topic": "alliteration",
+      "question": "What does Alliteration mean?",
+      "answer": "Alliteration repeats nearby starting consonants for effect. silver sails slip seaward.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-082",
+      "topic": "alliteration",
+      "question": "Why is Alliteration useful?",
+      "answer": "Alliteration repeats nearby starting consonants for effect. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-083",
+      "topic": "alliteration",
+      "question": "Can you give a concrete example of Alliteration?",
+      "answer": "Consider this example: silver sails slip seaward. Notice what it demonstrates about alliteration.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-084",
+      "topic": "alliteration",
+      "question": "How should a beginner practice Alliteration?",
+      "answer": "Start with one manageable attempt: Read two alternatives aloud to hear their texture. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-085",
+      "topic": "alliteration",
+      "question": "What mistake should I watch for when learning Alliteration?",
+      "answer": "Do not sacrifice clarity to sound play. When you spot that problem, return to silver sails slip seaward and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-086",
+      "topic": "alliteration",
+      "question": "How would you teach Alliteration to a younger learner?",
+      "answer": "Begin with silver sails slip seaward. Invite the learner to describe what they notice before introducing the term alliteration.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-087",
+      "topic": "alliteration",
+      "question": "What is a quick exercise for Alliteration?",
+      "answer": "Try this short exercise: Read two alternatives aloud to hear their texture. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-088",
+      "topic": "alliteration",
+      "question": "How can I check my understanding of Alliteration?",
+      "answer": "Explain alliteration repeats nearby starting consonants for effect without looking at your notes, then create an example different from silver sails slip seaward.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-089",
+      "topic": "alliteration",
+      "question": "How can Alliteration appear in everyday life?",
+      "answer": "Look for a real situation resembling silver sails slip seaward. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-090",
+      "topic": "alliteration",
+      "question": "What should I notice first when studying Alliteration?",
+      "answer": "First notice this central idea: Alliteration repeats nearby starting consonants for effect. Then examine the example: silver sails slip seaward.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-091",
+      "topic": "alliteration",
+      "question": "How can I explore Alliteration independently?",
+      "answer": "Choose a small original example, try read two alternatives aloud to hear their texture, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-092",
+      "topic": "alliteration",
+      "question": "What is a thoughtful question to ask about Alliteration?",
+      "answer": "Ask: \"How does silver sails slip seaward demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-093",
+      "topic": "alliteration",
+      "question": "How does Alliteration connect with another subject?",
+      "answer": "Compare alliteration with how we organize evidence and explain choices in other fields. A useful bridge is silver sails slip seaward.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-094",
+      "topic": "alliteration",
+      "question": "How could two learners work together on Alliteration?",
+      "answer": "One person can present silver sails slip seaward, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-095",
+      "topic": "alliteration",
+      "question": "What materials are helpful for exploring Alliteration?",
+      "answer": "Start with a notebook and a clear example such as silver sails slip seaward. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-096",
+      "topic": "alliteration",
+      "question": "How can I progress beyond beginner practice in Alliteration?",
+      "answer": "Extend the basic practice by changing one condition in silver sails slip seaward and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-097",
+      "topic": "alliteration",
+      "question": "How should I respond when I struggle with Alliteration?",
+      "answer": "Take a smaller step: Read two alternatives aloud to hear their texture. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-098",
+      "topic": "alliteration",
+      "question": "What evidence can show growth with Alliteration?",
+      "answer": "Keep the first attempt, explain alliteration repeats nearby starting consonants for effect, then repeat read two alternatives aloud to hear their texture and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-099",
+      "topic": "alliteration",
+      "question": "What should I avoid claiming about Alliteration?",
+      "answer": "Do not sacrifice clarity to sound play. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-100",
+      "topic": "alliteration",
+      "question": "How can I reflect on what I learned from Alliteration?",
+      "answer": "Write what you tried, what silver sails slip seaward helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-101",
+      "topic": "assonance",
+      "question": "What does Assonance mean?",
+      "answer": "Assonance repeats vowel sounds to shape a line. the slow road home.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-102",
+      "topic": "assonance",
+      "question": "Why is Assonance useful?",
+      "answer": "Assonance repeats vowel sounds to shape a line. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-103",
+      "topic": "assonance",
+      "question": "Can you give a concrete example of Assonance?",
+      "answer": "Consider this example: the slow road home. Notice what it demonstrates about assonance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-104",
+      "topic": "assonance",
+      "question": "How should a beginner practice Assonance?",
+      "answer": "Start with one manageable attempt: Mark repeated vowels in an original sentence. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-105",
+      "topic": "assonance",
+      "question": "What mistake should I watch for when learning Assonance?",
+      "answer": "Do not mistake sound echoes for meaning. When you spot that problem, return to the slow road home and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-106",
+      "topic": "assonance",
+      "question": "How would you teach Assonance to a younger learner?",
+      "answer": "Begin with the slow road home. Invite the learner to describe what they notice before introducing the term assonance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-107",
+      "topic": "assonance",
+      "question": "What is a quick exercise for Assonance?",
+      "answer": "Try this short exercise: Mark repeated vowels in an original sentence. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-108",
+      "topic": "assonance",
+      "question": "How can I check my understanding of Assonance?",
+      "answer": "Explain assonance repeats vowel sounds to shape a line without looking at your notes, then create an example different from the slow road home.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-109",
+      "topic": "assonance",
+      "question": "How can Assonance appear in everyday life?",
+      "answer": "Look for a real situation resembling the slow road home. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-110",
+      "topic": "assonance",
+      "question": "What should I notice first when studying Assonance?",
+      "answer": "First notice this central idea: Assonance repeats vowel sounds to shape a line. Then examine the example: the slow road home.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-111",
+      "topic": "assonance",
+      "question": "How can I explore Assonance independently?",
+      "answer": "Choose a small original example, try mark repeated vowels in an original sentence, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-112",
+      "topic": "assonance",
+      "question": "What is a thoughtful question to ask about Assonance?",
+      "answer": "Ask: \"How does the slow road home demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-113",
+      "topic": "assonance",
+      "question": "How does Assonance connect with another subject?",
+      "answer": "Compare assonance with how we organize evidence and explain choices in other fields. A useful bridge is the slow road home.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-114",
+      "topic": "assonance",
+      "question": "How could two learners work together on Assonance?",
+      "answer": "One person can present the slow road home, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-115",
+      "topic": "assonance",
+      "question": "What materials are helpful for exploring Assonance?",
+      "answer": "Start with a notebook and a clear example such as the slow road home. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-116",
+      "topic": "assonance",
+      "question": "How can I progress beyond beginner practice in Assonance?",
+      "answer": "Extend the basic practice by changing one condition in the slow road home and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-117",
+      "topic": "assonance",
+      "question": "How should I respond when I struggle with Assonance?",
+      "answer": "Take a smaller step: Mark repeated vowels in an original sentence. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-118",
+      "topic": "assonance",
+      "question": "What evidence can show growth with Assonance?",
+      "answer": "Keep the first attempt, explain assonance repeats vowel sounds to shape a line, then repeat mark repeated vowels in an original sentence and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-119",
+      "topic": "assonance",
+      "question": "What should I avoid claiming about Assonance?",
+      "answer": "Do not mistake sound echoes for meaning. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-120",
+      "topic": "assonance",
+      "question": "How can I reflect on what I learned from Assonance?",
+      "answer": "Write what you tried, what the slow road home helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-121",
+      "topic": "consonance",
+      "question": "What does Consonance mean?",
+      "answer": "Consonance repeats consonant sounds within or across words. a dark dock at dusk.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-122",
+      "topic": "consonance",
+      "question": "Why is Consonance useful?",
+      "answer": "Consonance repeats consonant sounds within or across words. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-123",
+      "topic": "consonance",
+      "question": "Can you give a concrete example of Consonance?",
+      "answer": "Consider this example: a dark dock at dusk. Notice what it demonstrates about consonance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-124",
+      "topic": "consonance",
+      "question": "How should a beginner practice Consonance?",
+      "answer": "Start with one manageable attempt: Write a short line with subtle consonant echoes. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-125",
+      "topic": "consonance",
+      "question": "What mistake should I watch for when learning Consonance?",
+      "answer": "Avoid turning all language into tongue twisters. When you spot that problem, return to a dark dock at dusk and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-126",
+      "topic": "consonance",
+      "question": "How would you teach Consonance to a younger learner?",
+      "answer": "Begin with a dark dock at dusk. Invite the learner to describe what they notice before introducing the term consonance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-127",
+      "topic": "consonance",
+      "question": "What is a quick exercise for Consonance?",
+      "answer": "Try this short exercise: Write a short line with subtle consonant echoes. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-128",
+      "topic": "consonance",
+      "question": "How can I check my understanding of Consonance?",
+      "answer": "Explain consonance repeats consonant sounds within or across words without looking at your notes, then create an example different from a dark dock at dusk.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-129",
+      "topic": "consonance",
+      "question": "How can Consonance appear in everyday life?",
+      "answer": "Look for a real situation resembling a dark dock at dusk. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-130",
+      "topic": "consonance",
+      "question": "What should I notice first when studying Consonance?",
+      "answer": "First notice this central idea: Consonance repeats consonant sounds within or across words. Then examine the example: a dark dock at dusk.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-131",
+      "topic": "consonance",
+      "question": "How can I explore Consonance independently?",
+      "answer": "Choose a small original example, try write a short line with subtle consonant echoes, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-132",
+      "topic": "consonance",
+      "question": "What is a thoughtful question to ask about Consonance?",
+      "answer": "Ask: \"How does a dark dock at dusk demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-133",
+      "topic": "consonance",
+      "question": "How does Consonance connect with another subject?",
+      "answer": "Compare consonance with how we organize evidence and explain choices in other fields. A useful bridge is a dark dock at dusk.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-134",
+      "topic": "consonance",
+      "question": "How could two learners work together on Consonance?",
+      "answer": "One person can present a dark dock at dusk, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-135",
+      "topic": "consonance",
+      "question": "What materials are helpful for exploring Consonance?",
+      "answer": "Start with a notebook and a clear example such as a dark dock at dusk. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-136",
+      "topic": "consonance",
+      "question": "How can I progress beyond beginner practice in Consonance?",
+      "answer": "Extend the basic practice by changing one condition in a dark dock at dusk and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-137",
+      "topic": "consonance",
+      "question": "How should I respond when I struggle with Consonance?",
+      "answer": "Take a smaller step: Write a short line with subtle consonant echoes. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-138",
+      "topic": "consonance",
+      "question": "What evidence can show growth with Consonance?",
+      "answer": "Keep the first attempt, explain consonance repeats consonant sounds within or across words, then repeat write a short line with subtle consonant echoes and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-139",
+      "topic": "consonance",
+      "question": "What should I avoid claiming about Consonance?",
+      "answer": "Avoid turning all language into tongue twisters. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-140",
+      "topic": "consonance",
+      "question": "How can I reflect on what I learned from Consonance?",
+      "answer": "Write what you tried, what a dark dock at dusk helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-141",
+      "topic": "rhythm",
+      "question": "What does Rhythm mean?",
+      "answer": "Rhythm is the pattern of stresses and pauses in words. a short line after three long lines.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-142",
+      "topic": "rhythm",
+      "question": "Why is Rhythm useful?",
+      "answer": "Rhythm is the pattern of stresses and pauses in words. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-143",
+      "topic": "rhythm",
+      "question": "Can you give a concrete example of Rhythm?",
+      "answer": "Consider this example: a short line after three long lines. Notice what it demonstrates about rhythm.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-144",
+      "topic": "rhythm",
+      "question": "How should a beginner practice Rhythm?",
+      "answer": "Start with one manageable attempt: Read a paragraph aloud and mark natural breaths. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-145",
+      "topic": "rhythm",
+      "question": "What mistake should I watch for when learning Rhythm?",
+      "answer": "Avoid forcing every line into a rigid beat. When you spot that problem, return to a short line after three long lines and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-146",
+      "topic": "rhythm",
+      "question": "How would you teach Rhythm to a younger learner?",
+      "answer": "Begin with a short line after three long lines. Invite the learner to describe what they notice before introducing the term rhythm.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-147",
+      "topic": "rhythm",
+      "question": "What is a quick exercise for Rhythm?",
+      "answer": "Try this short exercise: Read a paragraph aloud and mark natural breaths. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-148",
+      "topic": "rhythm",
+      "question": "How can I check my understanding of Rhythm?",
+      "answer": "Explain rhythm is the pattern of stresses and pauses in words without looking at your notes, then create an example different from a short line after three long lines.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-149",
+      "topic": "rhythm",
+      "question": "How can Rhythm appear in everyday life?",
+      "answer": "Look for a real situation resembling a short line after three long lines. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-150",
+      "topic": "rhythm",
+      "question": "What should I notice first when studying Rhythm?",
+      "answer": "First notice this central idea: Rhythm is the pattern of stresses and pauses in words. Then examine the example: a short line after three long lines.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-151",
+      "topic": "rhythm",
+      "question": "How can I explore Rhythm independently?",
+      "answer": "Choose a small original example, try read a paragraph aloud and mark natural breaths, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-152",
+      "topic": "rhythm",
+      "question": "What is a thoughtful question to ask about Rhythm?",
+      "answer": "Ask: \"How does a short line after three long lines demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-153",
+      "topic": "rhythm",
+      "question": "How does Rhythm connect with another subject?",
+      "answer": "Compare rhythm with how we organize evidence and explain choices in other fields. A useful bridge is a short line after three long lines.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-154",
+      "topic": "rhythm",
+      "question": "How could two learners work together on Rhythm?",
+      "answer": "One person can present a short line after three long lines, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-155",
+      "topic": "rhythm",
+      "question": "What materials are helpful for exploring Rhythm?",
+      "answer": "Start with a notebook and a clear example such as a short line after three long lines. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-156",
+      "topic": "rhythm",
+      "question": "How can I progress beyond beginner practice in Rhythm?",
+      "answer": "Extend the basic practice by changing one condition in a short line after three long lines and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-157",
+      "topic": "rhythm",
+      "question": "How should I respond when I struggle with Rhythm?",
+      "answer": "Take a smaller step: Read a paragraph aloud and mark natural breaths. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-158",
+      "topic": "rhythm",
+      "question": "What evidence can show growth with Rhythm?",
+      "answer": "Keep the first attempt, explain rhythm is the pattern of stresses and pauses in words, then repeat read a paragraph aloud and mark natural breaths and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-159",
+      "topic": "rhythm",
+      "question": "What should I avoid claiming about Rhythm?",
+      "answer": "Avoid forcing every line into a rigid beat. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-160",
+      "topic": "rhythm",
+      "question": "How can I reflect on what I learned from Rhythm?",
+      "answer": "Write what you tried, what a short line after three long lines helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-161",
+      "topic": "meter",
+      "question": "What does Meter mean?",
+      "answer": "Meter organizes recurring stressed and unstressed syllables. iambic patterns in a short verse.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-162",
+      "topic": "meter",
+      "question": "Why is Meter useful?",
+      "answer": "Meter organizes recurring stressed and unstressed syllables. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-163",
+      "topic": "meter",
+      "question": "Can you give a concrete example of Meter?",
+      "answer": "Consider this example: iambic patterns in a short verse. Notice what it demonstrates about meter.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-164",
+      "topic": "meter",
+      "question": "How should a beginner practice Meter?",
+      "answer": "Start with one manageable attempt: Tap the stresses in two original lines. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-165",
+      "topic": "meter",
+      "question": "What mistake should I watch for when learning Meter?",
+      "answer": "Do not claim every poem needs strict meter. When you spot that problem, return to iambic patterns in a short verse and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-166",
+      "topic": "meter",
+      "question": "How would you teach Meter to a younger learner?",
+      "answer": "Begin with iambic patterns in a short verse. Invite the learner to describe what they notice before introducing the term meter.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-167",
+      "topic": "meter",
+      "question": "What is a quick exercise for Meter?",
+      "answer": "Try this short exercise: Tap the stresses in two original lines. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-168",
+      "topic": "meter",
+      "question": "How can I check my understanding of Meter?",
+      "answer": "Explain meter organizes recurring stressed and unstressed syllables without looking at your notes, then create an example different from iambic patterns in a short verse.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-169",
+      "topic": "meter",
+      "question": "How can Meter appear in everyday life?",
+      "answer": "Look for a real situation resembling iambic patterns in a short verse. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-170",
+      "topic": "meter",
+      "question": "What should I notice first when studying Meter?",
+      "answer": "First notice this central idea: Meter organizes recurring stressed and unstressed syllables. Then examine the example: iambic patterns in a short verse.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-171",
+      "topic": "meter",
+      "question": "How can I explore Meter independently?",
+      "answer": "Choose a small original example, try tap the stresses in two original lines, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-172",
+      "topic": "meter",
+      "question": "What is a thoughtful question to ask about Meter?",
+      "answer": "Ask: \"How does iambic patterns in a short verse demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-173",
+      "topic": "meter",
+      "question": "How does Meter connect with another subject?",
+      "answer": "Compare meter with how we organize evidence and explain choices in other fields. A useful bridge is iambic patterns in a short verse.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-174",
+      "topic": "meter",
+      "question": "How could two learners work together on Meter?",
+      "answer": "One person can present iambic patterns in a short verse, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-175",
+      "topic": "meter",
+      "question": "What materials are helpful for exploring Meter?",
+      "answer": "Start with a notebook and a clear example such as iambic patterns in a short verse. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-176",
+      "topic": "meter",
+      "question": "How can I progress beyond beginner practice in Meter?",
+      "answer": "Extend the basic practice by changing one condition in iambic patterns in a short verse and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-177",
+      "topic": "meter",
+      "question": "How should I respond when I struggle with Meter?",
+      "answer": "Take a smaller step: Tap the stresses in two original lines. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-178",
+      "topic": "meter",
+      "question": "What evidence can show growth with Meter?",
+      "answer": "Keep the first attempt, explain meter organizes recurring stressed and unstressed syllables, then repeat tap the stresses in two original lines and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-179",
+      "topic": "meter",
+      "question": "What should I avoid claiming about Meter?",
+      "answer": "Do not claim every poem needs strict meter. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-180",
+      "topic": "meter",
+      "question": "How can I reflect on what I learned from Meter?",
+      "answer": "Write what you tried, what iambic patterns in a short verse helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-181",
+      "topic": "rhyme",
+      "question": "What does Rhyme mean?",
+      "answer": "Rhyme creates an audible relationship between line endings or sounds. light and night.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-182",
+      "topic": "rhyme",
+      "question": "Why is Rhyme useful?",
+      "answer": "Rhyme creates an audible relationship between line endings or sounds. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-183",
+      "topic": "rhyme",
+      "question": "Can you give a concrete example of Rhyme?",
+      "answer": "Consider this example: light and night. Notice what it demonstrates about rhyme.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-184",
+      "topic": "rhyme",
+      "question": "How should a beginner practice Rhyme?",
+      "answer": "Start with one manageable attempt: Try a near rhyme that serves the poem's meaning. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-185",
+      "topic": "rhyme",
+      "question": "What mistake should I watch for when learning Rhyme?",
+      "answer": "Avoid predictable rhyme that distorts syntax. When you spot that problem, return to light and night and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-186",
+      "topic": "rhyme",
+      "question": "How would you teach Rhyme to a younger learner?",
+      "answer": "Begin with light and night. Invite the learner to describe what they notice before introducing the term rhyme.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-187",
+      "topic": "rhyme",
+      "question": "What is a quick exercise for Rhyme?",
+      "answer": "Try this short exercise: Try a near rhyme that serves the poem's meaning. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-188",
+      "topic": "rhyme",
+      "question": "How can I check my understanding of Rhyme?",
+      "answer": "Explain rhyme creates an audible relationship between line endings or sounds without looking at your notes, then create an example different from light and night.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-189",
+      "topic": "rhyme",
+      "question": "How can Rhyme appear in everyday life?",
+      "answer": "Look for a real situation resembling light and night. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-190",
+      "topic": "rhyme",
+      "question": "What should I notice first when studying Rhyme?",
+      "answer": "First notice this central idea: Rhyme creates an audible relationship between line endings or sounds. Then examine the example: light and night.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-191",
+      "topic": "rhyme",
+      "question": "How can I explore Rhyme independently?",
+      "answer": "Choose a small original example, try try a near rhyme that serves the poem's meaning, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-192",
+      "topic": "rhyme",
+      "question": "What is a thoughtful question to ask about Rhyme?",
+      "answer": "Ask: \"How does light and night demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-193",
+      "topic": "rhyme",
+      "question": "How does Rhyme connect with another subject?",
+      "answer": "Compare rhyme with how we organize evidence and explain choices in other fields. A useful bridge is light and night.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-194",
+      "topic": "rhyme",
+      "question": "How could two learners work together on Rhyme?",
+      "answer": "One person can present light and night, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-195",
+      "topic": "rhyme",
+      "question": "What materials are helpful for exploring Rhyme?",
+      "answer": "Start with a notebook and a clear example such as light and night. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-196",
+      "topic": "rhyme",
+      "question": "How can I progress beyond beginner practice in Rhyme?",
+      "answer": "Extend the basic practice by changing one condition in light and night and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-197",
+      "topic": "rhyme",
+      "question": "How should I respond when I struggle with Rhyme?",
+      "answer": "Take a smaller step: Try a near rhyme that serves the poem's meaning. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-198",
+      "topic": "rhyme",
+      "question": "What evidence can show growth with Rhyme?",
+      "answer": "Keep the first attempt, explain rhyme creates an audible relationship between line endings or sounds, then repeat try a near rhyme that serves the poem's meaning and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-199",
+      "topic": "rhyme",
+      "question": "What should I avoid claiming about Rhyme?",
+      "answer": "Avoid predictable rhyme that distorts syntax. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-200",
+      "topic": "rhyme",
+      "question": "How can I reflect on what I learned from Rhyme?",
+      "answer": "Write what you tried, what light and night helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-201",
+      "topic": "free-verse",
+      "question": "What does Free verse mean?",
+      "answer": "Free verse uses deliberate line and sound choices without fixed meter. a three-line image of a morning street.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-202",
+      "topic": "free-verse",
+      "question": "Why is Free verse useful?",
+      "answer": "Free verse uses deliberate line and sound choices without fixed meter. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-203",
+      "topic": "free-verse",
+      "question": "Can you give a concrete example of Free verse?",
+      "answer": "Consider this example: a three-line image of a morning street. Notice what it demonstrates about free verse.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-204",
+      "topic": "free-verse",
+      "question": "How should a beginner practice Free verse?",
+      "answer": "Start with one manageable attempt: Break a prose sentence where its emphasis changes. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-205",
+      "topic": "free-verse",
+      "question": "What mistake should I watch for when learning Free verse?",
+      "answer": "Do not confuse free verse with random line breaks. When you spot that problem, return to a three-line image of a morning street and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-206",
+      "topic": "free-verse",
+      "question": "How would you teach Free verse to a younger learner?",
+      "answer": "Begin with a three-line image of a morning street. Invite the learner to describe what they notice before introducing the term free verse.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-207",
+      "topic": "free-verse",
+      "question": "What is a quick exercise for Free verse?",
+      "answer": "Try this short exercise: Break a prose sentence where its emphasis changes. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-208",
+      "topic": "free-verse",
+      "question": "How can I check my understanding of Free verse?",
+      "answer": "Explain free verse uses deliberate line and sound choices without fixed meter without looking at your notes, then create an example different from a three-line image of a morning street.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-209",
+      "topic": "free-verse",
+      "question": "How can Free verse appear in everyday life?",
+      "answer": "Look for a real situation resembling a three-line image of a morning street. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-210",
+      "topic": "free-verse",
+      "question": "What should I notice first when studying Free verse?",
+      "answer": "First notice this central idea: Free verse uses deliberate line and sound choices without fixed meter. Then examine the example: a three-line image of a morning street.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-211",
+      "topic": "free-verse",
+      "question": "How can I explore Free verse independently?",
+      "answer": "Choose a small original example, try break a prose sentence where its emphasis changes, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-212",
+      "topic": "free-verse",
+      "question": "What is a thoughtful question to ask about Free verse?",
+      "answer": "Ask: \"How does a three-line image of a morning street demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-213",
+      "topic": "free-verse",
+      "question": "How does Free verse connect with another subject?",
+      "answer": "Compare free verse with how we organize evidence and explain choices in other fields. A useful bridge is a three-line image of a morning street.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-214",
+      "topic": "free-verse",
+      "question": "How could two learners work together on Free verse?",
+      "answer": "One person can present a three-line image of a morning street, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-215",
+      "topic": "free-verse",
+      "question": "What materials are helpful for exploring Free verse?",
+      "answer": "Start with a notebook and a clear example such as a three-line image of a morning street. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-216",
+      "topic": "free-verse",
+      "question": "How can I progress beyond beginner practice in Free verse?",
+      "answer": "Extend the basic practice by changing one condition in a three-line image of a morning street and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-217",
+      "topic": "free-verse",
+      "question": "How should I respond when I struggle with Free verse?",
+      "answer": "Take a smaller step: Break a prose sentence where its emphasis changes. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-218",
+      "topic": "free-verse",
+      "question": "What evidence can show growth with Free verse?",
+      "answer": "Keep the first attempt, explain free verse uses deliberate line and sound choices without fixed meter, then repeat break a prose sentence where its emphasis changes and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-219",
+      "topic": "free-verse",
+      "question": "What should I avoid claiming about Free verse?",
+      "answer": "Do not confuse free verse with random line breaks. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-220",
+      "topic": "free-verse",
+      "question": "How can I reflect on what I learned from Free verse?",
+      "answer": "Write what you tried, what a three-line image of a morning street helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-221",
+      "topic": "haiku",
+      "question": "What does Haiku mean?",
+      "answer": "Haiku invites attention to a small moment and often a seasonal image. a leaf drifting across a quiet pond.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-222",
+      "topic": "haiku",
+      "question": "Why is Haiku useful?",
+      "answer": "Haiku invites attention to a small moment and often a seasonal image. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-223",
+      "topic": "haiku",
+      "question": "Can you give a concrete example of Haiku?",
+      "answer": "Consider this example: a leaf drifting across a quiet pond. Notice what it demonstrates about haiku.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-224",
+      "topic": "haiku",
+      "question": "How should a beginner practice Haiku?",
+      "answer": "Start with one manageable attempt: Observe a real moment before writing a concise poem. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-225",
+      "topic": "haiku",
+      "question": "What mistake should I watch for when learning Haiku?",
+      "answer": "Avoid presenting 5-7-5 English syllables as the only authentic tradition. When you spot that problem, return to a leaf drifting across a quiet pond and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-226",
+      "topic": "haiku",
+      "question": "How would you teach Haiku to a younger learner?",
+      "answer": "Begin with a leaf drifting across a quiet pond. Invite the learner to describe what they notice before introducing the term haiku.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-227",
+      "topic": "haiku",
+      "question": "What is a quick exercise for Haiku?",
+      "answer": "Try this short exercise: Observe a real moment before writing a concise poem. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-228",
+      "topic": "haiku",
+      "question": "How can I check my understanding of Haiku?",
+      "answer": "Explain haiku invites attention to a small moment and often a seasonal image without looking at your notes, then create an example different from a leaf drifting across a quiet pond.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-229",
+      "topic": "haiku",
+      "question": "How can Haiku appear in everyday life?",
+      "answer": "Look for a real situation resembling a leaf drifting across a quiet pond. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-230",
+      "topic": "haiku",
+      "question": "What should I notice first when studying Haiku?",
+      "answer": "First notice this central idea: Haiku invites attention to a small moment and often a seasonal image. Then examine the example: a leaf drifting across a quiet pond.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-231",
+      "topic": "haiku",
+      "question": "How can I explore Haiku independently?",
+      "answer": "Choose a small original example, try observe a real moment before writing a concise poem, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-232",
+      "topic": "haiku",
+      "question": "What is a thoughtful question to ask about Haiku?",
+      "answer": "Ask: \"How does a leaf drifting across a quiet pond demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-233",
+      "topic": "haiku",
+      "question": "How does Haiku connect with another subject?",
+      "answer": "Compare haiku with how we organize evidence and explain choices in other fields. A useful bridge is a leaf drifting across a quiet pond.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-234",
+      "topic": "haiku",
+      "question": "How could two learners work together on Haiku?",
+      "answer": "One person can present a leaf drifting across a quiet pond, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-235",
+      "topic": "haiku",
+      "question": "What materials are helpful for exploring Haiku?",
+      "answer": "Start with a notebook and a clear example such as a leaf drifting across a quiet pond. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-236",
+      "topic": "haiku",
+      "question": "How can I progress beyond beginner practice in Haiku?",
+      "answer": "Extend the basic practice by changing one condition in a leaf drifting across a quiet pond and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-237",
+      "topic": "haiku",
+      "question": "How should I respond when I struggle with Haiku?",
+      "answer": "Take a smaller step: Observe a real moment before writing a concise poem. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-238",
+      "topic": "haiku",
+      "question": "What evidence can show growth with Haiku?",
+      "answer": "Keep the first attempt, explain haiku invites attention to a small moment and often a seasonal image, then repeat observe a real moment before writing a concise poem and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-239",
+      "topic": "haiku",
+      "question": "What should I avoid claiming about Haiku?",
+      "answer": "Avoid presenting 5-7-5 English syllables as the only authentic tradition. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-240",
+      "topic": "haiku",
+      "question": "How can I reflect on what I learned from Haiku?",
+      "answer": "Write what you tried, what a leaf drifting across a quiet pond helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-241",
+      "topic": "stanza",
+      "question": "What does Stanza mean?",
+      "answer": "A stanza groups poetic lines into meaningful units. one stanza for memory and one for change.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-242",
+      "topic": "stanza",
+      "question": "Why is Stanza useful?",
+      "answer": "A stanza groups poetic lines into meaningful units. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-243",
+      "topic": "stanza",
+      "question": "Can you give a concrete example of Stanza?",
+      "answer": "Consider this example: one stanza for memory and one for change. Notice what it demonstrates about stanza.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-244",
+      "topic": "stanza",
+      "question": "How should a beginner practice Stanza?",
+      "answer": "Start with one manageable attempt: Separate a poem at its emotional turning point. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-245",
+      "topic": "stanza",
+      "question": "What mistake should I watch for when learning Stanza?",
+      "answer": "Avoid breaks that have no structural purpose. When you spot that problem, return to one stanza for memory and one for change and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-246",
+      "topic": "stanza",
+      "question": "How would you teach Stanza to a younger learner?",
+      "answer": "Begin with one stanza for memory and one for change. Invite the learner to describe what they notice before introducing the term stanza.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-247",
+      "topic": "stanza",
+      "question": "What is a quick exercise for Stanza?",
+      "answer": "Try this short exercise: Separate a poem at its emotional turning point. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-248",
+      "topic": "stanza",
+      "question": "How can I check my understanding of Stanza?",
+      "answer": "Explain a stanza groups poetic lines into meaningful units without looking at your notes, then create an example different from one stanza for memory and one for change.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-249",
+      "topic": "stanza",
+      "question": "How can Stanza appear in everyday life?",
+      "answer": "Look for a real situation resembling one stanza for memory and one for change. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-250",
+      "topic": "stanza",
+      "question": "What should I notice first when studying Stanza?",
+      "answer": "First notice this central idea: A stanza groups poetic lines into meaningful units. Then examine the example: one stanza for memory and one for change.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-251",
+      "topic": "stanza",
+      "question": "How can I explore Stanza independently?",
+      "answer": "Choose a small original example, try separate a poem at its emotional turning point, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-252",
+      "topic": "stanza",
+      "question": "What is a thoughtful question to ask about Stanza?",
+      "answer": "Ask: \"How does one stanza for memory and one for change demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-253",
+      "topic": "stanza",
+      "question": "How does Stanza connect with another subject?",
+      "answer": "Compare stanza with how we organize evidence and explain choices in other fields. A useful bridge is one stanza for memory and one for change.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-254",
+      "topic": "stanza",
+      "question": "How could two learners work together on Stanza?",
+      "answer": "One person can present one stanza for memory and one for change, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-255",
+      "topic": "stanza",
+      "question": "What materials are helpful for exploring Stanza?",
+      "answer": "Start with a notebook and a clear example such as one stanza for memory and one for change. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-256",
+      "topic": "stanza",
+      "question": "How can I progress beyond beginner practice in Stanza?",
+      "answer": "Extend the basic practice by changing one condition in one stanza for memory and one for change and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-257",
+      "topic": "stanza",
+      "question": "How should I respond when I struggle with Stanza?",
+      "answer": "Take a smaller step: Separate a poem at its emotional turning point. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-258",
+      "topic": "stanza",
+      "question": "What evidence can show growth with Stanza?",
+      "answer": "Keep the first attempt, explain a stanza groups poetic lines into meaningful units, then repeat separate a poem at its emotional turning point and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-259",
+      "topic": "stanza",
+      "question": "What should I avoid claiming about Stanza?",
+      "answer": "Avoid breaks that have no structural purpose. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-260",
+      "topic": "stanza",
+      "question": "How can I reflect on what I learned from Stanza?",
+      "answer": "Write what you tried, what one stanza for memory and one for change helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-261",
+      "topic": "enjambment",
+      "question": "What does Enjambment mean?",
+      "answer": "Enjambment carries syntax past a line ending. a thought that continues beyond a pause.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-262",
+      "topic": "enjambment",
+      "question": "Why is Enjambment useful?",
+      "answer": "Enjambment carries syntax past a line ending. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-263",
+      "topic": "enjambment",
+      "question": "Can you give a concrete example of Enjambment?",
+      "answer": "Consider this example: a thought that continues beyond a pause. Notice what it demonstrates about enjambment.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-264",
+      "topic": "enjambment",
+      "question": "How should a beginner practice Enjambment?",
+      "answer": "Start with one manageable attempt: Compare a line with and without a final stop. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-265",
+      "topic": "enjambment",
+      "question": "What mistake should I watch for when learning Enjambment?",
+      "answer": "Avoid line breaks that obscure basic sense. When you spot that problem, return to a thought that continues beyond a pause and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-266",
+      "topic": "enjambment",
+      "question": "How would you teach Enjambment to a younger learner?",
+      "answer": "Begin with a thought that continues beyond a pause. Invite the learner to describe what they notice before introducing the term enjambment.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-267",
+      "topic": "enjambment",
+      "question": "What is a quick exercise for Enjambment?",
+      "answer": "Try this short exercise: Compare a line with and without a final stop. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-268",
+      "topic": "enjambment",
+      "question": "How can I check my understanding of Enjambment?",
+      "answer": "Explain enjambment carries syntax past a line ending without looking at your notes, then create an example different from a thought that continues beyond a pause.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-269",
+      "topic": "enjambment",
+      "question": "How can Enjambment appear in everyday life?",
+      "answer": "Look for a real situation resembling a thought that continues beyond a pause. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-270",
+      "topic": "enjambment",
+      "question": "What should I notice first when studying Enjambment?",
+      "answer": "First notice this central idea: Enjambment carries syntax past a line ending. Then examine the example: a thought that continues beyond a pause.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-271",
+      "topic": "enjambment",
+      "question": "How can I explore Enjambment independently?",
+      "answer": "Choose a small original example, try compare a line with and without a final stop, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-272",
+      "topic": "enjambment",
+      "question": "What is a thoughtful question to ask about Enjambment?",
+      "answer": "Ask: \"How does a thought that continues beyond a pause demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-273",
+      "topic": "enjambment",
+      "question": "How does Enjambment connect with another subject?",
+      "answer": "Compare enjambment with how we organize evidence and explain choices in other fields. A useful bridge is a thought that continues beyond a pause.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-274",
+      "topic": "enjambment",
+      "question": "How could two learners work together on Enjambment?",
+      "answer": "One person can present a thought that continues beyond a pause, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-275",
+      "topic": "enjambment",
+      "question": "What materials are helpful for exploring Enjambment?",
+      "answer": "Start with a notebook and a clear example such as a thought that continues beyond a pause. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-276",
+      "topic": "enjambment",
+      "question": "How can I progress beyond beginner practice in Enjambment?",
+      "answer": "Extend the basic practice by changing one condition in a thought that continues beyond a pause and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-277",
+      "topic": "enjambment",
+      "question": "How should I respond when I struggle with Enjambment?",
+      "answer": "Take a smaller step: Compare a line with and without a final stop. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-278",
+      "topic": "enjambment",
+      "question": "What evidence can show growth with Enjambment?",
+      "answer": "Keep the first attempt, explain enjambment carries syntax past a line ending, then repeat compare a line with and without a final stop and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-279",
+      "topic": "enjambment",
+      "question": "What should I avoid claiming about Enjambment?",
+      "answer": "Avoid line breaks that obscure basic sense. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-280",
+      "topic": "enjambment",
+      "question": "How can I reflect on what I learned from Enjambment?",
+      "answer": "Write what you tried, what a thought that continues beyond a pause helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-281",
+      "topic": "point-of-view",
+      "question": "What does Point of view mean?",
+      "answer": "Point of view determines who tells a story and what they know. a scene told by a witness rather than the hero.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-282",
+      "topic": "point-of-view",
+      "question": "Why is Point of view useful?",
+      "answer": "Point of view determines who tells a story and what they know. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-283",
+      "topic": "point-of-view",
+      "question": "Can you give a concrete example of Point of view?",
+      "answer": "Consider this example: a scene told by a witness rather than the hero. Notice what it demonstrates about point of view.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-284",
+      "topic": "point-of-view",
+      "question": "How should a beginner practice Point of view?",
+      "answer": "Start with one manageable attempt: Rewrite one event in first and third person. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-285",
+      "topic": "point-of-view",
+      "question": "What mistake should I watch for when learning Point of view?",
+      "answer": "Do not reveal knowledge a limited narrator cannot have. When you spot that problem, return to a scene told by a witness rather than the hero and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-286",
+      "topic": "point-of-view",
+      "question": "How would you teach Point of view to a younger learner?",
+      "answer": "Begin with a scene told by a witness rather than the hero. Invite the learner to describe what they notice before introducing the term point of view.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-287",
+      "topic": "point-of-view",
+      "question": "What is a quick exercise for Point of view?",
+      "answer": "Try this short exercise: Rewrite one event in first and third person. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-288",
+      "topic": "point-of-view",
+      "question": "How can I check my understanding of Point of view?",
+      "answer": "Explain point of view determines who tells a story and what they know without looking at your notes, then create an example different from a scene told by a witness rather than the hero.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-289",
+      "topic": "point-of-view",
+      "question": "How can Point of view appear in everyday life?",
+      "answer": "Look for a real situation resembling a scene told by a witness rather than the hero. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-290",
+      "topic": "point-of-view",
+      "question": "What should I notice first when studying Point of view?",
+      "answer": "First notice this central idea: Point of view determines who tells a story and what they know. Then examine the example: a scene told by a witness rather than the hero.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-291",
+      "topic": "point-of-view",
+      "question": "How can I explore Point of view independently?",
+      "answer": "Choose a small original example, try rewrite one event in first and third person, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-292",
+      "topic": "point-of-view",
+      "question": "What is a thoughtful question to ask about Point of view?",
+      "answer": "Ask: \"How does a scene told by a witness rather than the hero demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-293",
+      "topic": "point-of-view",
+      "question": "How does Point of view connect with another subject?",
+      "answer": "Compare point of view with how we organize evidence and explain choices in other fields. A useful bridge is a scene told by a witness rather than the hero.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-294",
+      "topic": "point-of-view",
+      "question": "How could two learners work together on Point of view?",
+      "answer": "One person can present a scene told by a witness rather than the hero, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-295",
+      "topic": "point-of-view",
+      "question": "What materials are helpful for exploring Point of view?",
+      "answer": "Start with a notebook and a clear example such as a scene told by a witness rather than the hero. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-296",
+      "topic": "point-of-view",
+      "question": "How can I progress beyond beginner practice in Point of view?",
+      "answer": "Extend the basic practice by changing one condition in a scene told by a witness rather than the hero and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-297",
+      "topic": "point-of-view",
+      "question": "How should I respond when I struggle with Point of view?",
+      "answer": "Take a smaller step: Rewrite one event in first and third person. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-298",
+      "topic": "point-of-view",
+      "question": "What evidence can show growth with Point of view?",
+      "answer": "Keep the first attempt, explain point of view determines who tells a story and what they know, then repeat rewrite one event in first and third person and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-299",
+      "topic": "point-of-view",
+      "question": "What should I avoid claiming about Point of view?",
+      "answer": "Do not reveal knowledge a limited narrator cannot have. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-300",
+      "topic": "point-of-view",
+      "question": "How can I reflect on what I learned from Point of view?",
+      "answer": "Write what you tried, what a scene told by a witness rather than the hero helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-301",
+      "topic": "character-motivation",
+      "question": "What does Character motivation mean?",
+      "answer": "Motivation explains why a character chooses an action. a student hides a letter to protect a friend.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-302",
+      "topic": "character-motivation",
+      "question": "Why is Character motivation useful?",
+      "answer": "Motivation explains why a character chooses an action. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-303",
+      "topic": "character-motivation",
+      "question": "Can you give a concrete example of Character motivation?",
+      "answer": "Consider this example: a student hides a letter to protect a friend. Notice what it demonstrates about character motivation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-304",
+      "topic": "character-motivation",
+      "question": "How should a beginner practice Character motivation?",
+      "answer": "Start with one manageable attempt: Ask what the character wants and fears. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-305",
+      "topic": "character-motivation",
+      "question": "What mistake should I watch for when learning Character motivation?",
+      "answer": "Avoid decisions that happen solely to move the plot. When you spot that problem, return to a student hides a letter to protect a friend and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-306",
+      "topic": "character-motivation",
+      "question": "How would you teach Character motivation to a younger learner?",
+      "answer": "Begin with a student hides a letter to protect a friend. Invite the learner to describe what they notice before introducing the term character motivation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-307",
+      "topic": "character-motivation",
+      "question": "What is a quick exercise for Character motivation?",
+      "answer": "Try this short exercise: Ask what the character wants and fears. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-308",
+      "topic": "character-motivation",
+      "question": "How can I check my understanding of Character motivation?",
+      "answer": "Explain motivation explains why a character chooses an action without looking at your notes, then create an example different from a student hides a letter to protect a friend.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-309",
+      "topic": "character-motivation",
+      "question": "How can Character motivation appear in everyday life?",
+      "answer": "Look for a real situation resembling a student hides a letter to protect a friend. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-310",
+      "topic": "character-motivation",
+      "question": "What should I notice first when studying Character motivation?",
+      "answer": "First notice this central idea: Motivation explains why a character chooses an action. Then examine the example: a student hides a letter to protect a friend.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-311",
+      "topic": "character-motivation",
+      "question": "How can I explore Character motivation independently?",
+      "answer": "Choose a small original example, try ask what the character wants and fears, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-312",
+      "topic": "character-motivation",
+      "question": "What is a thoughtful question to ask about Character motivation?",
+      "answer": "Ask: \"How does a student hides a letter to protect a friend demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-313",
+      "topic": "character-motivation",
+      "question": "How does Character motivation connect with another subject?",
+      "answer": "Compare character motivation with how we organize evidence and explain choices in other fields. A useful bridge is a student hides a letter to protect a friend.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-314",
+      "topic": "character-motivation",
+      "question": "How could two learners work together on Character motivation?",
+      "answer": "One person can present a student hides a letter to protect a friend, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-315",
+      "topic": "character-motivation",
+      "question": "What materials are helpful for exploring Character motivation?",
+      "answer": "Start with a notebook and a clear example such as a student hides a letter to protect a friend. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-316",
+      "topic": "character-motivation",
+      "question": "How can I progress beyond beginner practice in Character motivation?",
+      "answer": "Extend the basic practice by changing one condition in a student hides a letter to protect a friend and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-317",
+      "topic": "character-motivation",
+      "question": "How should I respond when I struggle with Character motivation?",
+      "answer": "Take a smaller step: Ask what the character wants and fears. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-318",
+      "topic": "character-motivation",
+      "question": "What evidence can show growth with Character motivation?",
+      "answer": "Keep the first attempt, explain motivation explains why a character chooses an action, then repeat ask what the character wants and fears and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-319",
+      "topic": "character-motivation",
+      "question": "What should I avoid claiming about Character motivation?",
+      "answer": "Avoid decisions that happen solely to move the plot. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-320",
+      "topic": "character-motivation",
+      "question": "How can I reflect on what I learned from Character motivation?",
+      "answer": "Write what you tried, what a student hides a letter to protect a friend helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-321",
+      "topic": "dialogue",
+      "question": "What does Dialogue mean?",
+      "answer": "Dialogue reveals personality through speech and subtext. a short exchange where neither speaker says their fear directly.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-322",
+      "topic": "dialogue",
+      "question": "Why is Dialogue useful?",
+      "answer": "Dialogue reveals personality through speech and subtext. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-323",
+      "topic": "dialogue",
+      "question": "Can you give a concrete example of Dialogue?",
+      "answer": "Consider this example: a short exchange where neither speaker says their fear directly. Notice what it demonstrates about dialogue.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-324",
+      "topic": "dialogue",
+      "question": "How should a beginner practice Dialogue?",
+      "answer": "Start with one manageable attempt: Read two characters' lines without speaker tags. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-325",
+      "topic": "dialogue",
+      "question": "What mistake should I watch for when learning Dialogue?",
+      "answer": "Avoid making every character sound identical. When you spot that problem, return to a short exchange where neither speaker says their fear directly and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-326",
+      "topic": "dialogue",
+      "question": "How would you teach Dialogue to a younger learner?",
+      "answer": "Begin with a short exchange where neither speaker says their fear directly. Invite the learner to describe what they notice before introducing the term dialogue.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-327",
+      "topic": "dialogue",
+      "question": "What is a quick exercise for Dialogue?",
+      "answer": "Try this short exercise: Read two characters' lines without speaker tags. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-328",
+      "topic": "dialogue",
+      "question": "How can I check my understanding of Dialogue?",
+      "answer": "Explain dialogue reveals personality through speech and subtext without looking at your notes, then create an example different from a short exchange where neither speaker says their fear directly.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-329",
+      "topic": "dialogue",
+      "question": "How can Dialogue appear in everyday life?",
+      "answer": "Look for a real situation resembling a short exchange where neither speaker says their fear directly. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-330",
+      "topic": "dialogue",
+      "question": "What should I notice first when studying Dialogue?",
+      "answer": "First notice this central idea: Dialogue reveals personality through speech and subtext. Then examine the example: a short exchange where neither speaker says their fear directly.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-331",
+      "topic": "dialogue",
+      "question": "How can I explore Dialogue independently?",
+      "answer": "Choose a small original example, try read two characters' lines without speaker tags, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-332",
+      "topic": "dialogue",
+      "question": "What is a thoughtful question to ask about Dialogue?",
+      "answer": "Ask: \"How does a short exchange where neither speaker says their fear directly demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-333",
+      "topic": "dialogue",
+      "question": "How does Dialogue connect with another subject?",
+      "answer": "Compare dialogue with how we organize evidence and explain choices in other fields. A useful bridge is a short exchange where neither speaker says their fear directly.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-334",
+      "topic": "dialogue",
+      "question": "How could two learners work together on Dialogue?",
+      "answer": "One person can present a short exchange where neither speaker says their fear directly, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-335",
+      "topic": "dialogue",
+      "question": "What materials are helpful for exploring Dialogue?",
+      "answer": "Start with a notebook and a clear example such as a short exchange where neither speaker says their fear directly. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-336",
+      "topic": "dialogue",
+      "question": "How can I progress beyond beginner practice in Dialogue?",
+      "answer": "Extend the basic practice by changing one condition in a short exchange where neither speaker says their fear directly and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-337",
+      "topic": "dialogue",
+      "question": "How should I respond when I struggle with Dialogue?",
+      "answer": "Take a smaller step: Read two characters' lines without speaker tags. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-338",
+      "topic": "dialogue",
+      "question": "What evidence can show growth with Dialogue?",
+      "answer": "Keep the first attempt, explain dialogue reveals personality through speech and subtext, then repeat read two characters' lines without speaker tags and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-339",
+      "topic": "dialogue",
+      "question": "What should I avoid claiming about Dialogue?",
+      "answer": "Avoid making every character sound identical. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-340",
+      "topic": "dialogue",
+      "question": "How can I reflect on what I learned from Dialogue?",
+      "answer": "Write what you tried, what a short exchange where neither speaker says their fear directly helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-341",
+      "topic": "scene-pacing",
+      "question": "What does Scene pacing mean?",
+      "answer": "Pacing controls how quickly readers experience events. a brief action scene followed by a reflective pause.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-342",
+      "topic": "scene-pacing",
+      "question": "Why is Scene pacing useful?",
+      "answer": "Pacing controls how quickly readers experience events. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-343",
+      "topic": "scene-pacing",
+      "question": "Can you give a concrete example of Scene pacing?",
+      "answer": "Consider this example: a brief action scene followed by a reflective pause. Notice what it demonstrates about scene pacing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-344",
+      "topic": "scene-pacing",
+      "question": "How should a beginner practice Scene pacing?",
+      "answer": "Start with one manageable attempt: Vary sentence length during a tense moment. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-345",
+      "topic": "scene-pacing",
+      "question": "What mistake should I watch for when learning Scene pacing?",
+      "answer": "Avoid rushing crucial emotional changes. When you spot that problem, return to a brief action scene followed by a reflective pause and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-346",
+      "topic": "scene-pacing",
+      "question": "How would you teach Scene pacing to a younger learner?",
+      "answer": "Begin with a brief action scene followed by a reflective pause. Invite the learner to describe what they notice before introducing the term scene pacing.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-347",
+      "topic": "scene-pacing",
+      "question": "What is a quick exercise for Scene pacing?",
+      "answer": "Try this short exercise: Vary sentence length during a tense moment. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-348",
+      "topic": "scene-pacing",
+      "question": "How can I check my understanding of Scene pacing?",
+      "answer": "Explain pacing controls how quickly readers experience events without looking at your notes, then create an example different from a brief action scene followed by a reflective pause.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-349",
+      "topic": "scene-pacing",
+      "question": "How can Scene pacing appear in everyday life?",
+      "answer": "Look for a real situation resembling a brief action scene followed by a reflective pause. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-350",
+      "topic": "scene-pacing",
+      "question": "What should I notice first when studying Scene pacing?",
+      "answer": "First notice this central idea: Pacing controls how quickly readers experience events. Then examine the example: a brief action scene followed by a reflective pause.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-351",
+      "topic": "scene-pacing",
+      "question": "How can I explore Scene pacing independently?",
+      "answer": "Choose a small original example, try vary sentence length during a tense moment, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-352",
+      "topic": "scene-pacing",
+      "question": "What is a thoughtful question to ask about Scene pacing?",
+      "answer": "Ask: \"How does a brief action scene followed by a reflective pause demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-353",
+      "topic": "scene-pacing",
+      "question": "How does Scene pacing connect with another subject?",
+      "answer": "Compare scene pacing with how we organize evidence and explain choices in other fields. A useful bridge is a brief action scene followed by a reflective pause.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-354",
+      "topic": "scene-pacing",
+      "question": "How could two learners work together on Scene pacing?",
+      "answer": "One person can present a brief action scene followed by a reflective pause, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-355",
+      "topic": "scene-pacing",
+      "question": "What materials are helpful for exploring Scene pacing?",
+      "answer": "Start with a notebook and a clear example such as a brief action scene followed by a reflective pause. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-356",
+      "topic": "scene-pacing",
+      "question": "How can I progress beyond beginner practice in Scene pacing?",
+      "answer": "Extend the basic practice by changing one condition in a brief action scene followed by a reflective pause and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-357",
+      "topic": "scene-pacing",
+      "question": "How should I respond when I struggle with Scene pacing?",
+      "answer": "Take a smaller step: Vary sentence length during a tense moment. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-358",
+      "topic": "scene-pacing",
+      "question": "What evidence can show growth with Scene pacing?",
+      "answer": "Keep the first attempt, explain pacing controls how quickly readers experience events, then repeat vary sentence length during a tense moment and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-359",
+      "topic": "scene-pacing",
+      "question": "What should I avoid claiming about Scene pacing?",
+      "answer": "Avoid rushing crucial emotional changes. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-360",
+      "topic": "scene-pacing",
+      "question": "How can I reflect on what I learned from Scene pacing?",
+      "answer": "Write what you tried, what a brief action scene followed by a reflective pause helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-361",
+      "topic": "narrative-tension",
+      "question": "What does Narrative tension mean?",
+      "answer": "Tension arises from stakes, uncertainty and competing desires. a character must decide whether to reveal a secret.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-362",
+      "topic": "narrative-tension",
+      "question": "Why is Narrative tension useful?",
+      "answer": "Tension arises from stakes, uncertainty and competing desires. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-363",
+      "topic": "narrative-tension",
+      "question": "Can you give a concrete example of Narrative tension?",
+      "answer": "Consider this example: a character must decide whether to reveal a secret. Notice what it demonstrates about narrative tension.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-364",
+      "topic": "narrative-tension",
+      "question": "How should a beginner practice Narrative tension?",
+      "answer": "Start with one manageable attempt: Identify what could change if a choice goes wrong. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-365",
+      "topic": "narrative-tension",
+      "question": "What mistake should I watch for when learning Narrative tension?",
+      "answer": "Avoid artificial danger without meaningful consequences. When you spot that problem, return to a character must decide whether to reveal a secret and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-366",
+      "topic": "narrative-tension",
+      "question": "How would you teach Narrative tension to a younger learner?",
+      "answer": "Begin with a character must decide whether to reveal a secret. Invite the learner to describe what they notice before introducing the term narrative tension.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-367",
+      "topic": "narrative-tension",
+      "question": "What is a quick exercise for Narrative tension?",
+      "answer": "Try this short exercise: Identify what could change if a choice goes wrong. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-368",
+      "topic": "narrative-tension",
+      "question": "How can I check my understanding of Narrative tension?",
+      "answer": "Explain tension arises from stakes, uncertainty and competing desires without looking at your notes, then create an example different from a character must decide whether to reveal a secret.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-369",
+      "topic": "narrative-tension",
+      "question": "How can Narrative tension appear in everyday life?",
+      "answer": "Look for a real situation resembling a character must decide whether to reveal a secret. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-370",
+      "topic": "narrative-tension",
+      "question": "What should I notice first when studying Narrative tension?",
+      "answer": "First notice this central idea: Tension arises from stakes, uncertainty and competing desires. Then examine the example: a character must decide whether to reveal a secret.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-371",
+      "topic": "narrative-tension",
+      "question": "How can I explore Narrative tension independently?",
+      "answer": "Choose a small original example, try identify what could change if a choice goes wrong, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-372",
+      "topic": "narrative-tension",
+      "question": "What is a thoughtful question to ask about Narrative tension?",
+      "answer": "Ask: \"How does a character must decide whether to reveal a secret demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-373",
+      "topic": "narrative-tension",
+      "question": "How does Narrative tension connect with another subject?",
+      "answer": "Compare narrative tension with how we organize evidence and explain choices in other fields. A useful bridge is a character must decide whether to reveal a secret.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-374",
+      "topic": "narrative-tension",
+      "question": "How could two learners work together on Narrative tension?",
+      "answer": "One person can present a character must decide whether to reveal a secret, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-375",
+      "topic": "narrative-tension",
+      "question": "What materials are helpful for exploring Narrative tension?",
+      "answer": "Start with a notebook and a clear example such as a character must decide whether to reveal a secret. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-376",
+      "topic": "narrative-tension",
+      "question": "How can I progress beyond beginner practice in Narrative tension?",
+      "answer": "Extend the basic practice by changing one condition in a character must decide whether to reveal a secret and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-377",
+      "topic": "narrative-tension",
+      "question": "How should I respond when I struggle with Narrative tension?",
+      "answer": "Take a smaller step: Identify what could change if a choice goes wrong. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-378",
+      "topic": "narrative-tension",
+      "question": "What evidence can show growth with Narrative tension?",
+      "answer": "Keep the first attempt, explain tension arises from stakes, uncertainty and competing desires, then repeat identify what could change if a choice goes wrong and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-379",
+      "topic": "narrative-tension",
+      "question": "What should I avoid claiming about Narrative tension?",
+      "answer": "Avoid artificial danger without meaningful consequences. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-380",
+      "topic": "narrative-tension",
+      "question": "How can I reflect on what I learned from Narrative tension?",
+      "answer": "Write what you tried, what a character must decide whether to reveal a secret helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-381",
+      "topic": "theme",
+      "question": "What does Theme mean?",
+      "answer": "Theme is a developing insight rather than a one-word subject. a story exploring what trust asks of people.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-382",
+      "topic": "theme",
+      "question": "Why is Theme useful?",
+      "answer": "Theme is a developing insight rather than a one-word subject. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-383",
+      "topic": "theme",
+      "question": "Can you give a concrete example of Theme?",
+      "answer": "Consider this example: a story exploring what trust asks of people. Notice what it demonstrates about theme.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-384",
+      "topic": "theme",
+      "question": "How should a beginner practice Theme?",
+      "answer": "Start with one manageable attempt: Track how three scenes test the same idea. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-385",
+      "topic": "theme",
+      "question": "What mistake should I watch for when learning Theme?",
+      "answer": "Avoid declaring a moral instead of dramatizing it. When you spot that problem, return to a story exploring what trust asks of people and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-386",
+      "topic": "theme",
+      "question": "How would you teach Theme to a younger learner?",
+      "answer": "Begin with a story exploring what trust asks of people. Invite the learner to describe what they notice before introducing the term theme.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-387",
+      "topic": "theme",
+      "question": "What is a quick exercise for Theme?",
+      "answer": "Try this short exercise: Track how three scenes test the same idea. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-388",
+      "topic": "theme",
+      "question": "How can I check my understanding of Theme?",
+      "answer": "Explain theme is a developing insight rather than a one-word subject without looking at your notes, then create an example different from a story exploring what trust asks of people.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-389",
+      "topic": "theme",
+      "question": "How can Theme appear in everyday life?",
+      "answer": "Look for a real situation resembling a story exploring what trust asks of people. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-390",
+      "topic": "theme",
+      "question": "What should I notice first when studying Theme?",
+      "answer": "First notice this central idea: Theme is a developing insight rather than a one-word subject. Then examine the example: a story exploring what trust asks of people.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-391",
+      "topic": "theme",
+      "question": "How can I explore Theme independently?",
+      "answer": "Choose a small original example, try track how three scenes test the same idea, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-392",
+      "topic": "theme",
+      "question": "What is a thoughtful question to ask about Theme?",
+      "answer": "Ask: \"How does a story exploring what trust asks of people demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-393",
+      "topic": "theme",
+      "question": "How does Theme connect with another subject?",
+      "answer": "Compare theme with how we organize evidence and explain choices in other fields. A useful bridge is a story exploring what trust asks of people.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-394",
+      "topic": "theme",
+      "question": "How could two learners work together on Theme?",
+      "answer": "One person can present a story exploring what trust asks of people, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-395",
+      "topic": "theme",
+      "question": "What materials are helpful for exploring Theme?",
+      "answer": "Start with a notebook and a clear example such as a story exploring what trust asks of people. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-396",
+      "topic": "theme",
+      "question": "How can I progress beyond beginner practice in Theme?",
+      "answer": "Extend the basic practice by changing one condition in a story exploring what trust asks of people and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-397",
+      "topic": "theme",
+      "question": "How should I respond when I struggle with Theme?",
+      "answer": "Take a smaller step: Track how three scenes test the same idea. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-398",
+      "topic": "theme",
+      "question": "What evidence can show growth with Theme?",
+      "answer": "Keep the first attempt, explain theme is a developing insight rather than a one-word subject, then repeat track how three scenes test the same idea and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-399",
+      "topic": "theme",
+      "question": "What should I avoid claiming about Theme?",
+      "answer": "Avoid declaring a moral instead of dramatizing it. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-400",
+      "topic": "theme",
+      "question": "How can I reflect on what I learned from Theme?",
+      "answer": "Write what you tried, what a story exploring what trust asks of people helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-401",
+      "topic": "symbol",
+      "question": "What does Symbol mean?",
+      "answer": "A symbol gains significance from context and recurrence. a cracked compass appearing at key choices.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-402",
+      "topic": "symbol",
+      "question": "Why is Symbol useful?",
+      "answer": "A symbol gains significance from context and recurrence. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-403",
+      "topic": "symbol",
+      "question": "Can you give a concrete example of Symbol?",
+      "answer": "Consider this example: a cracked compass appearing at key choices. Notice what it demonstrates about symbol.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-404",
+      "topic": "symbol",
+      "question": "How should a beginner practice Symbol?",
+      "answer": "Start with one manageable attempt: Repeat one object with a changed meaning. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-405",
+      "topic": "symbol",
+      "question": "What mistake should I watch for when learning Symbol?",
+      "answer": "Avoid assuming symbols have one universal interpretation. When you spot that problem, return to a cracked compass appearing at key choices and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-406",
+      "topic": "symbol",
+      "question": "How would you teach Symbol to a younger learner?",
+      "answer": "Begin with a cracked compass appearing at key choices. Invite the learner to describe what they notice before introducing the term symbol.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-407",
+      "topic": "symbol",
+      "question": "What is a quick exercise for Symbol?",
+      "answer": "Try this short exercise: Repeat one object with a changed meaning. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-408",
+      "topic": "symbol",
+      "question": "How can I check my understanding of Symbol?",
+      "answer": "Explain a symbol gains significance from context and recurrence without looking at your notes, then create an example different from a cracked compass appearing at key choices.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-409",
+      "topic": "symbol",
+      "question": "How can Symbol appear in everyday life?",
+      "answer": "Look for a real situation resembling a cracked compass appearing at key choices. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-410",
+      "topic": "symbol",
+      "question": "What should I notice first when studying Symbol?",
+      "answer": "First notice this central idea: A symbol gains significance from context and recurrence. Then examine the example: a cracked compass appearing at key choices.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-411",
+      "topic": "symbol",
+      "question": "How can I explore Symbol independently?",
+      "answer": "Choose a small original example, try repeat one object with a changed meaning, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-412",
+      "topic": "symbol",
+      "question": "What is a thoughtful question to ask about Symbol?",
+      "answer": "Ask: \"How does a cracked compass appearing at key choices demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-413",
+      "topic": "symbol",
+      "question": "How does Symbol connect with another subject?",
+      "answer": "Compare symbol with how we organize evidence and explain choices in other fields. A useful bridge is a cracked compass appearing at key choices.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-414",
+      "topic": "symbol",
+      "question": "How could two learners work together on Symbol?",
+      "answer": "One person can present a cracked compass appearing at key choices, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-415",
+      "topic": "symbol",
+      "question": "What materials are helpful for exploring Symbol?",
+      "answer": "Start with a notebook and a clear example such as a cracked compass appearing at key choices. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-416",
+      "topic": "symbol",
+      "question": "How can I progress beyond beginner practice in Symbol?",
+      "answer": "Extend the basic practice by changing one condition in a cracked compass appearing at key choices and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-417",
+      "topic": "symbol",
+      "question": "How should I respond when I struggle with Symbol?",
+      "answer": "Take a smaller step: Repeat one object with a changed meaning. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-418",
+      "topic": "symbol",
+      "question": "What evidence can show growth with Symbol?",
+      "answer": "Keep the first attempt, explain a symbol gains significance from context and recurrence, then repeat repeat one object with a changed meaning and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-419",
+      "topic": "symbol",
+      "question": "What should I avoid claiming about Symbol?",
+      "answer": "Avoid assuming symbols have one universal interpretation. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-420",
+      "topic": "symbol",
+      "question": "How can I reflect on what I learned from Symbol?",
+      "answer": "Write what you tried, what a cracked compass appearing at key choices helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-421",
+      "topic": "motif",
+      "question": "What does Motif mean?",
+      "answer": "A motif is a recurring detail that develops coherence. the sound of bells at moments of departure.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-422",
+      "topic": "motif",
+      "question": "Why is Motif useful?",
+      "answer": "A motif is a recurring detail that develops coherence. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-423",
+      "topic": "motif",
+      "question": "Can you give a concrete example of Motif?",
+      "answer": "Consider this example: the sound of bells at moments of departure. Notice what it demonstrates about motif.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-424",
+      "topic": "motif",
+      "question": "How should a beginner practice Motif?",
+      "answer": "Start with one manageable attempt: Log repetitions and how each one changes. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-425",
+      "topic": "motif",
+      "question": "What mistake should I watch for when learning Motif?",
+      "answer": "Avoid repetition that adds no new resonance. When you spot that problem, return to the sound of bells at moments of departure and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-426",
+      "topic": "motif",
+      "question": "How would you teach Motif to a younger learner?",
+      "answer": "Begin with the sound of bells at moments of departure. Invite the learner to describe what they notice before introducing the term motif.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-427",
+      "topic": "motif",
+      "question": "What is a quick exercise for Motif?",
+      "answer": "Try this short exercise: Log repetitions and how each one changes. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-428",
+      "topic": "motif",
+      "question": "How can I check my understanding of Motif?",
+      "answer": "Explain a motif is a recurring detail that develops coherence without looking at your notes, then create an example different from the sound of bells at moments of departure.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-429",
+      "topic": "motif",
+      "question": "How can Motif appear in everyday life?",
+      "answer": "Look for a real situation resembling the sound of bells at moments of departure. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-430",
+      "topic": "motif",
+      "question": "What should I notice first when studying Motif?",
+      "answer": "First notice this central idea: A motif is a recurring detail that develops coherence. Then examine the example: the sound of bells at moments of departure.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-431",
+      "topic": "motif",
+      "question": "How can I explore Motif independently?",
+      "answer": "Choose a small original example, try log repetitions and how each one changes, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-432",
+      "topic": "motif",
+      "question": "What is a thoughtful question to ask about Motif?",
+      "answer": "Ask: \"How does the sound of bells at moments of departure demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-433",
+      "topic": "motif",
+      "question": "How does Motif connect with another subject?",
+      "answer": "Compare motif with how we organize evidence and explain choices in other fields. A useful bridge is the sound of bells at moments of departure.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-434",
+      "topic": "motif",
+      "question": "How could two learners work together on Motif?",
+      "answer": "One person can present the sound of bells at moments of departure, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-435",
+      "topic": "motif",
+      "question": "What materials are helpful for exploring Motif?",
+      "answer": "Start with a notebook and a clear example such as the sound of bells at moments of departure. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-436",
+      "topic": "motif",
+      "question": "How can I progress beyond beginner practice in Motif?",
+      "answer": "Extend the basic practice by changing one condition in the sound of bells at moments of departure and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-437",
+      "topic": "motif",
+      "question": "How should I respond when I struggle with Motif?",
+      "answer": "Take a smaller step: Log repetitions and how each one changes. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-438",
+      "topic": "motif",
+      "question": "What evidence can show growth with Motif?",
+      "answer": "Keep the first attempt, explain a motif is a recurring detail that develops coherence, then repeat log repetitions and how each one changes and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-439",
+      "topic": "motif",
+      "question": "What should I avoid claiming about Motif?",
+      "answer": "Avoid repetition that adds no new resonance. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-440",
+      "topic": "motif",
+      "question": "How can I reflect on what I learned from Motif?",
+      "answer": "Write what you tried, what the sound of bells at moments of departure helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-441",
+      "topic": "revision",
+      "question": "What does Revision mean?",
+      "answer": "Revision changes structure and meaning as well as wording. moving a revelation earlier to clarify the ending.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-442",
+      "topic": "revision",
+      "question": "Why is Revision useful?",
+      "answer": "Revision changes structure and meaning as well as wording. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-443",
+      "topic": "revision",
+      "question": "Can you give a concrete example of Revision?",
+      "answer": "Consider this example: moving a revelation earlier to clarify the ending. Notice what it demonstrates about revision.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-444",
+      "topic": "revision",
+      "question": "How should a beginner practice Revision?",
+      "answer": "Start with one manageable attempt: Make one structural pass and one sentence-level pass. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-445",
+      "topic": "revision",
+      "question": "What mistake should I watch for when learning Revision?",
+      "answer": "Avoid polishing sentences that may be removed. When you spot that problem, return to moving a revelation earlier to clarify the ending and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-446",
+      "topic": "revision",
+      "question": "How would you teach Revision to a younger learner?",
+      "answer": "Begin with moving a revelation earlier to clarify the ending. Invite the learner to describe what they notice before introducing the term revision.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-447",
+      "topic": "revision",
+      "question": "What is a quick exercise for Revision?",
+      "answer": "Try this short exercise: Make one structural pass and one sentence-level pass. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-448",
+      "topic": "revision",
+      "question": "How can I check my understanding of Revision?",
+      "answer": "Explain revision changes structure and meaning as well as wording without looking at your notes, then create an example different from moving a revelation earlier to clarify the ending.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-449",
+      "topic": "revision",
+      "question": "How can Revision appear in everyday life?",
+      "answer": "Look for a real situation resembling moving a revelation earlier to clarify the ending. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-450",
+      "topic": "revision",
+      "question": "What should I notice first when studying Revision?",
+      "answer": "First notice this central idea: Revision changes structure and meaning as well as wording. Then examine the example: moving a revelation earlier to clarify the ending.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-451",
+      "topic": "revision",
+      "question": "How can I explore Revision independently?",
+      "answer": "Choose a small original example, try make one structural pass and one sentence-level pass, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-452",
+      "topic": "revision",
+      "question": "What is a thoughtful question to ask about Revision?",
+      "answer": "Ask: \"How does moving a revelation earlier to clarify the ending demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-453",
+      "topic": "revision",
+      "question": "How does Revision connect with another subject?",
+      "answer": "Compare revision with how we organize evidence and explain choices in other fields. A useful bridge is moving a revelation earlier to clarify the ending.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-454",
+      "topic": "revision",
+      "question": "How could two learners work together on Revision?",
+      "answer": "One person can present moving a revelation earlier to clarify the ending, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-455",
+      "topic": "revision",
+      "question": "What materials are helpful for exploring Revision?",
+      "answer": "Start with a notebook and a clear example such as moving a revelation earlier to clarify the ending. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-456",
+      "topic": "revision",
+      "question": "How can I progress beyond beginner practice in Revision?",
+      "answer": "Extend the basic practice by changing one condition in moving a revelation earlier to clarify the ending and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-457",
+      "topic": "revision",
+      "question": "How should I respond when I struggle with Revision?",
+      "answer": "Take a smaller step: Make one structural pass and one sentence-level pass. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-458",
+      "topic": "revision",
+      "question": "What evidence can show growth with Revision?",
+      "answer": "Keep the first attempt, explain revision changes structure and meaning as well as wording, then repeat make one structural pass and one sentence-level pass and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-459",
+      "topic": "revision",
+      "question": "What should I avoid claiming about Revision?",
+      "answer": "Avoid polishing sentences that may be removed. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-460",
+      "topic": "revision",
+      "question": "How can I reflect on what I learned from Revision?",
+      "answer": "Write what you tried, what moving a revelation earlier to clarify the ending helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-461",
+      "topic": "rhetorical-audience",
+      "question": "What does Rhetorical audience mean?",
+      "answer": "Audience shapes a speaker's diction, evidence and tone. a welcome letter differs from an academic argument.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-462",
+      "topic": "rhetorical-audience",
+      "question": "Why is Rhetorical audience useful?",
+      "answer": "Audience shapes a speaker's diction, evidence and tone. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-463",
+      "topic": "rhetorical-audience",
+      "question": "Can you give a concrete example of Rhetorical audience?",
+      "answer": "Consider this example: a welcome letter differs from an academic argument. Notice what it demonstrates about rhetorical audience.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-464",
+      "topic": "rhetorical-audience",
+      "question": "How should a beginner practice Rhetorical audience?",
+      "answer": "Start with one manageable attempt: Rewrite a request for two different readers. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-465",
+      "topic": "rhetorical-audience",
+      "question": "What mistake should I watch for when learning Rhetorical audience?",
+      "answer": "Do not manipulate or misrepresent evidence for persuasion. When you spot that problem, return to a welcome letter differs from an academic argument and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-466",
+      "topic": "rhetorical-audience",
+      "question": "How would you teach Rhetorical audience to a younger learner?",
+      "answer": "Begin with a welcome letter differs from an academic argument. Invite the learner to describe what they notice before introducing the term rhetorical audience.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-467",
+      "topic": "rhetorical-audience",
+      "question": "What is a quick exercise for Rhetorical audience?",
+      "answer": "Try this short exercise: Rewrite a request for two different readers. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-468",
+      "topic": "rhetorical-audience",
+      "question": "How can I check my understanding of Rhetorical audience?",
+      "answer": "Explain audience shapes a speaker's diction, evidence and tone without looking at your notes, then create an example different from a welcome letter differs from an academic argument.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-469",
+      "topic": "rhetorical-audience",
+      "question": "How can Rhetorical audience appear in everyday life?",
+      "answer": "Look for a real situation resembling a welcome letter differs from an academic argument. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-470",
+      "topic": "rhetorical-audience",
+      "question": "What should I notice first when studying Rhetorical audience?",
+      "answer": "First notice this central idea: Audience shapes a speaker's diction, evidence and tone. Then examine the example: a welcome letter differs from an academic argument.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-471",
+      "topic": "rhetorical-audience",
+      "question": "How can I explore Rhetorical audience independently?",
+      "answer": "Choose a small original example, try rewrite a request for two different readers, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-472",
+      "topic": "rhetorical-audience",
+      "question": "What is a thoughtful question to ask about Rhetorical audience?",
+      "answer": "Ask: \"How does a welcome letter differs from an academic argument demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-473",
+      "topic": "rhetorical-audience",
+      "question": "How does Rhetorical audience connect with another subject?",
+      "answer": "Compare rhetorical audience with how we organize evidence and explain choices in other fields. A useful bridge is a welcome letter differs from an academic argument.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-474",
+      "topic": "rhetorical-audience",
+      "question": "How could two learners work together on Rhetorical audience?",
+      "answer": "One person can present a welcome letter differs from an academic argument, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-475",
+      "topic": "rhetorical-audience",
+      "question": "What materials are helpful for exploring Rhetorical audience?",
+      "answer": "Start with a notebook and a clear example such as a welcome letter differs from an academic argument. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-476",
+      "topic": "rhetorical-audience",
+      "question": "How can I progress beyond beginner practice in Rhetorical audience?",
+      "answer": "Extend the basic practice by changing one condition in a welcome letter differs from an academic argument and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-477",
+      "topic": "rhetorical-audience",
+      "question": "How should I respond when I struggle with Rhetorical audience?",
+      "answer": "Take a smaller step: Rewrite a request for two different readers. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-478",
+      "topic": "rhetorical-audience",
+      "question": "What evidence can show growth with Rhetorical audience?",
+      "answer": "Keep the first attempt, explain audience shapes a speaker's diction, evidence and tone, then repeat rewrite a request for two different readers and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-479",
+      "topic": "rhetorical-audience",
+      "question": "What should I avoid claiming about Rhetorical audience?",
+      "answer": "Do not manipulate or misrepresent evidence for persuasion. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-480",
+      "topic": "rhetorical-audience",
+      "question": "How can I reflect on what I learned from Rhetorical audience?",
+      "answer": "Write what you tried, what a welcome letter differs from an academic argument helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-481",
+      "topic": "literary-provenance",
+      "question": "What does Literary provenance mean?",
+      "answer": "Provenance distinguishes an original work from quotation, adaptation and uncertain attribution. a draft with author and revision noted.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-482",
+      "topic": "literary-provenance",
+      "question": "Why is Literary provenance useful?",
+      "answer": "Provenance distinguishes an original work from quotation, adaptation and uncertain attribution. It helps learners make a purposeful choice rather than simply memorizing a label.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-483",
+      "topic": "literary-provenance",
+      "question": "Can you give a concrete example of Literary provenance?",
+      "answer": "Consider this example: a draft with author and revision noted. Notice what it demonstrates about literary provenance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-484",
+      "topic": "literary-provenance",
+      "question": "How should a beginner practice Literary provenance?",
+      "answer": "Start with one manageable attempt: Record where each borrowed quotation originated. Explain what you noticed in your own words.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-485",
+      "topic": "literary-provenance",
+      "question": "What mistake should I watch for when learning Literary provenance?",
+      "answer": "Never invent authorship or cite a source you have not verified. When you spot that problem, return to a draft with author and revision noted and check the underlying reasoning.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-486",
+      "topic": "literary-provenance",
+      "question": "How would you teach Literary provenance to a younger learner?",
+      "answer": "Begin with a draft with author and revision noted. Invite the learner to describe what they notice before introducing the term literary provenance.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-487",
+      "topic": "literary-provenance",
+      "question": "What is a quick exercise for Literary provenance?",
+      "answer": "Try this short exercise: Record where each borrowed quotation originated. Spend a moment afterwards noting what changed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-488",
+      "topic": "literary-provenance",
+      "question": "How can I check my understanding of Literary provenance?",
+      "answer": "Explain provenance distinguishes an original work from quotation, adaptation and uncertain attribution without looking at your notes, then create an example different from a draft with author and revision noted.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-489",
+      "topic": "literary-provenance",
+      "question": "How can Literary provenance appear in everyday life?",
+      "answer": "Look for a real situation resembling a draft with author and revision noted. Describe how the same principle might help there, without forcing the comparison.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-490",
+      "topic": "literary-provenance",
+      "question": "What should I notice first when studying Literary provenance?",
+      "answer": "First notice this central idea: Provenance distinguishes an original work from quotation, adaptation and uncertain attribution. Then examine the example: a draft with author and revision noted.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-491",
+      "topic": "literary-provenance",
+      "question": "How can I explore Literary provenance independently?",
+      "answer": "Choose a small original example, try record where each borrowed quotation originated, and compare your observations to a trustworthy reference.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-492",
+      "topic": "literary-provenance",
+      "question": "What is a thoughtful question to ask about Literary provenance?",
+      "answer": "Ask: \"How does a draft with author and revision noted demonstrate this idea, and when would it not apply?\" Use evidence rather than a guess.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-493",
+      "topic": "literary-provenance",
+      "question": "How does Literary provenance connect with another subject?",
+      "answer": "Compare literary provenance with how we organize evidence and explain choices in other fields. A useful bridge is a draft with author and revision noted.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-494",
+      "topic": "literary-provenance",
+      "question": "How could two learners work together on Literary provenance?",
+      "answer": "One person can present a draft with author and revision noted, while the other offers a different example. Compare explanations respectfully and revise together.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-495",
+      "topic": "literary-provenance",
+      "question": "What materials are helpful for exploring Literary provenance?",
+      "answer": "Start with a notebook and a clear example such as a draft with author and revision noted. Use any accessible tools suited to the task, rather than buying equipment unnecessarily.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-496",
+      "topic": "literary-provenance",
+      "question": "How can I progress beyond beginner practice in Literary provenance?",
+      "answer": "Extend the basic practice by changing one condition in a draft with author and revision noted and explaining how that affects your interpretation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-497",
+      "topic": "literary-provenance",
+      "question": "How should I respond when I struggle with Literary provenance?",
+      "answer": "Take a smaller step: Record where each borrowed quotation originated. Struggle can point to the exact part that needs another example or a slower explanation.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-498",
+      "topic": "literary-provenance",
+      "question": "What evidence can show growth with Literary provenance?",
+      "answer": "Keep the first attempt, explain provenance distinguishes an original work from quotation, adaptation and uncertain attribution, then repeat record where each borrowed quotation originated and compare reasoning rather than speed.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-499",
+      "topic": "literary-provenance",
+      "question": "What should I avoid claiming about Literary provenance?",
+      "answer": "Never invent authorship or cite a source you have not verified. Be clear about what is observation, interpretation, and an unanswered question.",
+      "status": "founder-approved-editorial"
+    },
+    {
+      "id": "eiren-editorial-20261109-500",
+      "topic": "literary-provenance",
+      "question": "How can I reflect on what I learned from Literary provenance?",
+      "answer": "Write what you tried, what a draft with author and revision noted helped you notice, and one question you would explore next.",
+      "status": "founder-approved-editorial"
+    }
+  ]
+}
