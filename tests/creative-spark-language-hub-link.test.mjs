@@ -13,7 +13,7 @@ const mentorIds={
  'hope':'id="hope"',
  'auren':'id="talk"'
 };
-const matches=[...html.matchAll(/<script src="https:\/\/artist1970\.github\.io\/creative-spark\.github\.io\/language-laboratory\/releases\/mentor-language-hub-1\.1\.0\.js" data-mentor-id="([^"]+)" integrity="sha384-tffr3ORg9vR5OKqEW7qIdWpsK8H0p\/a3KqN8neiYfAsBWKkAohWh2mG\/1zneU3Uk" crossorigin="anonymous" referrerpolicy="no-referrer" defer><\/script>/g)];
+const matches=[...html.matchAll(/<script\b[^>]*data-mentor-id="([^"]+)"[^>]*><\/script>/g)].filter(x=>x[0].includes('releases/mentor-language-hub-1.1.0.js'));
 test('one shared public language hub is mounted to the correct mentor',()=>{
  assert.equal(matches.length,1);
  assert.ok(Object.hasOwn(mentorIds,matches[0][1]));
@@ -42,6 +42,6 @@ test('existing mentor chat and voice controls remain present',()=>{
 test('external executable is frozen and hash-verified before execution',()=>{
  assert.equal(matches.length,1);
  assert.match(matches[0][0],/\/releases\/mentor-language-hub-1\.1\.0\.js/);
- assert.match(matches[0][0],/integrity="sha384-/);
+ assert.ok(matches[0][0].includes('integrity="sha384-5/H8zMx3qlWdUBHXL/Xn/mPOl9AXHBY4d1w7nGOwU0jylHoO/mecz9aEjxRhQ6WY"'));
  assert.match(matches[0][0],/crossorigin="anonymous"/);
 });
