@@ -4056,6 +4056,456 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-451",
+      "topic": "literary-questions",
+      "question": "How can a story make an ordinary moment feel important?",
+      "response": "Notice how attention, pacing, and a character's expectations transform a familiar action. Explain which detail gives the moment consequence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-452",
+      "topic": "literary-questions",
+      "question": "What should I ask about a story's missing information?",
+      "response": "Identify precisely what remains unknown, who might know it, and whether the absence creates productive uncertainty or merely confusion.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-453",
+      "topic": "literary-questions",
+      "question": "How does contrast help a writer develop a theme?",
+      "response": "Place two choices, images, or scenes beside each other and examine their differences. Explain what those differences reveal about the work's central concern.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-454",
+      "topic": "literary-questions",
+      "question": "Why can a minor character matter to the main conflict?",
+      "response": "A minor character may challenge a belief, reveal a consequence, or provide a contrasting choice. Track their actual influence rather than judging importance by page count.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-455",
+      "topic": "literary-questions",
+      "question": "How can an ending change the meaning of an earlier scene?",
+      "response": "Return to an early detail after reading the conclusion and explain what later knowledge adds. Distinguish new interpretation from information the opening explicitly supplied.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-456",
+      "topic": "poetry-and-image",
+      "question": "How can a poem use an ordinary object as its center?",
+      "response": "Describe the object's physical presence first, then let its associations emerge through action, memory, or contrast instead of assigning a fixed symbolic label.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-457",
+      "topic": "poetry-and-image",
+      "question": "What can a broken sentence across two poetic lines accomplish?",
+      "response": "The line break may create an expectation that the next line redirects. Read both the pause and the complete syntax to compare their effects.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-458",
+      "topic": "poetry-and-image",
+      "question": "How should I interpret a poem that changes tense?",
+      "response": "Notice where the speaker moves among past, present, and future. Consider whether the change alters memory, immediacy, or hope.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-459",
+      "topic": "poetry-and-image",
+      "question": "Why might a poet repeat a word with different punctuation?",
+      "response": "A changed pause or emphasis can alter how the repeated word is heard. Examine the neighboring phrases rather than treating the appearances as identical.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-460",
+      "topic": "poetry-and-image",
+      "question": "How do I discuss a poem's emotional tone without guessing the poet's life?",
+      "response": "Describe diction, images, and rhythm in the speaker's language. Keep the poem's speaker separate from biographical claims you cannot verify.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-461",
+      "topic": "narrative-ethics",
+      "question": "How can a writer portray uncertainty without losing clarity?",
+      "response": "Make clear what characters know, suspect, and cannot establish. Readers can follow a well-defined uncertainty even when the outcome remains unresolved.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-462",
+      "topic": "narrative-ethics",
+      "question": "What should a narrator do when describing another person's private thoughts?",
+      "response": "In nonfiction, distinguish documented statements from inference. In fiction, establish a narrative perspective that justifies access to the character's inner life.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-463",
+      "topic": "narrative-ethics",
+      "question": "How can I discuss a character's wrongdoing without excusing it?",
+      "response": "Explain motives and circumstances alongside the harm and consequences. Understanding a decision does not require declaring it acceptable.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-464",
+      "topic": "narrative-ethics",
+      "question": "Why is informed research important when writing about unfamiliar experiences?",
+      "response": "Research helps challenge assumptions and build specific, credible situations. Consult diverse trustworthy perspectives without asking one person to represent an entire group.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-465",
+      "topic": "narrative-ethics",
+      "question": "What makes a sensitive detail necessary to a scene?",
+      "response": "Ask whether the detail deepens character, context, or consequence. If it only shocks, consider a less intrusive way to serve the story.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-466",
+      "topic": "rhetoric-and-reason",
+      "question": "How can I distinguish a strong analogy from a misleading one?",
+      "response": "Name exactly which relationships the analogy shares with the subject and where the comparison breaks down. Reject conclusions that depend on the false similarities.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-467",
+      "topic": "rhetoric-and-reason",
+      "question": "What should I do if an essay uses statistics without a source?",
+      "response": "Treat the numbers as unverified, look for the original study or dataset, and avoid building an argument on them until the methods and context are clear.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-468",
+      "topic": "rhetoric-and-reason",
+      "question": "How can the order of evidence affect persuasion?",
+      "response": "An argument may begin with common ground, develop support, and address objections. Examine whether the sequence clarifies reasoning or hides weaknesses.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-469",
+      "topic": "rhetoric-and-reason",
+      "question": "What is a qualified claim?",
+      "response": "A qualified claim states its limits using conditions or degrees of certainty. Qualification can make an argument more accurate when evidence is incomplete.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-470",
+      "topic": "rhetoric-and-reason",
+      "question": "How can I write a fair response to a critic?",
+      "response": "Restate the strongest version of the criticism, address its evidence directly, and acknowledge any valid point before explaining your disagreement.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-471",
+      "topic": "writing-process",
+      "question": "How can I turn a rough journal entry into a crafted essay?",
+      "response": "Identify the question beneath the entry, select a few revealing moments, and organize reflection around them. Keep only personal details you choose to share.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-472",
+      "topic": "writing-process",
+      "question": "What is a useful strategy for rewriting a confusing page?",
+      "response": "Summarize the page's purpose in one sentence, mark essential ideas, then rebuild their order before polishing individual phrases.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-473",
+      "topic": "writing-process",
+      "question": "How can I preserve originality while studying a favorite author?",
+      "response": "Identify a technique such as pacing or perspective and practise it with your own material. Avoid borrowing recognizable sentences or distinctive scenes.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-474",
+      "topic": "writing-process",
+      "question": "How should I choose between cutting and expanding a passage?",
+      "response": "Ask what the reader needs at that moment. Cut repetition or digression; expand where motivation, evidence, or transitions are missing.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-475",
+      "topic": "writing-process",
+      "question": "What can I learn by drafting the same scene twice?",
+      "response": "Try different viewpoints or levels of detail, then compare what each version reveals. Select the one that best supports the scene's purpose.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-476",
+      "topic": "language-history",
+      "question": "Why can a word's etymology differ from its present meaning?",
+      "response": "Words change through use over time. An origin can illuminate history, but contemporary meaning must be established from current context and usage.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-477",
+      "topic": "language-history",
+      "question": "How can borrowed words enrich a literary passage?",
+      "response": "Borrowed words may carry tone, setting, or cultural associations. Use them accurately and consider whether surrounding context helps readers understand them.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-478",
+      "topic": "language-history",
+      "question": "What is a calque in translation?",
+      "response": "A calque translates the parts of an expression into another language. Evaluate whether the resulting phrase is meaningful and natural in the new context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-479",
+      "topic": "language-history",
+      "question": "How can spelling changes affect a historical quotation?",
+      "response": "Modernized spelling may improve accessibility while obscuring older sound or wordplay. Record whether you quote a diplomatic transcription or an edited text.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-480",
+      "topic": "language-history",
+      "question": "Why are regional variations important in language study?",
+      "response": "Usage, pronunciation, and register can vary across communities. Name the specific region or context instead of treating one form as universally standard.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-481",
+      "topic": "editing-publishing",
+      "question": "How can I use an editorial style sheet?",
+      "response": "Record consistent choices for spelling, capitalization, names, dates, and formatting. Consult the sheet during copyediting without overriding the author's intended voice.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-482",
+      "topic": "editing-publishing",
+      "question": "What is a proof correction?",
+      "response": "A proof correction repairs an error discovered after layout or typesetting. Keep the change narrowly focused unless a larger revision is explicitly authorized.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-483",
+      "topic": "editing-publishing",
+      "question": "Why should I check the source of an epigraph?",
+      "response": "An epigraph is a quotation placed before a work or section. Verify exact wording, attribution, translation, and any permission requirements.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-484",
+      "topic": "editing-publishing",
+      "question": "What should I consider before publishing a collaborative poem?",
+      "response": "Agree on authorship, permissions, revision authority, and how contributors will be credited. Shared creative work deserves clear consent.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-485",
+      "topic": "editing-publishing",
+      "question": "How can a writer describe the status of an unfinished draft?",
+      "response": "Use accurate labels such as working draft, revised draft, or proof. Clear status helps readers know whether feedback or publication is intended.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-486",
+      "topic": "oral-literature",
+      "question": "How can a storyteller signal a change of speaker?",
+      "response": "Use distinct phrasing, clear context, and restrained vocal variation. Listeners should be able to follow without an exaggerated accent.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-487",
+      "topic": "oral-literature",
+      "question": "What role does a refrain play in an oral tale?",
+      "response": "A refrain helps listeners recognize structure, anticipate a return, and remember key ideas. Its emotional effect can change with each repetition.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-488",
+      "topic": "oral-literature",
+      "question": "How can I compare a spoken version and written version of a tale?",
+      "response": "Notice pacing, audience interaction, repetition, and descriptive details. Treat each as a performance or version with its own context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-489",
+      "topic": "oral-literature",
+      "question": "How can I rehearse a reading without memorizing every word?",
+      "response": "Mark main transitions, difficult pronunciations, and places to pause, then practise following the sense. Use the text itself to support accuracy.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-490",
+      "topic": "oral-literature",
+      "question": "What does an audience need when a story changes time or place?",
+      "response": "Give a concise orientation through a name, action, or sensory cue. Too much explanation can interrupt the tale's momentum.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-491",
+      "topic": "literary-inquiry",
+      "question": "How can I design a small literary research project?",
+      "response": "Choose a specific text and question, gather a trustworthy edition and a few relevant sources, then document what each source actually supports.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-492",
+      "topic": "literary-inquiry",
+      "question": "What should I do when a literary theory seems to explain everything?",
+      "response": "Test it against passages that do not fit and consider alternative approaches. A useful framework should reveal detail rather than erase it.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-493",
+      "topic": "literary-inquiry",
+      "question": "How can I compare different critics' uses of one term?",
+      "response": "Read each critic's definition and examples before assuming they mean the same thing. Note differences in scope and historical context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-494",
+      "topic": "literary-inquiry",
+      "question": "What is a research limitation in literary scholarship?",
+      "response": "A limitation is a constraint such as missing manuscripts, uncertain dates, or a narrow sample. State it clearly so readers can judge the strength of conclusions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-495",
+      "topic": "literary-inquiry",
+      "question": "How can I conclude a close-reading project responsibly?",
+      "response": "Summarize the most important textual findings, explain the interpretation they support, and acknowledge significant questions the evidence cannot settle.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-496",
+      "topic": "mentoring-practice",
+      "question": "How should Eiren respond to a request to rewrite an entire assignment?",
+      "response": "Offer planning, examples, and focused revision guidance instead of replacing the learner's independent work. Follow the course's authorship expectations.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-497",
+      "topic": "mentoring-practice",
+      "question": "How can I encourage careful reading without overwhelming a learner?",
+      "response": "Choose one short passage and one meaningful observation at a time. Expand only when the learner is ready and the purpose remains clear.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-498",
+      "topic": "mentoring-practice",
+      "question": "What is a helpful way to discuss a learner's first poem?",
+      "response": "Ask what image or feeling matters most to the writer, identify a specific strength, and offer one optional craft experiment.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-499",
+      "topic": "mentoring-practice",
+      "question": "How can Eiren guide a reader toward archival evidence?",
+      "response": "Explain the research question, identify the kind of primary source needed, and refer the reader to a trustworthy archive with provenance details.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-500",
+      "topic": "mentoring-practice",
+      "question": "How can I mark the difference between advice and official assessment?",
+      "response": "Say explicitly that craft feedback is guidance, not a grade or mastery decision. Only authorized Academy processes can record official progress.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
