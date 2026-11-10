@@ -150,6 +150,366 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-017",
+      "topic": "reading",
+      "question": "How can I find the main idea of a paragraph?",
+      "response": "Read the paragraph once, then ask what the sentences are mostly explaining. Put that idea in your own words and identify two details that support it.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-018",
+      "topic": "reading",
+      "question": "What is the difference between a summary and an interpretation?",
+      "response": "A summary explains what the text says in a shorter form. An interpretation explains what the details may mean and cites the language that supports your reading.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-019",
+      "topic": "reading",
+      "question": "How can I tell who is narrating a story?",
+      "response": "Look for the voice that tells the events, its pronouns, and the information it knows. A narrator may be a character or an outside observer.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-020",
+      "topic": "reading",
+      "question": "What is an unreliable narrator?",
+      "response": "An unreliable narrator gives an account readers have reason to question. Compare the narrator's claims with actions, contradictions, and other evidence in the story.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-021",
+      "topic": "reading",
+      "question": "How do I ask a thoughtful question about a chapter?",
+      "response": "Notice a change, surprise, or unanswered choice. Ask why it happened or what it reveals, then point to a passage that makes your question worth exploring.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-022",
+      "topic": "reading",
+      "question": "How can I compare two characters fairly?",
+      "response": "Choose one shared challenge and examine each character's choices, reasons, and consequences. Support your comparison with specific moments from the text.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-023",
+      "topic": "vocabulary",
+      "question": "What is a root word?",
+      "response": "A root carries a central meaning within a word. Study how prefixes, suffixes, or other word parts change that meaning, and check it in context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-024",
+      "topic": "vocabulary",
+      "question": "How does a prefix change meaning?",
+      "response": "A prefix appears before a base or root and can change its meaning. For example, 're-' in 'rewrite' suggests doing the writing again.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-025",
+      "topic": "vocabulary",
+      "question": "How does a suffix change a word?",
+      "response": "A suffix appears after a base or root and may change meaning or grammatical role. For example, '-ful' can turn 'hope' into 'hopeful'.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-026",
+      "topic": "vocabulary",
+      "question": "What is connotation?",
+      "response": "Connotation is the association or feeling a word carries beyond its basic definition. Compare 'home' with 'residence' and consider why a writer chooses one.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-027",
+      "topic": "vocabulary",
+      "question": "How can I check whether a word fits my sentence?",
+      "response": "Read the whole sentence with the word, check its definition and part of speech, and listen for unintended tone. A precise word should clarify rather than decorate.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-028",
+      "topic": "grammar",
+      "question": "What makes an independent clause?",
+      "response": "An independent clause contains a subject and a finite verb and can stand as a complete thought. Try 'The lantern glowed' before adding another clause.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-029",
+      "topic": "grammar",
+      "question": "How do I fix a sentence fragment?",
+      "response": "Identify what is missing: a subject, a complete verb, or an independent thought. Add the missing part or attach the fragment to a related sentence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-030",
+      "topic": "grammar",
+      "question": "What is a run-on sentence?",
+      "response": "A run-on joins independent clauses without appropriate punctuation or a connecting word. Separate the ideas or connect them deliberately with a conjunction or semicolon.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-031",
+      "topic": "grammar",
+      "question": "When should I use a comma after an introduction?",
+      "response": "A comma often follows an introductory clause or longer phrase, helping readers see where the main sentence begins. Read the sentence for clarity rather than relying only on a pause.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-032",
+      "topic": "grammar",
+      "question": "What does subject-verb agreement mean?",
+      "response": "A verb usually needs to agree in number and person with its subject. Compare 'The bird sings' and 'The birds sing', then check for distracting phrases.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-033",
+      "topic": "structure",
+      "question": "How do I make a paragraph flow?",
+      "response": "Begin with a clear idea, order details so each one leads naturally to the next, and use transitions only where the relationship needs to be made explicit.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-034",
+      "topic": "structure",
+      "question": "What is a transition in writing?",
+      "response": "A transition signals a relationship such as contrast, cause, time, or addition. Choose one that accurately describes the connection instead of adding a decorative phrase.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-035",
+      "topic": "structure",
+      "question": "How can I build a strong opening?",
+      "response": "Offer a vivid detail, meaningful question, or clear situation that creates curiosity. Make a promise the rest of the piece will actually fulfill.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-036",
+      "topic": "structure",
+      "question": "How do I write an ending that feels earned?",
+      "response": "Return to an important choice, image, or question and show what has changed. A satisfying ending need not answer everything, but it should feel connected to the beginning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-037",
+      "topic": "poetry",
+      "question": "What is a stanza in poetry?",
+      "response": "A stanza is a grouped set of poetic lines, often separated by space. Examine how the grouping shapes pacing, emphasis, and the movement of an idea.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-038",
+      "topic": "poetry",
+      "question": "What is alliteration?",
+      "response": "Alliteration repeats an initial consonant sound in nearby words. Notice the actual sounds rather than only the letters, and consider whether the repetition changes the mood.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-039",
+      "topic": "poetry",
+      "question": "What is assonance?",
+      "response": "Assonance repeats vowel sounds in nearby words. Read the words aloud to hear the pattern and ask whether it creates softness, tension, or another effect.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-040",
+      "topic": "poetry",
+      "question": "What is personification?",
+      "response": "Personification gives human qualities or actions to something nonhuman. Consider how saying 'the windows watched' changes the mood of a scene.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-041",
+      "topic": "poetry",
+      "question": "What is free verse?",
+      "response": "Free verse does not follow a fixed traditional meter or rhyme scheme, but its lines still make deliberate choices about rhythm, sound, imagery, and emphasis.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-042",
+      "topic": "story",
+      "question": "What is a character arc?",
+      "response": "A character arc is a meaningful pattern of change or resistance across a story. Track how decisions reveal what the character learns, loses, or refuses to change.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-043",
+      "topic": "story",
+      "question": "What is conflict in a story?",
+      "response": "Conflict arises when goals, needs, or values meet an obstacle. Identify what is at stake and why the obstacle matters to the character.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-044",
+      "topic": "story",
+      "question": "How can I make a setting matter?",
+      "response": "Let the setting influence what characters notice, choose, or struggle with. A place becomes memorable when it affects the action rather than serving as decoration.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-045",
+      "topic": "story",
+      "question": "What is foreshadowing?",
+      "response": "Foreshadowing plants a detail that gains significance later. A useful clue fits naturally when first encountered and becomes clearer after the event.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-046",
+      "topic": "story",
+      "question": "How do I write a believable scene?",
+      "response": "Give the scene a purpose, a specific setting, and a character who wants something. Let actions and dialogue reveal change rather than explaining everything at once.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-047",
+      "topic": "revision",
+      "question": "How can I edit without losing my voice?",
+      "response": "Name what you most want the piece to express before revising. Improve clarity and rhythm while protecting the phrases and perspectives that feel unmistakably yours.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-048",
+      "topic": "revision",
+      "question": "What is the difference between revising and proofreading?",
+      "response": "Revising improves meaning, organization, and expression. Proofreading checks surface errors such as spelling and punctuation after the larger choices are settled.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-049",
+      "topic": "revision",
+      "question": "How can I spot repeated ideas in a draft?",
+      "response": "Write a short purpose beside each paragraph and compare them. If two paragraphs do the same work, combine the strongest details or give each a distinct role.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-050",
+      "topic": "revision",
+      "question": "How can a peer respond respectfully to my writing?",
+      "response": "Ask the reader to describe what they understood, where their attention changed, and what they wanted clarified. You decide which suggestions support your purpose.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-051",
+      "topic": "rhetoric",
+      "question": "What is a claim in an argument?",
+      "response": "A claim states a position that can be supported or questioned. Make it specific enough for a reader to understand what evidence would be relevant.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-052",
+      "topic": "rhetoric",
+      "question": "How does evidence support a claim?",
+      "response": "Evidence provides facts, examples, or textual details connected to the claim. Explain the connection rather than assuming the reader will automatically see it.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-053",
+      "topic": "rhetoric",
+      "question": "What is a counterargument?",
+      "response": "A counterargument presents a reasonable alternative position. Consider it fairly, then explain how your evidence addresses or qualifies the disagreement.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-054",
+      "topic": "rhetoric",
+      "question": "What is an appeal to emotion?",
+      "response": "An emotional appeal invites readers to care about an issue. It can be appropriate, but it should not replace accurate evidence or hide important context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-055",
+      "topic": "readalong",
+      "question": "How can I read dialogue aloud expressively?",
+      "response": "Use punctuation and the character's intention to guide your voice. Try two interpretations and notice how emphasis changes meaning without exaggerating every line.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-056",
+      "topic": "prompt",
+      "question": "Can you give me a descriptive writing challenge?",
+      "response": "Describe an ordinary doorway using three senses and one surprising detail. Then remove any adjective that does not help the reader picture the place.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
