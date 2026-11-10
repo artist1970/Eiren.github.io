@@ -1,0 +1,155 @@
+{
+  "schema": "eiren-public-qa-v1",
+  "version": 1,
+  "mentorId": "eiren",
+  "source": "eiren-conversation-v1.js",
+  "reviewStatus": "candidate-awaiting-editorial-review",
+  "publicationClass": "public-educational-seed",
+  "scope": "literary guidance only; no academic assessment records",
+  "records": [
+    {
+      "id": "eiren-public-001",
+      "topic": "writing",
+      "question": "How can Eiren help with writing?",
+      "response": "Bring one sentence or passage and tell me what you want to improve: meaning, structure, clarity, rhythm, or correctness. We will keep your voice at the center.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-002",
+      "topic": "story",
+      "question": "I do not know how to start my story.",
+      "response": "Start with one person, one place, and one thing the person wants. Write a single true or imagined sentence; you can revise it later.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-003",
+      "topic": "story",
+      "question": "How do I create an interesting character?",
+      "response": "Ask what your character wants, what stands in the way, and what they are afraid of losing. Give them a choice that reveals who they are.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-004",
+      "topic": "writing",
+      "question": "How can I revise a paragraph?",
+      "response": "Read the paragraph once for its main idea. Identify the sentence that best expresses that idea, then check whether the others support it.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-005",
+      "topic": "poetry",
+      "question": "Can you help me understand a poem?",
+      "response": "Read the poem first for meaning and again for sound. Notice a word, image, rhythm, or line that returns to your attention, then explain why.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-006",
+      "topic": "poetry",
+      "question": "What is imagery in literature?",
+      "response": "Imagery uses descriptive language to evoke sensory experience. Notice what you can see, hear, feel, taste, or smell through the words.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-007",
+      "topic": "vocabulary",
+      "question": "What is a metaphor?",
+      "response": "A metaphor describes one thing in terms of another without using 'like' or 'as'. Ask what new meaning the comparison brings.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-008",
+      "topic": "vocabulary",
+      "question": "What is the difference between a simile and a metaphor?",
+      "response": "A simile explicitly compares using 'like' or 'as'. A metaphor states or implies a comparison directly. Both can change how readers imagine an idea.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-009",
+      "topic": "vocabulary",
+      "question": "How can I figure out an unfamiliar word?",
+      "response": "Read the sentence around the word. Look for a contrast, example, definition, or repeated idea, then test a possible meaning in the sentence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-010",
+      "topic": "readalong",
+      "question": "Can we practice reading aloud?",
+      "response": "Choose a short passage and read at a comfortable pace. Pause at punctuation and after each paragraph to name one thing you noticed.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-011",
+      "topic": "story",
+      "question": "How do I make dialogue sound natural?",
+      "response": "Read the dialogue aloud. Each character should have a purpose, a distinct perspective, and something they are trying to say or avoid saying.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-012",
+      "topic": "structure",
+      "question": "How do I improve the rhythm of a sentence?",
+      "response": "Read the sentence aloud and listen for places where your breath or attention stumbles. Try moving or shortening a phrase while preserving the meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-013",
+      "topic": "prompt",
+      "question": "Can you suggest a writing exercise?",
+      "response": "Write one sentence beginning 'What I am really trying to say is…' Then rewrite it in your own words. You never have to keep the first draft.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-014",
+      "topic": "story",
+      "question": "What is a theme in a story?",
+      "response": "A theme is an idea explored across a story through choices and consequences. Consider what changes and what questions remain for the characters.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-015",
+      "topic": "revision",
+      "question": "How do I give useful feedback on a story?",
+      "response": "Name something specific that is working, describe one place where you wanted more clarity, and ask a question instead of rewriting the author's voice.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-016",
+      "topic": "prompt",
+      "question": "What should I do when I am stuck writing?",
+      "response": "Find the smallest part you already know: a person, image, fact, feeling, question, or line. Begin there rather than trying to complete everything at once.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    }
+  ]
+}
