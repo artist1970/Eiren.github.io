@@ -2256,6 +2256,456 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-251",
+      "topic": "archival-scholarship",
+      "question": "How can a manuscript's marginal note affect interpretation?",
+      "response": "A marginal note may record a reader's response, correction, or later commentary. Identify who wrote it and when before treating it as evidence about the original author.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-252",
+      "topic": "archival-scholarship",
+      "question": "What is a textual variant?",
+      "response": "A textual variant is a difference between surviving copies or editions. Compare the wording and provenance, then ask whether the difference alters meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-253",
+      "topic": "archival-scholarship",
+      "question": "Why do literary scholars compare early editions?",
+      "response": "Early editions may preserve revisions, printing differences, or distinct historical contexts. Compare verified copies and identify which version supports your interpretation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-254",
+      "topic": "archival-scholarship",
+      "question": "What is a critical edition?",
+      "response": "A critical edition presents an edited text supported by scholarly decisions and documentation. Read its introduction and notes to understand how the editor handled differences.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-255",
+      "topic": "archival-scholarship",
+      "question": "How can I use an author's letter in literary research?",
+      "response": "Check the letter's date, recipient, authenticity, and context. It can illuminate a writer's circumstances without automatically determining what every passage means.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-256",
+      "topic": "narratology",
+      "question": "What is focalization in narrative?",
+      "response": "Focalization concerns whose perceptions filter the narrated events. Ask who can see, know, or feel each detail, even when a separate narrator supplies the words.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-257",
+      "topic": "narratology",
+      "question": "What is an embedded story?",
+      "response": "An embedded story is told within a larger narrative. Notice who tells it, why it appears, and whether the surrounding story changes its significance.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-258",
+      "topic": "narratology",
+      "question": "What is an analepsis?",
+      "response": "Analepsis is a narrative movement backward to an earlier event. Identify where the time frame changes and what the return reveals about the present.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-259",
+      "topic": "narratology",
+      "question": "What is a prolepsis in storytelling?",
+      "response": "Prolepsis anticipates an event that occurs later in story time. Consider how the preview creates expectation or changes the reader's understanding of a scene.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-260",
+      "topic": "narratology",
+      "question": "How does an unreliable perspective differ from a lie?",
+      "response": "A perspective may be limited, mistaken, or biased without deliberate deception. Compare what the speaker believes with what readers can independently infer.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-261",
+      "topic": "poetic-sound",
+      "question": "What is consonance in poetry?",
+      "response": "Consonance repeats consonant sounds in nearby words, often beyond their beginnings. Read the line aloud and ask whether the repetition reinforces or complicates the mood.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-262",
+      "topic": "poetic-sound",
+      "question": "How can a poet use silence between lines?",
+      "response": "White space and line endings can shape pauses and uncertainty. Read alternative rhythms and consider how the silence changes what the reader expects.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-263",
+      "topic": "poetic-sound",
+      "question": "What is a slant rhyme?",
+      "response": "A slant rhyme uses similar but not identical sounds. It can create connection with slight tension rather than the strong closure of an exact rhyme.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-264",
+      "topic": "poetic-sound",
+      "question": "What is a sestina?",
+      "response": "A sestina is a poetic form organized around recurring end words across six six-line stanzas and a shorter closing stanza. Study how the repeated words gather different meanings.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-265",
+      "topic": "poetic-sound",
+      "question": "Why might a poet break a rhythmic pattern?",
+      "response": "A departure from an established rhythm may draw attention to a word, change emotion, or imitate speech. Identify the pattern first before interpreting its disruption.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-266",
+      "topic": "translation-practice",
+      "question": "How do I translate a metaphor responsibly?",
+      "response": "Identify what the metaphor accomplishes in context, then compare options that preserve its image, implication, or effect. Explain what each choice may lose.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-267",
+      "topic": "translation-practice",
+      "question": "What is translation register?",
+      "response": "Translation register is the level and character of formality chosen in another language. Check who is speaking, to whom, and under what circumstances.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-268",
+      "topic": "translation-practice",
+      "question": "Why can one word have several translation choices?",
+      "response": "Meaning depends on context, tone, grammatical role, and cultural associations. Compare candidate words in complete sentences rather than selecting solely from a word list.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-269",
+      "topic": "translation-practice",
+      "question": "How can I compare an original poem with its translation?",
+      "response": "Identify a few features such as imagery, rhythm, syntax, and tone, then note where the translation follows or adapts them. Avoid calling every difference a mistake.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-270",
+      "topic": "translation-practice",
+      "question": "What should I do when a cultural reference resists translation?",
+      "response": "Research its specific context and consider a note, retained term, or contextual phrasing. Be transparent when an explanation is necessary.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-271",
+      "topic": "literary-periods",
+      "question": "What is romanticism in literary history?",
+      "response": "Romanticism names related movements that emphasized imagination, emotion, nature, and individual experience in different places and periods. Avoid treating every writer as identical.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-272",
+      "topic": "literary-periods",
+      "question": "What is literary realism?",
+      "response": "Literary realism often attends closely to ordinary life, social circumstances, and plausible motivation. Look for specific techniques rather than assuming it means perfect factual accuracy.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-273",
+      "topic": "literary-periods",
+      "question": "What is modernism in literature?",
+      "response": "Modernist writing often experiments with form, perspective, language, and time. Its diverse works respond in different ways to historical and cultural change.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-274",
+      "topic": "literary-periods",
+      "question": "What is a literary manifesto?",
+      "response": "A manifesto sets out a program or argument about artistic practice. Compare its claims with the actual works produced by those associated with it.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-275",
+      "topic": "literary-periods",
+      "question": "How should I compare authors from different centuries?",
+      "response": "Choose a shared artistic problem, then account for each author's language, genre, circumstances, and readership. Similarity does not erase historical difference.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-276",
+      "topic": "essay-craft",
+      "question": "How can I turn a research question into an argument?",
+      "response": "Gather relevant evidence, identify where interpretations differ, and propose a defensible answer. Adjust the claim so its scope matches what the sources support.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-277",
+      "topic": "essay-craft",
+      "question": "How can I avoid overloading an essay paragraph?",
+      "response": "Give each paragraph one clear function in the argument. Move unrelated evidence elsewhere and explain the significance of each example.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-278",
+      "topic": "essay-craft",
+      "question": "How do I write an effective analytical conclusion?",
+      "response": "Return to the central question, explain what your analysis has shown, and identify a meaningful implication without introducing an unrelated claim.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-279",
+      "topic": "essay-craft",
+      "question": "What is a synthesis paragraph?",
+      "response": "A synthesis paragraph connects evidence or perspectives from several sources to explain a larger point. Show how the sources relate rather than listing them separately.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-280",
+      "topic": "essay-craft",
+      "question": "How can I identify a gap in my literary analysis?",
+      "response": "Ask which claim has the least support, which alternative reading you have not considered, and where a reader might need more context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-281",
+      "topic": "dialogue-and-character",
+      "question": "How can dialogue reveal a power imbalance?",
+      "response": "Notice who asks questions, interrupts, changes topics, or withholds answers. Use the surrounding action to support the interpretation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-282",
+      "topic": "dialogue-and-character",
+      "question": "How do I distinguish characters' voices?",
+      "response": "Give each person distinctive goals, vocabulary, rhythms, and habits of attention. Differences should arise from character rather than exaggerated stereotypes.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-283",
+      "topic": "dialogue-and-character",
+      "question": "What makes a character's decision surprising but credible?",
+      "response": "Prepare conflicting desires and pressures earlier in the story. The choice can surprise readers while remaining consistent with evidence about the character.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-284",
+      "topic": "dialogue-and-character",
+      "question": "What is a character foil?",
+      "response": "A foil contrasts with another character in ways that clarify traits or choices. The contrasting character should still have a life and motivation of their own.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-285",
+      "topic": "dialogue-and-character",
+      "question": "How can internal conflict drive a scene?",
+      "response": "Let competing values shape what the character notices and chooses. Even a quiet action can reveal a difficult decision.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-286",
+      "topic": "critical-literacy",
+      "question": "How can I separate a literary claim from an established fact?",
+      "response": "Identify which statements describe verifiable publication details and which offer interpretations. Require evidence for both, but allow reasonable debate about meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-287",
+      "topic": "critical-literacy",
+      "question": "What is the danger of quoting a passage out of context?",
+      "response": "Removing surrounding words can make a speaker seem to claim something different. Read the full section and explain relevant circumstances.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-288",
+      "topic": "critical-literacy",
+      "question": "How can I examine whose perspective a text excludes?",
+      "response": "Notice whose speech, experience, or knowledge is absent and consider what the text can actually support. Avoid inventing an excluded person's motives.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-289",
+      "topic": "critical-literacy",
+      "question": "How can I evaluate an online literary summary?",
+      "response": "Compare its account with the original text or a trustworthy edition. Look for oversimplified motives, invented quotations, or missing context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-290",
+      "topic": "critical-literacy",
+      "question": "What does fair interpretation require?",
+      "response": "Represent the text accurately, cite the details that shape your claim, and acknowledge meaningful counterevidence. A strong reading can remain open to revision.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-291",
+      "topic": "oral-storytelling",
+      "question": "How can I use pacing while telling an original story?",
+      "response": "Vary the length of sentences and pauses according to the action. Let important images settle without making every moment equally dramatic.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-292",
+      "topic": "oral-storytelling",
+      "question": "What helps an audience follow a complex story aloud?",
+      "response": "Introduce characters clearly, give concise time and place cues, and repeat essential ideas only when they help listeners orient themselves.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-293",
+      "topic": "oral-storytelling",
+      "question": "How can I practise a literary reading with a partner?",
+      "response": "Take turns reading short passages and explaining what emphasis changed. Offer specific observations without judging the reader's voice.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-294",
+      "topic": "oral-storytelling",
+      "question": "Why do oral storytellers sometimes repeat phrases?",
+      "response": "Repetition can orient listeners, build expectation, and make a story memorable. Examine how each return functions within the telling.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-295",
+      "topic": "oral-storytelling",
+      "question": "How can I adapt my reading pace to unfamiliar prose?",
+      "response": "Preview sentence boundaries and names, read in meaningful phrases, and slow down where ideas become dense. Comprehension matters more than speed.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-296",
+      "topic": "editorial-ethics",
+      "question": "How can I edit a writer's work without taking ownership?",
+      "response": "Agree on the purpose and scope of editing, suggest changes transparently, and let the author decide which revisions to accept.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-297",
+      "topic": "editorial-ethics",
+      "question": "When should I obtain permission to share a draft?",
+      "response": "Ask the writer before posting, distributing, or quoting unpublished material. Treat the draft's privacy and the author's choices as separate from your feedback.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-298",
+      "topic": "editorial-ethics",
+      "question": "How do I handle a disputed literary attribution?",
+      "response": "Compare credible records and explain where evidence is missing or conflicting. Avoid presenting a convenient or popular attribution as certain.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-299",
+      "topic": "editorial-ethics",
+      "question": "How can I describe a painful experience in fiction sensitively?",
+      "response": "Prioritize truthful characterization and avoid spectacle. Consider the narrative necessity of details and seek appropriate feedback when writing unfamiliar experiences.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-300",
+      "topic": "editorial-ethics",
+      "question": "What should I do if an AI tool invents a citation?",
+      "response": "Do not reuse the citation as evidence. Search for the claimed source independently, verify the exact passage, and remove unsupported references.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
