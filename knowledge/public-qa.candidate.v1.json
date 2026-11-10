@@ -2706,6 +2706,456 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-301",
+      "topic": "literary-architecture",
+      "question": "How can a repeated scene create structure in a novel?",
+      "response": "Compare each return to the scene and identify what the characters or readers now know. Repetition becomes structural when the differences carry the story forward.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-302",
+      "topic": "literary-architecture",
+      "question": "What is a braided narrative?",
+      "response": "A braided narrative alternates multiple strands of story or thought. Track where they intersect and ask what their arrangement reveals that a single strand would not.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-303",
+      "topic": "literary-architecture",
+      "question": "How does a chapter break influence suspense?",
+      "response": "A chapter break can delay an answer, change viewpoint, or create a pause. Judge its effectiveness by what the reader expects when the next chapter begins.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-304",
+      "topic": "literary-architecture",
+      "question": "What is a circular narrative?",
+      "response": "A circular narrative returns to a situation, image, or line from its beginning. Explore what has changed in meaning even if the visible setting appears similar.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-305",
+      "topic": "literary-architecture",
+      "question": "How can parallel plots illuminate a theme?",
+      "response": "Compare the choices and consequences in the two plots. Their similarities and differences may reveal a question neither could express as clearly alone.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-306",
+      "topic": "character-psychology",
+      "question": "How does a character's memory shape a scene?",
+      "response": "Memory can filter which details a character notices or misreads. Compare recollection with present action and distinguish uncertainty from deliberate deception.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-307",
+      "topic": "character-psychology",
+      "question": "What is a character's internal contradiction?",
+      "response": "An internal contradiction appears when desires, beliefs, or actions pull in different directions. Show the tension through choices rather than merely announcing it.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-308",
+      "topic": "character-psychology",
+      "question": "How can a character's habit reveal a fear?",
+      "response": "A repeated gesture or routine may suggest what someone tries to control or avoid. Support the reading with context instead of assigning a fixed meaning to one gesture.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-309",
+      "topic": "character-psychology",
+      "question": "How should a writer portray a difficult moral choice?",
+      "response": "Give competing values genuine weight and show the consequences of each option. Avoid making one side absurd merely to force a convenient resolution.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-310",
+      "topic": "character-psychology",
+      "question": "What makes a character's change convincing?",
+      "response": "Readers need to see pressures, experiences, and choices that could produce the change. A sudden decision feels earned when earlier details make it understandable.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-311",
+      "topic": "poetry-interpretation",
+      "question": "How can a poem's title change the first line?",
+      "response": "Read the first line without the title, then with it. Notice whether the title supplies a speaker, setting, contradiction, or unexpected question.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-312",
+      "topic": "poetry-interpretation",
+      "question": "What does a shift from singular to plural pronouns do in poetry?",
+      "response": "A shift from 'I' to 'we' may widen a poem's claim or complicate who is speaking. Examine its context before assuming every reader is included.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-313",
+      "topic": "poetry-interpretation",
+      "question": "How can I interpret a recurring color in a poem?",
+      "response": "Track when the color appears and what surrounds it. Its significance may emerge through contrast, repetition, or change rather than a universal symbol dictionary.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-314",
+      "topic": "poetry-interpretation",
+      "question": "What is the relationship between line length and pace?",
+      "response": "Long and short lines can change expectation and visual movement, but sound and syntax also matter. Read the poem aloud and compare possible rhythms.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-315",
+      "topic": "poetry-interpretation",
+      "question": "Why might a poem end with a question?",
+      "response": "An ending question can resist closure, invite a reader's judgment, or reveal uncertainty. Explain how the preceding images prepare that final uncertainty.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-316",
+      "topic": "cross-cultural-reading",
+      "question": "How can I approach a translated folktale respectfully?",
+      "response": "Identify the specific community, teller, translator, and edition when possible. Compare versions without assuming a single text represents a whole tradition.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-317",
+      "topic": "cross-cultural-reading",
+      "question": "Why should I check who translated a historical work?",
+      "response": "A translator's language choices and publication context affect what readers encounter. Record the translation and consult its notes before comparing interpretations.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-318",
+      "topic": "cross-cultural-reading",
+      "question": "How can a place name carry meaning in literature?",
+      "response": "A place name may evoke history, language, belonging, or conflict. Research its use in the text's specific context rather than assuming all readers hear it alike.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-319",
+      "topic": "cross-cultural-reading",
+      "question": "What is a multilingual literary voice?",
+      "response": "A multilingual voice may move among languages, rhythms, and cultural references. Study the writer's deliberate choices without treating the mix as an error.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-320",
+      "topic": "cross-cultural-reading",
+      "question": "How can I compare cultural metaphors without flattening them?",
+      "response": "Explain each image within its own setting and language before drawing parallels. Similar images may have quite different associations and histories.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-321",
+      "topic": "nonfiction-voice",
+      "question": "How can a personal essay balance scene and reflection?",
+      "response": "Let scenes show what happened and reflection explain what the writer now understands. Move between them where a detail raises a meaningful question.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-322",
+      "topic": "nonfiction-voice",
+      "question": "What distinguishes reportage from memoir?",
+      "response": "Reportage aims to investigate and document events through verifiable sources. Memoir centers lived recollection; both require care about what is known and uncertain.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-323",
+      "topic": "nonfiction-voice",
+      "question": "How can I represent uncertainty in nonfiction?",
+      "response": "Use clear phrases that distinguish observation, memory, inference, and confirmed fact. Honest limits can make an account more credible.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-324",
+      "topic": "nonfiction-voice",
+      "question": "What is a profile essay?",
+      "response": "A profile essay portrays a person through reported detail, context, and selected scenes. Verify claims and consider the subject's privacy and consent.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-325",
+      "topic": "nonfiction-voice",
+      "question": "How can I end a reflective essay without a forced lesson?",
+      "response": "Return to a concrete moment or unresolved question that now carries new meaning. Reflection can be insightful without pretending every experience has a neat moral.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-326",
+      "topic": "research-methods",
+      "question": "What is a finding aid in an archive?",
+      "response": "A finding aid describes a collection's contents, arrangement, and provenance. Use it to locate materials, then inspect the relevant items rather than citing only the summary.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-327",
+      "topic": "research-methods",
+      "question": "How can I distinguish a facsimile from a transcription?",
+      "response": "A facsimile reproduces an item's appearance, while a transcription renders its words in a new form. Compare both when spelling, layout, or handwriting matters.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-328",
+      "topic": "research-methods",
+      "question": "Why should I record an archive's collection identifier?",
+      "response": "An identifier helps others locate the exact item and distinguishes similar manuscripts. Keep it with the repository name and other citation details.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-329",
+      "topic": "research-methods",
+      "question": "What is a paratext?",
+      "response": "Paratext includes material surrounding a work, such as covers, prefaces, notes, and titles. It can shape expectations without being identical to the main narrative.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-330",
+      "topic": "research-methods",
+      "question": "How can I check an editor's intervention in a historical text?",
+      "response": "Read the edition's editorial statement and compare marked changes with available witnesses. Be precise about what the editor supplied or modernized.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-331",
+      "topic": "writing-rhythm",
+      "question": "How can sentence variety improve a passage?",
+      "response": "Alternate sentence lengths and structures to fit the thought, rather than following a mechanical pattern. Read aloud to hear where a pause or acceleration helps.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-332",
+      "topic": "writing-rhythm",
+      "question": "When can a fragment work in creative prose?",
+      "response": "A deliberate fragment can mimic thought, urgency, or emphasis. Make sure its meaning is clear and that it serves the piece rather than hiding an unintended error.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-333",
+      "topic": "writing-rhythm",
+      "question": "What is syntactic parallelism?",
+      "response": "Syntactic parallelism repeats a grammatical pattern to relate ideas and create rhythm. Compare the repeated structures and ask what relationship they emphasize.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-334",
+      "topic": "writing-rhythm",
+      "question": "How can an unexpected verb strengthen an image?",
+      "response": "A precise verb can suggest motion and attitude without extra modifiers. Check whether the choice clarifies the scene or merely calls attention to itself.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-335",
+      "topic": "writing-rhythm",
+      "question": "How do I avoid monotonous paragraph rhythm?",
+      "response": "Notice repeated openings, lengths, and transitions. Vary them where the meaning changes, but keep repetition when it creates purposeful emphasis.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-336",
+      "topic": "dialogue-workshop",
+      "question": "How can an interruption change a dialogue scene?",
+      "response": "An interruption can reveal urgency, power, or avoidance. Show what the interrupted character was trying to accomplish and how the exchange shifts.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-337",
+      "topic": "dialogue-workshop",
+      "question": "How should I punctuate dialogue with a speech tag?",
+      "response": "Use the conventions of your language and publisher's style. In standard English prose, a comma often links a quotation to a tag such as 'she said'.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-338",
+      "topic": "dialogue-workshop",
+      "question": "How do I distinguish a speech tag from an action beat?",
+      "response": "A speech tag identifies speaking, while an action beat describes movement. Keep punctuation clear and use the action when it adds information.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-339",
+      "topic": "dialogue-workshop",
+      "question": "How can dialogue reveal a relationship's history?",
+      "response": "Let characters refer to familiar routines, disagreements, or shared objects without explaining everything for the reader. Context can carry history naturally.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-340",
+      "topic": "dialogue-workshop",
+      "question": "When should a writer leave dialogue unspoken?",
+      "response": "Silence or indirect summary can be stronger when repeating every word would slow the scene. Choose what readers truly need to hear.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-341",
+      "topic": "revision-diagnostics",
+      "question": "How can I test whether a scene belongs in my draft?",
+      "response": "Write its purpose in one sentence, then imagine removing it. If nothing important changes, consider combining it with a more consequential scene.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-342",
+      "topic": "revision-diagnostics",
+      "question": "How can I find the weakest claim in an essay?",
+      "response": "List each central claim beside its evidence and explanation. The claim with missing support or the largest leap in reasoning needs attention first.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-343",
+      "topic": "revision-diagnostics",
+      "question": "How do I identify unnecessary exposition?",
+      "response": "Underline passages that explain facts readers already know or can infer. Keep exposition that changes decisions or prevents real confusion.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-344",
+      "topic": "revision-diagnostics",
+      "question": "What should I do when a revision introduces a new inconsistency?",
+      "response": "Compare the updated scene with earlier facts, timelines, and motivations. Correct the smallest contradiction before making further stylistic changes.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-345",
+      "topic": "revision-diagnostics",
+      "question": "How can a reverse outline reveal structural problems?",
+      "response": "After drafting, summarize each paragraph's actual purpose. Review the sequence for missing steps, duplicated claims, and unexpected shifts.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-346",
+      "topic": "mentorship-ethics",
+      "question": "How should a literary mentor handle a student's unpublished poem?",
+      "response": "Treat the poem as the student's work, avoid redistributing it, and offer guidance through questions or examples. Respect the rules of the authorized learning environment.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-347",
+      "topic": "mentorship-ethics",
+      "question": "Can a mentor guarantee that an interpretation is correct?",
+      "response": "No. A mentor can test a reading against textual evidence and show where it is strong or weak, while acknowledging ambiguity and differing credible interpretations.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-348",
+      "topic": "mentorship-ethics",
+      "question": "What if a learner asks for a locked exam response?",
+      "response": "Decline to reveal protected answers and offer an original practice example of the underlying skill. Follow the course's independent-work requirements.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-349",
+      "topic": "mentorship-ethics",
+      "question": "How can a mentor avoid turning feedback into a grade?",
+      "response": "Separate craft observations from official assessment. Explain the choices in a passage without claiming authority to award mastery or change a student's record.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-350",
+      "topic": "mentorship-ethics",
+      "question": "How can Eiren support a writer who prefers a different style?",
+      "response": "Ask about the writer's intention and the audience, then help evaluate choices within that style. Do not impose a single favored literary voice.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
