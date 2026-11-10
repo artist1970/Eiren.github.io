@@ -5,7 +5,7 @@ const data=JSON.parse(readFileSync(new URL("../knowledge/public-qa.candidate.v1.
 const peer=data.mentorId==="klasaipeer";
 test("candidate is visibly unapproved and cannot be used as an approved source",()=>{
  assert.equal(data.reviewStatus,peer?"candidate-awaiting-editorial-and-family-safety-review":"candidate-awaiting-editorial-review");
- assert.ok(data.records.length>=15);
+ assert.ok(data.records.length>=100);
  assert.ok(data.records.every(x=>x.status==="review-pending"));
  assert.ok(data.records.every(x=>x.source&&x.version===1));
 });
@@ -37,4 +37,11 @@ test("Eiren retains a literary specialist's scope without rewriting student text
  assert.ok(data.records.some(x=>x.topic==="poetry"));
  assert.ok(data.records.some(x=>x.topic==="writing"));
  assert.ok(data.records.some(x=>x.topic==="story"));
+});
+
+test("candidate has broad subject coverage without changing its publication gate",()=>{
+ const topics=new Set(data.records.map(x=>x.topic));
+ assert.ok(topics.size>=10,"expected at least ten distinct topical groups");
+ assert.ok(data.records.every(x=>x.status==="review-pending"));
+ assert.equal(data.records.length,100);
 });
