@@ -3606,6 +3606,456 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-401",
+      "topic": "literary-seminar",
+      "question": "How can I begin a discussion of a novel without summarizing the plot?",
+      "response": "Start with a specific tension, narrative choice, or unresolved question, then invite others to identify passages that illuminate it. Brief context is enough to orient the group.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-402",
+      "topic": "literary-seminar",
+      "question": "What makes a question genuinely interpretive?",
+      "response": "An interpretive question asks how or why textual details create meaning and permits more than one evidence-based answer. Avoid questions settled by a single fact.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-403",
+      "topic": "literary-seminar",
+      "question": "How can I challenge an interpretation respectfully?",
+      "response": "Restate the interpretation fairly, identify a passage that complicates it, and ask how that evidence might change the claim. Challenge reasoning rather than the reader.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-404",
+      "topic": "literary-seminar",
+      "question": "How should I lead a discussion when everyone agrees too quickly?",
+      "response": "Invite a counterexample, compare an overlooked passage, or ask what alternative explanation fits the same evidence. Do not invent disagreement merely for drama.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-405",
+      "topic": "literary-seminar",
+      "question": "How can a discussion return to its central question?",
+      "response": "Summarize the competing ideas and identify the evidence still in doubt. A focused follow-up question can reconnect the group without silencing useful discoveries.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-406",
+      "topic": "manuscript-craft",
+      "question": "How do I decide whether my manuscript needs another chapter?",
+      "response": "Identify which essential development remains unsupported and whether a new chapter provides it. Adding length alone rarely repairs a missing causal connection.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-407",
+      "topic": "manuscript-craft",
+      "question": "What is a scene inventory?",
+      "response": "A scene inventory lists each scene's purpose, viewpoint, time, and change. Use it to detect repetition, gaps, and shifts that do not serve the story.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-408",
+      "topic": "manuscript-craft",
+      "question": "How can I keep a long manuscript's timeline consistent?",
+      "response": "Record the order and duration of significant events, then compare travel, ages, seasons, and recollections across chapters. Note any deliberate uncertainty.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-409",
+      "topic": "manuscript-craft",
+      "question": "What should I do with a beautiful passage that interrupts the story?",
+      "response": "Save a copy, then ask what the passage accomplishes for character or meaning. If it disrupts the work's movement, relocate or remove it without losing the writing.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-410",
+      "topic": "manuscript-craft",
+      "question": "How can I revise a manuscript in separate passes?",
+      "response": "Begin with structure and motivation, move to paragraphs and voice, then check continuity and surface accuracy. Keep versioned copies so decisions remain reversible.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-411",
+      "topic": "historical-voices",
+      "question": "How do I avoid making historical characters sound modern by accident?",
+      "response": "Study authentic language and social conventions while keeping dialogue readable. Choose a few grounded details rather than loading every sentence with archaic expressions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-412",
+      "topic": "historical-voices",
+      "question": "What is the difference between a historical document and historical fiction?",
+      "response": "A document is evidence produced in a historical context; fiction imagines people and events. Historical fiction can draw on documents but should not disguise invention as verified fact.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-413",
+      "topic": "historical-voices",
+      "question": "How can I interpret an old-fashioned form of address?",
+      "response": "Research the period, relationship, and social setting in which it appears. Titles may indicate rank, intimacy, convention, or irony depending on context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-414",
+      "topic": "historical-voices",
+      "question": "Why might an old text use punctuation differently?",
+      "response": "Punctuation conventions and editorial practices change across periods. Compare editions before treating a modern mark as the original author's intended rhythm.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-415",
+      "topic": "historical-voices",
+      "question": "How can a literary character encounter historical change?",
+      "response": "Show the change through daily routines, choices, language, and material conditions. Use researched details to make the event matter to a specific person.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-416",
+      "topic": "translation-judgment",
+      "question": "How can I evaluate two translations of the same sentence?",
+      "response": "Compare what each preserves in meaning, tone, syntax, and emphasis. A difference may reflect a deliberate tradeoff rather than a simple error.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-417",
+      "topic": "translation-judgment",
+      "question": "What is a translator's note for?",
+      "response": "A translator's note explains choices, references, or uncertainties that might otherwise remain invisible. Distinguish useful context from unsupported interpretation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-418",
+      "topic": "translation-judgment",
+      "question": "How does wordplay complicate translation?",
+      "response": "Wordplay depends on multiple meanings or sounds that may not align across languages. A translator may recreate an effect, explain it, or accept a partial loss.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-419",
+      "topic": "translation-judgment",
+      "question": "Should a literary translation always rhyme when the original rhymes?",
+      "response": "Not necessarily. Matching rhyme may alter meaning, tone, or natural expression. Compare the artistic consequences of different choices rather than requiring one mechanical rule.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-420",
+      "topic": "translation-judgment",
+      "question": "How can I discuss a translation without knowing the original language?",
+      "response": "Describe what the translation itself does and consult credible comparisons cautiously. Avoid confidently judging fidelity you cannot independently evaluate.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-421",
+      "topic": "poetry-performance",
+      "question": "What can breath reveal about a poetic line?",
+      "response": "Natural phrasing can expose syntactic turns, tensions, and recurring rhythm. Try reading with the line break and with the full sentence to compare effects.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-422",
+      "topic": "poetry-performance",
+      "question": "How do I read a poem with unfamiliar meter?",
+      "response": "Identify repeated stresses by listening, then mark places that vary. Let meaning and speech guide interpretation rather than forcing every syllable into a pattern.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-423",
+      "topic": "poetry-performance",
+      "question": "Why might a poet place a strong word at the line's end?",
+      "response": "An ending position can delay completion, create suspense, or emphasize a word before the next line changes its meaning. Examine the surrounding syntax.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-424",
+      "topic": "poetry-performance",
+      "question": "How can I perform a poem without exaggerating its feelings?",
+      "response": "Read closely for shifts in thought and sound, choose restrained emphasis, and allow the language to carry emotion. Rehearse several interpretations.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-425",
+      "topic": "poetry-performance",
+      "question": "What is the effect of an abrupt final stanza?",
+      "response": "An abrupt ending may interrupt expectation, refuse comfort, or sharpen a contrast. Explain what the earlier stanzas lead readers to expect.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-426",
+      "topic": "writing-and-research",
+      "question": "How do I keep track of evidence while drafting an essay?",
+      "response": "Record each source with its exact location and a brief note about the claim it supports. Distinguish your paraphrase from a direct quotation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-427",
+      "topic": "writing-and-research",
+      "question": "How can I avoid relying on one secondary source?",
+      "response": "Consult multiple credible perspectives and, where possible, the primary text. Compare how their evidence and interpretations differ.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-428",
+      "topic": "writing-and-research",
+      "question": "What makes a research question manageable?",
+      "response": "Limit it to a defined work, period, technique, or comparison. A narrow question can produce deeper analysis than a sweeping claim about all literature.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-429",
+      "topic": "writing-and-research",
+      "question": "How can I integrate scholarly disagreement in a paper?",
+      "response": "Explain the positions accurately, show the evidence each uses, and state where your reading contributes. Do not manufacture consensus or conflict.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-430",
+      "topic": "writing-and-research",
+      "question": "What should I do when my evidence changes my thesis?",
+      "response": "Revise the thesis to match what the sources actually support. An honest adjustment is stronger than defending a claim the evidence undermines.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-431",
+      "topic": "figurative-language",
+      "question": "What is a metonymy?",
+      "response": "Metonymy names something by a closely associated thing, such as using 'the crown' for a monarchy. Explain the actual relationship in context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-432",
+      "topic": "figurative-language",
+      "question": "What is synecdoche?",
+      "response": "Synecdoche uses a part to stand for a whole, or sometimes a whole for a part. Identify the relationship and what the choice emphasizes.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-433",
+      "topic": "figurative-language",
+      "question": "How can an image work as both description and symbol?",
+      "response": "An image can depict a real object in the scene while gathering larger associations through repeated contexts. Follow its literal role before proposing symbolic meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-434",
+      "topic": "figurative-language",
+      "question": "How is paradox different from contradiction?",
+      "response": "A paradox appears contradictory but may reveal a meaningful truth or tension. A simple contradiction cannot be resolved merely by sounding profound.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-435",
+      "topic": "figurative-language",
+      "question": "What makes figurative language effective rather than ornate?",
+      "response": "The figure clarifies feeling, perception, or thought in a way ordinary wording cannot. Remove a comparison if it distracts from the meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-436",
+      "topic": "dialogue-ethics",
+      "question": "How do I write an argument without making either character foolish?",
+      "response": "Give both characters credible values, different information, and consequences for their choices. Let disagreement emerge from the situation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-437",
+      "topic": "dialogue-ethics",
+      "question": "How can dialogue reveal class or status without caricature?",
+      "response": "Use context, choices, and relationships alongside language, rather than reducing someone to a stereotyped accent or a single vocabulary trait.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-438",
+      "topic": "dialogue-ethics",
+      "question": "What should I consider when writing a child character?",
+      "response": "Give the child specific knowledge, questions, and agency appropriate to the story. Avoid treating every child as identical or as a miniature adult.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-439",
+      "topic": "dialogue-ethics",
+      "question": "How can a conversation show trust growing?",
+      "response": "Let characters gradually offer accurate information, listen, and change their behavior. Trust feels earned when actions support what they say.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-440",
+      "topic": "dialogue-ethics",
+      "question": "How do I depict a misunderstanding without relying on a contrivance?",
+      "response": "Establish why each character interprets the same information differently and what prevents easy clarification. A credible misunderstanding follows from character and situation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-441",
+      "topic": "literary-pedagogy",
+      "question": "How can I teach a literary term through discovery?",
+      "response": "Present two short original examples and ask what differs, then introduce the term when the learner can describe the pattern in their own words.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-442",
+      "topic": "literary-pedagogy",
+      "question": "How do I choose a passage for close reading?",
+      "response": "Select a manageable excerpt with meaningful choices in language or structure. Check that enough context is available for a responsible interpretation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-443",
+      "topic": "literary-pedagogy",
+      "question": "What can I ask a learner after a read-aloud?",
+      "response": "Invite one observation, one question, and a detail that supports it. Give time to think before offering your own interpretation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-444",
+      "topic": "literary-pedagogy",
+      "question": "How can I help a hesitant reader participate?",
+      "response": "Offer low-pressure options such as noticing an image, choosing a line, or asking a question. Do not force a personal disclosure as proof of engagement.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-445",
+      "topic": "literary-pedagogy",
+      "question": "How should I respond to a learner's unusual interpretation?",
+      "response": "Ask which details prompted it and whether other passages support or challenge it. Reward thoughtful reasoning without treating every claim as equally evidenced.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-446",
+      "topic": "publication-responsibility",
+      "question": "Why should an author check the rights to an image in a manuscript?",
+      "response": "Images may have separate copyright and licensing restrictions from the surrounding text. Verify ownership, permission, and attribution before publication.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-447",
+      "topic": "publication-responsibility",
+      "question": "What should I consider before sharing a real person's letter?",
+      "response": "Check consent, privacy, provenance, and applicable rights. A letter's availability does not automatically make unrestricted publication appropriate.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-448",
+      "topic": "publication-responsibility",
+      "question": "How can I document editorial changes transparently?",
+      "response": "Keep an earlier version, record significant changes, and identify editorial responsibility. Transparency helps readers understand how the published text was prepared.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-449",
+      "topic": "publication-responsibility",
+      "question": "What is a responsible way to disclose AI-assisted editing?",
+      "response": "Follow the relevant school, publisher, or professional rules and explain material assistance when required. Verify all facts and retain human responsibility for the work.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-450",
+      "topic": "publication-responsibility",
+      "question": "How can I decide whether a source excerpt is necessary?",
+      "response": "Use only the amount needed to support your analysis, provide attribution, and check permission where applicable. Paraphrase when quoting would add no value.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
