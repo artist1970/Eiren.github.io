@@ -5,7 +5,7 @@ const data=JSON.parse(readFileSync(new URL("../knowledge/public-qa.candidate.v1.
 const peer=data.mentorId==="klasaipeer";
 test("candidate is visibly unapproved and cannot be used as an approved source",()=>{
  assert.equal(data.reviewStatus,peer?"candidate-awaiting-editorial-and-family-safety-review":"candidate-awaiting-editorial-review");
- assert.ok(data.records.length>=300);
+ assert.ok(data.records.length>=350);
  assert.ok(data.records.every(x=>x.status==="review-pending"));
  assert.ok(data.records.every(x=>x.source&&x.version===1));
 });
@@ -43,12 +43,12 @@ test("candidate has broad subject coverage without changing its publication gate
  const topics=new Set(data.records.map(x=>x.topic));
  assert.ok(topics.size>=10,"expected at least ten distinct topical groups");
  assert.ok(data.records.every(x=>x.status==="review-pending"));
- assert.equal(data.records.length,300);
+ assert.equal(data.records.length,350);
 });
 
 test("new batch remains a candidate and contains distinct approved-scope topic groups",()=>{
- const topics=new Set(data.records.slice(250).map(x=>x.topic));
- assert.equal(data.records.length,300);
+ const topics=new Set(data.records.slice(300).map(x=>x.topic));
+ assert.equal(data.records.length,350);
  assert.equal(topics.size,10);
- assert.ok(data.records.slice(250).every(x=>x.status==="review-pending"));
+ assert.ok(data.records.slice(300).every(x=>x.status==="review-pending"));
 });
