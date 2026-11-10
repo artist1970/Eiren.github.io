@@ -41,7 +41,7 @@ test('existing mentor chat and voice controls remain present',()=>{
 
 test('external executable is frozen and hash-verified before execution',()=>{
  assert.equal(matches.length,1);
- assert.match(matches[0][0],/\/releases\/mentor-language-hub-1\\.0\\.0\\.js/);
+ assert.match(matches[0][0],/\/releases\/mentor-language-hub-1\.0\.0\.js/);
  assert.match(matches[0][0],/integrity="sha384-/);
  assert.match(matches[0][0],/crossorigin="anonymous"/);
 });
