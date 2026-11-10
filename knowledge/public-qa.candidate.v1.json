@@ -1356,6 +1356,456 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-151",
+      "topic": "comparative-literature",
+      "question": "How can I compare stories from different cultures?",
+      "response": "Choose a shared theme or narrative problem, then examine each work in its own cultural and historical setting. Avoid treating one story as a universal standard.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-152",
+      "topic": "comparative-literature",
+      "question": "What is intertextuality?",
+      "response": "Intertextuality describes relationships among texts through references, echoes, or shared conventions. Identify a specific connection and explain what it adds to the later work.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-153",
+      "topic": "comparative-literature",
+      "question": "How can a myth change in a modern retelling?",
+      "response": "Compare the original narrative's central conflict with the retelling's new setting, narrator, or emphasis. Ask why those choices matter to contemporary readers.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-154",
+      "topic": "comparative-literature",
+      "question": "What is a literary archetype?",
+      "response": "An archetype is a recurring character, image, or narrative pattern. Use the term cautiously and attend to differences across individual works and cultures.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-155",
+      "topic": "comparative-literature",
+      "question": "How can I compare a short story and a novel?",
+      "response": "Consider how each form uses length, characterization, time, and structure. Compare a focused technique rather than assuming the longer work is more complex.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-156",
+      "topic": "comparative-literature",
+      "question": "What is genre blending in literature?",
+      "response": "Genre blending combines conventions associated with different kinds of writing. Ask which expectations the work adopts, changes, or questions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-157",
+      "topic": "comparative-literature",
+      "question": "How does an epistolary novel tell its story?",
+      "response": "An epistolary novel uses letters, messages, diaries, or related documents as a narrative form. Notice what each document reveals and what remains inaccessible.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-158",
+      "topic": "comparative-literature",
+      "question": "How can I study a literary movement?",
+      "response": "Find several representative works, examine their historical contexts, and identify shared techniques alongside important differences among writers.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-159",
+      "topic": "comparative-literature",
+      "question": "Why do folktales have different versions?",
+      "response": "Folktales often change as they are told across communities and generations. Compare their details with attention to storytellers, languages, and sources.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-160",
+      "topic": "comparative-literature",
+      "question": "How can I discuss cultural context respectfully?",
+      "response": "Use reliable sources and specific textual evidence, acknowledge that communities are not uniform, and avoid claiming a single reading represents an entire culture.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-161",
+      "topic": "drama",
+      "question": "What is dramatic irony?",
+      "response": "Dramatic irony occurs when an audience knows something important that a character does not. Consider how this gap produces suspense, humor, or concern.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-162",
+      "topic": "drama",
+      "question": "What is a soliloquy?",
+      "response": "A soliloquy is a dramatic speech in which a character expresses thoughts aloud, often while alone. Ask what it reveals that ordinary dialogue might conceal.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-163",
+      "topic": "drama",
+      "question": "How does stage direction influence meaning?",
+      "response": "Stage directions suggest actions, movement, setting, or tone. Compare how different productions could interpret those instructions without changing the spoken words.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-164",
+      "topic": "drama",
+      "question": "How do I analyze a scene in a play?",
+      "response": "Identify who wants what, which obstacle appears, and what changes by the end. Consider dialogue, silence, and physical action as evidence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-165",
+      "topic": "drama",
+      "question": "What is a dramatic monologue?",
+      "response": "A dramatic monologue presents a speaker addressing a listener, often revealing character indirectly. Attend to what the speaker says and what the situation implies.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-166",
+      "topic": "drama",
+      "question": "How does subtext work on stage?",
+      "response": "Subtext consists of intentions and feelings beneath spoken dialogue. Notice pauses, contradictions, gestures, and what characters avoid saying.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-167",
+      "topic": "drama",
+      "question": "What is an aside in a play?",
+      "response": "An aside is speech intended to be heard by the audience but not by certain characters onstage. Consider how it shapes trust or dramatic knowledge.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-168",
+      "topic": "drama",
+      "question": "How can I compare two performances of the same scene?",
+      "response": "Describe differences in pace, gesture, emphasis, and staging, then explain how each choice changes the interpretation of the dialogue.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-169",
+      "topic": "drama",
+      "question": "How does a stage setting shape conflict?",
+      "response": "A stage setting influences what characters can see, hear, or do. Examine how entrances, distance, objects, and space alter relationships.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-170",
+      "topic": "drama",
+      "question": "What makes dialogue effective in a play?",
+      "response": "Strong dramatic dialogue reveals character while pursuing an objective. Each exchange should create tension, shift understanding, or prepare a meaningful action.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-171",
+      "topic": "editing",
+      "question": "What is developmental editing?",
+      "response": "Developmental editing addresses a work's larger structure, purpose, character arcs, and organization before focusing on sentence-level details.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-172",
+      "topic": "editing",
+      "question": "What is line editing?",
+      "response": "Line editing examines clarity, voice, rhythm, and expression at the sentence and paragraph level while preserving the writer's intention.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-173",
+      "topic": "editing",
+      "question": "What is copyediting?",
+      "response": "Copyediting checks consistency, grammar, spelling, punctuation, and style rules. It should not silently replace the writer's ideas.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-174",
+      "topic": "editing",
+      "question": "How do I create a revision plan?",
+      "response": "List the most important changes by impact, beginning with purpose and structure. Revise one category at a time and save an earlier version.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-175",
+      "topic": "editing",
+      "question": "How can I shorten a passage without losing meaning?",
+      "response": "Identify the essential claim or action, remove repetition, and choose more precise words. Read the shortened version to ensure nuance remains.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-176",
+      "topic": "editing",
+      "question": "How do I strengthen a weak paragraph opening?",
+      "response": "Ask what the paragraph contributes to the whole piece. Begin with that purpose or a relevant concrete detail, then revise supporting sentences.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-177",
+      "topic": "editing",
+      "question": "How can I make transitions less repetitive?",
+      "response": "Describe the relationship between ideas first, then vary your transitions or let the logical connection stand without an extra phrase.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-178",
+      "topic": "editing",
+      "question": "How do I recognize an inconsistent narrative tense?",
+      "response": "Mark the main time frame of the scene and compare each verb with it. Change tense deliberately for memories, general truths, or time shifts.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-179",
+      "topic": "editing",
+      "question": "How can I proofread quoted material accurately?",
+      "response": "Check the quotation against the edition actually used and verify punctuation, omissions, and attribution under the required citation style.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-180",
+      "topic": "editing",
+      "question": "How should I respond to conflicting editor feedback?",
+      "response": "Identify the shared concern behind each suggestion, compare it with the work's purpose, and choose changes you can explain and defend.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-181",
+      "topic": "oral-expression",
+      "question": "How can I prepare a literary reading for an audience?",
+      "response": "Choose a short passage, mark changes in mood and thought, practise unfamiliar words, and read aloud at a comfortable pace.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-182",
+      "topic": "oral-expression",
+      "question": "What does emphasis do when reading aloud?",
+      "response": "Emphasis draws attention to particular words and relationships. Read one sentence twice with different emphasis and notice how its meaning shifts.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-183",
+      "topic": "oral-expression",
+      "question": "How can I improve clarity when speaking?",
+      "response": "Organize your point in a few connected ideas, speak at a measured pace, and pause where listeners need time to follow.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-184",
+      "topic": "oral-expression",
+      "question": "How do I handle an unfamiliar name in a reading?",
+      "response": "Consult a reliable pronunciation source and practise before presenting. If uncertainty remains, acknowledge it rather than inventing a pronunciation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-185",
+      "topic": "oral-expression",
+      "question": "Why is silence useful in storytelling?",
+      "response": "A deliberate pause can allow an image, revelation, or emotion to settle. Use silence purposefully instead of filling every moment with words.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-186",
+      "topic": "oral-expression",
+      "question": "How can I avoid sounding mechanical when reading?",
+      "response": "Follow the sentence's meaning, vary phrasing naturally, and allow punctuation to guide breath without treating each mark as an identical pause.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-187",
+      "topic": "oral-expression",
+      "question": "What is articulation in public speaking?",
+      "response": "Articulation is the clear formation of speech sounds. Practise slowly with short phrases while keeping your jaw and voice comfortable.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-188",
+      "topic": "oral-expression",
+      "question": "How can I use notes during a presentation?",
+      "response": "Write brief cues rather than a dense script, practise the sequence, and look up between ideas so the audience can follow your reasoning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-189",
+      "topic": "oral-expression",
+      "question": "How do I present two interpretations fairly?",
+      "response": "Explain the evidence supporting each interpretation, identify their differences, and state where the text leaves room for uncertainty.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-190",
+      "topic": "oral-expression",
+      "question": "How can I close a short literary talk?",
+      "response": "Return to the central question, summarize the strongest insight, and leave listeners with a precise observation rather than a new unsupported claim.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-191",
+      "topic": "ethical-literacy",
+      "question": "How do I distinguish inspiration from imitation?",
+      "response": "Identify the craft technique you admire and try applying it to your own characters, ideas, and situations. Do not copy another writer's distinctive passage.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-192",
+      "topic": "ethical-literacy",
+      "question": "When should I credit a writing influence?",
+      "response": "Credit specific borrowed ideas, quotations, adaptations, or research sources according to the setting's expectations. Acknowledgment can also help readers explore the influence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-193",
+      "topic": "ethical-literacy",
+      "question": "How can I discuss a sensitive text thoughtfully?",
+      "response": "Describe the material accurately, consider readers' needs, avoid sensationalism, and distinguish careful analysis from endorsement of harmful ideas.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-194",
+      "topic": "ethical-literacy",
+      "question": "What does an ethical memoir writer consider?",
+      "response": "A memoir writer should consider truthfulness, uncertainty, the privacy of others, and the effect of sharing identifiable experiences. Some details may require permission or omission.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-195",
+      "topic": "ethical-literacy",
+      "question": "How can I use an AI writing suggestion responsibly?",
+      "response": "Treat suggestions as possibilities rather than authority. Check accuracy, follow course or publisher rules, and keep ownership of your reasoning and voice.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-196",
+      "topic": "ethical-literacy",
+      "question": "How can I describe a real person fairly in nonfiction?",
+      "response": "Use verifiable details, distinguish observation from assumption, and avoid exposing private information that is not necessary to the story.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-197",
+      "topic": "ethical-literacy",
+      "question": "Why is accurate quotation important?",
+      "response": "Accurate quotation lets readers verify what a source actually said. Preserve context and mark omissions rather than silently changing the meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-198",
+      "topic": "ethical-literacy",
+      "question": "How can I avoid stereotyping a character?",
+      "response": "Give the character individual goals, contradictions, and agency. Research unfamiliar experiences carefully without making one person stand for a whole group.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-199",
+      "topic": "ethical-literacy",
+      "question": "What should I do if I discover an attribution error?",
+      "response": "Check the original source, correct the record clearly, and preserve a note explaining the change when the work has already been shared.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-200",
+      "topic": "ethical-literacy",
+      "question": "How can literary criticism remain respectful?",
+      "response": "Focus on the text and its effects, support judgments with evidence, and distinguish a disagreement about craft from an attack on the author.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
