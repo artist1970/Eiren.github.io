@@ -906,6 +906,456 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-101",
+      "topic": "narrative",
+      "question": "What is narrative distance?",
+      "response": "Narrative distance describes how closely a story's telling follows a character's inner experience. Compare a scene told through intimate thoughts with one told by a distant observer.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-102",
+      "topic": "narrative",
+      "question": "How does a flashback work?",
+      "response": "A flashback moves the narrative to an earlier time. Signal the shift clearly and make sure the earlier event changes how readers understand the present scene.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-103",
+      "topic": "narrative",
+      "question": "What is a frame narrative?",
+      "response": "A frame narrative places one story inside another storytelling situation. Consider who is telling the inner story and what that teller might know or omit.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-104",
+      "topic": "narrative",
+      "question": "What is pacing in fiction?",
+      "response": "Pacing is the felt speed of a narrative. Sentence length, scene detail, summary, and pauses can slow or quicken the reader's experience.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-105",
+      "topic": "narrative",
+      "question": "How can I move between scenes smoothly?",
+      "response": "Give a useful cue about time, place, or perspective. A transition should orient the reader without explaining events they can infer.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-106",
+      "topic": "narrative",
+      "question": "What does a scene need to accomplish?",
+      "response": "A scene usually changes a character's knowledge, relationships, goals, or circumstances. Ask what would be lost if the scene were removed.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-107",
+      "topic": "narrative",
+      "question": "What is a turning point in a novel?",
+      "response": "A turning point changes the direction or stakes of the action. It often comes from a choice, revelation, or event that makes earlier plans impossible.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-108",
+      "topic": "narrative",
+      "question": "How do I handle a time jump?",
+      "response": "Show clearly that time has passed and identify what changed. Keep the first detail after the jump connected to the reader's existing questions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-109",
+      "topic": "narrative",
+      "question": "How can an object carry meaning in a story?",
+      "response": "An ordinary object can gather meaning through its history, who uses it, and when it returns. Let readers notice that meaning through action.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-110",
+      "topic": "narrative",
+      "question": "How do I revise a confusing plot?",
+      "response": "Write a short sequence of causes and consequences for the major events. Look for choices without motivation, missing transitions, or outcomes that arrive without preparation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-111",
+      "topic": "poetry-form",
+      "question": "What is meter in poetry?",
+      "response": "Meter is an organized pattern of stressed and unstressed syllables. Listen for recurring rhythm, and notice where departures from the pattern create emphasis.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-112",
+      "topic": "poetry-form",
+      "question": "What is iambic rhythm?",
+      "response": "An iamb is a two-syllable metrical unit with an unstressed syllable followed by a stressed one. Real speech can vary, so listen rather than forcing every line.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-113",
+      "topic": "poetry-form",
+      "question": "What is enjambment?",
+      "response": "Enjambment carries a thought beyond a line ending without a full syntactic stop. The break can create momentum, suspense, or a second possible meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-114",
+      "topic": "poetry-form",
+      "question": "What is a caesura?",
+      "response": "A caesura is a pause within a poetic line, often signaled by punctuation or phrasing. Consider how the pause changes pace or emphasis.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-115",
+      "topic": "poetry-form",
+      "question": "What is a refrain in poetry?",
+      "response": "A refrain is a repeated line or phrase. Its meaning may deepen or change as the surrounding lines develop.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-116",
+      "topic": "poetry-form",
+      "question": "What is a sonnet?",
+      "response": "A sonnet is traditionally a fourteen-line poem, with several historical rhyme and structural patterns. Read where its argument or feeling turns rather than treating every sonnet as identical.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-117",
+      "topic": "poetry-form",
+      "question": "What is a villanelle?",
+      "response": "A villanelle is a nineteen-line poetic form with repeated lines and a prescribed rhyme pattern. Repetition often lets an idea change through context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-118",
+      "topic": "poetry-form",
+      "question": "How can I write a poem without rhyme?",
+      "response": "Choose an image or question, then pay attention to line breaks, rhythm, and concrete language. Sound and structure remain important without end rhyme.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-119",
+      "topic": "poetry-form",
+      "question": "What is internal rhyme?",
+      "response": "Internal rhyme occurs when rhyming sounds appear within a line or across positions other than only line endings. Listen for its effect on movement and mood.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-120",
+      "topic": "poetry-form",
+      "question": "How can I read a difficult poem slowly?",
+      "response": "Read the full poem once, then paraphrase one stanza at a time. Mark unfamiliar words, follow grammatical connections, and return to the images that stand out.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-121",
+      "topic": "research",
+      "question": "What is textual provenance?",
+      "response": "Textual provenance is the documented history of where a text or copy came from. Edition details, archives, and ownership records can help establish a source's reliability.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-122",
+      "topic": "research",
+      "question": "How can two editions of a book differ?",
+      "response": "Editions may vary in spelling, punctuation, editorial choices, included material, or revisions by the author. Record which edition you are actually using.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-123",
+      "topic": "research",
+      "question": "What does public domain mean for a literary work?",
+      "response": "Public domain generally means copyright restrictions on the underlying work have expired or do not apply in a jurisdiction. A modern translation or edition may still have its own protections.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-124",
+      "topic": "research",
+      "question": "What is a scholarly annotation?",
+      "response": "A scholarly annotation explains a word, historical reference, textual variation, or interpretive problem. Check who prepared it and distinguish evidence from opinion.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-125",
+      "topic": "research",
+      "question": "What is a literary bibliography?",
+      "response": "A bibliography lists sources consulted or cited. Keep author, title, edition, publisher, date, and access information accurate according to the required style.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-126",
+      "topic": "research",
+      "question": "How can I verify a famous quotation?",
+      "response": "Look for the earliest reliable printed or archival source and compare the wording in context. Avoid assigning an author solely because a quote appears repeatedly online.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-127",
+      "topic": "research",
+      "question": "How can an archive help a writing project?",
+      "response": "An archive can provide primary texts, images, dates, and provenance. Use source details to build accurate context and cite material you consult.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-128",
+      "topic": "research",
+      "question": "What is the difference between an adaptation and a translation?",
+      "response": "A translation renders a work into another language. An adaptation reshapes elements for a new context, genre, or medium; some projects do both.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-129",
+      "topic": "research",
+      "question": "How do I avoid accidentally copying another writer?",
+      "response": "Take notes in your own words, keep quotations clearly marked, and record sources as you research. Attribute borrowed ideas and check permissions for substantial reuse.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-130",
+      "topic": "research",
+      "question": "How do I evaluate a literary website?",
+      "response": "Identify its editor or institution, distinguish original texts from commentary, check edition details, and compare claims with reputable sources.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-131",
+      "topic": "language-style",
+      "question": "What is diction in literature?",
+      "response": "Diction means a writer's choice of words. Notice precision, formality, sound, and associations when asking why one word was chosen instead of another.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-132",
+      "topic": "language-style",
+      "question": "What is register in language?",
+      "response": "Register is the style of language suited to a setting or relationship. A formal application and a message to a friend may express the same idea differently.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-133",
+      "topic": "language-style",
+      "question": "What is cadence in prose?",
+      "response": "Cadence is the rhythmic flow of language. Read a passage aloud to hear how sentence length, stress, and punctuation affect its movement.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-134",
+      "topic": "language-style",
+      "question": "How do I recognize an author's voice?",
+      "response": "Look for recurring choices in syntax, imagery, rhythm, humor, and perspective. Voice is a pattern of expression, not a single unusual word.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-135",
+      "topic": "language-style",
+      "question": "When should I use simple words?",
+      "response": "Use clear, familiar words when they express the idea precisely. Complex vocabulary is helpful only when it adds meaning rather than distance.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-136",
+      "topic": "language-style",
+      "question": "What is ambiguity in literary language?",
+      "response": "Ambiguity allows more than one plausible meaning. Ask whether the uncertainty enriches the passage or merely makes its meaning unclear.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-137",
+      "topic": "language-style",
+      "question": "What is understatement?",
+      "response": "Understatement presents something as less dramatic or important than it is. The contrast can create humor, restraint, or emotional force.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-138",
+      "topic": "language-style",
+      "question": "What is hyperbole?",
+      "response": "Hyperbole is deliberate exaggeration for emphasis or effect. Readers should be able to recognize it as figurative rather than factual reporting.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-139",
+      "topic": "language-style",
+      "question": "What is an extended metaphor?",
+      "response": "An extended metaphor develops a comparison across several lines or passages. Track which features of the comparison remain useful and where it changes.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-140",
+      "topic": "language-style",
+      "question": "How can punctuation shape a voice?",
+      "response": "Punctuation organizes thought, pace, and emphasis. Compare a sentence broken into short stops with one that unfolds gradually, then choose intentionally.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-141",
+      "topic": "writing-workshop",
+      "question": "How can I plan a short essay?",
+      "response": "Write a focused question and tentative answer, then group supporting evidence into two or three ideas. Revise the plan as your reasoning develops.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-142",
+      "topic": "writing-workshop",
+      "question": "How can I improve a thesis statement?",
+      "response": "Make the thesis specific, debatable where appropriate, and connected to evidence you can discuss. Remove claims too broad for the assignment.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-143",
+      "topic": "writing-workshop",
+      "question": "How do I write a useful topic outline?",
+      "response": "Give each section one purpose and list evidence or examples beneath it. Check that the sequence helps a reader follow your central idea.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-144",
+      "topic": "writing-workshop",
+      "question": "How can I write a reflective essay?",
+      "response": "Describe an experience, explain what you noticed or learned, and consider how your understanding changed. Keep personal details within boundaries you choose.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-145",
+      "topic": "writing-workshop",
+      "question": "How do I write a book review?",
+      "response": "Briefly identify the work and its purpose, evaluate particular strengths or limitations, and support your judgments with examples rather than only a rating.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-146",
+      "topic": "writing-workshop",
+      "question": "How can I improve an academic introduction?",
+      "response": "Establish the subject and its significance, introduce the main question, and present a clear direction. Avoid promises the essay will not fulfill.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-147",
+      "topic": "writing-workshop",
+      "question": "How do I connect a quotation to my analysis?",
+      "response": "Introduce why the passage matters, present only the relevant portion, and explain what its wording shows. Use appropriate citation and avoid excessive quotation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-148",
+      "topic": "writing-workshop",
+      "question": "What should I look for during a final proofread?",
+      "response": "Check names and references, sentence boundaries, agreement, spelling, punctuation, and consistency. Read slowly after revising so familiar wording does not hide mistakes.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-149",
+      "topic": "writing-workshop",
+      "question": "How do I decide when a draft is finished?",
+      "response": "Compare the piece with its purpose and requirements. If the structure is clear and further edits no longer improve meaning, save a version and consider it complete.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-150",
+      "topic": "writing-workshop",
+      "question": "How can I build a steady writing habit?",
+      "response": "Choose a manageable time and small task, such as drafting one paragraph. Keep notes about ideas that arise between sessions without judging every first sentence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
