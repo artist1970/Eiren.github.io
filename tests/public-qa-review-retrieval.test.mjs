@@ -4,7 +4,7 @@ import {readFileSync} from "node:fs";
 const load=n=>JSON.parse(readFileSync(new URL("../knowledge/"+n,import.meta.url),"utf8"));
 const bank=load("public-qa.candidate.v1.json");
 const tax=load("public-qa-taxonomy.candidate.v1.json");
-const clean=s=>String(s).normalize("NFKC").toLowerCase().replace(/[^\\p{L}\\p{N}]+/gu," ").trim().replace(/\\s+/g," ");
+const clean=s=>String(s).normalize("NFKC").toLowerCase().replace(/[^\p{L}\p{N}]+/gu," ").trim().replace(/\s+/g," ");
 const stop=new Set(["what","when","where","why","how","can","you","help","with","the","this","that","and","for","from","into","your","about","does","are","which","should","would","could","make","there","one","more","some","have","its","than","them","their","do","we","my","me"]);
 const words=s=>[...new Set(clean(s).split(" ").filter(x=>x.length>2&&!stop.has(x)))];
 function reviewLookup(query,{mentorId=bank.mentorId,limit=3}={}){
