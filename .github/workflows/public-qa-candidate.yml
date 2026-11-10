@@ -5,6 +5,8 @@ on:
       - 'knowledge/public-qa.candidate.v1.json'
       - 'tests/public-qa-candidate.test.mjs'
       - 'tests/public-qa-editorial-audit.test.mjs'
+      - 'tests/public-qa-taxonomy.test.mjs'
+      - 'knowledge/public-qa-taxonomy.candidate.v1.json'
       - '.github/workflows/public-qa-candidate.yml'
   push:
     branches: [main]
@@ -12,6 +14,8 @@ on:
       - 'knowledge/public-qa.candidate.v1.json'
       - 'tests/public-qa-candidate.test.mjs'
       - 'tests/public-qa-editorial-audit.test.mjs'
+      - 'tests/public-qa-taxonomy.test.mjs'
+      - 'knowledge/public-qa-taxonomy.candidate.v1.json'
 permissions:
   contents: read
 jobs:
@@ -22,4 +26,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/public-qa-candidate.test.mjs tests/public-qa-editorial-audit.test.mjs
+      - run: node --test tests/public-qa-candidate.test.mjs tests/public-qa-editorial-audit.test.mjs tests/public-qa-taxonomy.test.mjs
