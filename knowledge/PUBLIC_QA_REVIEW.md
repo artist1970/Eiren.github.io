@@ -1,6 +1,6 @@
 # Eiren public literary Q&A review and promotion
 
-The 100-record file `knowledge/public-qa.candidate.v1.json` is a **draft public teaching source**. Every record is marked `review-pending`; this file must not be registered as approved Q&A.
+The 150-record file `knowledge/public-qa.candidate.v1.json` is a **draft public teaching source**. Every record is marked `review-pending`; this file must not be registered as approved Q&A.
 
 ## Editorial acceptance
 
@@ -11,10 +11,14 @@ The 100-record file `knowledge/public-qa.candidate.v1.json` is a **draft public 
 5. Re-run the bank tests and Creative Spark’s public-source validations before any active registry entry. Require the canonical repository, source schema and pinned approved URL.
 
 ## Scaling
-The long-term 500-Q&A goal should use reviewed thematic batches (reading, vocabulary, genre, rhetoric, literary analysis, writing, revision, pronunciation). These 100 entries are **review-pending candidates**, not a completed 500-record bank.
+The long-term 500-Q&A goal should use reviewed thematic batches (reading, vocabulary, genre, rhetoric, literary analysis, writing, revision, pronunciation). These 150 entries are **review-pending candidates**, not a completed 500-record bank.
 
 No private CORE, learner accounts, archived manuscripts or student work may be copied into this public source.
 
 ## Batch 003 progress
 
-The initial 16 records have been expanded to 100 individually authored, topic-specific Q&A candidates. All records retain `review-pending` status. Their count and structure are checked by automated tests; educational correctness, tone, cultural nuance, and content suitability still require independent editorial assessment. Do not mark these records approved solely because automated tests pass.
+The initial 16 records have been expanded to 150 individually authored, topic-specific Q&A candidates. All records retain `review-pending` status. Their count and structure are checked by automated tests; educational correctness, tone, cultural nuance, and content suitability still require independent editorial assessment. Do not mark these records approved solely because automated tests pass.
+
+## Batch 004 review milestone
+
+Fifty additional topic-focused original Q&A candidates have been drafted, bringing this bank to **150 review-pending entries**. Tests verify record structure, uniqueness, and safe publication status; they do not confer editorial approval. Before approval, review these new records for accuracy, cultural and language nuance, accessibility, and age suitability where applicable.
