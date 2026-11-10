@@ -49,6 +49,6 @@ test("candidate has broad subject coverage without changing its publication gate
 test("new batch remains a candidate and contains distinct approved-scope topic groups",()=>{
  const topics=new Set(data.records.slice(200).map(x=>x.topic));
  assert.equal(data.records.length,250);
- assert.equal(topics.size,5);
+ assert.equal(topics.size,10);
  assert.ok(data.records.slice(200).every(x=>x.status==="review-pending"));
 });
