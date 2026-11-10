@@ -1,0 +1,31 @@
+name: Public mentor Q&A candidate contract
+on:
+  pull_request:
+    paths:
+      - 'knowledge/public-qa.candidate.v1.json'
+      - 'tests/public-qa-candidate.test.mjs'
+      - 'tests/public-qa-editorial-audit.test.mjs'
+      - 'tests/public-qa-taxonomy.test.mjs'
+      - 'tests/public-qa-review-retrieval.test.mjs'
+      - 'knowledge/public-qa-taxonomy.candidate.v1.json'
+      - '.github/workflows/public-qa-candidate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'knowledge/public-qa.candidate.v1.json'
+      - 'tests/public-qa-candidate.test.mjs'
+      - 'tests/public-qa-editorial-audit.test.mjs'
+      - 'tests/public-qa-taxonomy.test.mjs'
+      - 'tests/public-qa-review-retrieval.test.mjs'
+      - 'knowledge/public-qa-taxonomy.candidate.v1.json'
+permissions:
+  contents: read
+jobs:
+  review-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --test tests/public-qa-candidate.test.mjs tests/public-qa-editorial-audit.test.mjs tests/public-qa-taxonomy.test.mjs tests/public-qa-review-retrieval.test.mjs
