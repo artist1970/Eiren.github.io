@@ -510,6 +510,402 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-057",
+      "topic": "literary-analysis",
+      "question": "How do I support an interpretation with a quotation?",
+      "response": "Choose a short relevant phrase, identify its context, and explain how particular words support your idea. Do not leave the quotation to do the explaining.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-058",
+      "topic": "literary-analysis",
+      "question": "What is close reading?",
+      "response": "Close reading studies a small passage carefully, examining word choice, imagery, structure, and context. Connect each observation to a reasoned interpretation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-059",
+      "topic": "literary-analysis",
+      "question": "How can I identify a change in tone?",
+      "response": "Compare word choices and sentence rhythms before and after a turning point. Explain what shifts from one attitude to another and why it matters.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-060",
+      "topic": "literary-analysis",
+      "question": "What is a literary motif?",
+      "response": "A motif is a recurring image, idea, object, or pattern. Track when it appears and ask whether its meaning changes as the story develops.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-061",
+      "topic": "literary-analysis",
+      "question": "How does point of view shape a story?",
+      "response": "Point of view affects what readers know, whose experience feels close, and which information remains hidden. Compare what different observers could tell.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-062",
+      "topic": "literary-analysis",
+      "question": "How should I compare two poems?",
+      "response": "Choose a shared question or image, then compare language, form, and tone. Notice differences as carefully as similarities and support each claim with details.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-063",
+      "topic": "literary-analysis",
+      "question": "Why is historical context useful in reading?",
+      "response": "Historical context can clarify a work's language, audience, and circumstances. Use reliable sources, but do not assume context settles every possible interpretation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-064",
+      "topic": "literary-analysis",
+      "question": "How do I distinguish an observation from an interpretation?",
+      "response": "An observation names a feature you can point to in the text. An interpretation proposes what that feature means and explains the reasoning behind the proposal.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-065",
+      "topic": "literary-analysis",
+      "question": "What is irony in a story?",
+      "response": "Irony involves a meaningful contrast between expectation and reality, or between what is said and what is meant. Identify the contrast and its effect.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-066",
+      "topic": "literary-analysis",
+      "question": "Can a story have more than one interpretation?",
+      "response": "Yes. Different readings can coexist when each explains the text carefully and acknowledges counterevidence. Not every interpretation has equal support.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-067",
+      "topic": "rhetoric",
+      "question": "What is ethos in persuasive writing?",
+      "response": "Ethos concerns credibility and trustworthiness. Writers build it by showing care, competence, fairness, and transparent use of reliable evidence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-068",
+      "topic": "rhetoric",
+      "question": "What is logos in an argument?",
+      "response": "Logos appeals to reasoning through claims, evidence, and connections between them. Check whether conclusions actually follow from the presented support.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-069",
+      "topic": "rhetoric",
+      "question": "What is pathos in rhetoric?",
+      "response": "Pathos appeals to an audience's feelings and concerns. It can deepen understanding when used responsibly alongside accurate, relevant information.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-070",
+      "topic": "rhetoric",
+      "question": "What is an audience in writing?",
+      "response": "An audience is the group of readers a piece addresses. Consider their likely knowledge, needs, and questions while keeping your own purpose clear.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-071",
+      "topic": "rhetoric",
+      "question": "How can I make a persuasive paragraph fair?",
+      "response": "State a focused claim, use accurate evidence, consider a reasonable objection, and avoid misrepresenting people who disagree.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-072",
+      "topic": "rhetoric",
+      "question": "What is a rhetorical question?",
+      "response": "A rhetorical question is asked mainly to prompt thought or emphasize an idea rather than demand a direct answer. Use it when it serves the argument.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-073",
+      "topic": "rhetoric",
+      "question": "How can I spot an unsupported generalization?",
+      "response": "Look for words such as 'always' or 'everyone' and ask whether the evidence covers that broad claim. Narrow the statement when support is limited.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-074",
+      "topic": "rhetoric",
+      "question": "What is a call to action?",
+      "response": "A call to action invites readers to take a specific next step. Make the request understandable, feasible, and consistent with the evidence and purpose.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-075",
+      "topic": "creative-writing",
+      "question": "What is showing rather than telling?",
+      "response": "Telling names a feeling or fact directly; showing offers actions or details that let readers infer it. Both are useful, depending on pacing and purpose.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-076",
+      "topic": "creative-writing",
+      "question": "How can I write a vivid description without too many adjectives?",
+      "response": "Choose precise nouns and verbs first, then add a few sensory details that serve the scene. Remove words that repeat what readers already understand.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-077",
+      "topic": "creative-writing",
+      "question": "How do I write about a place I remember?",
+      "response": "Begin with one concrete sound, object, or movement. Describe what you noticed at the time and distinguish memory from details you are imagining.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-078",
+      "topic": "creative-writing",
+      "question": "How can I develop a scene through action?",
+      "response": "Give the character a goal, an obstacle, and a choice. Let each action change what happens next so the scene moves instead of merely accumulating events.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-079",
+      "topic": "creative-writing",
+      "question": "What is subtext in dialogue?",
+      "response": "Subtext is what characters mean, fear, or want without stating it openly. Notice how gestures, omissions, and interruptions reveal another layer.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-080",
+      "topic": "creative-writing",
+      "question": "How can I invent an original fantasy world?",
+      "response": "Start with one unusual rule and ask how it affects ordinary lives. Build details through characters' needs rather than listing inventions all at once.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-081",
+      "topic": "creative-writing",
+      "question": "How can I write a short memory piece?",
+      "response": "Choose one moment with a clear beginning and change. Use sensory detail thoughtfully and allow uncertainty where memory is incomplete.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-082",
+      "topic": "creative-writing",
+      "question": "How do I decide between first and third person?",
+      "response": "First person places readers close to one speaker's account. Third person can offer different degrees of distance and range; choose the perspective that serves your story.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-083",
+      "topic": "grammar",
+      "question": "What is an appositive?",
+      "response": "An appositive is a noun or noun phrase that renames another noun. In 'Mira, our guide, smiled,' the phrase 'our guide' gives additional information.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-084",
+      "topic": "grammar",
+      "question": "What is parallel structure?",
+      "response": "Parallel structure uses similar grammatical forms for ideas with similar roles. Compare 'to read, to write, and to revise' with a list that changes form unexpectedly.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-085",
+      "topic": "grammar",
+      "question": "How should I use a semicolon?",
+      "response": "A semicolon can link closely related independent clauses without a conjunction. It also helps separate complicated list items when commas already appear inside them.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-086",
+      "topic": "grammar",
+      "question": "What is an active verb?",
+      "response": "An active verb presents a subject doing an action, as in 'The gardener planted seeds.' Choose active or passive constructions according to what deserves emphasis.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-087",
+      "topic": "grammar",
+      "question": "When is passive voice useful?",
+      "response": "Passive voice can emphasize an event or result when the actor is unknown or less important. Avoid it when concealing responsibility would mislead readers.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-088",
+      "topic": "grammar",
+      "question": "How can I check pronoun clarity?",
+      "response": "Find the noun each pronoun refers to. If 'it', 'they', or 'she' could point to more than one person or object, rewrite for clarity.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-089",
+      "topic": "translation",
+      "question": "Why is translating poetry difficult?",
+      "response": "Poetry combines meaning with rhythm, sound, imagery, and cultural associations. A translation may preserve some features while changing others, so compare choices carefully.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-090",
+      "topic": "translation",
+      "question": "How should I compare two translations?",
+      "response": "Read the same short passage in both versions and compare imagery, tone, and syntax. Ask which choices reflect the original and where interpretation enters.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-091",
+      "topic": "translation",
+      "question": "What is an idiom?",
+      "response": "An idiom is a phrase whose customary meaning may differ from its literal words. Check usage in context instead of translating each word separately.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-092",
+      "topic": "translation",
+      "question": "Can a word have different meanings in different contexts?",
+      "response": "Yes. Surrounding sentences, register, and subject area can change which meaning is intended. Test the meaning against the complete passage.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-093",
+      "topic": "research",
+      "question": "How can I recognize a reliable literary source?",
+      "response": "Check the creator, publication context, date, and supporting references. Prefer a trustworthy edition or archive and distinguish commentary from the original text.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-094",
+      "topic": "research",
+      "question": "What is a primary source in literary research?",
+      "response": "A primary source is original material relevant to the research, such as a manuscript, letter, first edition, or contemporary review. Its meaning still requires context.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-095",
+      "topic": "research",
+      "question": "How can I cite an online poem or story?",
+      "response": "Record the author, title, publisher or archive, publication details, and URL as required by your citation style. Confirm the edition you actually consulted.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-096",
+      "topic": "research",
+      "question": "What should I do if a source has no named author?",
+      "response": "Look for publisher information, editorial responsibility, provenance, and independent confirmation. Describe uncertainty rather than inventing an author.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-097",
+      "topic": "feedback",
+      "question": "How can I ask for useful writing feedback?",
+      "response": "Tell your reader the piece's purpose and one question you want answered, such as whether the opening is clear. Specific requests invite more useful responses.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-098",
+      "topic": "feedback",
+      "question": "How should I respond to criticism of my writing?",
+      "response": "Listen for the concern underneath the suggestion, ask a clarifying question, and decide what fits your purpose. You are not required to accept every proposed edit.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-099",
+      "topic": "feedback",
+      "question": "How can I encourage a young writer?",
+      "response": "Notice a specific creative choice, ask what they wanted readers to see or feel, and offer one manageable next step rather than rewriting their work.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-100",
+      "topic": "feedback",
+      "question": "How can I celebrate a finished draft?",
+      "response": "Name what you achieved, save a dated copy, and reflect on one technique you learned. A finished draft is a milestone even when revision may follow.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
