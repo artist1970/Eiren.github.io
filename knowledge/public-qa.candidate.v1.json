@@ -3156,6 +3156,456 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-351",
+      "topic": "narrative-perspective",
+      "question": "How can a narrator conceal information without lying?",
+      "response": "A narrator may be distracted, limited in access, or unwilling to discuss a memory. Place clues in the surrounding action so readers can evaluate the gap without assuming dishonesty.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-352",
+      "topic": "narrative-perspective",
+      "question": "What changes when a scene shifts between two viewpoints?",
+      "response": "Each viewpoint changes which details readers notice and which feelings remain private. Compare what both characters know before choosing where to place the transition.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-353",
+      "topic": "narrative-perspective",
+      "question": "How can second-person narration affect a reader?",
+      "response": "Second person addresses a 'you' who may be a character, an imagined listener, or the reader. Ask whom the address includes and what expectations it creates.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-354",
+      "topic": "narrative-perspective",
+      "question": "What is free indirect discourse?",
+      "response": "Free indirect discourse blends a third-person narrator's phrasing with a character's thoughts or idiom. Look for shifts in tone and judgment without explicit quotation marks.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-355",
+      "topic": "narrative-perspective",
+      "question": "How can a narrator's distance change during a chapter?",
+      "response": "A narration may move from broad summary toward a character's immediate sensations. Trace the changing detail and syntax to explain the effect.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-356",
+      "topic": "poetics-of-form",
+      "question": "What is an elegy?",
+      "response": "An elegy is a poem or other literary work reflecting on loss, often through grief, remembrance, or consolation. Individual elegies may resist those conventions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-357",
+      "topic": "poetics-of-form",
+      "question": "What is an ode?",
+      "response": "An ode is a poem of address, attention, or praise, often directed toward a person, object, or idea. Notice how its form shapes the speaker's relationship to the subject.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-358",
+      "topic": "poetics-of-form",
+      "question": "How can a poem use a list as its structure?",
+      "response": "A list poem can build rhythm, contrast, and expectation through successive details. Ask whether the order creates a change in meaning instead of merely adding items.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-359",
+      "topic": "poetics-of-form",
+      "question": "What is an ekphrastic poem?",
+      "response": "An ekphrastic poem responds to a work of visual art. It may describe the artwork, imagine beyond its frame, or question the act of looking.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-360",
+      "topic": "poetics-of-form",
+      "question": "How do stanza breaks guide interpretation?",
+      "response": "Stanza breaks separate movements of thought or sound. Compare the last words before a break with the first words after it to see how expectations shift.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-361",
+      "topic": "literary-argument",
+      "question": "How can I make an interpretive claim less obvious?",
+      "response": "Move beyond naming a device and explain how its use changes meaning. A strong claim connects a specific craft choice with a defensible consequence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-362",
+      "topic": "literary-argument",
+      "question": "How do I weigh contradictory evidence in a literary essay?",
+      "response": "Present the detail that challenges your view and explain whether it requires qualification or revision. Avoid treating inconvenient passages as irrelevant.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-363",
+      "topic": "literary-argument",
+      "question": "What is the difference between analysis and evaluation?",
+      "response": "Analysis explains how and why a work functions; evaluation judges its effectiveness by stated criteria. An essay may do both, but readers should know which claim you are making.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-364",
+      "topic": "literary-argument",
+      "question": "How can I compare two interpretations without declaring a winner?",
+      "response": "Describe each interpretation fairly and identify the passages it explains best. You can conclude by naming an unresolved tension instead of forcing consensus.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-365",
+      "topic": "literary-argument",
+      "question": "How can I write a nuanced thesis about an unreliable narrator?",
+      "response": "Specify what the narrator misunderstands or conceals and how readers can infer it. Support the distinction with several textual clues rather than a blanket label.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-366",
+      "topic": "historical-poetics",
+      "question": "Why does an older word sometimes sound unfamiliar in a poem?",
+      "response": "Meaning, pronunciation, and usage can change over time. Check a historical dictionary and the surrounding lines before assigning a modern sense.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-367",
+      "topic": "historical-poetics",
+      "question": "How can printing conventions affect a poem's appearance?",
+      "response": "Typography, spelling, punctuation, and lineation may vary among editions. Record the source version and avoid assuming every visible choice came from the poet.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-368",
+      "topic": "historical-poetics",
+      "question": "What is a literary commonplace book?",
+      "response": "A commonplace book is a personal collection of excerpts, notes, or ideas arranged for later use. It can show reading practices but not necessarily a writer's final intentions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-369",
+      "topic": "historical-poetics",
+      "question": "Why should I be cautious about a modernized edition?",
+      "response": "Modern spelling and punctuation can make a text easier to read while changing rhythm or ambiguity. Compare an authoritative source when those features matter.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-370",
+      "topic": "historical-poetics",
+      "question": "How can a dedication shape a book's historical meaning?",
+      "response": "A dedication may reveal patronage, audience, gratitude, or strategic positioning. Examine its date and context without reducing the entire work to that relationship.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-371",
+      "topic": "language-and-meaning",
+      "question": "How is polysemy different from ambiguity?",
+      "response": "Polysemy means a word has related meanings; ambiguity arises when a passage permits multiple interpretations. Context may resolve one sense or deliberately keep several active.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-372",
+      "topic": "language-and-meaning",
+      "question": "What is an allusion in literature?",
+      "response": "An allusion refers indirectly to another text, event, or cultural idea. Identify a plausible source and explain the effect without claiming every resemblance is intentional.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-373",
+      "topic": "language-and-meaning",
+      "question": "How does a pun work in serious writing?",
+      "response": "A pun uses related sounds or multiple meanings to create a second layer. Beyond humor, it may expose tension, irony, or a speaker's uncertainty.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-374",
+      "topic": "language-and-meaning",
+      "question": "How can a writer use repetition without sounding repetitive?",
+      "response": "Change the context, rhythm, or consequence each time an image or phrase returns. Repetition gains force when readers notice meaningful variation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-375",
+      "topic": "language-and-meaning",
+      "question": "What is a semantic field?",
+      "response": "A semantic field is a cluster of words connected by meaning. Tracking repeated words about weather, time, or enclosure can reveal a passage's dominant concerns.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-376",
+      "topic": "character-and-ethics",
+      "question": "How can a flawed character remain sympathetic?",
+      "response": "Show motives, relationships, and consequences without excusing harmful choices. Readers may understand a character while disagreeing with their actions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-377",
+      "topic": "character-and-ethics",
+      "question": "How do I write a character from an unfamiliar background?",
+      "response": "Research specific settings and experiences, listen to informed perspectives, and avoid turning identity into a plot shortcut. Give the person individual goals and contradictions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-378",
+      "topic": "character-and-ethics",
+      "question": "How can a story show remorse rather than announce it?",
+      "response": "Let remorse appear through choices, changed behavior, and attention to consequences. One apology need not erase what happened.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-379",
+      "topic": "character-and-ethics",
+      "question": "How can an antagonist be more than an obstacle?",
+      "response": "Give the antagonist coherent goals and constraints, even when those aims conflict with the protagonist's. Their complexity should not hide the stakes of their actions.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-380",
+      "topic": "character-and-ethics",
+      "question": "What is an ethical dilemma in fiction?",
+      "response": "An ethical dilemma presents competing obligations or values with meaningful costs. Make each option credible and show why the decision matters.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-381",
+      "topic": "genre-and-medium",
+      "question": "How does a graphic novel tell a story differently from prose?",
+      "response": "Sequential images, panels, lettering, and page layout shape time and attention. Compare what the artwork communicates with what the words leave unsaid.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-382",
+      "topic": "genre-and-medium",
+      "question": "What changes when a short story becomes a stage play?",
+      "response": "Internal narration may become dialogue, action, or staging. Examine which scenes and relationships survive the change of medium.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-383",
+      "topic": "genre-and-medium",
+      "question": "What is flash fiction?",
+      "response": "Flash fiction is very short narrative prose that relies on selection, compression, and implication. Its exact length varies across publications.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-384",
+      "topic": "genre-and-medium",
+      "question": "How can speculative fiction examine an ordinary problem?",
+      "response": "An invented rule or setting can make a familiar question visible from a new angle. Develop consequences for characters rather than using novelty alone.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-385",
+      "topic": "genre-and-medium",
+      "question": "How can a memoirist use scene without inventing facts?",
+      "response": "Recreate supported details carefully, distinguish remembered dialogue from documented quotation, and acknowledge uncertainty instead of presenting reconstruction as certainty.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-386",
+      "topic": "revision-laboratory",
+      "question": "How do I test whether my opening question matters?",
+      "response": "Read the ending and identify which concern the piece actually explores. Revise the opening so it invites that concern without giving away the answer.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-387",
+      "topic": "revision-laboratory",
+      "question": "What is a continuity sheet for a long manuscript?",
+      "response": "A continuity sheet tracks names, dates, settings, and established facts. Use it to catch contradictions while allowing deliberate changes to remain documented.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-388",
+      "topic": "revision-laboratory",
+      "question": "How can I revise an overexplained emotional scene?",
+      "response": "Identify which actions and images already communicate the feeling. Remove explanatory sentences one at a time and check whether readers can still follow the moment.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-389",
+      "topic": "revision-laboratory",
+      "question": "How can I make paragraph transitions more logical?",
+      "response": "Write the relationship between adjacent paragraphs in a few words, such as cause or contrast. Rearrange or clarify where no relationship is evident.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-390",
+      "topic": "revision-laboratory",
+      "question": "What can a reading-aloud revision pass reveal?",
+      "response": "Reading aloud can reveal tangled syntax, accidental repetition, and unnatural dialogue. Treat the result as evidence about rhythm, not a substitute for checking meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-391",
+      "topic": "literary-teaching",
+      "question": "How can I encourage evidence-based discussion in literature class?",
+      "response": "Ask participants to point to a detail, explain their inference, and consider another reading. Encourage curiosity rather than turning the discussion into a contest.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-392",
+      "topic": "literary-teaching",
+      "question": "What is a good first question about a difficult novel?",
+      "response": "Ask what changes for the main character in the opening section and which details make that change noticeable. Build interpretation from what the text provides.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-393",
+      "topic": "literary-teaching",
+      "question": "How can I support a reader who dislikes a poem?",
+      "response": "Invite a specific observation about what feels distant or frustrating. Discuss one image or sound without requiring admiration as proof of understanding.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-394",
+      "topic": "literary-teaching",
+      "question": "What is a useful literary conference question?",
+      "response": "Ask the writer what they hope readers will notice and where the current draft feels least clear. One focused question can guide a productive conversation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-395",
+      "topic": "literary-teaching",
+      "question": "How can a mentor respect multiple reading levels?",
+      "response": "Offer varied passage lengths and ways to respond, then let the learner choose with appropriate support. Do not infer ability or official placement from a single answer.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-396",
+      "topic": "source-judgment",
+      "question": "How can I verify a claimed first publication date?",
+      "response": "Consult a trustworthy bibliography, publisher record, or archival copy and distinguish composition from publication. Record uncertainty when sources disagree.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-397",
+      "topic": "source-judgment",
+      "question": "What should I check before attributing a poem to an author?",
+      "response": "Look for a reliable edition or manuscript record and compare the wording. Repetition on quotation websites does not establish authorship.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-398",
+      "topic": "source-judgment",
+      "question": "How does editorial annotation differ from the original text?",
+      "response": "Annotations supply explanations or interpretations added by an editor. Keep that commentary separate from the words and decisions of the original author.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-399",
+      "topic": "source-judgment",
+      "question": "What is a responsible way to use public-domain poetry?",
+      "response": "Confirm the work's status in the relevant jurisdiction and check whether a modern translation, recording, or edition has separate rights.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-400",
+      "topic": "source-judgment",
+      "question": "How can I handle a source that contradicts my analysis?",
+      "response": "Read the whole source, verify its relevance and credibility, and revise your claim if the evidence warrants it. Do not hide a substantive contradiction.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
