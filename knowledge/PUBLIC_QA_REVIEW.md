@@ -1,6 +1,6 @@
 # Eiren public literary Q&A review and promotion
 
-The 350-record file `knowledge/public-qa.candidate.v1.json` is a **draft public teaching source**. Every record is marked `review-pending`; this file must not be registered as approved Q&A.
+The 400-record file `knowledge/public-qa.candidate.v1.json` is a **draft public teaching source**. Every record is marked `review-pending`; this file must not be registered as approved Q&A.
 
 ## Editorial acceptance
 
@@ -11,13 +11,13 @@ The 350-record file `knowledge/public-qa.candidate.v1.json` is a **draft public 
 5. Re-run the bank tests and Creative Spark’s public-source validations before any active registry entry. Require the canonical repository, source schema and pinned approved URL.
 
 ## Scaling
-The long-term 500-Q&A goal should use reviewed thematic batches (reading, vocabulary, genre, rhetoric, literary analysis, writing, revision, pronunciation). These 350 entries are **review-pending candidates**, not a completed 500-record bank.
+The long-term 500-Q&A goal should use reviewed thematic batches (reading, vocabulary, genre, rhetoric, literary analysis, writing, revision, pronunciation). These 400 entries are **review-pending candidates**, not a completed 500-record bank.
 
 No private CORE, learner accounts, archived manuscripts or student work may be copied into this public source.
 
 ## Batch 003 progress
 
-The initial 16 records have been expanded to 350 individually authored, topic-specific Q&A candidates. All records retain `review-pending` status. Their count and structure are checked by automated tests; educational correctness, tone, cultural nuance, and content suitability still require independent editorial assessment. Do not mark these records approved solely because automated tests pass.
+The initial 16 records have been expanded to 400 individually authored, topic-specific Q&A candidates. All records retain `review-pending` status. Their count and structure are checked by automated tests; educational correctness, tone, cultural nuance, and content suitability still require independent editorial assessment. Do not mark these records approved solely because automated tests pass.
 
 ## Batch 004 review milestone
 
@@ -38,3 +38,7 @@ Fifty original mentor-specific Q&A records were added in ten thematic groups, br
 ## Batch 008 — 350 candidate milestone
 
 Fifty additional mentor-specific public learning Q&A candidates form ten thematic groups, bringing this bank to **350 records**. All remain `review-pending` and cannot be treated as approved sources. Automated checks verify format, question uniqueness, topic coverage, and privacy boundaries; a qualified editorial review is still required, including family-safety review for KlasaiPeer.
+
+## Batch 009 — 400 candidate milestone
+
+Fifty additional original questions were added in ten subject-specific groups, bringing the bank to **400 review-pending records**. Automated tests assess schema, uniqueness, topic coverage and basic privacy boundaries, but cannot establish editorial approval or pedagogical accuracy. Eiren requires independent literary review; KlasaiPeer requires independent editorial and family-safety review before any approved public source may be published.
