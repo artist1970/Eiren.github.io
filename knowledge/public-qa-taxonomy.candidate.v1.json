@@ -1,0 +1,139 @@
+{
+  "schema": "mentor-qa-topic-taxonomy-v1",
+  "version": 1,
+  "mentorId": "eiren",
+  "sourceSchema": "eiren-public-qa-v1",
+  "sourcePath": "knowledge/public-qa.candidate.v1.json",
+  "status": "editorial-candidate",
+  "publicationAuthorized": false,
+  "rule": "Every original topic maps to exactly one canonical domain; no record content, approval state, or source topic is rewritten.",
+  "domains": [
+    {
+      "id": "reading-interpretation",
+      "label": "Reading & Interpretation"
+    },
+    {
+      "id": "poetry",
+      "label": "Poetry & Poetics"
+    },
+    {
+      "id": "fiction-narrative",
+      "label": "Fiction, Narrative & Drama"
+    },
+    {
+      "id": "composition-revision",
+      "label": "Composition & Revision"
+    },
+    {
+      "id": "rhetoric-argument",
+      "label": "Rhetoric & Argument"
+    },
+    {
+      "id": "grammar-vocabulary",
+      "label": "Grammar & Vocabulary"
+    },
+    {
+      "id": "translation-multilingual",
+      "label": "Translation & Multilingual Text"
+    },
+    {
+      "id": "history-comparative",
+      "label": "Literary History & Comparison"
+    },
+    {
+      "id": "research-archives",
+      "label": "Research, Sources & Archives"
+    },
+    {
+      "id": "mentoring-performance",
+      "label": "Literary Mentoring & Performance"
+    }
+  ],
+  "topicToDomain": {
+    "advanced-grammar": "grammar-vocabulary",
+    "archival-scholarship": "research-archives",
+    "character-and-ethics": "fiction-narrative",
+    "character-psychology": "fiction-narrative",
+    "comparative-literature": "history-comparative",
+    "creative-writing": "composition-revision",
+    "critical-literacy": "reading-interpretation",
+    "cross-cultural-reading": "history-comparative",
+    "dialogue-and-character": "fiction-narrative",
+    "dialogue-ethics": "fiction-narrative",
+    "dialogue-workshop": "fiction-narrative",
+    "drama": "fiction-narrative",
+    "editing": "composition-revision",
+    "editing-publishing": "composition-revision",
+    "editorial-ethics": "composition-revision",
+    "essay-craft": "composition-revision",
+    "ethical-literacy": "research-archives",
+    "feedback": "composition-revision",
+    "fiction-workshop": "fiction-narrative",
+    "figurative-language": "rhetoric-argument",
+    "genre-and-medium": "fiction-narrative",
+    "grammar": "grammar-vocabulary",
+    "historical-literature": "history-comparative",
+    "historical-poetics": "history-comparative",
+    "historical-voices": "history-comparative",
+    "language-and-meaning": "grammar-vocabulary",
+    "language-history": "history-comparative",
+    "language-style": "grammar-vocabulary",
+    "literary-analysis": "reading-interpretation",
+    "literary-architecture": "fiction-narrative",
+    "literary-argument": "rhetoric-argument",
+    "literary-criticism": "reading-interpretation",
+    "literary-inquiry": "research-archives",
+    "literary-interpretation": "reading-interpretation",
+    "literary-pedagogy": "mentoring-performance",
+    "literary-periods": "history-comparative",
+    "literary-questions": "reading-interpretation",
+    "literary-seminar": "reading-interpretation",
+    "literary-teaching": "mentoring-performance",
+    "literature-and-language": "grammar-vocabulary",
+    "manuscript-craft": "composition-revision",
+    "mentoring-and-feedback": "mentoring-performance",
+    "mentoring-practice": "mentoring-performance",
+    "mentorship-ethics": "mentoring-performance",
+    "narrative": "fiction-narrative",
+    "narrative-ethics": "fiction-narrative",
+    "narrative-perspective": "fiction-narrative",
+    "narratology": "fiction-narrative",
+    "nonfiction-voice": "composition-revision",
+    "oral-expression": "mentoring-performance",
+    "oral-literature": "mentoring-performance",
+    "oral-storytelling": "mentoring-performance",
+    "poetic-sound": "poetry",
+    "poetics-of-form": "poetry",
+    "poetry": "poetry",
+    "poetry-and-image": "poetry",
+    "poetry-form": "poetry",
+    "poetry-interpretation": "poetry",
+    "poetry-performance": "poetry",
+    "poetry-workshop": "poetry",
+    "prompt": "composition-revision",
+    "publication-responsibility": "research-archives",
+    "readalong": "mentoring-performance",
+    "reading": "reading-interpretation",
+    "research": "research-archives",
+    "research-ethics": "research-archives",
+    "research-methods": "research-archives",
+    "revision": "composition-revision",
+    "revision-diagnostics": "composition-revision",
+    "revision-laboratory": "composition-revision",
+    "rhetoric": "rhetoric-argument",
+    "rhetoric-and-reason": "rhetoric-argument",
+    "rhetorical-reading": "rhetoric-argument",
+    "source-judgment": "research-archives",
+    "story": "fiction-narrative",
+    "structure": "composition-revision",
+    "translation": "translation-multilingual",
+    "translation-judgment": "translation-multilingual",
+    "translation-practice": "translation-multilingual",
+    "vocabulary": "grammar-vocabulary",
+    "writing": "composition-revision",
+    "writing-and-research": "research-archives",
+    "writing-process": "composition-revision",
+    "writing-rhythm": "composition-revision",
+    "writing-workshop": "composition-revision"
+  }
+}
