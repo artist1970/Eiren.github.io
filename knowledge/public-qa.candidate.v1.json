@@ -1806,6 +1806,456 @@
       "status": "review-pending",
       "source": "public-literary-teaching-guidance",
       "version": 1
+    },
+    {
+      "id": "eiren-public-201",
+      "topic": "literary-interpretation",
+      "question": "How can a minor detail change the meaning of a story?",
+      "response": "A small detail may later reveal a motive, foreshadow a choice, or alter a relationship. Trace when the detail appears and what readers know at each moment.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-202",
+      "topic": "literary-interpretation",
+      "question": "What is a symbolic landscape?",
+      "response": "A landscape can reflect or challenge a character's feelings or a work's themes. Support a symbolic reading with specific features rather than assuming every tree or river has a fixed meaning.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-203",
+      "topic": "literary-interpretation",
+      "question": "How does an opening paragraph set expectations?",
+      "response": "Its diction, pace, perspective, and first question suggest what sort of attention a reader will need. Compare the opening's promises with what the later work delivers.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-204",
+      "topic": "literary-interpretation",
+      "question": "How do I discuss silence in a literary work?",
+      "response": "Notice what a character refuses, cannot, or chooses not to say, and how others react. A meaningful silence needs context before you infer its cause.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-205",
+      "topic": "literary-interpretation",
+      "question": "What is the relationship between theme and character choice?",
+      "response": "Themes often emerge through decisions and consequences rather than explicit statements. Examine several choices and ask which larger question they explore.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-206",
+      "topic": "historical-literature",
+      "question": "How can I read a text from a distant historical period?",
+      "response": "Begin with the words on the page, then research its date, genre, intended audience, and unfamiliar references. Avoid forcing present-day assumptions onto every detail.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-207",
+      "topic": "historical-literature",
+      "question": "What is an anachronism in historical fiction?",
+      "response": "An anachronism places a detail in a time where it does not belong. Writers may use one deliberately, but factual scenes should distinguish invention from historical evidence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-208",
+      "topic": "historical-literature",
+      "question": "Why do manuscripts sometimes disagree?",
+      "response": "Copies may differ because of transcription, revision, translation, or damage. Compare documented witnesses and the editor's reasoning rather than assuming one version is unquestionably original.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-209",
+      "topic": "historical-literature",
+      "question": "What is a literary canon?",
+      "response": "A canon is a group of works treated as especially important by a tradition or institution. Ask who selected them, which voices were excluded, and how that selection has changed.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-210",
+      "topic": "historical-literature",
+      "question": "How do oral traditions influence literature?",
+      "response": "Stories passed through speaking, singing, and performance can shape later written works. Attend to community ownership and the specific context of each tradition.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-211",
+      "topic": "rhetorical-reading",
+      "question": "How can I identify the audience of a speech?",
+      "response": "Look at who is addressed, the occasion, shared concerns, and the language used to invite agreement. Different listeners may respond to the same speech differently.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-212",
+      "topic": "rhetorical-reading",
+      "question": "What is a false dilemma in an argument?",
+      "response": "A false dilemma presents too few options when more possibilities exist. Name the missing alternatives before accepting the choice the writer offers.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-213",
+      "topic": "rhetorical-reading",
+      "question": "What makes an analogy persuasive?",
+      "response": "An analogy clarifies one subject through a comparison with another. Test where the two cases are genuinely alike and where important differences limit the conclusion.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-214",
+      "topic": "rhetorical-reading",
+      "question": "How can I analyze a persuasive headline?",
+      "response": "Examine its verbs, claims, and implied urgency, then compare it with the article's actual evidence. A memorable headline is not necessarily an accurate summary.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-215",
+      "topic": "rhetorical-reading",
+      "question": "How do I recognize a concession in an essay?",
+      "response": "A concession acknowledges a reasonable point on another side. Notice whether the author responds with evidence rather than dismissing the concern.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-216",
+      "topic": "advanced-grammar",
+      "question": "What is a subordinate clause?",
+      "response": "A subordinate clause contains a subject and verb but depends on a larger construction for a complete sentence. Try 'although the rain stopped' beside an independent clause.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-217",
+      "topic": "advanced-grammar",
+      "question": "What is a participial phrase?",
+      "response": "A participial phrase uses a participle with related words to modify a noun. Keep it near the noun it describes so readers do not mistake its subject.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-218",
+      "topic": "advanced-grammar",
+      "question": "How can I avoid a dangling modifier?",
+      "response": "Check which noun a descriptive opening phrase logically belongs to. In 'Walking home, the rain began,' the rain seems to walk; name the actual walker.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-219",
+      "topic": "advanced-grammar",
+      "question": "What is a restrictive clause?",
+      "response": "A restrictive clause identifies which person or thing is meant and is usually not set off by commas. Compare it with a nonrestrictive clause that adds extra information.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-220",
+      "topic": "advanced-grammar",
+      "question": "When should I use a colon in prose?",
+      "response": "A colon can introduce an explanation, list, or elaboration after a complete clause. Make sure the words before it can stand on their own.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-221",
+      "topic": "poetry-workshop",
+      "question": "How can I choose a title for a poem?",
+      "response": "Try a title that creates a question, names a significant image, or changes how the first line is heard. Compare possibilities after reading the finished poem.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-222",
+      "topic": "poetry-workshop",
+      "question": "What is a volta in a sonnet?",
+      "response": "A volta is a turn in thought, emotion, or argument. Its location varies by form, so identify the actual shift rather than looking only at a line number.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-223",
+      "topic": "poetry-workshop",
+      "question": "How can repetition deepen a poem?",
+      "response": "Repeated words may gather new meaning when their surroundings change. Ask what each return adds rather than repeating only for decoration.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-224",
+      "topic": "poetry-workshop",
+      "question": "What is a prose poem?",
+      "response": "A prose poem uses the paragraph-like appearance of prose while relying on poetic qualities such as imagery, rhythm, and compression. Shape and genre do not always coincide.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-225",
+      "topic": "poetry-workshop",
+      "question": "How do I revise a weak final line of a poem?",
+      "response": "Look for the image or question the poem has earned. Try ending a moment sooner or choosing a concrete detail instead of explaining the emotion.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-226",
+      "topic": "fiction-workshop",
+      "question": "How can I make a fictional disagreement believable?",
+      "response": "Give each character a comprehensible goal and partial information. Let their choices follow their motives rather than forcing a quarrel solely to move the plot.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-227",
+      "topic": "fiction-workshop",
+      "question": "What makes a fictional place feel lived in?",
+      "response": "Include details shaped by people's routines, work, history, and senses. Choose a few details that influence the action instead of listing an encyclopedia of facts.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-228",
+      "topic": "fiction-workshop",
+      "question": "How can I reveal character through objects?",
+      "response": "Show what someone keeps, repairs, avoids, or gives away. The action around an object often reveals more than an explanation of personality.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-229",
+      "topic": "fiction-workshop",
+      "question": "How should I write an ambiguous ending?",
+      "response": "Resolve enough of the central action that ambiguity feels intentional, then leave a meaningful question open. Readers should see what supports more than one reading.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-230",
+      "topic": "fiction-workshop",
+      "question": "How can I sustain tension without constant action?",
+      "response": "Give the reader a question with consequences, then let choices and delays change what is at stake. Quiet scenes can be tense when something important remains uncertain.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-231",
+      "topic": "literary-criticism",
+      "question": "How can I make a literary judgment without claiming certainty?",
+      "response": "State a focused interpretation, present the strongest textual evidence, and acknowledge what the work leaves unresolved. Precision is more persuasive than pretending every meaning is fixed.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-232",
+      "topic": "literary-criticism",
+      "question": "What is formalist literary criticism?",
+      "response": "Formalist approaches focus closely on language, structure, and relationships within a work. They can reveal craft choices while leaving some historical questions outside their main focus.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-233",
+      "topic": "literary-criticism",
+      "question": "What is a historical approach to literary criticism?",
+      "response": "A historical approach investigates a work's contexts, circulation, and contemporary meanings. Support contextual claims with sources rather than guessing what all readers believed.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-234",
+      "topic": "literary-criticism",
+      "question": "How can I write a balanced review of a novel?",
+      "response": "Explain the book's aims, identify precise strengths and limitations, and use examples without giving away unnecessary plot details. Separate personal taste from craft analysis.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-235",
+      "topic": "literary-criticism",
+      "question": "Why might readers disagree about a character's motive?",
+      "response": "Narrators can restrict information, actions can have several causes, and readers notice different clues. Compare the evidence and the assumptions behind each account.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-236",
+      "topic": "literature-and-language",
+      "question": "What is a neologism in literature?",
+      "response": "A neologism is a newly coined word or expression. Ask how it is formed, what context makes it understandable, and why existing words might not suffice.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-237",
+      "topic": "literature-and-language",
+      "question": "How can dialect appear in fiction respectfully?",
+      "response": "Represent speech with attention to the character's individuality and the variety's real conventions. Avoid treating a dialect as evidence of intelligence or worth.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-238",
+      "topic": "literature-and-language",
+      "question": "What is code-switching in dialogue?",
+      "response": "Code-switching involves moving between languages or language varieties in context. It can communicate relationships and identity, but its meaning depends on the specific speakers and situation.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-239",
+      "topic": "literature-and-language",
+      "question": "How can word order create emphasis in poetry?",
+      "response": "Unusual word order may delay information, draw attention to a phrase, or support rhythm. Restore a more ordinary order to compare what the poem gains.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-240",
+      "topic": "literature-and-language",
+      "question": "How do translators handle culturally specific words?",
+      "response": "They may retain the word, add context, choose an approximate expression, or explain it in a note. Each choice has benefits and possible losses.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-241",
+      "topic": "research-ethics",
+      "question": "What if I cannot verify a quotation online?",
+      "response": "Do not attribute it confidently. Look for a reliable edition, archive, or contemporary source and describe the uncertainty if the wording remains unverified.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-242",
+      "topic": "research-ethics",
+      "question": "How can I cite a translation accurately?",
+      "response": "Record the author and translator, the edition and publisher, and the relevant page or location. Follow the citation style used for your particular assignment.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-243",
+      "topic": "research-ethics",
+      "question": "What should I do if an archive has restrictions?",
+      "response": "Read its reuse terms and contact the archive when necessary. Public access to a document does not always mean unrestricted permission to republish it.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-244",
+      "topic": "research-ethics",
+      "question": "How can I use a historical letter in fiction?",
+      "response": "Study its verified context and distinguish quotation from invented dialogue. Protect sensitive living-person information and check reproduction rights before sharing.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-245",
+      "topic": "research-ethics",
+      "question": "What is the difference between a source and a claim about it?",
+      "response": "A source is material you can inspect; a claim is an interpretation or assertion about that material. Readers should be able to trace each claim to relevant evidence.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-246",
+      "topic": "mentoring-and-feedback",
+      "question": "How do I guide someone without rewriting their story?",
+      "response": "Ask what the writer wants to achieve, reflect a precise strength, and offer a question or small example. Let the writer make the final creative choices.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-247",
+      "topic": "mentoring-and-feedback",
+      "question": "How can I respond when a student says they have no ideas?",
+      "response": "Offer a low-pressure choice such as a place, an object, or a question. Begin with one sentence and make it clear that first attempts can change.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-248",
+      "topic": "mentoring-and-feedback",
+      "question": "How do I adapt literary feedback to a beginning reader?",
+      "response": "Focus on one observable skill and a manageable next step. Use simple examples without judging the child's ability or assuming an official grade level.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-249",
+      "topic": "mentoring-and-feedback",
+      "question": "What should I do when feedback makes me discouraged?",
+      "response": "Identify one concrete point you can use, set aside comments that do not serve your purpose, and return to the piece when you feel ready.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
+    },
+    {
+      "id": "eiren-public-250",
+      "topic": "mentoring-and-feedback",
+      "question": "How can I prepare questions for a writing mentor?",
+      "response": "Share the type of writing and one craft problem, then ask for focused guidance. You can discuss a fictional example instead of sending private material.",
+      "status": "review-pending",
+      "source": "public-literary-teaching-guidance",
+      "version": 1
     }
   ]
 }
