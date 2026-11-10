@@ -4,12 +4,14 @@ on:
     paths:
       - 'knowledge/public-qa.candidate.v1.json'
       - 'tests/public-qa-candidate.test.mjs'
+      - 'tests/public-qa-editorial-audit.test.mjs'
       - '.github/workflows/public-qa-candidate.yml'
   push:
     branches: [main]
     paths:
       - 'knowledge/public-qa.candidate.v1.json'
       - 'tests/public-qa-candidate.test.mjs'
+      - 'tests/public-qa-editorial-audit.test.mjs'
 permissions:
   contents: read
 jobs:
@@ -20,4 +22,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/public-qa-candidate.test.mjs
+      - run: node --test tests/public-qa-candidate.test.mjs tests/public-qa-editorial-audit.test.mjs
