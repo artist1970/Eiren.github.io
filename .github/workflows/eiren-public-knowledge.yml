@@ -1,0 +1,23 @@
+name: Eiren Public Knowledge Regression
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'knowledge/public-qa.v1.json'
+      - 'eiren-public-knowledge-v1.js'
+      - 'eiren-conversation-v1.js'
+      - 'tests/eiren-public-knowledge.test.mjs'
+      - '.github/workflows/eiren-public-knowledge.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  public-knowledge:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Eiren knowledge and safety regression
+        run: node --test tests/eiren-public-knowledge.test.mjs
