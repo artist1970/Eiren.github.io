@@ -851,7 +851,7 @@ html{scroll-padding-top:98px}
             <button class="quiet" id="eirenClearConversation" type="button">Clear conversation</button>
             <button class="quiet" id="eirenOpenArshif" type="button">📚 ARSHIF Library</button>
           </div>
-          <p class="section-copy" id="eirenConversationStatus">Eiren's conversation guidance stays local to this device and never changes Academy mastery.</p>
+          <p class="section-copy" id="eirenConversationStatus">Eiren's conversation context is browser-local. Messages shown here are not archived across reloads. No Academy mastery changes.</p>
         </section>
 
         <details class="eiren-prompt-starters">
@@ -1326,6 +1326,7 @@ html{scroll-padding-top:98px}
 })();
 </script>
 
+<script src="eiren-public-knowledge-v1.js"></script>
 <script src="eiren-conversation-v1.js"></script>
 <script src="eiren-document-retrieval-v1.js"></script>
 <script src="eiren-arshif-bridge-v1.js"></script>
