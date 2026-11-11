@@ -32,17 +32,23 @@ function validate(data){
   }
   return Object.freeze(approved);
 }
-async function load(){
- if(status==="loading"||status==="ready")return status;
+let loadPromise=null;
+function load(){
+ if(status==="ready")return Promise.resolve(status);
+ if(loadPromise)return loadPromise;
  status="loading";
- try{
-   const response=await global.fetch(SOURCE,{credentials:"omit",cache:"no-store"});
-   if(!response.ok)throw Error("Knowledge source unavailable");
-   records=validate(await response.json());
-   status="ready";
- }catch(_){records=[];status="fallback";}
- return status;
+ loadPromise=(async()=>{
+   try{
+     const response=await global.fetch(SOURCE,{credentials:"omit",cache:"no-store"});
+     if(!response.ok)throw Error("Knowledge source unavailable");
+     records=validate(await response.json());
+     status="ready";
+   }catch(_){records=[];status="fallback";}
+   return status;
+ })();
+ return loadPromise;
 }
+
 function answer(message){
  const text=String(message||"").slice(0,1200);
  if(!records.length||!text.trim())return null;
