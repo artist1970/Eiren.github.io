@@ -26,7 +26,7 @@ function createSession({scope="visitor",storage=true}={}){
   if(/(?:that helped|helpful|i get it|makes sense|that worked)/.test(q)){const id=state.used.at(-1);if(id)markHelpful(id);return "I’m glad that approach helped. Tell me the idea back in your own words, or we can try one more small step."}
   // A reviewed public Q&A may enrich an ordinary literary guidance request.
   // Safety and protected-content checks above always take precedence.
-  const followUp=/^(?:tell me more|another (?:question|example|idea)|continue|what else)[?.!\\s]*$/i.test(raw);
+  const followUp=/^(?:tell me more|another (?:question|example|idea)|continue|what else)[?.!\s]*$/i.test(raw);
   const recent=Array.isArray(state.recentKnowledgeIds)?state.recentKnowledgeIds:[];
   const published=global.EirenPublicKnowledge?.answer(raw,{
     topic:followUp?state.topic:"",
