@@ -733,6 +733,48 @@ html{scroll-padding-top:98px}
  .footer-grid{align-items:center}
 }
 </style>
+<style id="eiren-conversation-chat-layout-20261111">
+/* A familiar two-sided chat presentation, with Eiren's original local mentor engine. */
+#begin .start-card{padding:clamp(12px,2vw,24px)}
+#eirenChatPanel{margin:0;padding:0;background:#1d1b2c;overflow:hidden;border:1px solid #b99556}
+.eiren-chat-head{display:flex;align-items:center;gap:13px;padding:17px 22px;border-bottom:1px solid rgba(230,195,123,.28);background:#2d2838;text-align:left}
+.eiren-chat-head h3{margin:0;font:400 25px/1.25 Georgia,serif;color:#ffe7b1}
+.eiren-chat-head p{font:400 16px/1.4 Nunito,Arial,sans-serif;color:#e2d6c2;margin:4px 0 0}
+.eiren-chat-avatar{width:48px;height:48px;flex:0 0 48px;display:grid;place-items:center;border-radius:50%;background:#e6c37b;color:#211b2a;font:400 25px Georgia,serif}
+.eiren-chat-status{margin-left:auto;font:400 14px Nunito,Arial,sans-serif;color:#e2d6c2}
+#eirenMessages{display:flex;flex-direction:column;gap:18px;min-height:270px;height:min(48vh,490px);max-height:none;overflow:auto;padding:23px clamp(14px,3vw,40px);border:0;border-radius:0;background:linear-gradient(180deg,#1f1d2e,#242135);scrollbar-color:#8d7792 #242135}
+#eirenMessages p{max-width:min(82%,760px);margin:0;padding:13px 17px;border-radius:15px;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere;text-align:left;background:#343047;border:1px solid rgba(230,195,123,.20);align-self:flex-start}
+#eirenMessages p strong{display:inline-block;margin:0 0 5px;font-size:14px;color:#ffe7b1;letter-spacing:.03em}
+#eirenMessages p.eiren-message-you{align-self:flex-end;background:#ead29c;border-color:#d3ad61;color:#211b2a}
+#eirenMessages p.eiren-message-you strong{color:#402b19}
+#eirenMessages .eiren-replay{display:inline-flex!important;min-height:36px;align-items:center;margin-top:10px;padding:5px 10px;font-size:14px!important;color:#fff2d9;border-radius:7px;border:1px solid rgba(230,195,123,.5)}
+.eiren-compose{padding:18px 22px 10px;border-top:1px solid rgba(230,195,123,.24);background:#242136}
+.eiren-compose .prompt-label{display:block;text-align:left;margin-bottom:8px}
+.eiren-compose-row{display:flex;align-items:flex-end;gap:10px;border:1px solid rgba(230,195,123,.5);border-radius:14px;background:#fff9ed;padding:6px}
+#begin .eiren-compose-row textarea{min-height:66px;max-height:180px;resize:vertical;padding:10px 12px;border:0!important;box-shadow:none;background:transparent;color:#211b2a}
+#begin .eiren-compose-row textarea:focus-visible{outline:2px solid #b48b45;outline-offset:-2px}
+#begin .eiren-compose-row .eiren-send{flex:0 0 auto;min-height:50px;padding:10px 20px;border-radius:9px;background:#2e684b;color:#fff9ed;border:1px solid #26563e;font:600 17px Nunito,Arial,sans-serif}
+.eiren-input-hint{margin:6px 0 0;text-align:right;color:#ddd0bd;font-size:14px}
+.eiren-conversation-tools{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;padding:6px 18px 10px}
+#begin .eiren-conversation-tools button{min-height:42px;border-radius:7px;padding:8px 11px}
+#eirenConversationStatus{text-align:center;padding:0 16px 15px;margin:0;font-size:14px;color:#e2d6c2}
+#eiren-voice-controls{margin:0!important;padding:13px 20px!important;border:0!important;border-top:1px solid rgba(230,195,123,.2)!important;background:#242136}
+.eiren-prompt-starters{margin-top:15px;border:1px solid rgba(230,195,123,.35);border-radius:10px;padding:10px 15px;text-align:left}
+.eiren-prompt-starters summary{font:400 17px/1.6 Nunito,Arial,sans-serif;cursor:pointer;color:#ffe7b1}
+.eiren-prompt-starters .quick-starts{padding-top:13px}
+.eiren-extra-actions{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:15px}
+#begin .eiren-extra-actions button{min-height:44px;border-radius:7px;padding:10px 15px;font-size:16px}
+@media(max-width:650px){
+ .eiren-chat-head{flex-wrap:wrap;padding:13px}
+ .eiren-chat-status{margin-left:0;width:100%;padding-left:60px}
+ #eirenMessages{height:45vh;min-height:260px;padding:14px}
+ #eirenMessages p{max-width:94%}
+ .eiren-compose{padding:12px}
+ .eiren-compose-row{gap:5px}
+ #begin .eiren-compose-row .eiren-send{padding:9px 12px}
+ .eiren-input-hint{text-align:left}
+}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to Eiren's house</a>
@@ -780,40 +822,53 @@ html{scroll-padding-top:98px}
   <section class="section" id="begin">
     <div class="wrap front-room">
       <div class="start-card" id="eirenConversation">
-        <div class="section-label">Begin Here</div>
-        <h3>What are you working on?</h3>
-        <label class="prompt-label" for="eirenPrompt">A sentence is enough</label>
-        <textarea class="prompt" id="eirenPrompt" placeholder="I am writing a story and the middle has gone flat..."></textarea>
-
-        <div class="quick-starts" aria-label="Prompt starters">
-          <button class="quick-start" type="button" data-fill="I want to write something, but I do not know where to begin.">I want to write</button>
-          <button class="quick-start" type="button" data-fill="I have a draft that needs developmental editing.">Help me revise</button>
-          <button class="quick-start" type="button" data-fill="I am studying literature and want help understanding a text.">Study literature</button>
-          <button class="quick-start" type="button" data-fill="I am stuck and need a creative prompt.">I feel stuck</button>
-          <button class="quick-start" type="button" data-fill="I need historical or archival sources for a literary project.">Find sources</button>
-          <button class="quick-start" type="button" data-fill="I have lyrics and want to develop them into music.">Words into music</button>
-        </div>
-
-        <div class="prompt-actions">
-          <button id="findDoor" type="button">Find my first doorway</button>
-          <button class="quiet" id="talkWithEiren" type="button">Talk with Eiren</button>
-          <button class="quiet" id="clearPrompt" type="button">Clear</button>
-        </div>
-
         <section class="guidance" id="eirenChatPanel" aria-label="Conversation with Eiren">
-          <div class="guidance-kicker">Eiren · Literary Mentor</div>
-          <div id="eirenMessages" role="log" aria-live="polite" aria-relevant="additions text">
-            <p><strong>Eiren</strong><br>There is room here for unfinished things. Bring me one sentence, one word, one story question, or one thought.</p>
+          <div class="eiren-chat-head">
+            <div class="eiren-chat-avatar" aria-hidden="true">E</div>
+            <div>
+              <h3>Chat with Eiren</h3>
+              <p>Literary mentor · Stories, writing, poetry, and reading</p>
+            </div>
+            <span class="eiren-chat-status">Local conversation</span>
           </div>
-          <div class="prompt-actions">
+
+          <div id="eirenMessages" role="log" aria-label="Conversation messages" aria-live="polite" aria-relevant="additions">
+            <p class="eiren-message eiren-message-mentor"><strong>Eiren</strong><br>There is room here for unfinished things. Bring me one sentence, one word, one story question, or one thought.</p>
+          </div>
+
+          <div class="eiren-compose">
+            <label class="prompt-label" for="eirenPrompt">Your message</label>
+            <div class="eiren-compose-row">
+              <textarea class="prompt" id="eirenPrompt" rows="2" maxlength="1200" placeholder="Message Eiren about a story, a poem, or something you are writing..."></textarea>
+              <button class="eiren-send" id="talkWithEiren" type="button" aria-label="Send message to Eiren">Send <span aria-hidden="true">↑</span></button>
+            </div>
+            <p class="eiren-input-hint">Enter to send · Shift+Enter for a new line</p>
+          </div>
+
+          <div class="eiren-conversation-tools" aria-label="Conversation controls">
             <button class="quiet" id="eirenReadReply" type="button">▶ Read reply</button>
-            <button class="quiet" id="eirenStopVoice" type="button">■ Stop</button>
+            <button class="quiet" id="eirenStopVoice" type="button">■ Stop voice</button>
             <button class="quiet" id="eirenClearConversation" type="button">Clear conversation</button>
-            <button class="quiet" id="eirenOpenArshif" type="button">📚 Open ARSHIF Library</button>
+            <button class="quiet" id="eirenOpenArshif" type="button">📚 ARSHIF Library</button>
           </div>
-          <p class="section-copy" id="eirenConversationStatus">Conversation continuity is stored only on this device. Eiren's guidance never changes Academy mastery.</p>
+          <p class="section-copy" id="eirenConversationStatus">Eiren's conversation guidance stays local to this device and never changes Academy mastery.</p>
         </section>
 
+        <details class="eiren-prompt-starters">
+          <summary>Need inspiration? Try a conversation starter</summary>
+          <div class="quick-starts" aria-label="Prompt starters">
+            <button class="quick-start" type="button" data-fill="I want to write something, but I do not know where to begin.">I want to write</button>
+            <button class="quick-start" type="button" data-fill="I have a draft that needs developmental editing.">Help me revise</button>
+            <button class="quick-start" type="button" data-fill="I am studying literature and want help understanding a text.">Study literature</button>
+            <button class="quick-start" type="button" data-fill="I am stuck and need a creative prompt.">I feel stuck</button>
+            <button class="quick-start" type="button" data-fill="I need historical or archival sources for a literary project.">Find sources</button>
+            <button class="quick-start" type="button" data-fill="I have lyrics and want to develop them into music.">Words into music</button>
+          </div>
+        </details>
+        <div class="eiren-extra-actions">
+          <button id="findDoor" type="button">Find a literary room</button>
+          <button class="quiet" id="clearPrompt" type="button">Clear message draft</button>
+        </div>
         <div class="guidance" id="guidance" aria-live="polite" hidden>
           <div class="guidance-kicker">Eiren would begin here</div>
           <strong id="guidanceTitle"></strong>
@@ -822,7 +877,7 @@ html{scroll-padding-top:98px}
         </div>
       </div>
 
-      <div class="welcome-card">
+            <div class="welcome-card">
         <div class="section-label">The Front Room</div>
         <h3>You do not need to arrive with the right words.</h3>
         <p>
@@ -1276,7 +1331,61 @@ html{scroll-padding-top:98px}
 <script src="eiren-arshif-bridge-v1.js"></script>
 <script src="arshif-literary-router.js" defer></script><script src="eiren-voice-picker-v1.js"></script>
 <script>
-(()=>{"use strict";const $=id=>document.getElementById(id),session=window.EirenConversation?.forScope("public-home");let last="";function add(role,text){const p=document.createElement("p");const strong=document.createElement("strong");strong.textContent=role;p.append(strong,document.createElement("br"),document.createTextNode(text));$("eirenMessages")?.appendChild(p);last=role==="Eiren"?text:last;p.scrollIntoView({block:"nearest"})}function send(){const input=$("eirenPrompt"),text=input?.value.trim();if(!text||!session)return;add("You",text);const documentationQuestion=/\b(?:documentation|readme|repository|source|official|academy linguistics|arshif|aipcore|eiren core|where is the translator)\b/i.test(text);const sourced=documentationQuestion?window.EirenDocumentRetrieval?.retrieve(text):null;add("Eiren",sourced?.text||session.respond(text));input.value="";$("eirenConversationStatus").textContent="Saved locally on this device · guidance only · no mastery change."} $("talkWithEiren")?.addEventListener("click",send);$("eirenOpenArshif")?.addEventListener("click",()=>window.EirenARSHIF?.openHall());window.addEventListener("eiren-arshif-ready",e=>{$("eirenConversationStatus").textContent="ARSHIF literary domain connected · "+(e.detail?.corridors||0)+" child-literacy corridors · guidance only · no mastery change."});window.addEventListener("eiren-arshif-unavailable",()=>{$("eirenConversationStatus").textContent="ARSHIF library is temporarily unavailable. Eiren’s local conversation remains available."});$("eirenReadReply")?.addEventListener("click",()=>{if(last){if(window.EirenVoicePicker)window.EirenVoicePicker.speak(last);else window.EirenConversation?.speak(last)}});$("eirenStopVoice")?.addEventListener("click",()=>window.EirenConversation?.stop());$("eirenClearConversation")?.addEventListener("click",()=>{session?.reset();$("eirenMessages").innerHTML="<p><strong>Eiren</strong><br>We can begin again. What would you like to read, write, or understand?</p>";last="";$("eirenConversationStatus").textContent="Local conversation cleared."});})();
+(()=>{
+ "use strict";
+ const $=id=>document.getElementById(id);
+ const session=window.EirenConversation?.forScope("public-home");
+ const log=$("eirenMessages");
+ const input=$("eirenPrompt");
+ let last="";
+ function add(role,text){
+   const p=document.createElement("p");
+   p.className="eiren-message "+(role==="You"?"eiren-message-you":"eiren-message-mentor");
+   const strong=document.createElement("strong");
+   strong.textContent=role;
+   p.append(strong,document.createElement("br"),document.createTextNode(text));
+   log?.appendChild(p);
+   if(role==="Eiren")last=text;
+   if(log)log.scrollTop=log.scrollHeight;
+ }
+ function send(){
+   const text=input?.value.trim();
+   if(!text||!session)return;
+   add("You",text);
+   const documentationQuestion=/\b(?:documentation|readme|repository|source|official|academy linguistics|arshif|aipcore|eiren core|where is the translator)\b/i.test(text);
+   const sourced=documentationQuestion?window.EirenDocumentRetrieval?.retrieve(text):null;
+   add("Eiren",sourced?.text||session.respond(text));
+   input.value="";
+   input.focus();
+   $("eirenConversationStatus").textContent="Guidance only · No Academy mastery changes · Conversation context is stored locally.";
+ }
+ $("talkWithEiren")?.addEventListener("click",send);
+ input?.addEventListener("keydown",event=>{
+   if(event.key==="Enter"&&!event.shiftKey&&!event.isComposing){
+     event.preventDefault();send();
+   }
+ });
+ $("eirenOpenArshif")?.addEventListener("click",()=>window.EirenARSHIF?.openHall());
+ window.addEventListener("eiren-arshif-ready",event=>{
+   $("eirenConversationStatus").textContent="ARSHIF literary domain connected · "+(event.detail?.corridors||0)+" child-literacy corridors · guidance only.";
+ });
+ window.addEventListener("eiren-arshif-unavailable",()=>{
+   $("eirenConversationStatus").textContent="ARSHIF library is temporarily unavailable. Eiren's local conversation remains available.";
+ });
+ $("eirenReadReply")?.addEventListener("click",()=>{
+   if(last){
+     if(window.EirenVoicePicker)window.EirenVoicePicker.speak(last);
+     else window.EirenConversation?.speak(last);
+   }
+ });
+ $("eirenStopVoice")?.addEventListener("click",()=>window.EirenConversation?.stop());
+ $("eirenClearConversation")?.addEventListener("click",()=>{
+   session?.reset();
+   log.replaceChildren();
+   add("Eiren","We can begin again. What would you like to read, write, or understand?");
+   $("eirenConversationStatus").textContent="Local conversation context cleared.";
+ });
+})();
 </script>
 </body>
 </html>
