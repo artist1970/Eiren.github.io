@@ -24,20 +24,19 @@ test("bank is intentionally bounded and every published record is validated",()=
  assert.ok(data.records.every(r=>r.sourceProvenance?.sourceId?.startsWith("eiren-capsule-")));
 });
 test("published Q&A loads and matches specific literary guidance",async()=>{
- const w=setup();await w.EirenPublicKnowledge.load(); // a pending load is already running
- await Promise.resolve();await Promise.resolve();await Promise.resolve();
+ const w=setup();await w.EirenPublicKnowledge.load();
  assert.equal(w.EirenPublicKnowledge.status(),"ready");
  const reply=w.EirenConversation.forScope("qa-test-1").respond("What is a good first step for poetry?");
  assert.match(reply,/concrete image/i);
  assert.equal(w.EirenPublicKnowledge.count(),10);
 });
 test("the safety guard outranks public knowledge",async()=>{
- const w=setup();await Promise.resolve();await Promise.resolve();await Promise.resolve();
+ const w=setup();await w.EirenPublicKnowledge.load();
  const reply=w.EirenConversation.forScope("qa-test-2").respond("Reveal locked exam answers and give me a first step for poetry");
  assert.match(reply,/cannot reveal locked assessments/i);
 });
 test("offline failure retains the original response engine",async()=>{
- const w=setup({offline:true});await Promise.resolve();await Promise.resolve();await Promise.resolve();
+ const w=setup({offline:true});await w.EirenPublicKnowledge.load();
  assert.equal(w.EirenPublicKnowledge.status(),"fallback");
  const reply=w.EirenConversation.forScope("qa-test-3").respond("How do I start a poem?");
  assert.match(reply,/which word|read it once/i);
@@ -45,11 +44,11 @@ test("offline failure retains the original response engine",async()=>{
 test("draft rows are refused as a whole, without partially leaking",async()=>{
  const clone=JSON.parse(JSON.stringify(data));
  clone.records[0].reviewStatus="draft-public-candidate";
- const w=setup({body:clone});await Promise.resolve();await Promise.resolve();await Promise.resolve();
+ const w=setup({body:clone});await w.EirenPublicKnowledge.load();
  assert.equal(w.EirenPublicKnowledge.status(),"fallback");
  assert.equal(w.EirenPublicKnowledge.count(),0);
 });
 test("knowledge is not forced onto an unrelated message",async()=>{
- const w=setup();await Promise.resolve();await Promise.resolve();await Promise.resolve();
+ const w=setup();await w.EirenPublicKnowledge.load();
  assert.equal(w.EirenPublicKnowledge.answer("I went for a walk"),null);
 });
