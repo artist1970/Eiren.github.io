@@ -6,6 +6,8 @@ on:
       - 'knowledge/public-qa.v1.json'
       - 'eiren-public-knowledge-v1.js'
       - 'eiren-conversation-v1.js'
+      - 'creative-spark-mentor-language-v1.js'
+      - 'tests/mentor-language-adapter.test.mjs'
       - 'tests/eiren-public-knowledge.test.mjs'
       - '.github/workflows/eiren-public-knowledge.yml'
   workflow_dispatch:
@@ -20,4 +22,4 @@ jobs:
         with:
           node-version: '22'
       - name: Eiren knowledge and safety regression
-        run: node --test tests/eiren-public-knowledge.test.mjs
+        run: node --test tests/eiren-public-knowledge.test.mjs tests/mentor-language-adapter.test.mjs
