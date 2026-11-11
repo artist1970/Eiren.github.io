@@ -15,12 +15,20 @@ let voices=[],choice="auto";
 const storageKey="vnv.public.voice.eiren.v1",key=v=>JSON.stringify([v.voiceURI||"",v.name||"",v.lang||"",!!v.localService]);
 try{const v=localStorage.getItem(storageKey);if(v&&v.length<500)choice=v;}catch{}
 const voiceLabel=v=>(v.name||"Unnamed")+" · "+(v.lang||"unknown")+(v.localService?" · device":" · browser/service");
-function automatic(){return voices.find(v=>v.name==="Arthur"&&/^en-GB$/i.test(v.lang))||voices.find(v=>/^en/i.test(v.lang||""))||voices[0]||null;}
+function automatic(){
+ const us=voices.filter(v=>/^en[-_]US$/i.test(v.lang||""));
+ return us.find(v=>/google\s+us\s+english/i.test(v.name||""))
+   ||us.find(v=>/nicky/i.test(v.name||""))
+   ||us.find(v=>/natural|enhanced|premium/i.test(v.name||""))
+   ||us[0]
+   ||voices.find(v=>/^en(?:[-_]|$)/i.test(v.lang||""))
+   ||voices[0]||null;
+}
 function selected(){return choice==="auto"?automatic():voices.find(v=>key(v)===choice)||automatic();}
 function refresh(){
  if(!supported)return;
  voices=Array.from(window.speechSynthesis.getVoices()||[]);picker.replaceChildren();
- let d=document.createElement("option");d.value="auto";d.textContent="Automatic · Eiren's narrator";picker.append(d);
+ let d=document.createElement("option");d.value="auto";d.textContent="Automatic · US English (Google / Nicky preferred)";picker.append(d);
  const seen=new Set();
  for(const v of voices){const k=key(v);if(seen.has(k))continue;seen.add(k);const o=document.createElement("option");o.value=k;o.textContent=voiceLabel(v);picker.append(o);}
  if(choice!=="auto"&&!seen.has(choice)&&voices.length){choice="auto";status.textContent="Previous voice unavailable; automatic narrator restored.";}
