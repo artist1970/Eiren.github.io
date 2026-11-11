@@ -42,7 +42,7 @@ function createSession({scope="visitor",storage=true}={}){
  return Object.freeze({respond,reset,remember,markHelpful,snapshot:()=>JSON.parse(JSON.stringify(state))});
 }
 function forScope(scope){const id=key(scope);if(!sessions.has(id))sessions.set(id,createSession({scope}));return sessions.get(id)}
-function speak(text,voice){if(!("speechSynthesis" in global)||typeof global.SpeechSynthesisUtterance==="undefined")return false;global.speechSynthesis.cancel();const u=new global.SpeechSynthesisUtterance(clean(text).slice(0,1600));if(voice)u.voice=voice;u.lang=voice?.lang||"en-GB";u.rate=.88;u.pitch=1.04;global.speechSynthesis.speak(u);return true}
+function speak(text,voice){if(!("speechSynthesis" in global)||typeof global.SpeechSynthesisUtterance==="undefined")return false;global.speechSynthesis.cancel();const u=new global.SpeechSynthesisUtterance(clean(text).slice(0,1600));if(voice)u.voice=voice;u.lang=voice?.lang||"en-US";u.rate=.88;u.pitch=1.04;global.speechSynthesis.speak(u);return true}
 function stop(){try{global.speechSynthesis?.cancel()}catch{}}
 global.EirenConversation=Object.freeze({version:"1.0.0",createSession,forScope,speak,stop,strategies:STRATEGIES});
 })(window);
