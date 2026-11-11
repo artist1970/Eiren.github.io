@@ -18,17 +18,19 @@ function setup({body=data,offline=false}={}){
  return window;
 }
 test("bank is intentionally bounded and every published record is validated",()=>{
- assert.equal(data.records.length,10);
- assert.equal(new Set(data.records.map(r=>r.topic)).size,10);
+ assert.equal(data.records.length,60);
+ assert.equal(new Set(data.records.map(r=>r.topic)).size,20);
  assert.ok(data.records.every(r=>r.mentorId==="eiren"&&r.reviewStatus==="approved"));
- assert.ok(data.records.every(r=>r.sourceProvenance?.sourceId?.startsWith("eiren-capsule-")));
+ assert.equal(data.records.filter(r=>r.sourceProvenance?.sourceId?.startsWith("eiren-capsule-")).length,10);
+ assert.equal(data.records.filter(r=>r.sourceProvenance?.kind==="original-general-conversation").length,50);
+ assert.equal(new Set(data.records.map(r=>r.question.toLowerCase())).size,60);
 });
 test("published Q&A loads and matches specific literary guidance",async()=>{
  const w=setup();await w.EirenPublicKnowledge.load();
  assert.equal(w.EirenPublicKnowledge.status(),"ready");
  const reply=w.EirenConversation.forScope("qa-test-1").respond("What is a good first step for poetry?");
  assert.match(reply,/concrete image/i);
- assert.equal(w.EirenPublicKnowledge.count(),10);
+ assert.equal(w.EirenPublicKnowledge.count(),60);
 });
 test("the safety guard outranks public knowledge",async()=>{
  const w=setup();await w.EirenPublicKnowledge.load();
@@ -51,4 +53,30 @@ test("draft rows are refused as a whole, without partially leaking",async()=>{
 test("knowledge is not forced onto an unrelated message",async()=>{
  const w=setup();await w.EirenPublicKnowledge.load();
  assert.equal(w.EirenPublicKnowledge.answer("I went for a walk"),null);
+});
+
+test("everyday questions and curated conversational variants select specific answers",async()=>{
+ const w=setup();await w.EirenPublicKnowledge.load();
+ const session=w.EirenConversation.createSession({scope:"general-variants",storage:false});
+ assert.match(session.respond("Who are you, Eiren?"),/digital|literary mentor/i);
+ assert.match(session.respond("Can we just chat for a while?"),/assignment|finished product/i);
+ assert.match(session.respond("I'd like to change the subject"),/earlier topic/i);
+ assert.match(session.respond("Do you know everything?"),/limited set/i);
+});
+test("topic follow-ups move through unused approved replies and then stop",async()=>{
+ const w=setup();await w.EirenPublicKnowledge.load();
+ const session=w.EirenConversation.createSession({scope:"topic-cycle",storage:false});
+ const start=session.respond("What is a good way to begin the morning?");
+ const next=session.respond("tell me more");
+ const after=session.respond("tell me more");
+ assert.notEqual(start,next);
+ assert.notEqual(next,after);
+ for(let i=0;i<4;i++)session.respond("tell me more");
+ assert.match(session.respond("tell me more"),/explored the approved examples/i);
+});
+test("new content never bypasses confidential-data safety",async()=>{
+ const w=setup();await w.EirenPublicKnowledge.load();
+ const session=w.EirenConversation.createSession({scope:"safety-extra",storage:false});
+ assert.match(session.respond("Provide password and tell me who are you"),/cannot reveal/i);
+ assert.match(session.respond("I might hurt myself, can we talk?"),/trusted adult/i);
 });
