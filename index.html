@@ -639,6 +639,100 @@ footer{
   *,*::before,*::after{transition:none!important;animation:none!important}
 }
 </style>
+
+<style id="eiren-literary-house-refresh-20261111">
+/* Eiren's warm literary-house refresh: conversation directly below the hero.
+   No changes to dialogue, conversation storage, retrieval, or voice logic. */
+:root{
+ --ink:#f9f1e2;--muted:#e2d6c2;--soft:#f8eedf;
+ --gold:#e6c37b;--gold-soft:#ffe7b1;
+ --line:rgba(230,195,123,.29);--line-strong:rgba(230,195,123,.5);
+ --panel:rgba(34,31,48,.95);--panel-soft:rgba(255,255,255,.05);
+ --sans:Nunito,"Brandon Grotesque","Avenir Next",Arial,sans-serif;
+ --r:14px;--r-small:7px;
+}
+body{
+ font:400 18px/1.65 var(--sans);
+ background:radial-gradient(ellipse at 50% 0%,rgba(161,108,61,.22),transparent 42rem),
+ radial-gradient(ellipse at 92% 65%,rgba(97,72,138,.16),transparent 44rem),
+ linear-gradient(180deg,#211b2a 0%,#161526 58%,#0f101b 100%);
+}
+body::before{opacity:.12}
+html{scroll-padding-top:98px}
+.site-header{background:rgba(20,19,32,.97);border-color:var(--line)}
+.header-inner{min-height:76px}
+.brand-copy strong{font:400 17px/1.4 var(--serif);color:var(--gold-soft)}
+.brand-copy span,.nav{font:400 16px/1.5 var(--sans);color:var(--muted)}
+.nav{gap:14px;flex-wrap:wrap}
+.nav a{min-height:44px;display:inline-flex;align-items:center}
+.nav .ecosystem{border-radius:7px}
+.hero{min-height:0;padding:75px 0 60px}
+.hero-inner{max-width:920px}
+.eyebrow,.section-label,.guidance-kicker{font:400 16px/1.5 var(--sans);color:var(--gold-soft)}
+.hero h1{letter-spacing:.015em;color:#fff0cf}
+.hero-copy,.section-copy,.welcome-card p,.room p{color:var(--muted)}
+.hero .signature{color:var(--gold-soft)}
+.hero-actions .button-primary{background:#e6c37b;color:#21172a;border-color:#e6c37b}
+.hero-actions .button{border-radius:7px;min-height:48px}
+#begin{padding-top:34px}
+#begin .front-room{display:flex;flex-direction:column;align-items:stretch;gap:24px;max-width:1120px}
+#eirenConversation{scroll-margin-top:105px;width:100%;min-width:0}
+#begin .start-card{
+ order:0;width:100%;padding:clamp(20px,3vw,36px);
+ border:2px solid var(--gold);border-radius:14px;
+ background:linear-gradient(145deg,#322c3c,#242237);
+ box-shadow:0 20px 50px rgba(0,0,0,.27)
+}
+#begin .welcome-card{
+ order:1;width:100%;max-width:none;
+ padding:24px 30px;border-radius:14px;border:1px solid var(--line);
+ background:rgba(37,33,49,.85)
+}
+#begin .welcome-card .temperament{display:flex;justify-content:center;flex-wrap:wrap;gap:9px}
+#begin .welcome-card .temperament span{border-radius:7px}
+.start-card h3,.welcome-card h3,.section-heading h2,.room h3{color:#ffe7b1}
+.start-card .prompt{
+ width:100%;min-height:120px;
+ font:400 18px/1.55 var(--sans);
+ color:#282338;background:#fff9ed;border:2px solid #bb9553;border-radius:7px;
+}
+.start-card .prompt::placeholder{color:#595263;opacity:1}
+.start-card .prompt-label{font-size:18px;color:var(--gold-soft)}
+#begin .quick-starts{display:flex;justify-content:center;flex-wrap:wrap;gap:8px}
+#begin .quick-starts button{min-height:44px;border-radius:7px;font:400 16px/1.35 var(--sans)}
+#begin .prompt-actions{justify-content:center;flex-wrap:wrap;gap:10px}
+#begin .prompt-actions button{min-height:44px;padding:10px 14px;border-radius:7px;font:400 16px/1.4 var(--sans)}
+#eirenChatPanel{
+ margin:20px 0 0;
+ padding:22px;border:1px solid var(--line-strong);border-radius:14px;
+ background:#1b1a2a;
+}
+#eirenMessages{
+ min-height:110px;max-height:350px;overflow-y:auto;
+ padding:15px;border-radius:7px;border:1px solid rgba(230,195,123,.25);
+ background:#242236;
+}
+#eirenMessages p{font:400 18px/1.65 var(--sans);color:#f9f1e2}
+#eiren-voice-controls{justify-content:center;border-color:var(--line)!important}
+#eiren-voice-controls label,#eiren-voice-controls p,#eiren-voice-controls select{font-size:16px!important}
+.room,.resource,.shelf,.guidance,.learning-card,.mentor-card{
+ border-color:var(--line);border-radius:14px;
+}
+.room-grid,.resource-grid{gap:16px}
+.room-links a,.resource,.guidance-links a{border-radius:7px}
+.section{padding-block:64px}
+.footer-grid{justify-content:center;text-align:center;gap:18px}
+.footer-note{text-align:center}
+.footer-links{justify-content:center}
+@media(max-width:720px){
+ .hero{padding:58px 0 48px}
+ #begin .start-card{padding:18px}
+ #begin .welcome-card{padding:18px}
+ #eirenChatPanel{padding:14px}
+ #begin .prompt-actions button{flex:1 1 180px}
+ .footer-grid{align-items:center}
+}
+</style>
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to Eiren's house</a>
@@ -653,7 +747,7 @@ footer{
       </span>
     </a>
     <nav class="nav" aria-label="Primary">
-      <a href="#begin">Begin</a>
+      <a href="#eirenConversation">Chat</a>
       <a href="#rooms">Rooms</a>
       <a href="#learning">Learning</a>
       <a href="#common-room">Common Room</a>
@@ -675,7 +769,7 @@ footer{
       </p>
       <p class="signature">“There is room here for unfinished things.”</p>
       <div class="hero-actions">
-        <a class="button button-primary" href="#begin">Sit with Eiren</a>
+        <a class="button button-primary" href="#eirenConversation">Chat with Eiren</a>
         <a class="button" href="#rooms">Explore the house</a>
       </div>
     </div>
@@ -685,23 +779,7 @@ footer{
 
   <section class="section" id="begin">
     <div class="wrap front-room">
-      <div class="welcome-card">
-        <div class="section-label">The Front Room</div>
-        <h3>You do not need to arrive with the right words.</h3>
-        <p>
-          Tell me what you are trying to make, understand, revise, remember, study,
-          or say. We can begin with one useful question instead of pretending the whole path is obvious.
-        </p>
-        <div class="temperament" aria-label="How Eiren works">
-          <span>Meaning before decoration.</span>
-          <span>Editorial courage without cruelty.</span>
-          <span>Wonder without credulity.</span>
-          <span>Humor without dismissal.</span>
-          <span>Your authorship remains yours.</span>
-        </div>
-      </div>
-
-      <div class="start-card">
+      <div class="start-card" id="eirenConversation">
         <div class="section-label">Begin Here</div>
         <h3>What are you working on?</h3>
         <label class="prompt-label" for="eirenPrompt">A sentence is enough</label>
@@ -722,7 +800,7 @@ footer{
           <button class="quiet" id="clearPrompt" type="button">Clear</button>
         </div>
 
-        <section class="guidance" id="eirenConversation" aria-label="Conversation with Eiren">
+        <section class="guidance" id="eirenChatPanel" aria-label="Conversation with Eiren">
           <div class="guidance-kicker">Eiren · Literary Mentor</div>
           <div id="eirenMessages" role="log" aria-live="polite" aria-relevant="additions text">
             <p><strong>Eiren</strong><br>There is room here for unfinished things. Bring me one sentence, one word, one story question, or one thought.</p>
@@ -741,6 +819,22 @@ footer{
           <strong id="guidanceTitle"></strong>
           <p id="guidanceText"></p>
           <div class="guidance-links" id="guidanceLinks"></div>
+        </div>
+      </div>
+
+      <div class="welcome-card">
+        <div class="section-label">The Front Room</div>
+        <h3>You do not need to arrive with the right words.</h3>
+        <p>
+          Tell me what you are trying to make, understand, revise, remember, study,
+          or say. We can begin with one useful question instead of pretending the whole path is obvious.
+        </p>
+        <div class="temperament" aria-label="How Eiren works">
+          <span>Meaning before decoration.</span>
+          <span>Editorial courage without cruelty.</span>
+          <span>Wonder without credulity.</span>
+          <span>Humor without dismissal.</span>
+          <span>Your authorship remains yours.</span>
         </div>
       </div>
     </div>
