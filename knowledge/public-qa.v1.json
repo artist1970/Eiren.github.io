@@ -1,0 +1,165 @@
+{
+  "schema": "vnv-mentor-public-qa-v1",
+  "mentorId": "eiren",
+  "version": 1,
+  "releaseDate": "2026-11-11",
+  "classification": "public-literary-guidance-only",
+  "reviewScope": "Ten editorially revised topic starters derived from Creative Spark's 50 draft-public-candidate records; no private CORE or user records",
+  "limits": {
+    "noModelGeneration": true,
+    "noAssessmentAnswers": true,
+    "noPrivateStudentRecords": true
+  },
+  "records": [
+    {
+      "id": "eiren-public-001",
+      "mentorId": "eiren",
+      "topic": "poetry",
+      "question": "What is a good first step for poetry?",
+      "answer": "Begin with one concrete image: a window at dusk, rain on a sleeve, a leaf floating downstream. Write two or three lines about what you can actually see or hear. Then read them aloud and keep the words that carry the feeling without forcing a rhyme.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-001",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-002",
+      "mentorId": "eiren",
+      "topic": "story structure",
+      "question": "What is a good first step for story structure?",
+      "answer": "Give your main character something specific to want and place a meaningful obstacle in the way. In one sentence, write: 'My character wants ___, but ___.' That tension can guide the next scene; you still decide where the story goes.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-006",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-003",
+      "mentorId": "eiren",
+      "topic": "reading",
+      "question": "What is a good first step for reading?",
+      "answer": "Read a short passage once for what happens, then again for how it is told. Notice the speaker's voice, the setting, and one phrase that supports your interpretation. If a word is unfamiliar, use its surrounding sentence as a clue before checking a dictionary.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-011",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-004",
+      "mentorId": "eiren",
+      "topic": "vocabulary",
+      "question": "What is a good first step for vocabulary?",
+      "answer": "Choose one word in a real sentence. Notice what the context suggests, check its meaning, and write a second sentence using it naturally. Consider its tone: does it sound formal, ordinary, playful, or technical?",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-016",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-005",
+      "mentorId": "eiren",
+      "topic": "revision",
+      "question": "What is a good first step for revision?",
+      "answer": "First say what your paragraph or scene is trying to accomplish. Read it aloud and mark one place where meaning becomes unclear or the rhythm trips. Change that spot, then compare both versions. Preserve the phrasing that makes the piece yours.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-021",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-006",
+      "mentorId": "eiren",
+      "topic": "dialogue",
+      "question": "What is a good first step for dialogue?",
+      "answer": "Give each speaker a different intention. One might seek an answer while the other avoids giving it. Write a short exchange, then remove names and see whether word choice and rhythm still distinguish the voices.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-026",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-007",
+      "mentorId": "eiren",
+      "topic": "rhetoric",
+      "question": "What is a good first step for rhetoric?",
+      "answer": "Name your audience, your purpose, and one claim you can support with evidence. Try expressing the claim in one clear sentence before choosing a memorable image or phrase. Persuasion is stronger when the reasoning can be examined.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-031",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-008",
+      "mentorId": "eiren",
+      "topic": "translation",
+      "question": "What is a good first step for translation?",
+      "answer": "Identify the meaning and tone of the original sentence before selecting replacement words. Note any ambiguity, idiom, or cultural reference. Compare a literal rendering with a natural one, and explain what each preserves or changes. Verify uncertain expressions with a reliable language reference.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-036",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-009",
+      "mentorId": "eiren",
+      "topic": "journaling",
+      "question": "What is a good first step for journaling?",
+      "answer": "Begin with a small observation: one sound, object, conversation, or moment from today. Describe it without judging whether it is important. You can stop after three sentences; a journal belongs to its writer.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-041",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-010",
+      "mentorId": "eiren",
+      "topic": "authorship",
+      "question": "What is a good first step for authorship?",
+      "answer": "Decide which words, images, or choices must remain yours. When someone offers an edit, separate corrections from preferences, compare the alternatives, and keep final approval. Helpful collaboration should make your intention clearer without replacing your voice.",
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "Eiren-language-data.html",
+        "sourceId": "eiren-capsule-046",
+        "note": "Editorially revised public-safe adaptation of existing draft; draft source preserved"
+      },
+      "version": 1
+    }
+  ]
+}
