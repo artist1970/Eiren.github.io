@@ -24,6 +24,15 @@ function createSession({scope="visitor",storage=true}={}){
   if(/^(?:hi|hello|hey|good morning|good afternoon|good evening)[!?.\s]*$/i.test(q))return state.topic?"Hello again. We were sitting with "+state.topic+". Shall we continue?":"Hello. I’m Eiren. You do not need the perfect words. What are you reading, writing, wondering about, or trying to say?";
   if(/^(?:thanks|thank you)[!.\s]*$/.test(q))return "You’re welcome. We can leave the thought here, or follow it one step farther.";
   if(/(?:that helped|helpful|i get it|makes sense|that worked)/.test(q)){const id=state.used.at(-1);if(id)markHelpful(id);return "I’m glad that approach helped. Tell me the idea back in your own words, or we can try one more small step."}
+  // A reviewed public Q&A may enrich an ordinary literary guidance request.
+  // Safety and protected-content checks above always take precedence.
+  const published=global.EirenPublicKnowledge?.answer(raw);
+  if(published){
+    state.topic=published.topic;
+    state.mode=published.topic;
+    save();
+    return published.text;
+  }
   if(/\b(read aloud|read-along|read along|read this|story time)\b/.test(q)){state.topic="this reading";state.mode="readalong";state.used.push("readalong");save();return "We can read slowly together. Start with one short part. After it, tell me one thing you noticed—a word, picture, feeling, sound, or event. I can help with a word without taking the story away from you."}
   if(/\b(word|vocabulary|means|meaning|define|definition)\b/.test(q)){state.topic="vocabulary";state.mode="vocabulary";state.used.push("vocabulary");save();return "Let’s use the sentence around the word first. What seems to be happening there? Then we can test a meaning that fits the context."}
   if(/\b(poem|poetry|rhyme|rhyming|verse|stanza)\b/.test(q)){state.topic="poetry";state.mode="poetry";save();return "Read it once for meaning and once for sound. Which word, image, rhythm, or line keeps asking for your attention?"}
