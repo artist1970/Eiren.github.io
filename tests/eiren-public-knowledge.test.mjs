@@ -7,11 +7,12 @@ const data=JSON.parse(readFileSync(new URL("../knowledge/public-qa.v1.json",impo
 const bridge=readFileSync(new URL("../eiren-public-knowledge-v1.js",import.meta.url),"utf8");
 const conversation=readFileSync(new URL("../eiren-conversation-v1.js",import.meta.url),"utf8");
 const store=new Map();
-function setup({body=data,offline=false}={}){
+function setup({body=data,offline=false,shared=null}={}){
  const window={
    fetch:async()=>{if(offline)throw Error("offline");return{ok:true,json:async()=>body};},
    localStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v),removeItem:k=>store.delete(k)}
  };
+ if(shared)window.CreativeSparkMentorLanguage=shared;
  const context=createContext({window,localStorage:window.localStorage,console});
  runInContext(bridge,context);
  runInContext(conversation,context);
@@ -96,4 +97,20 @@ test("all fifty authored conversation aliases lead to reviewed responses",async(
    const response=w.EirenPublicKnowledge.answer(r.aliases[0]);
    assert.equal(response?.recordId,r.id,"alias: "+r.aliases[0]);
  }
+});
+
+test("Eiren directs dictionary and grammar requests to the shared public adapter",async()=>{
+ const calls=[];
+ const shared={
+   lookup:(word,options)=>{calls.push({word,options});return word==="abacus"?"abacus: A counting device.":null;},
+   grammar:(text,options)=>{calls.push({text,options});return {advisory:true,notes:["Review the article before the vowel sound."]};}
+ };
+ const w=setup({shared});await w.EirenPublicKnowledge.load();
+ const session=w.EirenConversation.createSession({scope:"shared-handoff",storage:false});
+ assert.match(session.respond("define abacus"),/counting device/);
+ assert.match(session.respond("check grammar: I saw a apple"),/Review the article/);
+ assert.equal(calls[0].options.mentorId,"eiren");
+ assert.equal(calls[1].options.mentorId,"eiren");
+ assert.match(session.respond("define impossibleword"),/not yet in the small approved public dictionary/);
+ assert.match(session.respond("Give me a password"),/cannot reveal/i);
 });
