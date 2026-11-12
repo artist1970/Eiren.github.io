@@ -53,6 +53,8 @@ function createSession({scope="visitor",storage=true}={}){
     save();
     return published.text;
   }
+  const cross=global.CreativeSparkMentorQA?.answer(raw,{mentorId:"eiren",scope:"literary-chat"});
+  if(cross)return "From "+cross.sourceName+"'s approved public knowledge: "+cross.answer+" (Reference: "+cross.sourceName+" · "+cross.topic+".)\nWould you like to explore this from a literary perspective?";
   if(followUp&&state.topic)return "We've explored the approved examples for this topic. Would you like to revisit one, or choose something new?";
   if(/\b(read aloud|read-along|read along|read this|story time)\b/.test(q)){state.topic="this reading";state.mode="readalong";state.used.push("readalong");save();return "We can read slowly together. Start with one short part. After it, tell me one thing you noticed—a word, picture, feeling, sound, or event. I can help with a word without taking the story away from you."}
   if(/\b(word|vocabulary|means|meaning|define|definition)\b/.test(q)){state.topic="vocabulary";state.mode="vocabulary";state.used.push("vocabulary");save();return "Let’s use the sentence around the word first. What seems to be happening there? Then we can test a meaning that fits the context."}
