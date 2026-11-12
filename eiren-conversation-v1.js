@@ -10,8 +10,8 @@ function key(scope){return ROOT+":"+encodeURIComponent(String(scope||"visitor"))
 function read(k){try{return JSON.parse(localStorage.getItem(k)||"null")}catch{return null}}
 function write(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
 const STRATEGIES=Object.freeze({question:"one thoughtful question",example:"a small example",prompt:"a writing prompt",vocabulary:"a word clue",structure:"a structural observation",readalong:"read-aloud guidance"});
-function freshState(){return {version:1,topic:"",mode:"listen",turns:0,used:[],recentKnowledgeIds:[],helped:{question:0,example:0,prompt:0,vocabulary:0,structure:0,readalong:0},remember:true}}
-function createSession({scope="visitor",storage=true}={}){
+function freshState(){return {version:1,topic:"",mode:"listen",turns:0,used:[],recentKnowledgeIds:[],helped:{question:0,example:0,prompt:0,vocabulary:0,structure:0,readalong:0},remember:false}}
+function createSession({scope="visitor",storage=false}={}){
  const storageKey=key(scope);let state=storage?(read(storageKey)||freshState()):freshState();
  function save(){if(storage&&state.remember)write(storageKey,state)}
  function chooseStrategy(){const ranked=Object.keys(STRATEGIES).map(id=>({id,n:Number(state.helped[id]||0),recent:state.used.lastIndexOf(id)})).sort((a,b)=>b.n-a.n||a.recent-b.recent);const pick=ranked[0]?.id||"question";state.used.push(pick);state.used=state.used.slice(-18);return pick}
