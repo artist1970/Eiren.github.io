@@ -6,12 +6,15 @@ const root=document.createElement("div");root.id="eiren-voice-controls";
 root.style.cssText="display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:15px 0;padding:13px;border:1px solid currentColor;border-radius:7px";
 const label=document.createElement("label");label.textContent="Eiren's voice";label.htmlFor="eiren-voice-select";label.style.cssText="font-size:16px";
 const picker=document.createElement("select");picker.id="eiren-voice-select";picker.style.cssText="min-height:44px;min-width:180px;max-width:100%;flex:1;padding:10px;background:#f4f0e7;color:#243038;border:1px solid #a38e6f;border-radius:7px;font-size:16px";
+const toggle=document.createElement("button");toggle.type="button";toggle.className="quiet";toggle.setAttribute("aria-pressed","false");toggle.setAttribute("aria-label","Toggle automatic Eiren narration");
 const preview=document.createElement("button");preview.type="button";preview.textContent="Preview voice";preview.className="quiet";
 const status=document.createElement("p");status.setAttribute("role","status");status.setAttribute("aria-live","polite");status.style.cssText="width:100%;font-size:16px;margin:0";status.textContent="Checking available voices…";
-root.append(label,picker,preview,status);
+root.append(label,picker,toggle,preview,status);
 log.insertAdjacentElement("afterend",root);
 const supported="speechSynthesis" in window&&"SpeechSynthesisUtterance" in window;
-let voices=[],choice="auto";
+let voices=[],choice="auto",autoRead=false;
+const autoKey="vnv.public.voice.autoplay.eiren.v1";
+try{autoRead=localStorage.getItem(autoKey)==="on";}catch{}
 const storageKey="vnv.public.voice.eiren.v1",key=v=>JSON.stringify([v.voiceURI||"",v.name||"",v.lang||"",!!v.localService]);
 try{const v=localStorage.getItem(storageKey);if(v&&v.length<500)choice=v;}catch{}
 const voiceLabel=v=>(v.name||"Unnamed")+" · "+(v.lang||"unknown")+(v.localService?" · device":" · browser/service");
@@ -34,6 +37,17 @@ function refresh(){
  if(choice!=="auto"&&!seen.has(choice)&&voices.length){choice="auto";status.textContent="Previous voice unavailable; automatic narrator restored.";}
  picker.value=choice;
 }
+function renderToggle(){toggle.textContent=autoRead?"Voice On":"Voice Off";toggle.setAttribute("aria-pressed",String(autoRead));}
+renderToggle();
+toggle.addEventListener("click",()=>{
+ if(!supported)return;
+ autoRead=!autoRead;
+ try{localStorage.setItem(autoKey,autoRead?"on":"off");}catch{}
+ if(!autoRead)window.EirenConversation?.stop?.();
+ renderToggle();
+ status.textContent=autoRead?"Automatic narration enabled for new replies.":"Automatic narration off; manual replay remains available.";
+});
+function autoSpeak(text){if(autoRead&&supported&&text)speak(text);}
 function speak(text){if(!supported){status.textContent="Speech is unavailable in this browser.";return;}const v=selected();try{window.EirenConversation.speak(text,v);status.textContent="Reading with "+(v?.name||"browser default")+". ";}catch{status.textContent="Reading aloud is unavailable.";}}
 function decorate(){
  for(const p of log.querySelectorAll("p")){
@@ -47,7 +61,7 @@ decorate();
 if("MutationObserver" in window){const o=new MutationObserver(decorate);o.observe(log,{childList:true});}
 picker.addEventListener("change",()=>{choice=picker.value||"auto";try{localStorage.setItem(storageKey,choice);}catch{}status.textContent="Selected: "+(selected()?voiceLabel(selected()):"browser default");});
 preview.addEventListener("click",()=>speak("Welcome. I am Eiren. Every word can begin a new story."));
-window.EirenVoicePicker=Object.freeze({selected,speak});
+window.EirenVoicePicker=Object.freeze({selected,speak,autoSpeak,enabled:()=>autoRead});
 if(supported){refresh();window.speechSynthesis.addEventListener?.("voiceschanged",refresh);}
-else{picker.disabled=true;preview.disabled=true;status.textContent="Speech is unavailable in this browser.";}
+else{picker.disabled=true;toggle.disabled=true;preview.disabled=true;status.textContent="Speech is unavailable in this browser.";}
 })();
