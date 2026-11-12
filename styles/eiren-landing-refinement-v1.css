@@ -1,0 +1,37 @@
+/* Eiren · VNV canonical aesthetic refinement v1. Page-owned content only.
+   Preserve poetic night-blue identity; no overrides of shared ecosystem chrome. */
+:root{--r:7px;--r-small:7px;--serif:"Cinzel","Palatino Linotype",Georgia,serif;--sans:"Nunito","Brandon Grotesque","Avenir Next",Arial,sans-serif}
+body{font-family:var(--sans);font-size:18px;line-height:1.68}
+h1,h2,h3,.brand-copy strong,.section-label{font-family:var(--serif);font-weight:400}
+.hero{min-height:0;padding:clamp(60px,7vw,95px) 0 clamp(54px,6vw,80px)}
+.hero-inner{max-width:920px}
+.hero .eyebrow{font:400 clamp(18px,2.6vw,33px)/1.35 var(--serif);letter-spacing:.055em;text-transform:none;color:#efdca5}
+.hero h1{font:400 clamp(48px,7vw,66px)/1.15 var(--serif);letter-spacing:.025em;margin:15px 0 10px;color:#fff8e9}
+.hero .role{font:400 clamp(18px,2.6vw,24px)/1.5 var(--sans);letter-spacing:.03em}
+.hero .hero-copy{font-size:18px;line-height:1.75;max-width:790px;margin-top:22px}
+.hero .signature{font-size:18px;margin-top:20px}
+.hero-actions{gap:12px;align-items:stretch;margin-top:30px}
+.hero-actions .button{min-width:175px}
+:is(.button,button,input,textarea,select,.room,.mentor,.start-card,.welcome-card,.statement,.principle,.eiren-message,.eiren-chat-avatar){border-radius:7px}
+:is(.button,button,input,textarea,select){font-family:var(--sans);font-size:16px;line-height:1.4}
+:is(.button,button){min-height:44px;text-align:center}
+.section{padding-block:clamp(44px,6vw,70px)}
+.section-heading h2,.section h2{font:400 clamp(30px,4.3vw,44px)/1.27 var(--serif)}
+.section-label,.section-copy,.room p,.mentor p,.principle span,.mentor .mentor-role,.mentor a,.room-links a,.eiren-chat-head p,.eiren-chat-status,.eiren-input-hint,.eiren-conversation-tools button,.footer-note,.footer-links a,.nav a,.brand-copy span{font-size:16px;line-height:1.6}
+.room h3,.mentor h3,.start-card h3,.welcome-card h3{font-size:clamp(22px,2.5vw,33px);line-height:1.35}
+.room-grid,.common-room,.learning-grid,.resource-grid{align-items:stretch;gap:17px}
+.room,.mentor{display:flex;flex-direction:column;min-width:0}
+.room-links,.mentor a{margin-top:auto}
+:is(.room,.mentor,.start-card,.welcome-card,.statement){border-color:rgba(239,220,165,.26)}
+.start-card,.welcome-card{min-width:0}
+.eiren-compose-row,.eiren-conversation-tools{gap:10px}
+#eirenMessages{max-width:100%;overflow-wrap:anywhere}
+.eiren-message{max-width:94%;line-height:1.6}
+.eiren-send{background:#202724;color:#fff8e9;border:1px solid #d8b96d}
+.eiren-send:hover{background:#364039}
+footer{background:#101d24;color:#fff8e9;font-size:16px}
+.footer-grid{align-items:center;justify-content:center;flex-wrap:wrap;text-align:center}
+.footer-note{color:#fff8e9}
+.footer-links{justify-content:center}
+@media(max-width:620px){.hero{padding:52px 0 48px}.hero-actions{flex-direction:column;align-items:stretch}.hero-actions .button{width:100%}.footer-grid{align-items:center}.footer-links{justify-content:center}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
