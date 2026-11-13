@@ -39,9 +39,9 @@ footer{background:#101d24;color:#fff8e9;font-size:16px}
 
 /* Literary workshop v2: refine Eiren's own content, not canonical VNV chrome. */
 #begin .eiren-mode-row{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:2px 0 8px}
-#begin .eiren-mode-row label{font:400 18px/1.5 var(--sans);color:#202724}
+#begin .eiren-mode-row label{font:400 18px/1.5 var(--sans);color:#fff8e9}
 #begin #eirenConversationMode{appearance:auto;flex:1 1 220px;max-width:340px;min-height:44px;border:1px solid #786347;background:#fff8e9;color:#202724;padding:8px 11px;border-radius:7px;font:400 16px/1.4 var(--sans)}
-#begin .eiren-mode-hint{font:400 16px/1.55 var(--sans);color:#403d38;margin:0 0 12px;text-align:left}
+#begin .eiren-mode-hint{font:400 16px/1.55 var(--sans);color:#f0e6d4;margin:0 0 12px;text-align:left}
 #begin .eiren-chat-head{gap:14px}
 #begin .eiren-chat-status{font:400 16px/1.5 var(--sans)}
 #begin .eiren-compose{padding-bottom:15px}
@@ -53,3 +53,14 @@ footer{background:#101d24;color:#fff8e9;font-size:16px}
 #begin #eirenConversationStatus{font:400 16px/1.6 var(--sans);padding:4px 18px 17px}
 @media(max-width:800px){#begin .eiren-conversation-tools{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:500px){#begin .eiren-conversation-tools{grid-template-columns:1fr}#begin .eiren-mode-row{align-items:stretch}#begin #eirenConversationMode{max-width:none}}
+
+/* Chat contrast corrections: the composer is dark, so its labels must be cream. */
+#begin .eiren-compose .eiren-mode-row label,
+#begin .eiren-compose .prompt-label{color:#fff8e9}
+#begin .eiren-compose .eiren-mode-hint,
+#begin .eiren-compose .eiren-input-hint{color:#eee3d0}
+#begin .eiren-chat-head h3{font-family:var(--serif);font-size:clamp(23px,2.2vw,33px);font-weight:400}
+#eirenMessages p strong,#begin .eiren-input-hint,#begin .eiren-chat-status{font-size:16px}
+#eirenMessages p{font-size:18px;line-height:1.65}
+#eirenMessages{scroll-padding-bottom:18px}
+@media(max-width:620px){#eirenMessages{height:min(48vh,460px)}#eirenMessages p{max-width:96%}}
