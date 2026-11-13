@@ -35,3 +35,21 @@ footer{background:#101d24;color:#fff8e9;font-size:16px}
 .footer-links{justify-content:center}
 @media(max-width:620px){.hero{padding:52px 0 48px}.hero-actions{flex-direction:column;align-items:stretch}.hero-actions .button{width:100%}.footer-grid{align-items:center}.footer-links{justify-content:center}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
+
+
+/* Literary workshop v2: refine Eiren's own content, not canonical VNV chrome. */
+#begin .eiren-mode-row{display:flex;gap:14px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin:2px 0 8px}
+#begin .eiren-mode-row label{font:400 18px/1.5 var(--sans);color:#202724}
+#begin #eirenConversationMode{appearance:auto;flex:1 1 220px;max-width:340px;min-height:44px;border:1px solid #786347;background:#fff8e9;color:#202724;padding:8px 11px;border-radius:7px;font:400 16px/1.4 var(--sans)}
+#begin .eiren-mode-hint{font:400 16px/1.55 var(--sans);color:#403d38;margin:0 0 12px;text-align:left}
+#begin .eiren-chat-head{gap:14px}
+#begin .eiren-chat-status{font:400 16px/1.5 var(--sans)}
+#begin .eiren-compose{padding-bottom:15px}
+#begin .eiren-compose-row textarea{font:400 18px/1.55 var(--sans)}
+#begin .eiren-conversation-tools{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;padding:12px 18px}
+#begin .eiren-conversation-tools button{width:100%;min-height:48px;font:400 16px/1.4 var(--sans)}
+#begin #eirenMessages{scrollbar-gutter:stable;min-height:230px;max-height:min(55vh,560px)}
+#begin .eiren-message{white-space:pre-wrap;overflow-wrap:anywhere}
+#begin #eirenConversationStatus{font:400 16px/1.6 var(--sans);padding:4px 18px 17px}
+@media(max-width:800px){#begin .eiren-conversation-tools{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:500px){#begin .eiren-conversation-tools{grid-template-columns:1fr}#begin .eiren-mode-row{align-items:stretch}#begin #eirenConversationMode{max-width:none}}
