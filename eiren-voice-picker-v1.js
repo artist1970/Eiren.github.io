@@ -18,24 +18,44 @@ try{autoRead=localStorage.getItem(autoKey)==="on";}catch{}
 const storageKey="vnv.public.voice.eiren.v1",key=v=>JSON.stringify([v.voiceURI||"",v.name||"",v.lang||"",!!v.localService]);
 try{const v=localStorage.getItem(storageKey);if(v&&v.length<500)choice=v;}catch{}
 const voiceLabel=v=>(v.name||"Unnamed")+" · "+(v.lang||"unknown")+(v.localService?" · device":" · browser/service");
+// Prefer the two requested voice names. Availability and pronunciations
+// depend on the visitor's operating system and installed speech voices.
+function namedVoice(name){
+ return voices.find(v=>new RegExp("(?:^|\\\\W)"+name+"(?:$|\\\\W)","i").test(v.name||"")&&/^en(?:[-_]|$)/i.test(v.lang||""))
+   ||voices.find(v=>(v.name||"").toLowerCase()===name.toLowerCase());
+}
 function automatic(){
  const us=voices.filter(v=>/^en[-_]US$/i.test(v.lang||""));
- return us.find(v=>/google\s+us\s+english/i.test(v.name||""))
-   ||us.find(v=>/nicky/i.test(v.name||""))
+ return namedVoice("Tessa")
+   ||namedVoice("Nicky")
    ||us.find(v=>/natural|enhanced|premium/i.test(v.name||""))
+   ||us.find(v=>/google\\s+us\\s+english/i.test(v.name||""))
    ||us[0]
    ||voices.find(v=>/^en(?:[-_]|$)/i.test(v.lang||""))
    ||voices[0]||null;
 }
-function selected(){return choice==="auto"?automatic():voices.find(v=>key(v)===choice)||automatic();}
+function selected(){
+ if(choice==="tessa"||choice==="nicky")return namedVoice(choice)||automatic();
+ return choice==="auto"?automatic():voices.find(v=>key(v)===choice)||automatic();
+}
 function refresh(){
  if(!supported)return;
  voices=Array.from(window.speechSynthesis.getVoices()||[]);picker.replaceChildren();
- let d=document.createElement("option");d.value="auto";d.textContent="Automatic · US English (Google / Nicky preferred)";picker.append(d);
+ let d=document.createElement("option");d.value="auto";d.textContent="Automatic · Tessa, then Nicky preferred";picker.append(d);
+ const preferred=[["tessa","Tessa"],["nicky","Nicky"]];
+ for(const [id,name] of preferred){
+   const v=namedVoice(name);
+   if(!v)continue;
+   const o=document.createElement("option");o.value=id;o.textContent=name+" · "+(v.lang||"English")+" (preferred)";picker.append(o);
+ }
  const seen=new Set();
  for(const v of voices){const k=key(v);if(seen.has(k))continue;seen.add(k);const o=document.createElement("option");o.value=k;o.textContent=voiceLabel(v);picker.append(o);}
- if(choice!=="auto"&&!seen.has(choice)&&voices.length){choice="auto";status.textContent="Previous voice unavailable; automatic narrator restored.";}
- picker.value=choice;
+ if(choice!=="auto"&&!seen.has(choice)&&!preferred.some(([id,name])=>choice===id&&namedVoice(name))&&voices.length){
+   // Keep the user's choice in storage to restore it if the voice becomes available.
+   status.textContent="Your saved voice is unavailable on this device; using the automatic fallback.";
+ }
+ if(choice==="auto"||choice==="tessa"&&namedVoice("Tessa")||choice==="nicky"&&namedVoice("Nicky")||seen.has(choice))picker.value=choice;
+ else picker.value="auto";
 }
 function renderToggle(){toggle.textContent=autoRead?"Voice On":"Voice Off";toggle.setAttribute("aria-pressed",String(autoRead));}
 renderToggle();
@@ -59,7 +79,7 @@ function decorate(){
 }
 decorate();
 if("MutationObserver" in window){const o=new MutationObserver(decorate);o.observe(log,{childList:true});}
-picker.addEventListener("change",()=>{choice=picker.value||"auto";try{localStorage.setItem(storageKey,choice);}catch{}status.textContent="Selected: "+(selected()?voiceLabel(selected()):"browser default");});
+picker.addEventListener("change",()=>{choice=picker.value||"auto";try{localStorage.setItem(storageKey,choice);}catch{}status.textContent="Selected: "+(selected()?voiceLabel(selected()):"browser default")+(choice==="tessa"&&!namedVoice("Tessa")||choice==="nicky"&&!namedVoice("Nicky")?" (requested voice unavailable; fallback in use)":"");});
 preview.addEventListener("click",()=>speak("Welcome. I am Eiren. Every word can begin a new story."));
 window.EirenVoicePicker=Object.freeze({selected,speak,autoSpeak,enabled:()=>autoRead});
 if(supported){refresh();window.speechSynthesis.addEventListener?.("voiceschanged",refresh);}
