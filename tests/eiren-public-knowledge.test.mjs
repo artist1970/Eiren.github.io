@@ -19,19 +19,19 @@ function setup({body=data,offline=false,shared=null}={}){
  return window;
 }
 test("bank is intentionally bounded and every published record is validated",()=>{
- assert.equal(data.records.length,60);
+ assert.equal(data.records.length,70);
  assert.equal(new Set(data.records.map(r=>r.topic)).size,20);
  assert.ok(data.records.every(r=>r.mentorId==="eiren"&&r.reviewStatus==="approved"));
- assert.equal(data.records.filter(r=>r.sourceProvenance?.sourceId?.startsWith("eiren-capsule-")).length,10);
+ assert.equal(data.records.filter(r=>r.sourceProvenance?.sourceId?.startsWith("eiren-capsule-")).length,20);
  assert.equal(data.records.filter(r=>r.sourceProvenance?.kind==="original-general-conversation").length,50);
- assert.equal(new Set(data.records.map(r=>r.question.toLowerCase())).size,60);
+ assert.equal(new Set(data.records.map(r=>r.question.toLowerCase())).size,70);
 });
 test("published Q&A loads and matches specific literary guidance",async()=>{
  const w=setup();await w.EirenPublicKnowledge.load();
  assert.equal(w.EirenPublicKnowledge.status(),"ready");
  const reply=w.EirenConversation.forScope("qa-test-1").respond("What is a good first step for poetry?");
  assert.match(reply,/concrete image/i);
- assert.equal(w.EirenPublicKnowledge.count(),60);
+ assert.equal(w.EirenPublicKnowledge.count(),70);
 });
 test("the safety guard outranks public knowledge",async()=>{
  const w=setup();await w.EirenPublicKnowledge.load();
@@ -113,4 +113,22 @@ test("Eiren directs dictionary and grammar requests to the shared public adapter
  assert.equal(calls[1].options.mentorId,"eiren");
  assert.match(session.respond("define impossibleword"),/not yet in the small approved public dictionary/);
  assert.match(session.respond("Give me a password"),/cannot reveal/i);
+});
+
+test("ten newly reviewed literary records are published with exact provenance",async()=>{
+ const rows=data.records.filter(r=>Number(r.id.slice(-3))>=61);
+ assert.equal(rows.length,10);
+ assert.ok(rows.every(r=>r.reviewStatus==="approved"&&r.sourceProvenance?.path==="knowledge/editorial/eiren-language-expansion-101-130.draft.json"));
+ const w=setup();await w.EirenPublicKnowledge.load();
+ for(const row of rows){
+   assert.equal(w.EirenPublicKnowledge.answer(row.question)?.recordId,row.id);
+   for(const alias of row.aliases||[])assert.equal(w.EirenPublicKnowledge.answer(alias)?.recordId,row.id);
+ }
+});
+test("new conversational redirection does not force a writing exercise",async()=>{
+ const w=setup();await w.EirenPublicKnowledge.load();
+ const a=w.EirenConversation.createSession({scope:"redirection-review",storage:false});
+ assert.match(a.respond("I only want to talk"),/rather than asking for an edit|continue talking/i);
+ assert.match(a.respond("You misunderstood me"),/acknowledge uncertainty|revise its interpretation/i);
+ assert.match(a.respond("How do I write a persuasive argument fairly?"),/reasonable objection/i);
 });
