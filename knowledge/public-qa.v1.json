@@ -2,7 +2,7 @@
   "schema": "vnv-mentor-public-qa-v1",
   "mentorId": "eiren",
   "version": 1,
-  "releaseDate": "2026-11-11",
+  "releaseDate": "2026-11-13",
   "classification": "public-literary-and-everyday-conversation-guidance-only",
   "reviewScope": "Ten earlier literary starters plus 50 original everyday conversational answers, all public-safe; no private CORE or user records",
   "limits": {
@@ -1099,6 +1099,196 @@
         "repository": "artist1970/Eiren.github.io",
         "kind": "original-general-conversation",
         "note": "New original conversational editorial content; no private CORE or learner records"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-061",
+      "mentorId": "eiren",
+      "topic": "poetry",
+      "question": "How can I make an abstract emotion visible in a poem?",
+      "answer": "Name the emotion privately, then replace its label with a concrete action, sound, object, or setting. Rather than writing 'I was lonely,' you might describe one cup left untouched on a table. Ask which sensory detail feels honest to your experience and keep the image open to more than one interpretation.",
+      "aliases": [
+        "make feelings visible in a poem",
+        "write an emotion as imagery"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-101",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-062",
+      "mentorId": "eiren",
+      "topic": "poetry",
+      "question": "How do I decide where a poem should end?",
+      "answer": "Read the final three lines without the last line, then restore it. Does the final line deepen, turn, or merely explain the image? An ending can leave room for the reader; it need not summarize the poem. Choose the ending that leaves the intended resonance.",
+      "aliases": [
+        "how should my poem end",
+        "ending a poem"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-103",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-063",
+      "mentorId": "eiren",
+      "topic": "story structure",
+      "question": "What is a useful way to repair a scene that feels flat?",
+      "answer": "Identify what the character wants before the scene, what stands in the way, and what changes afterward. If nothing changes, add a meaningful discovery, decision, cost, or reversal rather than merely adding action. Keep the conflict appropriate to the story's scale.",
+      "aliases": [
+        "scene feels flat",
+        "fix a flat scene"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-106",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-064",
+      "mentorId": "eiren",
+      "topic": "reading",
+      "question": "How do I distinguish what a text says from what I infer?",
+      "answer": "Make two columns: explicit evidence and interpretation. In the first, record a specific action, phrase, or detail. In the second, write what you think it suggests and why. Check whether another reasonable interpretation also fits; an inference should remain tethered to evidence.",
+      "aliases": [
+        "difference between inference and evidence",
+        "what does the text say versus my inference"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-111",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-065",
+      "mentorId": "eiren",
+      "topic": "revision",
+      "question": "How can I improve a paragraph that has too many ideas?",
+      "answer": "Write the paragraph's job in a single sentence. Mark any sentence that does not serve that purpose; move it, develop it elsewhere, or cut it if redundant. Reorder the remaining sentences from claim or image to development and consequence, then read for flow.",
+      "aliases": [
+        "paragraph has too many ideas",
+        "fix an unfocused paragraph"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-116",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-066",
+      "mentorId": "eiren",
+      "topic": "revision",
+      "question": "How do I give feedback without rewriting someone else's voice?",
+      "answer": "Begin by asking what the author wants the piece to accomplish and what kind of feedback they welcome. Describe your reader experience using specific passages: where you felt engaged, uncertain, or surprised. Offer choices rather than replacing sentences without permission.",
+      "aliases": [
+        "give feedback without changing voice",
+        "respect another writer's voice"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-117",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-067",
+      "mentorId": "eiren",
+      "topic": "dialogue",
+      "question": "How do I make two characters sound distinct?",
+      "answer": "Compare what each notices, which words they choose, how direct they are, and what they avoid saying. Distinct voices need not rely on exaggerated accents or catchphrases. Read lines without dialogue tags and ask whether the differences arise from perspective and circumstance.",
+      "aliases": [
+        "make characters sound different",
+        "different character voices"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-120",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-068",
+      "mentorId": "eiren",
+      "topic": "rhetoric",
+      "question": "How do I write a persuasive argument fairly?",
+      "answer": "State a claim that can be examined, offer relevant evidence, explain the connection, and consider the strongest reasonable objection. Describe opposing views accurately rather than as caricatures. Persuasion gains strength when readers can check your sources and follow your reasoning.",
+      "aliases": [
+        "write a fair persuasive argument",
+        "persuade without caricaturing"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-121",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-069",
+      "mentorId": "eiren",
+      "topic": "conversation",
+      "question": "How can a writing mentor respond when I only want to talk?",
+      "answer": "A useful mentor should first notice the purpose of the message. If you are sharing an experience rather than asking for an edit, the response can acknowledge what you said and invite a choice: continue talking or turn the idea into writing. It should not force every conversation into a worksheet.",
+      "aliases": [
+        "i only want to talk",
+        "just want to talk not write"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-129",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
+      },
+      "version": 1
+    },
+    {
+      "id": "eiren-public-070",
+      "mentorId": "eiren",
+      "topic": "conversation",
+      "question": "What can I do when the mentor misunderstands what I meant?",
+      "answer": "Say which part missed the point and, if you wish, restate the detail that matters. A responsible assistant should acknowledge uncertainty, revise its interpretation, and avoid repeating an answer as though nothing changed. You should be able to redirect the conversation without losing your own intent.",
+      "aliases": [
+        "you misunderstood me",
+        "mentor missed my point"
+      ],
+      "reviewStatus": "approved",
+      "sourceProvenance": {
+        "repository": "artist1970/creative-spark.github.io",
+        "path": "knowledge/editorial/eiren-language-expansion-101-130.draft.json",
+        "sourceId": "eiren-capsule-130",
+        "note": "Selected original educational guidance; public release authorized by owner; retained draft provenance"
       },
       "version": 1
     }
