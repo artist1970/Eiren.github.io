@@ -62,7 +62,8 @@ function contextualReply(text,state){
    return "I can't know what you mean without more context. What part of the thought feels most important to you?";
  }
  const subject=subjectIn(text);
- if(subject){
+ const conversationalObservation=/\b(?:i (?:noticed|saw|found|spotted|admired)|the flower (?:was|is)|it (?:was|is)|that's|that was|what a)\b/i.test(q);
+ if(subject&&conversationalObservation){
    state.focus=subject==="passionflower"?"passionflower":state.focus==="passionflower"?"passionflower":"flower";
    state.mode="conversation";
    if(state.focus==="passionflower"){
