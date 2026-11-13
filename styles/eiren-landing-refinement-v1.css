@@ -64,3 +64,31 @@ footer{background:#101d24;color:#fff8e9;font-size:16px}
 #eirenMessages p{font-size:18px;line-height:1.65}
 #eirenMessages{scroll-padding-bottom:18px}
 @media(max-width:620px){#eirenMessages{height:min(48vh,460px)}#eirenMessages p{max-width:96%}}
+
+
+/* Eiren chat 2026-11-13: contiguous feed/composer; one voice switch. */
+#begin #eirenMessages{margin-bottom:0}
+#begin .eiren-compose{padding:14px clamp(12px,2vw,22px) 14px}
+#begin .eiren-compose .prompt-label{margin:0 0 9px}
+#begin .eiren-compose .eiren-compose-row{display:flex;align-items:center;gap:10px}
+#begin .eiren-compose-row textarea{flex:1 1 auto;min-width:0}
+#begin .eiren-voice-toggle-slot{flex:0 0 auto;display:flex;align-items:center;justify-content:center}
+#begin .eiren-voice-toggle-slot #eirenVoiceOnOff{min-height:48px;min-width:95px;width:auto;border-radius:7px;border:1px solid #b99556;background:#282637;color:#fff8e9;padding:8px 12px;font:400 16px/1.35 var(--sans);white-space:nowrap}
+#begin .eiren-voice-toggle-slot #eirenVoiceOnOff[aria-pressed="true"]{background:#334b3d;border-color:#b99556;color:#fff8e9}
+#begin .eiren-voice-toggle-slot #eirenVoiceOnOff:focus-visible{outline:3px solid #a76a16;outline-offset:3px}
+#begin .eiren-compose .eiren-mode-row{margin:14px 0 7px}
+#begin .eiren-compose .eiren-mode-hint{margin:0}
+#begin .eiren-voice-dock{border-top:1px solid rgba(230,195,123,.24);background:#242136}
+#begin #eirenVoiceDock #eiren-voice-controls{margin:0!important;border:0!important;border-radius:0;padding:16px clamp(12px,2vw,22px)!important;background:transparent;display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+#begin #eirenVoiceDock #eiren-voice-controls label{font:400 16px/1.5 var(--sans);color:#fff8e9}
+#begin #eirenVoiceDock #eiren-voice-controls p{color:#f0e6d4}
+#begin #eirenVoiceDock #eiren-voice-controls select{max-width:100%;flex:1 1 230px}
+#begin #eirenVoiceDock #eiren-voice-controls button{flex:0 0 auto;min-height:44px;font:400 16px/1.35 var(--sans)}
+@media(max-width:620px){
+ #begin .eiren-compose .eiren-compose-row{flex-wrap:wrap}
+ #begin .eiren-compose-row textarea{flex:1 1 100%;min-height:92px}
+ #begin .eiren-voice-toggle-slot{flex:1 1 auto;justify-content:flex-start}
+ #begin .eiren-voice-toggle-slot #eirenVoiceOnOff{min-width:120px}
+ #begin .eiren-compose-row .eiren-send{flex:0 0 auto}
+ #begin #eirenVoiceDock #eiren-voice-controls select{flex:1 1 100%}
+}
