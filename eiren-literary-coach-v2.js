@@ -2,7 +2,7 @@
    This is NOT neural inference. Nothing leaves this module or enters memory.
    Existing EirenConversation owns ordinary Q&A and its safety boundary. */
 (function(root){"use strict";
- if(root.EirenLiteraryCoach?.version==="2.0.0")return;
+ if(root.EirenLiteraryCoach?.version==="2.1.0")return;
  const clean=x=>String(x??"").trim().slice(0,4500);
  const sentences=x=>x.match(/[^.!?\n]+[.!?]?/g)?.map(s=>s.trim()).filter(Boolean)||[];
  const words=x=>x.match(/[\p{L}]+(?:['’][\p{L}]+)*/gu)||[];
@@ -43,5 +43,46 @@
    const result=workshop(raw,mode);
    return result?Object.freeze({...result,source:"local-literary-guidance",modelConnected:false,transcriptStored:false}):null;
  }
- root.EirenLiteraryCoach=Object.freeze({version:"2.0.0",reply,capabilities:Object.freeze(["poetry","story","revision"]),neuralModelConnected:false});
+ // Explicit volatile context: one visitor's recently supplied literary passage,
+ // never copied into a permanent profile, training set, or remote service.
+ function createWorkshopContext(){
+   let lastDraft="",lastMode="";
+   const aspect=/\\b(rhythm|imagery|image|images|ending|opening|structure|pacing|clarity|sound|tone|repetition|repeat|word choice|character|dialogue|line breaks?)\\b/i;
+   const followup=/^(?:what about|how about|can we|could we|let(?:'s| us)|please|and|now|tell me more|continue|another|show me|help me)\\b/i;
+   function reviewAspect(message){
+     if(!lastDraft||!lastMode||!aspect.test(message)||(!followup.test(message)&&message.length>110))return null;
+     const subject=message.match(aspect)?.[1]?.toLowerCase()||"revision";
+     const lines=lastDraft.split(/\\n+/).filter(Boolean);
+     const sentences=lastDraft.match(/[^.!?\\n]+[.!?]?/g)?.map(x=>x.trim()).filter(Boolean)||[];
+     const opening=(sentences[0]||lines[0]||lastDraft).slice(0,145);
+     const ending=(sentences.at(-1)||lines.at(-1)||lastDraft).slice(0,145);
+     const ws=words(lastDraft);
+     let observation="";
+     if(/ending/.test(subject))observation='The passage currently ends on “'+ending+'”. Does that ending deliver the change you intended?';
+     else if(/opening/.test(subject))observation='The passage begins “'+opening+'”. Does this opening establish the image or question you want the reader to carry?';
+     else if(/rhythm|sound|pacing|line/.test(subject))observation='Your excerpt has '+ws.length+' words across '+lines.length+' text line(s). Read the opening aloud: “'+opening+'”. Where do you naturally pause?';
+     else if(/repetition|repeat/.test(subject)){const counts=new Map();ws.forEach(w=>counts.set(lower(w),(counts.get(lower(w))||0)+1));const repeats=[...counts].filter(([w,n])=>w.length>4&&n>=2).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]);observation=repeats.length?'Recurring words: '+repeats.join(', ')+'. Decide whether each repetition deepens a motif.':'No strong repeated content words stood out in this short excerpt.';}
+     else if(/character|dialogue/.test(subject))observation='The passage opens “'+opening+'”. What can a reader infer about the character from observable actions or dialogue rather than explanation?';
+     else observation='One place to examine is “'+opening+'”. What detail makes the intended '+subject+' clearer to the reader?';
+     return {kind:"workshop-followup",source:"local-literary-guidance",modelConnected:false,transcriptStored:false,text:'Returning to the passage you shared:\\n\\n'+observation+'\\n\\nI am working with the text visible in this session, not an external memory.'};
+   }
+   return Object.freeze({
+     respond(message,{mode="conversation"}={}){
+       const raw=clean(message);
+       if(!raw)return null;
+       if(/(?:answer key|exam answers|password|passcode|secret token|private records|locked assessment|hurt myself|suicide|emergency|immediate danger)/i.test(raw))return null;
+       if(lastDraft&&mode===lastMode){
+         const follow=reviewAspect(raw);if(follow)return follow;
+       }
+       const candidate=reply(raw,{mode});
+       if(candidate && candidate.kind!=="workshop-followup"){
+         lastDraft=raw;lastMode=mode;
+       }
+       return candidate;
+     },
+     reset(){lastDraft="";lastMode="";},
+     hasDraft:()=>Boolean(lastDraft)
+   });
+ }
+ root.EirenLiteraryCoach=Object.freeze({version:"2.1.0",reply,createWorkshopContext,capabilities:Object.freeze(["poetry","story","revision"]),neuralModelConnected:false});
 })(window);
