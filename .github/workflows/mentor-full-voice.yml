@@ -5,6 +5,7 @@ on:
       - 'index.html'
       - '*voice*.js'
       - 'tests/mentor-full-voice.test.mjs'
+      - 'tests/eiren-preferred-voices.test.mjs'
       - '.github/workflows/mentor-full-voice.yml'
   push:
     branches: [main]
@@ -12,6 +13,7 @@ on:
       - 'index.html'
       - '*voice*.js'
       - 'tests/mentor-full-voice.test.mjs'
+      - 'tests/eiren-preferred-voices.test.mjs'
 permissions:
   contents: read
 jobs:
@@ -22,4 +24,4 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - run: node --test tests/mentor-full-voice.test.mjs
+      - run: node --test tests/mentor-full-voice.test.mjs tests/eiren-preferred-voices.test.mjs
