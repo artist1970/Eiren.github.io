@@ -4,7 +4,11 @@ on:
     branches: [main]
     paths:
       - 'eiren-conversation-v1.js'
+      - 'eiren-literary-coach-v2.js'
+      - 'index.html'
+      - 'styles/eiren-landing-refinement-v1.css'
       - 'tests/eiren-session-memory-boundary.test.mjs'
+      - 'tests/eiren-literary-coach-v2.test.mjs'
       - '.github/workflows/eiren-session-memory-boundary.yml'
   workflow_dispatch:
 permissions:
@@ -18,4 +22,4 @@ jobs:
         with: {persist-credentials: false}
       - uses: actions/setup-node@v4
         with: {node-version: '22'}
-      - run: node --test tests/eiren-session-memory-boundary.test.mjs
+      - run: node --test tests/eiren-session-memory-boundary.test.mjs tests/eiren-literary-coach-v2.test.mjs
