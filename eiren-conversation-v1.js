@@ -14,14 +14,14 @@ function freshState(){return {version:1,topic:"",mode:"listen",focus:"",turns:0,
 // Small, reviewable conversation skills. Pattern responses are not neural inference.
 // Focus is volatile session context; never silently saved or promoted to memory.
 const SUBJECTS=Object.freeze({
-  passionflower:/\\b(?:passion\\s*(?:fruit|fuit)?\\s*flower|passionflower|passionfuit\\s*flower)\\b/i,
-  flower:/\\b(?:flowers?|blossoms?|blooms?)\\b/i
+  passionflower:/\b(?:passion\s*(?:fruit|fuit)?\s*flower|passionflower|passionfuit\s*flower)\b/i,
+  flower:/\b(?:flowers?|blossoms?|blooms?)\b/i
 });
 const RHYMES=Object.freeze({
-  flower:{words:"shower, tower, bower, power, and hour (depending on accent)",couplet:"A purple passionflower after a shower,\\nA little burst of wonder in the garden's quiet hour."},
-  night:{words:"light, bright, sight, flight",couplet:"I found a little light within the night,\\nAnd held its quiet color burning bright."},
-  day:{words:"way, play, stay, away",couplet:"A single bloom brightened my day,\\nAnd gave my wandering thoughts a place to stay."},
-  love:{words:"dove, above (accent-dependent)",couplet:"A note of gentle love,\\nBeneath the sky above."}
+  flower:{words:"shower, tower, bower, power, and hour (depending on accent)",couplet:"A purple passionflower after a shower,\nA little burst of wonder in the garden's quiet hour."},
+  night:{words:"light, bright, sight, flight",couplet:"I found a little light within the night,\nAnd held its quiet color burning bright."},
+  day:{words:"way, play, stay, away",couplet:"A single bloom brightened my day,\nAnd gave my wandering thoughts a place to stay."},
+  love:{words:"dove, above (accent-dependent)",couplet:"A note of gentle love,\nBeneath the sky above."}
 });
 function subjectIn(text){
  if(SUBJECTS.passionflower.test(text))return "passionflower";
@@ -29,12 +29,12 @@ function subjectIn(text){
  return "";
 }
 function rhymeTarget(text,focus){
- if(!/\\b(?:rhyme|rhymes|rhyming|ryhme|ryhmes|rime)\\b/i.test(text))return "";
- const explicit=text.match(/(?:with|for|to)\\s+(?:the\\s+)?([a-z]+(?:\\s+[a-z]+)?)(?:[?.!,]|$)/i)?.[1]?.toLowerCase()||"";
- if(/passion\\s*flower|passionflower/.test(explicit)||/passion\\s*flower|passionflower/i.test(text))return "flower";
- const lastWord=explicit.split(/\\s+/).at(-1);
+ if(!/\b(?:rhyme|rhymes|rhyming|ryhme|ryhmes|rime)\b/i.test(text))return "";
+ const explicit=text.match(/(?:with|for|to)\s+(?:the\s+)?([a-z]+(?:\s+[a-z]+)?)(?:[?.!,]|$)/i)?.[1]?.toLowerCase()||"";
+ if(/passion\s*flower|passionflower/.test(explicit)||/passion\s*flower|passionflower/i.test(text))return "flower";
+ const lastWord=explicit.split(/\s+/).at(-1);
  if(Object.prototype.hasOwnProperty.call(RHYMES,lastWord))return lastWord;
- if(/\\b(?:it|that|this)\\b/i.test(explicit)&&focus)return focus==="passionflower"?"flower":focus;
+ if(/\b(?:it|that|this)\b/i.test(explicit)&&focus)return focus==="passionflower"?"flower":focus;
  return explicit||focus;
 }
 function contextualReply(text,state){
@@ -47,13 +47,13 @@ function contextualReply(text,state){
    const entry=RHYMES[rhyme];
    if(entry){
      return "Yes! For “"+(state.focus==="passionflower"&&rhyme==="flower"?"passionflower":rhyme)+
-       ",” try "+entry.words+". Here is a little couplet you can change:\\n\\n"+entry.couplet+
-       "\\n\\nWould you like it whimsical, gentle, or more musical?";
+       ",” try "+entry.words+". Here is a little couplet you can change:\n\n"+entry.couplet+
+       "\n\nWould you like it whimsical, gentle, or more musical?";
    }
    return "I can help find a rhyme, but I don't have a verified rhyme list for “"+rhyme.slice(0,40)+
      "” in this offline collection. Could we work with its final sound together?";
  }
- if(/\\b(?:what (?:am|an) i really trying to say|what do i (?:really )?mean|what am i trying to say)\\b/i.test(q)){
+ if(/\b(?:what (?:am|an) i really trying to say|what do i (?:really )?mean|what am i trying to say)\b/i.test(q)){
    if(state.focus==="passionflower"||state.focus==="flower"){
      return "Perhaps you're trying to capture how noticing that purple "+
        (state.focus==="passionflower"?"passionflower":"flower")+
@@ -70,7 +70,7 @@ function contextualReply(text,state){
    }
    return "A purple flower sounds like a lovely discovery. Do you know what kind it was, or was it the color that caught your attention?";
  }
- if(/\\b(?:i (?:noticed|saw|found|spotted)|today i (?:noticed|saw|found)|look(?:ed|ing) at)\\b/i.test(q)){
+ if(/\b(?:i (?:noticed|saw|found|spotted)|today i (?:noticed|saw|found)|look(?:ed|ing) at)\b/i.test(q)){
    state.mode="conversation";
    return "That sounds like a moment that stayed with you. What detail caught your attention?";
  }
