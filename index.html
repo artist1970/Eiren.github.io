@@ -830,7 +830,7 @@ html{scroll-padding-top:98px}
               <h3>Chat with Eiren</h3>
               <p>Literary mentor · Stories, writing, poetry, and reading</p>
             </div>
-            <span class="eiren-chat-status">Local conversation</span>
+            <span class="eiren-chat-status">Offline literary guidance</span>
           </div>
 
           <div id="eirenMessages" role="log" aria-label="Conversation messages" aria-live="polite" aria-relevant="additions">
@@ -838,9 +838,19 @@ html{scroll-padding-top:98px}
           </div>
 
           <div class="eiren-compose">
+            <div class="eiren-mode-row">
+              <label for="eirenConversationMode">Conversation approach</label>
+              <select id="eirenConversationMode" aria-describedby="eirenModeHint">
+                <option value="conversation">Conversation &amp; ideas</option>
+                <option value="poetry">Poetry workshop</option>
+                <option value="story">Story workshop</option>
+                <option value="revision">Revision workshop</option>
+              </select>
+            </div>
+            <p class="eiren-mode-hint" id="eirenModeHint">Choose a workshop and paste a passage for specific, offline literary observations. Not a connected language model.</p>
             <label class="prompt-label" for="eirenPrompt">Your message</label>
             <div class="eiren-compose-row">
-              <textarea class="prompt" id="eirenPrompt" rows="2" maxlength="1200" placeholder="Message Eiren about a story, a poem, or something you are writing..."></textarea>
+              <textarea class="prompt" id="eirenPrompt" rows="3" maxlength="4500" placeholder="Share a thought, poem, story passage, or a writing question..."></textarea>
               <button class="eiren-send" id="talkWithEiren" type="button" aria-label="Send message to Eiren">Send <span aria-hidden="true">↑</span></button>
             </div>
             <p class="eiren-input-hint">Enter to send · Shift+Enter for a new line</p>
@@ -849,10 +859,11 @@ html{scroll-padding-top:98px}
           <div class="eiren-conversation-tools" aria-label="Conversation controls">
             <button class="quiet" id="eirenReadReply" type="button">▶ Read reply</button>
             <button class="quiet" id="eirenStopVoice" type="button">■ Stop voice</button>
+            <button class="quiet" id="eirenExportConversation" type="button">Export conversation</button>
             <button class="quiet" id="eirenClearConversation" type="button">Clear conversation</button>
             <button class="quiet" id="eirenOpenArshif" type="button">📚 ARSHIF Library</button>
           </div>
-          <p class="section-copy" id="eirenConversationStatus">Eiren's conversation context is browser-local. Messages shown here are not archived across reloads. No Academy mastery changes.</p>
+          <p class="section-copy" id="eirenConversationStatus">Conversation is temporary on this page and not saved across reloads. Export your words before leaving. Offline literary guidance; no Academy mastery changes.</p>
         </section>
 
         <details class="eiren-prompt-starters">
@@ -1332,6 +1343,7 @@ html{scroll-padding-top:98px}
 <script src="eiren-public-knowledge-v1.js"></script>
 <script src="creative-spark-mentor-qa-v1.js" defer></script>
 <script src="eiren-conversation-v1.js"></script>
+<script src="eiren-literary-coach-v2.js"></script>
 <script src="eiren-document-retrieval-v1.js"></script>
 <script src="eiren-arshif-bridge-v1.js"></script>
 <script src="arshif-literary-router.js" defer></script><script src="eiren-voice-picker-v1.js"></script>
@@ -1343,6 +1355,7 @@ html{scroll-padding-top:98px}
  const log=$("eirenMessages");
  const input=$("eirenPrompt");
  let last="";
+ const transcript=[];
  function add(role,text){
    const p=document.createElement("p");
    p.className="eiren-message "+(role==="You"?"eiren-message-you":"eiren-message-mentor");
@@ -1350,6 +1363,7 @@ html{scroll-padding-top:98px}
    strong.textContent=role;
    p.append(strong,document.createElement("br"),document.createTextNode(text));
    log?.appendChild(p);
+   transcript.push({role:role==="You"?"user":"assistant",text,at:new Date().toISOString()});
    if(role==="Eiren"){last=text;if(p!==log?.firstElementChild)window.EirenVoicePicker?.autoSpeak?.(text);}
    if(log)log.scrollTop=log.scrollHeight;
  }
@@ -1359,10 +1373,12 @@ html{scroll-padding-top:98px}
    add("You",text);
    const documentationQuestion=/\b(?:documentation|readme|repository|source|official|academy linguistics|arshif|aipcore|eiren core|where is the translator)\b/i.test(text);
    const sourced=documentationQuestion?window.EirenDocumentRetrieval?.retrieve(text):null;
-   add("Eiren",sourced?.text||session.respond(text));
+   const mode=$("eirenConversationMode")?.value||"conversation";
+   const coached=window.EirenLiteraryCoach?.reply(text,{mode});
+   add("Eiren",sourced?.text||coached?.text||session.respond(text));
    input.value="";
    input.focus();
-   $("eirenConversationStatus").textContent="Guidance only · No Academy mastery changes · Conversation context is stored locally.";
+   $("eirenConversationStatus").textContent="Temporary on-page conversation · Export before leaving · "+(coached?"Offline "+mode+" workshop":"Reviewed local guidance")+" · No Academy mastery changes.";
  }
  $("talkWithEiren")?.addEventListener("click",send);
  input?.addEventListener("keydown",event=>{
@@ -1384,7 +1400,16 @@ html{scroll-padding-top:98px}
    }
  });
  $("eirenStopVoice")?.addEventListener("click",()=>window.EirenConversation?.stop());
+ $("eirenExportConversation")?.addEventListener("click",()=>{
+   const payload={schema:"eiren-public-transcript-v1",exportedAt:new Date().toISOString(),source:"browser-session",modelConnected:false,entries:transcript.slice()};
+   const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:"application/json"}));
+   const a=document.createElement("a");a.href=url;a.download="eiren-conversation-"+new Date().toISOString().slice(0,10)+".json";
+   document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+   $("eirenConversationStatus").textContent="Transcript downloaded to your device · No remote archive was created.";
+ });
  $("eirenClearConversation")?.addEventListener("click",()=>{
+   if(!window.confirm("Clear this temporary conversation? Export first to keep a copy."))return;
+   transcript.length=0;
    session?.reset();
    log.replaceChildren();
    add("Eiren","We can begin again. What would you like to read, write, or understand?");
