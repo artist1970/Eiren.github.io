@@ -90,8 +90,6 @@ function createSession({scope="visitor",storage=false}={}){
   if(/^(?:hi|hello|hey|good morning|good afternoon|good evening)[!?.\s]*$/i.test(q))return state.topic?"Hello again. We were sitting with "+state.topic+". Shall we continue?":"Hello. I’m Eiren. You do not need the perfect words. What are you reading, writing, wondering about, or trying to say?";
   if(/^(?:thanks|thank you)[!.\s]*$/.test(q))return "You’re welcome. We can leave the thought here, or follow it one step farther.";
   if(/(?:that helped|helpful|i get it|makes sense|that worked)/.test(q)){const id=state.used.at(-1);if(id)markHelpful(id);return "I’m glad that approach helped. Tell me the idea back in your own words, or we can try one more small step."}
-  const situated=contextualReply(raw,state);
-  if(situated){save();return situated;}
   // The shared public language service is optional and never accesses private AIPCore.
   const shared=global.CreativeSparkMentorLanguage;
   const grammarRequest=raw.match(/^(?:check|review|help with)(?: my)? grammar\s*[:—-]\s*(.{4,1000})$/i);
@@ -105,6 +103,8 @@ function createSession({scope="visitor",storage=false}={}){
     const known=shared?.lookup(lexicalRequest[1],{mentorId:"eiren",mode});
     return known||"That word is not yet in the small approved public dictionary I can access. I won't invent a definition; we can instead explore how the word is used in a sentence.";
   }
+  const situated=contextualReply(raw,state);
+  if(situated){save();return situated;}
   // A reviewed public Q&A may enrich an ordinary literary guidance request.
   // Safety and protected-content checks above always take precedence.
   const followUp=/^(?:tell me more|another (?:question|example|idea)|continue|what else)[?.!\s]*$/i.test(raw);
