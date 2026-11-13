@@ -1356,6 +1356,7 @@ html{scroll-padding-top:98px}
  const input=$("eirenPrompt");
  let last="";
  const transcript=[];
+ const workshop=window.EirenLiteraryCoach?.createWorkshopContext?.();
  function add(role,text){
    const p=document.createElement("p");
    p.className="eiren-message "+(role==="You"?"eiren-message-you":"eiren-message-mentor");
@@ -1372,10 +1373,13 @@ html{scroll-padding-top:98px}
    if(!text||!session)return;
    add("You",text);
    const documentationQuestion=/\b(?:documentation|readme|repository|source|official|academy linguistics|arshif|aipcore|eiren core|where is the translator)\b/i.test(text);
-   const sourced=documentationQuestion?window.EirenDocumentRetrieval?.retrieve(text):null;
    const mode=$("eirenConversationMode")?.value||"conversation";
-   const coached=window.EirenLiteraryCoach?.reply(text,{mode});
-   add("Eiren",sourced?.text||coached?.text||session.respond(text));
+   // Protected-content and immediate-safety questions remain routed through
+   // the original conversation policy, never through a workshop or source hint.
+   const protectedRequest=/(?:answer key|exam answers|test answers|password|passcode|secret token|private records|locked assessment|hurt myself|suicide|immediate danger|emergency)/i.test(text);
+   const sourced=!protectedRequest&&documentationQuestion?window.EirenDocumentRetrieval?.retrieve(text):null;
+   const coached=!protectedRequest&&!sourced?.text?workshop?.respond(text,{mode}):null;
+   add("Eiren",protectedRequest?session.respond(text):sourced?.text||coached?.text||session.respond(text));
    input.value="";
    input.focus();
    $("eirenConversationStatus").textContent="Temporary on-page conversation · Export before leaving · "+(coached?"Offline "+mode+" workshop":"Reviewed local guidance")+" · No Academy mastery changes.";
@@ -1410,6 +1414,7 @@ html{scroll-padding-top:98px}
  $("eirenClearConversation")?.addEventListener("click",()=>{
    if(!window.confirm("Clear this temporary conversation? Export first to keep a copy."))return;
    transcript.length=0;
+   workshop?.reset();
    session?.reset();
    log.replaceChildren();
    add("Eiren","We can begin again. What would you like to read, write, or understand?");
