@@ -47,13 +47,13 @@
  // never copied into a permanent profile, training set, or remote service.
  function createWorkshopContext(){
    let lastDraft="",lastMode="";
-   const aspect=/\\b(rhythm|imagery|image|images|ending|opening|structure|pacing|clarity|sound|tone|repetition|repeat|word choice|character|dialogue|line breaks?)\\b/i;
-   const followup=/^(?:what about|how about|can we|could we|let(?:'s| us)|please|and|now|tell me more|continue|another|show me|help me)\\b/i;
+   const aspect=/\b(rhythm|imagery|image|images|ending|opening|structure|pacing|clarity|sound|tone|repetition|repeat|word choice|character|dialogue|line breaks?)\b/i;
+   const followup=/^(?:what about|how about|can we|could we|let(?:'s| us)|please|and|now|tell me more|continue|another|show me|help me)\b/i;
    function reviewAspect(message){
      if(!lastDraft||!lastMode||!aspect.test(message)||(!followup.test(message)&&message.length>110))return null;
      const subject=message.match(aspect)?.[1]?.toLowerCase()||"revision";
-     const lines=lastDraft.split(/\\n+/).filter(Boolean);
-     const sentences=lastDraft.match(/[^.!?\\n]+[.!?]?/g)?.map(x=>x.trim()).filter(Boolean)||[];
+     const lines=lastDraft.split(/\n+/).filter(Boolean);
+     const sentences=lastDraft.match(/[^.!?\n]+[.!?]?/g)?.map(x=>x.trim()).filter(Boolean)||[];
      const opening=(sentences[0]||lines[0]||lastDraft).slice(0,145);
      const ending=(sentences.at(-1)||lines.at(-1)||lastDraft).slice(0,145);
      const ws=words(lastDraft);
@@ -64,7 +64,7 @@
      else if(/repetition|repeat/.test(subject)){const counts=new Map();ws.forEach(w=>counts.set(lower(w),(counts.get(lower(w))||0)+1));const repeats=[...counts].filter(([w,n])=>w.length>4&&n>=2).sort((a,b)=>b[1]-a[1]).slice(0,3).map(x=>x[0]);observation=repeats.length?'Recurring words: '+repeats.join(', ')+'. Decide whether each repetition deepens a motif.':'No strong repeated content words stood out in this short excerpt.';}
      else if(/character|dialogue/.test(subject))observation='The passage opens “'+opening+'”. What can a reader infer about the character from observable actions or dialogue rather than explanation?';
      else observation='One place to examine is “'+opening+'”. What detail makes the intended '+subject+' clearer to the reader?';
-     return {kind:"workshop-followup",source:"local-literary-guidance",modelConnected:false,transcriptStored:false,text:'Returning to the passage you shared:\\n\\n'+observation+'\\n\\nI am working with the text visible in this session, not an external memory.'};
+     return {kind:"workshop-followup",source:"local-literary-guidance",modelConnected:false,transcriptStored:false,text:'Returning to the passage you shared:\n\n'+observation+'\n\nI am working with the text visible in this session, not an external memory.'};
    }
    return Object.freeze({
      respond(message,{mode="conversation"}={}){
