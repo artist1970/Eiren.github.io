@@ -10,7 +10,72 @@ function key(scope){return ROOT+":"+encodeURIComponent(String(scope||"visitor"))
 function read(k){try{return JSON.parse(localStorage.getItem(k)||"null")}catch{return null}}
 function write(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
 const STRATEGIES=Object.freeze({question:"one thoughtful question",example:"a small example",prompt:"a writing prompt",vocabulary:"a word clue",structure:"a structural observation",readalong:"read-aloud guidance"});
-function freshState(){return {version:1,topic:"",mode:"listen",turns:0,used:[],recentKnowledgeIds:[],helped:{question:0,example:0,prompt:0,vocabulary:0,structure:0,readalong:0},remember:false}}
+function freshState(){return {version:1,topic:"",mode:"listen",focus:"",turns:0,used:[],recentKnowledgeIds:[],helped:{question:0,example:0,prompt:0,vocabulary:0,structure:0,readalong:0},remember:false}}
+// Small, reviewable conversation skills. Pattern responses are not neural inference.
+// Focus is volatile session context; never silently saved or promoted to memory.
+const SUBJECTS=Object.freeze({
+  passionflower:/\\b(?:passion\\s*(?:fruit|fuit)?\\s*flower|passionflower|passionfuit\\s*flower)\\b/i,
+  flower:/\\b(?:flowers?|blossoms?|blooms?)\\b/i
+});
+const RHYMES=Object.freeze({
+  flower:{words:"shower, tower, bower, power, and hour (depending on accent)",couplet:"A purple passionflower after a shower,\\nA little burst of wonder in the garden's quiet hour."},
+  night:{words:"light, bright, sight, flight",couplet:"I found a little light within the night,\\nAnd held its quiet color burning bright."},
+  day:{words:"way, play, stay, away",couplet:"A single bloom brightened my day,\\nAnd gave my wandering thoughts a place to stay."},
+  love:{words:"dove, above (accent-dependent)",couplet:"A note of gentle love,\\nBeneath the sky above."}
+});
+function subjectIn(text){
+ if(SUBJECTS.passionflower.test(text))return "passionflower";
+ if(SUBJECTS.flower.test(text))return "flower";
+ return "";
+}
+function rhymeTarget(text,focus){
+ if(!/\\b(?:rhyme|rhymes|rhyming|ryhme|ryhmes|rime)\\b/i.test(text))return "";
+ const explicit=text.match(/(?:with|for|to)\\s+(?:the\\s+)?([a-z]+(?:\\s+[a-z]+)?)(?:[?.!,]|$)/i)?.[1]?.toLowerCase()||"";
+ if(/passion\\s*flower|passionflower/.test(explicit)||/passion\\s*flower|passionflower/i.test(text))return "flower";
+ const lastWord=explicit.split(/\\s+/).at(-1);
+ if(Object.prototype.hasOwnProperty.call(RHYMES,lastWord))return lastWord;
+ if(/\\b(?:it|that|this)\\b/i.test(explicit)&&focus)return focus==="passionflower"?"flower":focus;
+ return explicit||focus;
+}
+function contextualReply(text,state){
+ const q=norm(text);
+ // Follow the person's actual conversational intent before switching to
+ // random workshop strategies. These are grounded, non-assertive suggestions.
+ const rhyme=rhymeTarget(text,state.focus);
+ if(rhyme){
+   state.mode="poetry";
+   const entry=RHYMES[rhyme];
+   if(entry){
+     return "Yes! For “"+(state.focus==="passionflower"&&rhyme==="flower"?"passionflower":rhyme)+
+       ",” try "+entry.words+". Here is a little couplet you can change:\\n\\n"+entry.couplet+
+       "\\n\\nWould you like it whimsical, gentle, or more musical?";
+   }
+   return "I can help find a rhyme, but I don't have a verified rhyme list for “"+rhyme.slice(0,40)+
+     "” in this offline collection. Could we work with its final sound together?";
+ }
+ if(/\\b(?:what (?:am|an) i really trying to say|what do i (?:really )?mean|what am i trying to say)\\b/i.test(q)){
+   if(state.focus==="passionflower"||state.focus==="flower"){
+     return "Perhaps you're trying to capture how noticing that purple "+
+       (state.focus==="passionflower"?"passionflower":"flower")+
+       " made an ordinary moment stand out. That's just one interpretation—what did the flower make you feel?";
+   }
+   return "I can't know what you mean without more context. What part of the thought feels most important to you?";
+ }
+ const subject=subjectIn(text);
+ if(subject){
+   state.focus=subject==="passionflower"?"passionflower":state.focus==="passionflower"?"passionflower":"flower";
+   state.mode="conversation";
+   if(state.focus==="passionflower"){
+     return "A passionflower! Its intricate shape can be striking, especially in purple. What caught your eye first—the petals, the center, or the way it was growing?";
+   }
+   return "A purple flower sounds like a lovely discovery. Do you know what kind it was, or was it the color that caught your attention?";
+ }
+ if(/\\b(?:i (?:noticed|saw|found|spotted)|today i (?:noticed|saw|found)|look(?:ed|ing) at)\\b/i.test(q)){
+   state.mode="conversation";
+   return "That sounds like a moment that stayed with you. What detail caught your attention?";
+ }
+ return null;
+}
 function createSession({scope="visitor",storage=false}={}){
  const storageKey=key(scope);let state=storage?(read(storageKey)||freshState()):freshState();
  function save(){if(storage&&state.remember)write(storageKey,state)}
@@ -24,6 +89,8 @@ function createSession({scope="visitor",storage=false}={}){
   if(/^(?:hi|hello|hey|good morning|good afternoon|good evening)[!?.\s]*$/i.test(q))return state.topic?"Hello again. We were sitting with "+state.topic+". Shall we continue?":"Hello. I’m Eiren. You do not need the perfect words. What are you reading, writing, wondering about, or trying to say?";
   if(/^(?:thanks|thank you)[!.\s]*$/.test(q))return "You’re welcome. We can leave the thought here, or follow it one step farther.";
   if(/(?:that helped|helpful|i get it|makes sense|that worked)/.test(q)){const id=state.used.at(-1);if(id)markHelpful(id);return "I’m glad that approach helped. Tell me the idea back in your own words, or we can try one more small step."}
+  const situated=contextualReply(raw,state);
+  if(situated){save();return situated;}
   // The shared public language service is optional and never accesses private AIPCore.
   const shared=global.CreativeSparkMentorLanguage;
   const grammarRequest=raw.match(/^(?:check|review|help with)(?: my)? grammar\s*[:—-]\s*(.{4,1000})$/i);
