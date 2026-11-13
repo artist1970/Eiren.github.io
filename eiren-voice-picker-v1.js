@@ -9,8 +9,17 @@ const picker=document.createElement("select");picker.id="eiren-voice-select";pic
 const toggle=document.createElement("button");toggle.type="button";toggle.className="quiet";toggle.setAttribute("aria-pressed","false");toggle.setAttribute("aria-label","Toggle automatic Eiren narration");
 const preview=document.createElement("button");preview.type="button";preview.textContent="Preview voice";preview.className="quiet";
 const status=document.createElement("p");status.setAttribute("role","status");status.setAttribute("aria-live","polite");status.style.cssText="width:100%;font-size:16px;margin:0";status.textContent="Checking available voices…";
-root.append(label,picker,toggle,preview,status);
-log.insertAdjacentElement("afterend",root);
+// One narration switch beside the user's message field. The voice picker
+// and preview stay in a dedicated dock at the bottom of the chat panel.
+const voiceToggleSlot=document.getElementById("eirenVoiceToggleSlot");
+const voiceDock=document.getElementById("eirenVoiceDock");
+toggle.id="eirenVoiceOnOff";
+toggle.textContent="Voice Off";
+if(voiceToggleSlot)voiceToggleSlot.append(toggle);
+root.append(label,picker,preview,status);
+if(!voiceToggleSlot)root.append(toggle); // Older embedding fallback.
+if(voiceDock)voiceDock.append(root);
+else host.append(root);
 const supported="speechSynthesis" in window&&"SpeechSynthesisUtterance" in window;
 let voices=[],choice="auto",autoRead=false;
 const autoKey="vnv.public.voice.autoplay.eiren.v1";
@@ -58,7 +67,7 @@ function refresh(){
  if(choice==="auto"||choice==="tessa"&&namedVoice("Tessa")||choice==="nicky"&&namedVoice("Nicky")||seen.has(choice))picker.value=choice;
  else picker.value="auto";
 }
-function renderToggle(){toggle.textContent=autoRead?"Voice On":"Voice Off";toggle.setAttribute("aria-pressed",String(autoRead));}
+function renderToggle(){toggle.textContent=autoRead?"Voice On":"Voice Off";toggle.setAttribute("aria-pressed",String(autoRead));toggle.setAttribute("aria-label",autoRead?"Turn Eiren voice off":"Turn Eiren voice on");}
 renderToggle();
 toggle.addEventListener("click",()=>{
  if(!supported)return;
@@ -66,20 +75,11 @@ toggle.addEventListener("click",()=>{
  try{localStorage.setItem(autoKey,autoRead?"on":"off");}catch{}
  if(!autoRead)window.EirenConversation?.stop?.();
  renderToggle();
- status.textContent=autoRead?"Automatic narration enabled for new replies.":"Automatic narration off; manual replay remains available.";
+ status.textContent=autoRead?"Automatic narration enabled for new Eiren replies.":"Automatic narration off. Turn Voice On to hear new replies.";
 });
 function autoSpeak(text){if(autoRead&&supported&&text)speak(text);}
 function speak(text){if(!supported){status.textContent="Speech is unavailable in this browser.";return;}const v=selected();try{window.EirenConversation.speak(text,v);status.textContent="Reading with "+(v?.name||"browser default")+". ";}catch{status.textContent="Reading aloud is unavailable.";}}
-function decorate(){
- for(const p of log.querySelectorAll("p")){
-  if(!/^Eiren\s*$/i.test(p.querySelector("strong")?.textContent?.trim()||"")||p.querySelector(".eiren-replay"))continue;
-  const text=p.textContent.replace(/^Eiren\s*/,"").trim();
-  const b=document.createElement("button");b.type="button";b.className="quiet eiren-replay";b.textContent="Listen to this reply";b.style.cssText="display:block;margin-top:8px;font-size:16px";
-  b.addEventListener("click",()=>speak(text));p.append(b);
- }
-}
-decorate();
-if("MutationObserver" in window){const o=new MutationObserver(decorate);o.observe(log,{childList:true});}
+// No per-message play buttons: the single voice toggle controls narration.
 picker.addEventListener("change",()=>{choice=picker.value||"auto";try{localStorage.setItem(storageKey,choice);}catch{}status.textContent="Selected: "+(selected()?voiceLabel(selected()):"browser default")+(choice==="tessa"&&!namedVoice("Tessa")||choice==="nicky"&&!namedVoice("Nicky")?" (requested voice unavailable; fallback in use)":"");});
 preview.addEventListener("click",()=>speak("Welcome. I am Eiren. Every word can begin a new story."));
 window.EirenVoicePicker=Object.freeze({selected,speak,autoSpeak,enabled:()=>autoRead});
