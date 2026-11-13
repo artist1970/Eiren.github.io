@@ -11,9 +11,14 @@ function boot(){
  vm.runInNewContext(source,{window,document:doc,localStorage},{timeout:1000});
  return{window,spoken,store};
 }
-test('Eiren has voice selector loaded and Read Reply uses it exactly once',()=>{
- assert.match(html,/src="eiren-voice-picker-v1\.js"/);
- assert.match(html,/if\(window\.EirenVoicePicker\)window\.EirenVoicePicker\.speak\(last\)/);
+test('Eiren has one voice switch beside the composer and a bottom picker',()=>{
+ assert.match(html,/src="eiren-voice-picker-v1\\.js"/);
+ assert.match(html,/id="eirenVoiceToggleSlot"/);
+ assert.match(html,/id="eirenVoiceDock"/);
+ assert.doesNotMatch(html,/id="eirenReadReply"|id="eirenStopVoice"/);
+ assert.doesNotMatch(source,/function decorate\\(|eiren-replay/);
+ assert.match(source,/voiceToggleSlot\\.append\\(toggle\\)/);
+ assert.match(source,/voiceDock\\.append\\(root\\)/);
 });
 test('voice list can select a new narration voice without changing Eiren speech engine',()=>{
  const b=boot();assert.ok(b.window.EirenVoicePicker);
