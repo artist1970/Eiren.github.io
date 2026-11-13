@@ -21,15 +21,16 @@ const voiceLabel=v=>(v.name||"Unnamed")+" · "+(v.lang||"unknown")+(v.localServi
 // Prefer the two requested voice names. Availability and pronunciations
 // depend on the visitor's operating system and installed speech voices.
 function namedVoice(name){
- return voices.find(v=>new RegExp("(?:^|\\\\W)"+name+"(?:$|\\\\W)","i").test(v.name||"")&&/^en(?:[-_]|$)/i.test(v.lang||""))
-   ||voices.find(v=>(v.name||"").toLowerCase()===name.toLowerCase());
+ const target=name.toLowerCase();
+ return voices.find(v=>/^en(?:[-_]|$)/i.test(v.lang||"")&&(v.name||"").toLowerCase().split(/[^a-z]+/).includes(target))
+   ||voices.find(v=>(v.name||"").toLowerCase()===target);
 }
 function automatic(){
  const us=voices.filter(v=>/^en[-_]US$/i.test(v.lang||""));
  return namedVoice("Tessa")
    ||namedVoice("Nicky")
    ||us.find(v=>/natural|enhanced|premium/i.test(v.name||""))
-   ||us.find(v=>/google\\s+us\\s+english/i.test(v.name||""))
+   ||us.find(v=>(v.name||"").toLowerCase().includes("google us english"))
    ||us[0]
    ||voices.find(v=>/^en(?:[-_]|$)/i.test(v.lang||""))
    ||voices[0]||null;
