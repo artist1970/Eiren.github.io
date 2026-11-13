@@ -838,6 +838,13 @@ html{scroll-padding-top:98px}
           </div>
 
           <div class="eiren-compose">
+            <label class="prompt-label" for="eirenPrompt">Your message</label>
+            <div class="eiren-compose-row">
+              <textarea class="prompt" id="eirenPrompt" rows="3" maxlength="4500" placeholder="Share a thought, poem, story passage, or a writing question..."></textarea>
+              <div id="eirenVoiceToggleSlot" class="eiren-voice-toggle-slot" aria-label="Voice narration control"></div>
+              <button class="eiren-send" id="talkWithEiren" type="button" aria-label="Send message to Eiren">Send <span aria-hidden="true">↑</span></button>
+            </div>
+            <p class="eiren-input-hint">Enter to send · Shift+Enter for a new line</p>
             <div class="eiren-mode-row">
               <label for="eirenConversationMode">Conversation approach</label>
               <select id="eirenConversationMode" aria-describedby="eirenModeHint">
@@ -848,22 +855,15 @@ html{scroll-padding-top:98px}
               </select>
             </div>
             <p class="eiren-mode-hint" id="eirenModeHint">Choose a workshop and paste a passage for specific, offline literary observations. Not a connected language model.</p>
-            <label class="prompt-label" for="eirenPrompt">Your message</label>
-            <div class="eiren-compose-row">
-              <textarea class="prompt" id="eirenPrompt" rows="3" maxlength="4500" placeholder="Share a thought, poem, story passage, or a writing question..."></textarea>
-              <button class="eiren-send" id="talkWithEiren" type="button" aria-label="Send message to Eiren">Send <span aria-hidden="true">↑</span></button>
-            </div>
-            <p class="eiren-input-hint">Enter to send · Shift+Enter for a new line</p>
           </div>
 
           <div class="eiren-conversation-tools" aria-label="Conversation controls">
-            <button class="quiet" id="eirenReadReply" type="button">▶ Read reply</button>
-            <button class="quiet" id="eirenStopVoice" type="button">■ Stop voice</button>
             <button class="quiet" id="eirenExportConversation" type="button">Export conversation</button>
             <button class="quiet" id="eirenClearConversation" type="button">Clear conversation</button>
             <button class="quiet" id="eirenOpenArshif" type="button">📚 ARSHIF Library</button>
           </div>
           <p class="section-copy" id="eirenConversationStatus">Conversation is temporary on this page and not saved across reloads. Export your words before leaving. Offline literary guidance; no Academy mastery changes.</p>
+          <div id="eirenVoiceDock" class="eiren-voice-dock" aria-label="Voice picker and preview"></div>
         </section>
 
         <details class="eiren-prompt-starters">
@@ -1397,13 +1397,6 @@ html{scroll-padding-top:98px}
  window.addEventListener("eiren-arshif-unavailable",()=>{
    $("eirenConversationStatus").textContent="ARSHIF library is temporarily unavailable. Eiren's local conversation remains available.";
  });
- $("eirenReadReply")?.addEventListener("click",()=>{
-   if(last){
-     if(window.EirenVoicePicker)window.EirenVoicePicker.speak(last);
-     else window.EirenConversation?.speak(last);
-   }
- });
- $("eirenStopVoice")?.addEventListener("click",()=>window.EirenConversation?.stop());
  $("eirenExportConversation")?.addEventListener("click",()=>{
    const payload={schema:"eiren-public-transcript-v1",exportedAt:new Date().toISOString(),source:"browser-session",modelConnected:false,entries:transcript.slice()};
    const url=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:"application/json"}));
