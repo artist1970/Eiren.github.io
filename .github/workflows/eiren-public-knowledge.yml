@@ -7,6 +7,10 @@ on:
       - 'eiren-public-knowledge-v1.js'
       - 'eiren-conversation-v1.js'
       - 'eiren-conversation-skills-v1.js'
+      - 'eiren-language-arts-v1.js'
+      - 'eiren-literature-trivia-v1.js'
+      - 'knowledge/literature-trivia.v1.json'
+      - 'tests/eiren-language-arts-and-trivia.test.mjs'
       - 'tests/eiren-direct-conversation.test.mjs'
       - 'eiren-rhyme-thesaurus-v1.js'
       - 'knowledge/rhyming-thesaurus.v1.json'
@@ -36,4 +40,4 @@ jobs:
         with:
           node-version: '22'
       - name: Eiren knowledge and safety regression
-        run: node --test tests/eiren-public-knowledge.test.mjs tests/mentor-language-adapter.test.mjs tests/mentor-qa-federation-integration.test.mjs tests/eiren-conversation-real-transcript.test.mjs tests/eiren-direct-conversation.test.mjs tests/eiren-rhyme-thesaurus.test.mjs tests/eiren-phonetic-rhyme.test.mjs tests/eiren-cmudict-rhyme.test.mjs
+        run: node --test tests/eiren-public-knowledge.test.mjs tests/mentor-language-adapter.test.mjs tests/mentor-qa-federation-integration.test.mjs tests/eiren-conversation-real-transcript.test.mjs tests/eiren-direct-conversation.test.mjs tests/eiren-language-arts-and-trivia.test.mjs tests/eiren-rhyme-thesaurus.test.mjs tests/eiren-phonetic-rhyme.test.mjs tests/eiren-cmudict-rhyme.test.mjs
