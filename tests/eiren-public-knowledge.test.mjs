@@ -19,19 +19,19 @@ function setup({body=data,offline=false,shared=null}={}){
  return window;
 }
 test("bank is intentionally bounded and every published record is validated",()=>{
- assert.equal(data.records.length,70);
+ assert.equal(data.records.length,100);
  assert.equal(new Set(data.records.map(r=>r.topic)).size,20);
  assert.ok(data.records.every(r=>r.mentorId==="eiren"&&r.reviewStatus==="approved"));
  assert.equal(data.records.filter(r=>r.sourceProvenance?.sourceId?.startsWith("eiren-capsule-")).length,20);
  assert.equal(data.records.filter(r=>r.sourceProvenance?.kind==="original-general-conversation").length,50);
- assert.equal(new Set(data.records.map(r=>r.question.toLowerCase())).size,70);
+ assert.equal(new Set(data.records.map(r=>r.question.toLowerCase())).size,100);
 });
 test("published Q&A loads and matches specific literary guidance",async()=>{
  const w=setup();await w.EirenPublicKnowledge.load();
  assert.equal(w.EirenPublicKnowledge.status(),"ready");
  const reply=w.EirenConversation.forScope("qa-test-1").respond("What is a good first step for poetry?");
  assert.match(reply,/concrete image/i);
- assert.equal(w.EirenPublicKnowledge.count(),70);
+ assert.equal(w.EirenPublicKnowledge.count(),100);
 });
 test("the safety guard outranks public knowledge",async()=>{
  const w=setup();await w.EirenPublicKnowledge.load();
@@ -116,7 +116,7 @@ test("Eiren directs dictionary and grammar requests to the shared public adapter
 });
 
 test("ten newly reviewed literary records are published with exact provenance",async()=>{
- const rows=data.records.filter(r=>Number(r.id.slice(-3))>=61);
+ const rows=data.records.filter(r=>Number(r.id.slice(-3))>=61&&Number(r.id.slice(-3))<=70);
  assert.equal(rows.length,10);
  assert.ok(rows.every(r=>r.reviewStatus==="approved"&&r.sourceProvenance?.path==="knowledge/editorial/eiren-language-expansion-101-130.draft.json"));
  const w=setup();await w.EirenPublicKnowledge.load();
@@ -131,4 +131,35 @@ test("new conversational redirection does not force a writing exercise",async()=
  assert.match(a.respond("I only want to talk"),/rather than asking for an edit|continue talking/i);
  assert.match(a.respond("You misunderstood me"),/acknowledge uncertainty|revise its interpretation/i);
  assert.match(a.respond("How do I write a persuasive argument fairly?"),/reasonable objection/i);
+});
+
+test("30 additional original Q&A records are live and reachable through their aliases",async()=>{
+ const added=data.records.filter(r=>Number(r.id.slice(-3))>=71);
+ assert.equal(added.length,30);
+ assert.ok(added.every(r=>r.reviewStatus==="approved"&&r.sourceProvenance?.kind==="original-conversation-literary-expansion"));
+ const w=setup();await w.EirenPublicKnowledge.load();
+ for(const row of added){
+   const match=w.EirenPublicKnowledge.answer(row.question);
+   assert.equal(match?.recordId,row.id,"Question "+row.id);
+   assert.equal(match?.text,row.answer,"Answer "+row.id);
+   for(const alias of row.aliases||[]){
+     const aliasMatch=w.EirenPublicKnowledge.answer(alias);
+     assert.equal(aliasMatch?.recordId,row.id,"Alias "+alias);
+   }
+ }
+});
+test("new conversational answers provide concrete help, not generic assignments",async()=>{
+ const w=setup();await w.EirenPublicKnowledge.load();
+ const examples=[
+   ["Can you give me useful verbs for a story?",/wander, sprint, stumble/i],
+   ["How can I show that my character is sad?",/favorite book unopened/i],
+   ["How can a sad story end happily without feeling false?",/repair a friendship/i],
+   ["How do I use personification in a poem?",/tree sees me/i],
+   ["Can you respond without asking me another question?",/every reply an interview/i],
+   ["What should you do when I ask a direct question?",/answer the question first/i]
+ ];
+ for(const [question,pattern] of examples){
+   const result=w.EirenPublicKnowledge.answer(question);
+   assert.match(result?.text||"",pattern,question);
+ }
 });
