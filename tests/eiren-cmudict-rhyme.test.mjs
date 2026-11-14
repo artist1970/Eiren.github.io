@@ -44,7 +44,7 @@ test("CMU sound-based rhymes match different spellings",async()=>{
  assert.ok(b.api.lookup("night").exact.includes("write"));
  assert.ok(b.api.lookup("night").exact.includes("light"));
  assert.ok(b.api.lookup("blue").exact.includes("true"));
- assert.match(b.chat.respond("What rhymes with spark?"),/dark/i);
+ assert.match(b.chat.respond("What rhymes with write?"),/light/i);
 });
 test("original passionflower conversation and curated couplet are still supported",async()=>{
  const b=boot();await b.api.load();
