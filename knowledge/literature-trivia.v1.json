@@ -1,0 +1,156 @@
+{
+  "schema": "eiren-literature-trivia-v1",
+  "version": 1,
+  "mentorId": "eiren",
+  "reviewStatus": "approved-public",
+  "origin": "User-supplied twelve literature questions, normalized and reorganized by appropriate literary tradition; curator notes clarify traditional attribution and translation variation.",
+  "classification": "educational-trivia",
+  "createdAt": "2026-11-13",
+  "entries": [
+    {
+      "id": "eiren-trivia-001",
+      "category": "World & Classic",
+      "question": "Who wrote the epic poem The Odyssey?",
+      "answer": "Homer",
+      "explanation": "Homer is the traditional attribution for The Odyssey, an ancient Greek epic; its oral composition and authorship remain subjects of scholarship.",
+      "aliases": [
+        "the odyssey",
+        "odyssey"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-002",
+      "category": "World & Classic",
+      "question": "In George Orwell's 1984, what is the name of the totalitarian leader?",
+      "answer": "Big Brother",
+      "explanation": "Big Brother is the Party's pervasive leader-symbol in Orwell's dystopian novel 1984.",
+      "aliases": [
+        "1984",
+        "big brother"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-003",
+      "category": "World & Classic",
+      "question": "Which Russian novel begins with a passage comparing happy and unhappy families?",
+      "answer": "Anna Karenina",
+      "explanation": "Leo Tolstoy's Anna Karenina opens with a famous observation about happy and unhappy families; its wording varies across translations.",
+      "aliases": [
+        "anna karenina"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-004",
+      "category": "World & Classic",
+      "question": "Who wrote One Hundred Years of Solitude?",
+      "answer": "Gabriel García Márquez",
+      "explanation": "Gabriel García Márquez wrote One Hundred Years of Solitude, a landmark of Latin American literary fiction.",
+      "aliases": [
+        "one hundred years of solitude",
+        "garcia marquez",
+        "gabriel garcia marquez"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-005",
+      "category": "British",
+      "question": "What is the first name of Dr. Frankenstein in Mary Shelley's Frankenstein?",
+      "answer": "Victor",
+      "explanation": "Victor Frankenstein is the scientist in Mary Shelley's novel; the creature is not named Frankenstein in the original narrative.",
+      "aliases": [
+        "frankenstein",
+        "victor frankenstein"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-006",
+      "category": "British",
+      "question": "Which Jane Austen novel features Elizabeth Bennet and Mr. Darcy?",
+      "answer": "Pride and Prejudice",
+      "explanation": "Elizabeth Bennet and Fitzwilliam Darcy are central characters in Jane Austen's Pride and Prejudice.",
+      "aliases": [
+        "pride and prejudice",
+        "elizabeth bennet",
+        "mr darcy"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-007",
+      "category": "American",
+      "question": "In which fictional Alabama town does To Kill a Mockingbird take place?",
+      "answer": "Maycomb",
+      "explanation": "Harper Lee's To Kill a Mockingbird is set in the fictional town of Maycomb, Alabama. It belongs to American literature, not British literature.",
+      "aliases": [
+        "maycomb",
+        "to kill a mockingbird"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-008",
+      "category": "British",
+      "question": "Who speaks the 'To be, or not to be' soliloquy in Hamlet?",
+      "answer": "Prince Hamlet",
+      "explanation": "Hamlet speaks the soliloquy in William Shakespeare's Hamlet, Act 3, Scene 1.",
+      "aliases": [
+        "hamlet",
+        "prince hamlet"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-009",
+      "category": "American",
+      "question": "Who narrates F. Scott Fitzgerald's The Great Gatsby?",
+      "answer": "Nick Carraway",
+      "explanation": "Nick Carraway narrates The Great Gatsby; he is Gatsby's neighbor and a cousin of Daisy Buchanan.",
+      "aliases": [
+        "nick carraway",
+        "the great gatsby"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-010",
+      "category": "American",
+      "question": "What is the name of Captain Ahab's ship in Moby-Dick?",
+      "answer": "Pequod",
+      "explanation": "The Pequod is Captain Ahab's whaling ship in Herman Melville's Moby-Dick.",
+      "aliases": [
+        "pequod",
+        "moby dick"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-011",
+      "category": "American",
+      "question": "Which American poet wrote Because I could not stop for Death?",
+      "answer": "Emily Dickinson",
+      "explanation": "Emily Dickinson wrote the poem commonly known by its opening words, Because I could not stop for Death.",
+      "aliases": [
+        "emily dickinson",
+        "because i could not stop for death"
+      ],
+      "approved": true
+    },
+    {
+      "id": "eiren-trivia-012",
+      "category": "American",
+      "question": "Who wrote the novel Beloved?",
+      "answer": "Toni Morrison",
+      "explanation": "Toni Morrison wrote Beloved, which won the Pulitzer Prize for Fiction in 1988.",
+      "aliases": [
+        "toni morrison",
+        "beloved"
+      ],
+      "approved": true
+    }
+  ]
+}
