@@ -861,6 +861,7 @@ html{scroll-padding-top:98px}
             <button class="quiet" id="eirenExportConversation" type="button">Export conversation</button>
             <button class="quiet" id="eirenClearConversation" type="button">Clear conversation</button>
             <button class="quiet" id="eirenOpenArshif" type="button">📚 ARSHIF Library</button>
+            <button class="quiet" id="eirenStartTrivia" type="button" aria-label="Begin literature trivia with Eiren">Literature Trivia</button>
           </div>
           <p class="section-copy" id="eirenConversationStatus">Conversation is temporary on this page and not saved across reloads. Export your words before leaving. Offline literary guidance; no Academy mastery changes.</p>
           <div id="eirenVoiceDock" class="eiren-voice-dock" aria-label="Voice picker and preview"></div>
@@ -1384,13 +1385,20 @@ html{scroll-padding-top:98px}
    // the original conversation policy, never through a workshop or source hint.
    const protectedRequest=/(?:answer key|exam answers|test answers|password|passcode|secret token|private records|locked assessment|hurt myself|suicide|immediate danger|emergency)/i.test(text);
    const sourced=!protectedRequest&&documentationQuestion?window.EirenDocumentRetrieval?.retrieve(text):null;
-   const coached=!protectedRequest&&!sourced?.text?workshop?.respond(text,{mode}):null;
+   const directLesson=/\\b(?:definition of|what is (?:a|an|the)|what are the parts|how to write|how (?:do|can) i write|explain how to write|literature trivia|literary trivia|quiz me|trivia quiz|who wrote|who narrates|which (?:novel|poet)|what is the name of)\\b/i.test(text);
+   const triviaActive=Boolean(session.snapshot?.().trivia?.active);
+   const coached=!protectedRequest&&!sourced?.text&&!directLesson&&!triviaActive?workshop?.respond(text,{mode}):null;
    add("Eiren",protectedRequest?session.respond(text):sourced?.text||coached?.text||session.respond(text));
    input.value="";
    input.focus();
    $("eirenConversationStatus").textContent="Temporary on-page conversation · Export before leaving · "+(coached?"Offline "+mode+" workshop":"Reviewed local guidance")+" · No Academy mastery changes.";
  }
  $("talkWithEiren")?.addEventListener("click",send);
+ $("eirenStartTrivia")?.addEventListener("click",()=>{
+   if(!input)return;
+   const modePicker=$("eirenConversationMode");if(modePicker)modePicker.value="conversation";
+   input.value="literature trivia";send();
+ });
  input?.addEventListener("keydown",event=>{
    if(event.key==="Enter"&&!event.shiftKey&&!event.isComposing){
      event.preventDefault();send();
