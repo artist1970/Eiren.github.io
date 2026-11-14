@@ -10,7 +10,7 @@ function key(scope){return ROOT+":"+encodeURIComponent(String(scope||"visitor"))
 function read(k){try{return JSON.parse(localStorage.getItem(k)||"null")}catch{return null}}
 function write(k,v){try{localStorage.setItem(k,JSON.stringify(v));return true}catch{return false}}
 const STRATEGIES=Object.freeze({question:"one thoughtful question",example:"a small example",prompt:"a writing prompt",vocabulary:"a word clue",structure:"a structural observation",readalong:"read-aloud guidance"});
-function freshState(){return {version:1,topic:"",mode:"listen",focus:"",turns:0,used:[],recentKnowledgeIds:[],helped:{question:0,example:0,prompt:0,vocabulary:0,structure:0,readalong:0},remember:false}}
+function freshState(){return {version:1,topic:"",mode:"listen",focus:"",creative:{lastActivity:"",poemSubject:"",characterMood:"",desiredEnding:"",storySubject:""},turns:0,used:[],recentKnowledgeIds:[],helped:{question:0,example:0,prompt:0,vocabulary:0,structure:0,readalong:0},remember:false}}
 // Small, reviewable conversation skills. Pattern responses are not neural inference.
 // Focus is volatile session context; never silently saved or promoted to memory.
 const SUBJECTS=Object.freeze({
@@ -124,6 +124,8 @@ function createSession({scope="visitor",storage=false}={}){
     const known=shared?.lookup(lexicalRequest[1],{mentorId:"eiren",mode});
     return known||"That word is not yet in the small approved public dictionary I can access. I won't invent a definition; we can instead explore how the word is used in a sentence.";
   }
+  const direct=global.EirenConversationSkills?.respond(raw,state);
+  if(direct){save();return direct;}
   const situated=contextualReply(raw,state);
   if(situated){save();return situated;}
   // A reviewed public Q&A may enrich an ordinary literary guidance request.
