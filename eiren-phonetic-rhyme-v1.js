@@ -24,7 +24,7 @@
    const keys=new Set(),words=new Map(),out=[];
    for(const group of data.families){
      const key=group?.rime,terms=group?.words;
-     if(typeof key!=="string"||!/^([A-Z]{2}[012])(?: [A-Z]{1,3})*$/.test(key)||
+     if(typeof key!=="string"||!/^([A-Z]{2}[012])(?: [A-Z]{1,3}[012]?)*$/.test(key)||
         !vowel(split(key)[0])||keys.has(key)||!Array.isArray(terms)||
         terms.length<3||terms.length>30||terms.some(w=>typeof w!=="string"||!/^([a-z]{2,30})$/.test(w))||
         new Set(terms).size!==terms.length)throw Error("rhyme-phonetic-family");
