@@ -91,6 +91,9 @@ test("existing assessment, credentials and safety boundaries still outrank new a
 test("loaded educational scripts are scoped to one public page and no learner data storage",()=>{
  assert.ok(html.indexOf('src="eiren-language-arts-v1.js"')>=0);
  assert.ok(html.indexOf('src="eiren-literature-trivia-v1.js"')>=0);
+ assert.match(html,/id="eirenStartTrivia"/);
+ assert.match(html,/input\.value="literature trivia";send\(\)/);
+ assert.match(html,/triviaActive=Boolean\(session\.snapshot\?\.\(\)\.trivia\?\.active\)/);
  assert.ok(html.indexOf('src="eiren-language-arts-v1.js"')<html.indexOf('src="eiren-conversation-v1.js"'));
  assert.ok(html.indexOf('src="eiren-literature-trivia-v1.js"')<html.indexOf('src="eiren-conversation-v1.js"'));
  assert.doesNotMatch(arts+trivia,/localStorage|sessionStorage|XMLHttpRequest|new WebSocket/);
