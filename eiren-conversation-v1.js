@@ -45,7 +45,7 @@ function contextualReply(text,state){
  if(rhyme){
    state.mode="poetry";
    const curated=global.EirenRhymeThesaurus?.lookup(rhyme);
-   const phonetic=global.EirenPhoneticRhymes?.lookup(rhyme);
+   const phonetic=global.EirenCMURhymes?.lookup(rhyme)||global.EirenPhoneticRhymes?.lookup(rhyme);
    const entry=curated||RHYMES[rhyme];
    const display=state.focus==="passionflower"&&rhyme==="flower"?"passionflower":rhyme;
    if(phonetic){
@@ -55,7 +55,7 @@ function contextualReply(text,state){
        entry?"\n\nA little couplet you can revise:\n"+entry.couplet:"";
      const related=curated&&curated.related.length?
        "\nRelated words for imagery or meaning (not necessarily rhymes): "+curated.related.join(", ")+".":"";
-     return "For “"+display+"”, I can match the ending sounds rather than just spelling."+
+     return "For “"+display+"”, here are pronunciation-based rhyme suggestions."+
        exact+near+related+example+
        "\n\n"+phonetic.explanation+" Accent and context can change some rhymes. Want a gentle or playful couplet?";
    }
