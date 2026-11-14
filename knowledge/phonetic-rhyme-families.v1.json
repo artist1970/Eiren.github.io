@@ -1,0 +1,1264 @@
+{
+  "schema": "eiren-phonetic-rhymes-v1",
+  "version": 1,
+  "mentorId": "eiren",
+  "locale": "en-US",
+  "releaseDate": "2026-11-13",
+  "classification": "reviewed-editorial-sound-groups",
+  "pronunciationSystem": "ARPABET stressed-rime notation (vowel nucleus through the end of the word)",
+  "scope": "Curated approximations intended for creative wordplay, not a full CMUdict import. Alternate accents, vowel mergers, homographs, and unstressed syllables may change classification.",
+  "sourceProvenance": {
+    "kind": "editorial-handpicked-word-families",
+    "method": "Manually curated North American pronunciation families using ARPABET-inspired rhyme codes; not automatically generated from CMUdict.",
+    "reference": "https://github.com/cmusphinx/cmudict"
+  },
+  "families": [
+    {
+      "rime": "AW1 ER0",
+      "words": [
+        "flower",
+        "shower",
+        "tower",
+        "power",
+        "hour",
+        "bower",
+        "flour",
+        "sour",
+        "dower"
+      ]
+    },
+    {
+      "rime": "AY1 T",
+      "words": [
+        "night",
+        "light",
+        "bright",
+        "sight",
+        "flight",
+        "right",
+        "tight",
+        "white",
+        "might",
+        "height",
+        "bite",
+        "kite",
+        "write"
+      ]
+    },
+    {
+      "rime": "EY1",
+      "words": [
+        "day",
+        "way",
+        "play",
+        "stay",
+        "ray",
+        "say",
+        "may",
+        "lay",
+        "pay",
+        "clay",
+        "gray",
+        "spray",
+        "tray",
+        "sway"
+      ]
+    },
+    {
+      "rime": "AH1 V",
+      "words": [
+        "love",
+        "dove",
+        "glove",
+        "shove",
+        "above"
+      ]
+    },
+    {
+      "rime": "AA1 R T",
+      "words": [
+        "heart",
+        "art",
+        "start",
+        "part",
+        "chart",
+        "smart",
+        "cart",
+        "dart"
+      ]
+    },
+    {
+      "rime": "IY1 M",
+      "words": [
+        "dream",
+        "stream",
+        "beam",
+        "gleam",
+        "theme",
+        "seem",
+        "cream",
+        "team"
+      ]
+    },
+    {
+      "rime": "EY1 N",
+      "words": [
+        "rain",
+        "pain",
+        "gain",
+        "train",
+        "plain",
+        "chain",
+        "main",
+        "lane",
+        "grain"
+      ]
+    },
+    {
+      "rime": "AH1 N",
+      "words": [
+        "sun",
+        "run",
+        "one",
+        "done",
+        "fun",
+        "begun",
+        "spun"
+      ]
+    },
+    {
+      "rime": "UW1 N",
+      "words": [
+        "moon",
+        "soon",
+        "tune",
+        "spoon",
+        "noon",
+        "june",
+        "balloon"
+      ]
+    },
+    {
+      "rime": "AA1 R",
+      "words": [
+        "star",
+        "far",
+        "car",
+        "jar",
+        "guitar",
+        "bar",
+        "scar"
+      ]
+    },
+    {
+      "rime": "AY1",
+      "words": [
+        "sky",
+        "high",
+        "fly",
+        "why",
+        "sigh",
+        "by",
+        "try",
+        "cry",
+        "my",
+        "tie",
+        "lie"
+      ]
+    },
+    {
+      "rime": "IY1",
+      "words": [
+        "sea",
+        "free",
+        "tree",
+        "be",
+        "see",
+        "key",
+        "three",
+        "agree"
+      ]
+    },
+    {
+      "rime": "OW1 Z",
+      "words": [
+        "rose",
+        "knows",
+        "shows",
+        "flows",
+        "grows",
+        "glows",
+        "goes",
+        "throws"
+      ]
+    },
+    {
+      "rime": "IY1 N",
+      "words": [
+        "green",
+        "seen",
+        "mean",
+        "queen",
+        "clean",
+        "between",
+        "screen"
+      ]
+    },
+    {
+      "rime": "UW1",
+      "words": [
+        "blue",
+        "true",
+        "new",
+        "through",
+        "dew",
+        "you",
+        "two",
+        "do",
+        "shoe"
+      ]
+    },
+    {
+      "rime": "EH1 D",
+      "words": [
+        "red",
+        "bed",
+        "said",
+        "thread",
+        "spread",
+        "head"
+      ]
+    },
+    {
+      "rime": "OW1 L D",
+      "words": [
+        "gold",
+        "old",
+        "told",
+        "hold",
+        "cold",
+        "bold",
+        "fold",
+        "sold"
+      ]
+    },
+    {
+      "rime": "IH1 L",
+      "words": [
+        "still",
+        "hill",
+        "will",
+        "fill",
+        "chill"
+      ]
+    },
+    {
+      "rime": "OW1",
+      "words": [
+        "slow",
+        "glow",
+        "snow",
+        "flow",
+        "show",
+        "grow",
+        "below",
+        "low",
+        "go",
+        "know",
+        "throw"
+      ]
+    },
+    {
+      "rime": "AY1 M",
+      "words": [
+        "time",
+        "rhyme",
+        "chime",
+        "climb",
+        "prime"
+      ]
+    },
+    {
+      "rime": "ER1 D",
+      "words": [
+        "word",
+        "bird",
+        "heard",
+        "stirred",
+        "third"
+      ]
+    },
+    {
+      "rime": "AO1 NG",
+      "words": [
+        "song",
+        "long",
+        "strong",
+        "belong",
+        "wrong"
+      ]
+    },
+    {
+      "rime": "AW1 N D",
+      "words": [
+        "sound",
+        "round",
+        "found",
+        "ground",
+        "bound"
+      ]
+    },
+    {
+      "rime": "OW1 M",
+      "words": [
+        "home",
+        "roam",
+        "foam",
+        "comb",
+        "dome"
+      ]
+    },
+    {
+      "rime": "OW1 N",
+      "words": [
+        "stone",
+        "known",
+        "grown",
+        "shown",
+        "alone",
+        "throne"
+      ]
+    },
+    {
+      "rime": "AY1 ER0",
+      "words": [
+        "fire",
+        "higher",
+        "choir",
+        "wire",
+        "desire",
+        "spire",
+        "tire"
+      ]
+    },
+    {
+      "rime": "IH1 N D",
+      "words": [
+        "wind",
+        "pinned",
+        "grinned",
+        "sinned",
+        "skinned"
+      ]
+    },
+    {
+      "rime": "IH1 NG",
+      "words": [
+        "spring",
+        "sing",
+        "ring",
+        "wing",
+        "bring",
+        "thing",
+        "king"
+      ]
+    },
+    {
+      "rime": "AO1 L",
+      "words": [
+        "fall",
+        "call",
+        "all",
+        "small",
+        "wall",
+        "tall",
+        "ball"
+      ]
+    },
+    {
+      "rime": "EY1 S",
+      "words": [
+        "grace",
+        "place",
+        "face",
+        "space",
+        "trace",
+        "embrace",
+        "race"
+      ]
+    },
+    {
+      "rime": "IY1 S",
+      "words": [
+        "peace",
+        "cease",
+        "lease",
+        "piece",
+        "fleece"
+      ]
+    },
+    {
+      "rime": "OW1 P",
+      "words": [
+        "hope",
+        "rope",
+        "slope",
+        "cope",
+        "scope"
+      ]
+    },
+    {
+      "rime": "EY1 JH",
+      "words": [
+        "page",
+        "stage",
+        "age",
+        "cage",
+        "sage"
+      ]
+    },
+    {
+      "rime": "AY1 N D",
+      "words": [
+        "mind",
+        "find",
+        "kind",
+        "blind",
+        "behind"
+      ]
+    },
+    {
+      "rime": "EH1 R",
+      "words": [
+        "air",
+        "care",
+        "fair",
+        "hair",
+        "share",
+        "pair",
+        "bear"
+      ]
+    },
+    {
+      "rime": "IY1 R",
+      "words": [
+        "dear",
+        "clear",
+        "near",
+        "fear",
+        "hear",
+        "cheer",
+        "year"
+      ]
+    },
+    {
+      "rime": "IH1 P",
+      "words": [
+        "ship",
+        "trip",
+        "slip",
+        "clip",
+        "drip",
+        "grip"
+      ]
+    },
+    {
+      "rime": "EH1 L",
+      "words": [
+        "bell",
+        "tell",
+        "well",
+        "shell",
+        "fell",
+        "spell"
+      ]
+    },
+    {
+      "rime": "IH1 T",
+      "words": [
+        "sit",
+        "hit",
+        "fit",
+        "knit",
+        "bit",
+        "split"
+      ]
+    },
+    {
+      "rime": "AE1 T",
+      "words": [
+        "cat",
+        "hat",
+        "mat",
+        "sat",
+        "flat",
+        "that"
+      ]
+    },
+    {
+      "rime": "AA1 T",
+      "words": [
+        "hot",
+        "pot",
+        "lot",
+        "not",
+        "spot",
+        "dot"
+      ]
+    },
+    {
+      "rime": "AH1 T",
+      "words": [
+        "cut",
+        "hut",
+        "but",
+        "shut",
+        "nut"
+      ]
+    },
+    {
+      "rime": "OW1 T",
+      "words": [
+        "boat",
+        "coat",
+        "float",
+        "note",
+        "wrote",
+        "throat"
+      ]
+    },
+    {
+      "rime": "IY1 T",
+      "words": [
+        "sweet",
+        "meet",
+        "street",
+        "feet",
+        "beat",
+        "heat"
+      ]
+    },
+    {
+      "rime": "UW1 T",
+      "words": [
+        "boot",
+        "suit",
+        "root",
+        "fruit",
+        "flute"
+      ]
+    },
+    {
+      "rime": "EY1 K",
+      "words": [
+        "cake",
+        "lake",
+        "make",
+        "take",
+        "wake",
+        "break"
+      ]
+    },
+    {
+      "rime": "AE1 K",
+      "words": [
+        "black",
+        "back",
+        "track",
+        "stack",
+        "pack"
+      ]
+    },
+    {
+      "rime": "IY1 K",
+      "words": [
+        "week",
+        "speak",
+        "seek",
+        "creek",
+        "peak"
+      ]
+    },
+    {
+      "rime": "AH1 K",
+      "words": [
+        "luck",
+        "duck",
+        "stuck",
+        "truck",
+        "struck"
+      ]
+    },
+    {
+      "rime": "AY1 D",
+      "words": [
+        "wide",
+        "hide",
+        "ride",
+        "side",
+        "tide",
+        "pride"
+      ]
+    },
+    {
+      "rime": "EY1 D",
+      "words": [
+        "shade",
+        "made",
+        "laid",
+        "fade",
+        "trade",
+        "grade"
+      ]
+    },
+    {
+      "rime": "EH1 N D",
+      "words": [
+        "friend",
+        "bend",
+        "send",
+        "end",
+        "blend"
+      ]
+    },
+    {
+      "rime": "AE1 N D",
+      "words": [
+        "hand",
+        "land",
+        "sand",
+        "stand",
+        "band"
+      ]
+    },
+    {
+      "rime": "AO1 R",
+      "words": [
+        "door",
+        "floor",
+        "more",
+        "shore",
+        "four",
+        "pour"
+      ]
+    },
+    {
+      "rime": "ER1 N",
+      "words": [
+        "turn",
+        "learn",
+        "burn",
+        "yearn"
+      ]
+    },
+    {
+      "rime": "AY1 N",
+      "words": [
+        "line",
+        "fine",
+        "shine",
+        "mine",
+        "pine",
+        "vine"
+      ]
+    },
+    {
+      "rime": "EY1 L",
+      "words": [
+        "tale",
+        "sail",
+        "pale",
+        "trail",
+        "scale",
+        "whale"
+      ]
+    },
+    {
+      "rime": "IY1 L",
+      "words": [
+        "feel",
+        "real",
+        "heal",
+        "seal",
+        "steel",
+        "wheel"
+      ]
+    },
+    {
+      "rime": "UW1 L",
+      "words": [
+        "cool",
+        "school",
+        "pool",
+        "rule",
+        "tool"
+      ]
+    },
+    {
+      "rime": "AH1 M",
+      "words": [
+        "hum",
+        "drum",
+        "come",
+        "some",
+        "thumb"
+      ]
+    },
+    {
+      "rime": "AE1 M",
+      "words": [
+        "jam",
+        "ham",
+        "lamb",
+        "slam",
+        "clam"
+      ]
+    },
+    {
+      "rime": "IH1 SH",
+      "words": [
+        "wish",
+        "dish",
+        "fish",
+        "swish"
+      ]
+    },
+    {
+      "rime": "EH1 SH",
+      "words": [
+        "fresh",
+        "mesh",
+        "flesh"
+      ]
+    },
+    {
+      "rime": "AE1 SH",
+      "words": [
+        "flash",
+        "splash",
+        "dash",
+        "crash",
+        "ash"
+      ]
+    },
+    {
+      "rime": "AW1 S",
+      "words": [
+        "house",
+        "mouse",
+        "blouse",
+        "spouse"
+      ]
+    },
+    {
+      "rime": "IY1 Z",
+      "words": [
+        "breeze",
+        "trees",
+        "please",
+        "knees"
+      ]
+    },
+    {
+      "rime": "ER1 S",
+      "words": [
+        "verse",
+        "nurse",
+        "curse",
+        "worse"
+      ]
+    },
+    {
+      "rime": "AA1 R K",
+      "words": [
+        "dark",
+        "park",
+        "mark",
+        "spark"
+      ]
+    },
+    {
+      "rime": "OW1 K",
+      "words": [
+        "oak",
+        "cloak",
+        "smoke",
+        "joke",
+        "spoke"
+      ]
+    },
+    {
+      "rime": "UW1 M",
+      "words": [
+        "room",
+        "broom",
+        "bloom",
+        "gloom"
+      ]
+    },
+    {
+      "rime": "EH1 S",
+      "words": [
+        "yes",
+        "guess",
+        "mess",
+        "dress",
+        "less"
+      ]
+    },
+    {
+      "rime": "AH1 S",
+      "words": [
+        "bus",
+        "fuss",
+        "thus",
+        "plus"
+      ]
+    },
+    {
+      "rime": "IH1 S",
+      "words": [
+        "kiss",
+        "miss",
+        "this",
+        "bliss"
+      ]
+    },
+    {
+      "rime": "AE1 S",
+      "words": [
+        "glass",
+        "pass",
+        "class",
+        "mass"
+      ]
+    },
+    {
+      "rime": "EY1 S T",
+      "words": [
+        "taste",
+        "haste",
+        "waste",
+        "paste"
+      ]
+    },
+    {
+      "rime": "AY1 S",
+      "words": [
+        "ice",
+        "nice",
+        "twice",
+        "slice",
+        "price"
+      ]
+    },
+    {
+      "rime": "OY1",
+      "words": [
+        "boy",
+        "joy",
+        "toy",
+        "employ"
+      ]
+    },
+    {
+      "rime": "AW1",
+      "words": [
+        "now",
+        "how",
+        "cow",
+        "plow"
+      ]
+    },
+    {
+      "rime": "EH1 T",
+      "words": [
+        "pet",
+        "met",
+        "set",
+        "let",
+        "wet"
+      ]
+    },
+    {
+      "rime": "IY1 D",
+      "words": [
+        "seed",
+        "need",
+        "feed",
+        "read",
+        "lead"
+      ]
+    },
+    {
+      "rime": "UW1 D",
+      "words": [
+        "food",
+        "mood",
+        "rude",
+        "brood"
+      ]
+    },
+    {
+      "rime": "OW1 D",
+      "words": [
+        "road",
+        "load",
+        "code",
+        "mode"
+      ]
+    },
+    {
+      "rime": "AE1 D",
+      "words": [
+        "sad",
+        "glad",
+        "bad",
+        "mad"
+      ]
+    },
+    {
+      "rime": "AH1 D",
+      "words": [
+        "bud",
+        "mud",
+        "flood",
+        "thud"
+      ]
+    },
+    {
+      "rime": "AO1 R M",
+      "words": [
+        "storm",
+        "warm",
+        "form",
+        "norm"
+      ]
+    },
+    {
+      "rime": "EY1 N JH",
+      "words": [
+        "change",
+        "strange",
+        "range",
+        "exchange"
+      ]
+    },
+    {
+      "rime": "IH1 NG K",
+      "words": [
+        "think",
+        "drink",
+        "sink",
+        "link",
+        "pink"
+      ]
+    },
+    {
+      "rime": "OW1 L",
+      "words": [
+        "soul",
+        "goal",
+        "roll",
+        "bowl",
+        "coal"
+      ]
+    },
+    {
+      "rime": "AY1 L",
+      "words": [
+        "smile",
+        "while",
+        "mile",
+        "style",
+        "file"
+      ]
+    },
+    {
+      "rime": "AA1 R D",
+      "words": [
+        "hard",
+        "card",
+        "yard",
+        "guard"
+      ]
+    },
+    {
+      "rime": "IY1 P",
+      "words": [
+        "deep",
+        "sleep",
+        "keep",
+        "leap",
+        "sheep"
+      ]
+    },
+    {
+      "rime": "AE1 P",
+      "words": [
+        "map",
+        "cap",
+        "lap",
+        "snap",
+        "clap"
+      ]
+    },
+    {
+      "rime": "AH1 P",
+      "words": [
+        "cup",
+        "up",
+        "pup",
+        "sup"
+      ]
+    },
+    {
+      "rime": "AY1 T S",
+      "words": [
+        "lights",
+        "nights",
+        "sights",
+        "flights"
+      ]
+    },
+    {
+      "rime": "EY1 T",
+      "words": [
+        "late",
+        "gate",
+        "fate",
+        "wait",
+        "straight"
+      ]
+    },
+    {
+      "rime": "AY1 K",
+      "words": [
+        "like",
+        "bike",
+        "hike",
+        "spike"
+      ]
+    },
+    {
+      "rime": "AO1 S",
+      "words": [
+        "cause",
+        "pause",
+        "laws",
+        "jaws"
+      ]
+    },
+    {
+      "rime": "EH1 K",
+      "words": [
+        "deck",
+        "check",
+        "neck",
+        "wreck"
+      ]
+    },
+    {
+      "rime": "AO1 K",
+      "words": [
+        "talk",
+        "walk",
+        "chalk",
+        "stalk"
+      ]
+    },
+    {
+      "rime": "ER1 T",
+      "words": [
+        "hurt",
+        "dirt",
+        "skirt",
+        "shirt"
+      ]
+    },
+    {
+      "rime": "AW1 D",
+      "words": [
+        "cloud",
+        "loud",
+        "proud",
+        "crowd"
+      ]
+    },
+    {
+      "rime": "AE1 N",
+      "words": [
+        "plan",
+        "can",
+        "man",
+        "ran",
+        "fan"
+      ]
+    },
+    {
+      "rime": "EH1 N",
+      "words": [
+        "when",
+        "then",
+        "pen",
+        "ten",
+        "den"
+      ]
+    },
+    {
+      "rime": "EY1 V",
+      "words": [
+        "wave",
+        "save",
+        "brave",
+        "cave",
+        "gave"
+      ]
+    },
+    {
+      "rime": "AY1 V",
+      "words": [
+        "drive",
+        "strive",
+        "alive",
+        "five"
+      ]
+    },
+    {
+      "rime": "UW1 V",
+      "words": [
+        "move",
+        "prove",
+        "groove"
+      ]
+    },
+    {
+      "rime": "AA1 R M",
+      "words": [
+        "harm",
+        "charm",
+        "farm",
+        "arm"
+      ]
+    },
+    {
+      "rime": "EY1 M",
+      "words": [
+        "name",
+        "game",
+        "flame",
+        "same",
+        "frame"
+      ]
+    },
+    {
+      "rime": "OW1 S T",
+      "words": [
+        "coast",
+        "toast",
+        "boast",
+        "roast"
+      ]
+    },
+    {
+      "rime": "IH1 K",
+      "words": [
+        "quick",
+        "thick",
+        "stick",
+        "brick",
+        "trick"
+      ]
+    },
+    {
+      "rime": "AH1 S T",
+      "words": [
+        "dust",
+        "trust",
+        "must",
+        "rust"
+      ]
+    },
+    {
+      "rime": "EH1 S T",
+      "words": [
+        "best",
+        "rest",
+        "chest",
+        "quest"
+      ]
+    },
+    {
+      "rime": "IH1 F T",
+      "words": [
+        "gift",
+        "lift",
+        "drift",
+        "shift"
+      ]
+    },
+    {
+      "rime": "AH1 F",
+      "words": [
+        "rough",
+        "tough",
+        "stuff",
+        "enough"
+      ]
+    },
+    {
+      "rime": "IY1 F",
+      "words": [
+        "leaf",
+        "grief",
+        "brief",
+        "chief"
+      ]
+    },
+    {
+      "rime": "ER1 L",
+      "words": [
+        "girl",
+        "swirl",
+        "pearl",
+        "curl"
+      ]
+    },
+    {
+      "rime": "AE1 NG",
+      "words": [
+        "sang",
+        "rang",
+        "hang",
+        "bang"
+      ]
+    },
+    {
+      "rime": "AH1 NG",
+      "words": [
+        "sung",
+        "hung",
+        "young",
+        "tongue"
+      ]
+    },
+    {
+      "rime": "OW1 R D",
+      "words": [
+        "board",
+        "sword",
+        "cord",
+        "chord"
+      ]
+    },
+    {
+      "rime": "IY1 L D",
+      "words": [
+        "field",
+        "yield",
+        "shield",
+        "wield"
+      ]
+    }
+  ]
+}
