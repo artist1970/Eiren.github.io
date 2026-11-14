@@ -12,6 +12,9 @@ on:
       - 'eiren-phonetic-rhyme-v1.js'
       - 'knowledge/phonetic-rhyme-families.v1.json'
       - 'tests/eiren-phonetic-rhyme.test.mjs'
+      - 'eiren-cmudict-rhyme-v1.js'
+      - 'knowledge/cmudict-common-rhymes.v1.json'
+      - 'tests/eiren-cmudict-rhyme.test.mjs'
       - 'creative-spark-mentor-qa-v1.js'
       - 'tests/mentor-qa-federation-integration.test.mjs'
       - 'creative-spark-mentor-language-v1.js'
@@ -31,4 +34,4 @@ jobs:
         with:
           node-version: '22'
       - name: Eiren knowledge and safety regression
-        run: node --test tests/eiren-public-knowledge.test.mjs tests/mentor-language-adapter.test.mjs tests/mentor-qa-federation-integration.test.mjs tests/eiren-conversation-real-transcript.test.mjs tests/eiren-rhyme-thesaurus.test.mjs tests/eiren-phonetic-rhyme.test.mjs
+        run: node --test tests/eiren-public-knowledge.test.mjs tests/mentor-language-adapter.test.mjs tests/mentor-qa-federation-integration.test.mjs tests/eiren-conversation-real-transcript.test.mjs tests/eiren-rhyme-thesaurus.test.mjs tests/eiren-phonetic-rhyme.test.mjs tests/eiren-cmudict-rhyme.test.mjs
