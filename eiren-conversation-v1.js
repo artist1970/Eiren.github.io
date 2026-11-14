@@ -44,9 +44,18 @@ function contextualReply(text,state){
  const rhyme=rhymeTarget(text,state.focus);
  if(rhyme){
    state.mode="poetry";
-   const entry=RHYMES[rhyme];
+   const curated=global.EirenRhymeThesaurus?.lookup(rhyme);
+   const entry=curated||RHYMES[rhyme];
    if(entry){
-     return "Yes! For “"+(state.focus==="passionflower"&&rhyme==="flower"?"passionflower":rhyme)+
+     const display=state.focus==="passionflower"&&rhyme==="flower"?"passionflower":rhyme;
+     if(curated){
+       const close=curated.near.length?"\nNear or accent-dependent possibilities: "+curated.near.join(", ")+".":"";
+       const related=curated.related.length?"\nRelated words for imagery or meaning (not necessarily rhymes): "+curated.related.join(", ")+".":"";
+       return "For “"+display+"”, try these rhyming words: "+curated.exact.join(", ")+
+         "."+close+related+"\n\nA little couplet you can revise:\n"+curated.example+
+         "\n\nRhyme can depend on accent and pronunciation. Would you like a playful, gentle, or dramatic version?";
+     }
+     return "Yes! For “"+display+
        ",” try "+entry.words+". Here is a little couplet you can change:\n\n"+entry.couplet+
        "\n\nWould you like it whimsical, gentle, or more musical?";
    }
