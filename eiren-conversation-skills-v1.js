@@ -83,7 +83,7 @@
        "The problem may not vanish, but they have a friend and a reason to look toward tomorrow.\n\n"+
        "Would you like to write that final scene together?";
    }
-   if(/^(?:yes|please|let'?s (?:do that|write it)|go on|continue)[.!?\s]*$/i.test(q)&&c.lastActivity==="story"&&c.desiredEnding==="happy"){
+   if(/^(?:yes(?:,?\s+please)?|sure|please|let'?s (?:do that|write it)|go on|continue)[.!?\s]*$/i.test(q)&&c.lastActivity==="story"&&c.desiredEnding==="happy"){
      return "Here is a gentle ending you could build on:\n\n"+
        "They opened the door to find a friend waiting on the steps. "+
        "For the first time in days, a small smile found its way back. "+
