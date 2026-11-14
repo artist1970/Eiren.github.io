@@ -45,9 +45,21 @@ function contextualReply(text,state){
  if(rhyme){
    state.mode="poetry";
    const curated=global.EirenRhymeThesaurus?.lookup(rhyme);
+   const phonetic=global.EirenPhoneticRhymes?.lookup(rhyme);
    const entry=curated||RHYMES[rhyme];
+   const display=state.focus==="passionflower"&&rhyme==="flower"?"passionflower":rhyme;
+   if(phonetic){
+     const exact=phonetic.exact.length?"\nSound-matched rhymes: "+phonetic.exact.join(", ")+".":"";
+     const near=phonetic.near.length?"\nNear rhymes / sound echoes: "+phonetic.near.join(", ")+".":"";
+     const example=curated?"\n\nA little couplet you can revise:\n"+curated.example:
+       entry?"\n\nA little couplet you can revise:\n"+entry.couplet:"";
+     const related=curated&&curated.related.length?
+       "\nRelated words for imagery or meaning (not necessarily rhymes): "+curated.related.join(", ")+".":"";
+     return "For “"+display+"”, I can match the ending sounds rather than just spelling."+
+       exact+near+related+example+
+       "\n\n"+phonetic.explanation+" Accent and context can change some rhymes. Want a gentle or playful couplet?";
+   }
    if(entry){
-     const display=state.focus==="passionflower"&&rhyme==="flower"?"passionflower":rhyme;
      if(curated){
        const close=curated.near.length?"\nNear or accent-dependent possibilities: "+curated.near.join(", ")+".":"";
        const related=curated.related.length?"\nRelated words for imagery or meaning (not necessarily rhymes): "+curated.related.join(", ")+".":"";
