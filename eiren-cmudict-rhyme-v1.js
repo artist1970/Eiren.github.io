@@ -79,10 +79,19 @@
      }
      if(near.size>=50)break;
    }
+   // Prefer plausible single-word poetic alternatives over longer compounds
+   // and bare function words; preserve source order as a stable tie-breaker.
+   const lessPoetic=new Set(["to","who","into","too","the","a","of","and","cpu","tue","du","que","su","tu","peru"]);
+   function ranked(set){
+     return [...set].map((word,index)=>({word,index})).sort((a,b)=>
+       Number(lessPoetic.has(a.word))-Number(lessPoetic.has(b.word))||
+       Math.abs(a.word.length-base.length)-Math.abs(b.word.length-base.length)||
+       a.index-b.index).map(x=>x.word);
+   }
    return Object.freeze({
      requested:input,baseWord:base,pronunciationKeys:Object.freeze([...keys]),
-     exact:Object.freeze([...exact].slice(0,cap(limit,12))),
-     near:Object.freeze([...near].slice(0,cap(nearLimit,5))),
+     exact:Object.freeze(ranked(exact).slice(0,cap(limit,12))),
+     near:Object.freeze(ranked(near).slice(0,cap(nearLimit,5))),
      explanation:keys.length>1?
        "This spelling has more than one dictionary pronunciation. Choose the one you mean.":
        "These words share the stressed vowel and following sounds in the cited US-English pronunciation data.",
