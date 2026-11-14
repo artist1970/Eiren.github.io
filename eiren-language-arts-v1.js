@@ -37,9 +37,10 @@
    // Find independent requests even when separated by periods and mixed together.
    // Specific "parts of a poem" and "definition of poetry" take precedence over
    // vague keyword handlers in the older conversation engine.
-   const hits=entries.filter(e=>e.re.test(q)).slice(0,3);
+   const hits=entries.map(e=>({e,at:q.search(e.re)})).filter(x=>x.at>=0)
+     .sort((a,b)=>a.at-b.at).slice(0,3);
    if(!hits.length)return null;
-   return hits.map((e,i)=>(hits.length>1?String(i+1)+". ":"")+e.text).join("\n\n");
+   return hits.map((hit,i)=>(hits.length>1?String(i+1)+". ":"")+hit.e.text).join("\n\n");
  }
  root.EirenLanguageArts=Object.freeze({version:"1.0.0",answer:ask,topics:Object.freeze(entries.map(e=>e.id)),modelConnected:false});
 })(window);
