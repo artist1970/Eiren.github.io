@@ -118,6 +118,12 @@ function createSession({scope="visitor",storage=false}={}){
     const notes=shared?.grammar(grammarRequest[1],{mentorId:"eiren"})?.notes;
     return notes?.length?notes.join(" "):"I don't see one of the basic issues I can flag. This is a limited grammar check, not a complete proofreading service.";
   }
+  // Exact educational questions and optional trivia get answered before
+  // broad generic writing prompts. Existing safety guard remains first.
+  const arts=global.EirenLanguageArts?.answer(raw);
+  if(arts){save();return arts;}
+  const trivia=global.EirenLiteratureTrivia?.respond(raw,state);
+  if(trivia){save();return trivia;}
   const lexicalRequest=raw.match(/^(?:please\s+)?(?:define|what does|meaning of|synonyms of|antonyms of)\s+(?:the word\s+)?['"“”]?([a-z-]{2,70})['"“”]?[?.!]?$/i);
   if(lexicalRequest){
     const mode=/^synonyms/i.test(raw)?"synonyms":/^antonyms/i.test(raw)?"antonyms":"definition";
