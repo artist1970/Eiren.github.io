@@ -153,12 +153,17 @@ function createSession({scope="visitor",storage=false}={}){
   if(/\b(story|character|plot|scene|ending|beginning)\b/.test(q)){state.topic="the story";state.mode="story";save();return "Before we repair the story, tell me what it is trying to protect or become. What does the character want here, and what makes that difficult?"}
   if(/\b(edit|revise|revision|draft|paragraph|essay|writing)\b/.test(q)){state.topic="your writing";state.mode="writing";save();return "Keep your voice first. Show me the smallest passage that feels wrong, and tell me whether you want help with meaning, structure, clarity, rhythm, or correctness."}
   if(/\b(stuck|don't know|do not know|begin|start)\b/.test(q)){state.topic=state.topic||"a beginning";const strategy=chooseStrategy();save();return strategy==="prompt"?"Try this: write one true sentence about what the piece cannot afford to lose. We can begin there.":"What is the smallest part you already know—a person, image, fact, feeling, question, or line?"}
-  const strategy=chooseStrategy();save();
-  if(strategy==="structure")return "Let’s look at the shape before changing the words. What comes immediately before this part, and what must the reader understand immediately after it?";
-  if(strategy==="vocabulary")return "Choose one important word in the passage. What does the surrounding sentence suggest that word is doing?";
-  if(strategy==="example")return "We can make a tiny parallel example first, then return to your own work without replacing your words. What kind of sentence or passage are you working with?";
-  if(strategy==="prompt")return "Try one exploratory sentence that begins, “What I am really trying to say is…” You do not have to keep that sentence.";
-  return "Tell me what you notice first. I’ll listen for the meaning underneath it before we decide what needs to change.";
+  // When no reviewed answer matches, do not rotate unrelated writing
+  // exercises into ordinary conversation. Admit uncertainty and stay with
+  // the visitor's active activity. No private data or model is involved.
+  save();
+  if(state.creative?.lastActivity==="story"){
+    return "I'm following the story with you. Would you like to tell me what happens next, or should we write a short scene together?";
+  }
+  if(state.creative?.lastActivity==="poem"){
+    return "That could become part of our poem. Would you like me to help shape it into a line, or would you rather talk about the image?";
+  }
+  return "I want to understand what you mean rather than guess. Tell me a little more, or we can simply talk about what is on your mind.";
  }
  function reset(){state=freshState();if(storage)try{localStorage.removeItem(storageKey)}catch{}}
  function remember(on){state.remember=!!on;if(!on&&storage)try{localStorage.removeItem(storageKey)}catch{}else save()}
