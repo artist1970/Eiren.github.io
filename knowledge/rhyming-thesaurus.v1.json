@@ -1,0 +1,1025 @@
+{
+  "schema": "eiren-rhyme-thesaurus-v1",
+  "version": 1,
+  "mentorId": "eiren",
+  "classification": "approved-public-educational-wordplay",
+  "locale": "en",
+  "releaseDate": "2026-11-13",
+  "limits": "Small curated illustrative bank, not a complete phonetic lexicon. Rhyme labels depend on dialect; some examples are approximate or accent-specific. Related words are writing alternatives, not always interchangeable synonyms.",
+  "entries": [
+    {
+      "id": "eiren-rhyme-001",
+      "headword": "flower",
+      "theme": "nature",
+      "rhymeFamily": "-ow-er (pronunciation varies by accent)",
+      "exact": [
+        "shower",
+        "tower",
+        "bower",
+        "power",
+        "hour"
+      ],
+      "near": [
+        "flour"
+      ],
+      "related": [
+        "bloom",
+        "blossom",
+        "petal"
+      ],
+      "example": "A purple flower after a shower,\nA moment of wonder in the garden's quiet hour.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": "Rhyme classifications depend on pronunciation, dialect, and word sense; read aloud to confirm."
+    },
+    {
+      "id": "eiren-rhyme-002",
+      "headword": "night",
+      "theme": "time",
+      "rhymeFamily": null,
+      "exact": [
+        "light",
+        "bright",
+        "sight",
+        "flight",
+        "right"
+      ],
+      "near": [
+        "kite"
+      ],
+      "related": [
+        "darkness",
+        "evening",
+        "midnight"
+      ],
+      "example": "A little lantern glows at night,\nA steady ember lending light.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-003",
+      "headword": "day",
+      "theme": "time",
+      "rhymeFamily": null,
+      "exact": [
+        "way",
+        "play",
+        "stay",
+        "away",
+        "ray"
+      ],
+      "near": [
+        "sleigh"
+      ],
+      "related": [
+        "daylight",
+        "morning",
+        "afternoon"
+      ],
+      "example": "A quiet blossom brightened my day,\nAnd sent my restless thoughts away.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-004",
+      "headword": "love",
+      "theme": "emotion",
+      "rhymeFamily": null,
+      "exact": [
+        "dove",
+        "glove",
+        "above"
+      ],
+      "near": [
+        "move",
+        "prove"
+      ],
+      "related": [
+        "affection",
+        "care",
+        "devotion"
+      ],
+      "example": "I held a little hope of love,\nAs clouds went sailing far above.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": "Rhyme classifications depend on pronunciation, dialect, and word sense; read aloud to confirm."
+    },
+    {
+      "id": "eiren-rhyme-005",
+      "headword": "heart",
+      "theme": "emotion",
+      "rhymeFamily": null,
+      "exact": [
+        "art",
+        "start",
+        "part",
+        "chart"
+      ],
+      "near": [
+        "apart"
+      ],
+      "related": [
+        "courage",
+        "feeling",
+        "core"
+      ],
+      "example": "I tucked a little hope in art,\nAnd found a place to make a start.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-006",
+      "headword": "dream",
+      "theme": "imagination",
+      "rhymeFamily": null,
+      "exact": [
+        "stream",
+        "beam",
+        "gleam",
+        "theme",
+        "seem"
+      ],
+      "near": [
+        "green"
+      ],
+      "related": [
+        "vision",
+        "hope",
+        "reverie"
+      ],
+      "example": "Beside a silver winding stream,\nI let the river hold a dream.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-007",
+      "headword": "light",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "night",
+        "bright",
+        "sight",
+        "flight",
+        "white"
+      ],
+      "near": [
+        "delight"
+      ],
+      "related": [
+        "glow",
+        "radiance",
+        "brightness"
+      ],
+      "example": "One window held a little light,\nThat warmed the edges of the night.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-008",
+      "headword": "rain",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "pain",
+        "gain",
+        "train",
+        "plain",
+        "remain"
+      ],
+      "near": [
+        "again"
+      ],
+      "related": [
+        "drizzle",
+        "shower",
+        "downpour"
+      ],
+      "example": "The earth was washed in silver rain,\nAnd green returned across the plain.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-009",
+      "headword": "sun",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "run",
+        "one",
+        "done",
+        "begun",
+        "fun"
+      ],
+      "near": [
+        "upon"
+      ],
+      "related": [
+        "sunlight",
+        "daystar",
+        "sunshine"
+      ],
+      "example": "The morning rose; the day begun,\nA gold-lit path beneath the sun.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-010",
+      "headword": "moon",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "soon",
+        "tune",
+        "spoon",
+        "June",
+        "noon"
+      ],
+      "near": [
+        "balloon"
+      ],
+      "related": [
+        "lunar light",
+        "crescent",
+        "moonlight"
+      ],
+      "example": "Beneath the softly rising moon,\nThe night hummed out a gentle tune.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-011",
+      "headword": "star",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "far",
+        "car",
+        "jar",
+        "guitar",
+        "are"
+      ],
+      "near": [
+        "afar"
+      ],
+      "related": [
+        "starlight",
+        "constellation",
+        "beacon"
+      ],
+      "example": "A single star shone from afar,\nLike one bright note upon a guitar.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-012",
+      "headword": "sky",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "high",
+        "fly",
+        "why",
+        "sigh",
+        "by"
+      ],
+      "near": [
+        "goodbye"
+      ],
+      "related": [
+        "heavens",
+        "air",
+        "firmament"
+      ],
+      "example": "A bird drew circles in the sky,\nThen turned its wings and learned to fly.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-013",
+      "headword": "sea",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "free",
+        "tree",
+        "be",
+        "see",
+        "key"
+      ],
+      "near": [
+        "agree"
+      ],
+      "related": [
+        "ocean",
+        "waters",
+        "tide"
+      ],
+      "example": "The wind was wild upon the sea,\nYet every distant wave felt free.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-014",
+      "headword": "tree",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "free",
+        "sea",
+        "see",
+        "be",
+        "key"
+      ],
+      "near": [
+        "three"
+      ],
+      "related": [
+        "oak",
+        "sapling",
+        "branch"
+      ],
+      "example": "One patient, weather-beaten tree,\nHeld out its leaves and sheltered me.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-015",
+      "headword": "rose",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "glows",
+        "knows",
+        "shows",
+        "flows",
+        "grows"
+      ],
+      "near": [
+        "close"
+      ],
+      "related": [
+        "bloom",
+        "briar",
+        "flower"
+      ],
+      "example": "A crimson rose beside me grows,\nAnd through its petals morning glows.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-016",
+      "headword": "green",
+      "theme": "color",
+      "rhymeFamily": null,
+      "exact": [
+        "seen",
+        "mean",
+        "queen",
+        "clean",
+        "between"
+      ],
+      "near": [
+        "serene"
+      ],
+      "related": [
+        "verdant",
+        "emerald",
+        "leafy"
+      ],
+      "example": "The meadow dressed itself in green,\nThe brightest spring I've ever seen.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-017",
+      "headword": "blue",
+      "theme": "color",
+      "rhymeFamily": null,
+      "exact": [
+        "true",
+        "new",
+        "through",
+        "dew",
+        "you"
+      ],
+      "near": [
+        "view"
+      ],
+      "related": [
+        "azure",
+        "cobalt",
+        "indigo"
+      ],
+      "example": "The morning sky was clear and blue,\nAnd every leaf was bright with dew.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-018",
+      "headword": "red",
+      "theme": "color",
+      "rhymeFamily": null,
+      "exact": [
+        "bed",
+        "said",
+        "thread",
+        "spread",
+        "head"
+      ],
+      "near": [
+        "ahead"
+      ],
+      "related": [
+        "crimson",
+        "scarlet",
+        "ruby"
+      ],
+      "example": "One fallen petal, warm and red,\nLay quietly upon the garden bed.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-019",
+      "headword": "gold",
+      "theme": "color",
+      "rhymeFamily": null,
+      "exact": [
+        "old",
+        "told",
+        "hold",
+        "cold",
+        "bold"
+      ],
+      "near": [
+        "unfold"
+      ],
+      "related": [
+        "amber",
+        "gilded",
+        "yellow"
+      ],
+      "example": "The autumn leaves turned bright as gold,\nAnd kept a story to be told.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-020",
+      "headword": "bright",
+      "theme": "quality",
+      "rhymeFamily": null,
+      "exact": [
+        "light",
+        "night",
+        "sight",
+        "flight",
+        "right"
+      ],
+      "near": [
+        "delight"
+      ],
+      "related": [
+        "luminous",
+        "radiant",
+        "vivid"
+      ],
+      "example": "A little lantern burning bright,\nBecame a promise in the night.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-021",
+      "headword": "still",
+      "theme": "quality",
+      "rhymeFamily": null,
+      "exact": [
+        "hill",
+        "will",
+        "fill",
+        "until",
+        "chill"
+      ],
+      "near": [
+        "fulfill"
+      ],
+      "related": [
+        "quiet",
+        "motionless",
+        "hushed"
+      ],
+      "example": "Above the fields and distant hill,\nThe evening air was calm and still.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-022",
+      "headword": "slow",
+      "theme": "motion",
+      "rhymeFamily": null,
+      "exact": [
+        "glow",
+        "snow",
+        "flow",
+        "show",
+        "grow"
+      ],
+      "near": [
+        "below"
+      ],
+      "related": [
+        "gentle",
+        "unhurried",
+        "measured"
+      ],
+      "example": "The winter clouds moved soft and slow,\nWhile lanterns lit the streets below.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-023",
+      "headword": "grow",
+      "theme": "change",
+      "rhymeFamily": null,
+      "exact": [
+        "show",
+        "glow",
+        "snow",
+        "flow",
+        "slow"
+      ],
+      "near": [
+        "below"
+      ],
+      "related": [
+        "blossom",
+        "develop",
+        "flourish"
+      ],
+      "example": "I let the smallest seedlings grow,\nAnd watched their tender green leaves show.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-024",
+      "headword": "time",
+      "theme": "time",
+      "rhymeFamily": null,
+      "exact": [
+        "rhyme",
+        "chime",
+        "climb",
+        "prime"
+      ],
+      "near": [
+        "sublime"
+      ],
+      "related": [
+        "moment",
+        "hour",
+        "season"
+      ],
+      "example": "An old clock counted out its chime,\nAs quiet words arranged a rhyme.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-025",
+      "headword": "word",
+      "theme": "language",
+      "rhymeFamily": null,
+      "exact": [
+        "bird",
+        "heard",
+        "stirred",
+        "third"
+      ],
+      "near": [
+        "preferred"
+      ],
+      "related": [
+        "phrase",
+        "expression",
+        "term"
+      ],
+      "example": "One tiny word was gently heard,\nAnd lifted softly like a bird.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-026",
+      "headword": "song",
+      "theme": "music",
+      "rhymeFamily": null,
+      "exact": [
+        "long",
+        "strong",
+        "belong",
+        "wrong"
+      ],
+      "near": [
+        "along"
+      ],
+      "related": [
+        "melody",
+        "tune",
+        "refrain"
+      ],
+      "example": "We found a place where we belong,\nAnd filled the evening with a song.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-027",
+      "headword": "sound",
+      "theme": "music",
+      "rhymeFamily": null,
+      "exact": [
+        "round",
+        "found",
+        "ground",
+        "bound"
+      ],
+      "near": [
+        "around"
+      ],
+      "related": [
+        "tone",
+        "noise",
+        "echo"
+      ],
+      "example": "A little bell gave out a sound,\nThat traveled softly all around.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-028",
+      "headword": "home",
+      "theme": "place",
+      "rhymeFamily": null,
+      "exact": [
+        "roam",
+        "foam",
+        "comb",
+        "dome"
+      ],
+      "near": [
+        "poem"
+      ],
+      "related": [
+        "haven",
+        "dwelling",
+        "shelter"
+      ],
+      "example": "Across the hills I used to roam,\nI found a winding path back home.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-029",
+      "headword": "stone",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "known",
+        "grown",
+        "shown",
+        "alone",
+        "throne"
+      ],
+      "near": [
+        "unknown"
+      ],
+      "related": [
+        "rock",
+        "pebble",
+        "boulder"
+      ],
+      "example": "A weathered wall of ancient stone,\nHad stood through winters all alone.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-030",
+      "headword": "fire",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "higher",
+        "choir",
+        "wire",
+        "desire",
+        "spire"
+      ],
+      "near": [
+        "tire"
+      ],
+      "related": [
+        "flame",
+        "blaze",
+        "ember"
+      ],
+      "example": "The night grew dark; the stars climbed higher,\nAnd someone stirred the fading fire.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-031",
+      "headword": "wind",
+      "theme": "nature",
+      "rhymeFamily": null,
+      "exact": [
+        "pinned",
+        "grinned",
+        "sinned",
+        "skinned"
+      ],
+      "near": [
+        "find",
+        "kind"
+      ],
+      "related": [
+        "breeze",
+        "gust",
+        "airflow"
+      ],
+      "example": "The autumn leaves danced in the wind,\nAnd one bright leaf to my sleeve was pinned.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": "Rhyme classifications depend on pronunciation, dialect, and word sense; read aloud to confirm."
+    },
+    {
+      "id": "eiren-rhyme-032",
+      "headword": "spring",
+      "theme": "season",
+      "rhymeFamily": null,
+      "exact": [
+        "sing",
+        "ring",
+        "wing",
+        "bring",
+        "thing"
+      ],
+      "near": [
+        "begin"
+      ],
+      "related": [
+        "renewal",
+        "springtime",
+        "new growth"
+      ],
+      "example": "A robin stretched its little wing,\nAnd taught the thawing trees to sing.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-033",
+      "headword": "fall",
+      "theme": "season",
+      "rhymeFamily": null,
+      "exact": [
+        "call",
+        "all",
+        "small",
+        "wall",
+        "tall"
+      ],
+      "near": [
+        "awe"
+      ],
+      "related": [
+        "autumn",
+        "descent",
+        "decline"
+      ],
+      "example": "One final leaf began to fall,\nBeside the ivy-covered wall.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-034",
+      "headword": "snow",
+      "theme": "weather",
+      "rhymeFamily": null,
+      "exact": [
+        "glow",
+        "flow",
+        "show",
+        "slow",
+        "grow"
+      ],
+      "near": [
+        "below"
+      ],
+      "related": [
+        "snowfall",
+        "flurries",
+        "powder"
+      ],
+      "example": "The windows held a lantern's glow,\nWhile rooftops gathered gentle snow.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-035",
+      "headword": "grace",
+      "theme": "quality",
+      "rhymeFamily": null,
+      "exact": [
+        "place",
+        "face",
+        "space",
+        "trace",
+        "embrace"
+      ],
+      "near": [
+        "days"
+      ],
+      "related": [
+        "elegance",
+        "kindness",
+        "poise"
+      ],
+      "example": "I found a quiet, sheltered place,\nAnd moved through morning at my pace.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-036",
+      "headword": "peace",
+      "theme": "emotion",
+      "rhymeFamily": null,
+      "exact": [
+        "cease",
+        "lease",
+        "piece",
+        "fleece"
+      ],
+      "near": [
+        "ease"
+      ],
+      "related": [
+        "calm",
+        "stillness",
+        "harmony"
+      ],
+      "example": "When hurried footsteps start to cease,\nThe garden offers room for peace.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-037",
+      "headword": "hope",
+      "theme": "emotion",
+      "rhymeFamily": null,
+      "exact": [
+        "rope",
+        "slope",
+        "cope",
+        "scope"
+      ],
+      "near": [
+        "open"
+      ],
+      "related": [
+        "optimism",
+        "possibility",
+        "trust"
+      ],
+      "example": "Beyond the last and steepest slope,\nI carried one small thread of hope.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-038",
+      "headword": "page",
+      "theme": "language",
+      "rhymeFamily": null,
+      "exact": [
+        "stage",
+        "age",
+        "cage",
+        "sage"
+      ],
+      "near": [
+        "engage"
+      ],
+      "related": [
+        "sheet",
+        "leaf",
+        "folio"
+      ],
+      "example": "I wrote a question on the page,\nAnd let it step onto the stage.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-039",
+      "headword": "write",
+      "theme": "language",
+      "rhymeFamily": null,
+      "exact": [
+        "night",
+        "light",
+        "bright",
+        "sight",
+        "right"
+      ],
+      "near": [
+        "invite"
+      ],
+      "related": [
+        "compose",
+        "draft",
+        "record"
+      ],
+      "example": "I waited for a thread of light,\nThen found the words I meant to write.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    },
+    {
+      "id": "eiren-rhyme-040",
+      "headword": "read",
+      "theme": "language",
+      "rhymeFamily": null,
+      "exact": [
+        "said",
+        "bed",
+        "red",
+        "thread",
+        "head"
+      ],
+      "near": [
+        "lead"
+      ],
+      "related": [
+        "study",
+        "interpret",
+        "peruse"
+      ],
+      "example": "I sat beside the garden bed,\nAnd opened up a book to read.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": "Rhyme classifications depend on pronunciation, dialect, and word sense; read aloud to confirm."
+    },
+    {
+      "id": "eiren-rhyme-041",
+      "headword": "mind",
+      "theme": "emotion",
+      "rhymeFamily": null,
+      "exact": [
+        "find",
+        "kind",
+        "blind",
+        "behind"
+      ],
+      "near": [
+        "aligned"
+      ],
+      "related": [
+        "thought",
+        "intellect",
+        "attention"
+      ],
+      "example": "The thoughts I carried close behind,\nBegan to settle in my mind.",
+      "reviewStatus": "approved-public",
+      "sourceProvenance": "Original manually curated Eiren wordplay seed, 2026-11-13",
+      "accentNote": null
+    }
+  ]
+}
