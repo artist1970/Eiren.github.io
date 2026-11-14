@@ -28,6 +28,17 @@
      return "I'd enjoy helping you create something: a short poem, a story scene, or a handful of beautiful words. Or we could simply talk. What sounds interesting to you?";
    }
 
+   // Respond to what a visitor shares before offering classroom exercises.
+   if(/\b(?:i(?:'m| am) happy to see you|so (?:happy|glad) to see you|really good i am happy to see you)\b/i.test(q)){
+     return "I'm glad you're having such a good day. A warm greeting can make a conversation feel welcoming. It's lovely that you wanted to share the moment here.";
+   }
+   if(/\b(?:i (?:had|remember|saw) a dream|i dreamed|i dreamt|last night i dreamed)\b/i.test(q)){
+     if(/\b(?:flower|bloom|rain)\b/i.test(q)){
+       return "That is a vivid dream: a flower blooming, rain falling all around you, yet you staying dry. The contrast feels almost like a scene from a story. Dreams don't have one fixed meaning, but the images sound memorable. I could help turn that scene into a poem, or we can simply talk about what it was like.";
+     }
+     return "That sounds like a dream that stayed with you. Dreams can make ordinary images feel surprising or powerful, though they don't have one universal meaning. I'm happy to listen to what you remember.";
+   }
+
    // Direct requests get concrete results rather than a generic prompt.
    if(/\b(?:list|some|give me|suggest|show me|need|looking for)\b.{0,45}\b(?:verbs|action words)\b|\b(?:verbs|action words)\b.{0,36}\b(?:story|writing)\b/i.test(q)){
      c.lastActivity="story";
