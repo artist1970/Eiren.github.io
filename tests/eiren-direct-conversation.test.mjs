@@ -79,3 +79,13 @@ test("index loads skill router before conversation engine; skill module has no p
  assert.ok(page.indexOf('src="eiren-conversation-skills-v1.js"')<page.indexOf('src="eiren-conversation-v1.js"'));
  assert.doesNotMatch(skills,/fetch\s*\(|localStorage|sessionStorage|XMLHttpRequest|WebSocket/);
 });
+
+test("unknown followups remain within the visitor's active writing activity",()=>{
+ const {session}=fixture();
+ session.respond("Eiren can you write poem for me");
+ assert.match(session.respond("purple clouds"),/part of our poem/i);
+ session.respond("my character is sad");
+ assert.match(session.respond("purple clouds"),/following the story/i);
+ session.reset();
+ assert.match(session.respond("purple clouds"),/understand what you mean/i);
+});
